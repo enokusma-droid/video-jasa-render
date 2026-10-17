@@ -1,0 +1,116 @@
+/* ===== TEMA "brutal" (neo-brutalism) — ditempel SETELAH gaya.css bila JASA_TEMA=brutal / "tema":"brutal" =====
+   off-white #F5F3EE, teks #111, aksen flat #FF4A12 (teks oranye #E03A00), border hitam 3px, sudut 0, bayangan keras 8px 8px 0 #111,
+   judul KAPITAL Archivo Black rapat. Tanpa gradasi/blur. Bayangan elemen dimunculkan oleh timeline (SH di buat.mjs). */
+@font-face { font-family: "ArchivoBlack"; src: url("assets/archivo-black.woff2") format("woff2"); font-weight: 400; }
+body, #root { background: #F5F3EE; color: #111; }
+.bg-base { background: #F5F3EE; }
+.blob { display: none; }
+.grid { background-image: linear-gradient(rgba(17,17,17,0.055) 2px, transparent 2px), linear-gradient(90deg, rgba(17,17,17,0.055) 2px, transparent 2px); background-size: 120px 120px; -webkit-mask-image: none; mask-image: none; }
+.rule { position: absolute; left: 0; right: 0; top: 130px; height: 3px; background: #111; }
+.H { font-family: "ArchivoBlack", "InterL", sans-serif; font-weight: 400; text-transform: uppercase; letter-spacing: -0.035em; line-height: 0.95; color: #111; }
+.or, .H.or { color: #E03A00; }
+
+/* label kecil kapital oranye berjarak lebar */
+.kick, .rail-lbl, .ex-t, .lbl, .note h4, .test h4, .upt h4, .seo h4 { color: #E03A00; font-weight: 800; letter-spacing: 0.3em; text-transform: uppercase; }
+.kick { font-size: 28px; }
+.lbl { font-size: 26px; margin-bottom: 30px; }
+
+/* kotak umum: border 3px, sudut 0, bayangan keras (diset timeline) */
+.card, .br, .fl, .chip, .badge, .pill, .bub, .tag, .stamp, .warn-ic, .bs .c, .res, .sbar, .upt-on, .msg, .capbar b, .phone { border: 3px solid #111; border-radius: 0; box-shadow: 8px 8px 0 #111; }
+.card { background: #FFFFFF; }
+
+/* rail tahap */
+.rd { border-radius: 0; border: 3px solid #111; color: #111; font-family: "ArchivoBlack", sans-serif; font-weight: 400; }
+.rl { height: 6px; border-radius: 0; background: #DDD9CF; }
+.rl i { background: #111; }
+
+/* intro + stepper */
+.t1 { line-height: 0.95; margin-top: 18px; }
+.mk { padding: 0.04em 0.04em 0.02em; }
+.q { color: #111; font-weight: 700; }
+.q b { color: #E03A00; }
+.bs .c { background: #FF4A12; color: #111; font-family: "ArchivoBlack", sans-serif; font-weight: 400; }
+.bs .l { color: #111; font-weight: 800; text-transform: uppercase; font-size: 25px; letter-spacing: 0.02em; }
+
+/* scene tahap */
+.num { font-family: "ArchivoBlack", sans-serif; font-weight: 400; font-size: 210px; line-height: 1; color: #FF4A12; -webkit-text-stroke: 4px #111; text-shadow: 8px 8px 0 #111; letter-spacing: -0.04em; }
+.st { margin-top: 18px; }
+.sd { color: #222; font-weight: 500; }
+.ul { width: 220px; height: 12px; border-radius: 0; background: #111; }
+
+/* catatan */
+.note h4, .test h4, .upt h4, .seo h4 { padding-bottom: 16px; border-bottom: 3px solid #111; }
+.ck { border-radius: 0; background: #FF4A12; border: 3px solid #111; }
+.row span { color: #111; }
+.bub { border-radius: 0; background: #FFFFFF; color: #111; font-weight: 800; }
+
+/* alur */
+.fl { border-radius: 0; background: #FFFFFF; color: #111; font-weight: 800; text-transform: uppercase; font-size: 28px; }
+.chip { border-radius: 0; font-weight: 800; }
+.chip.on { background: #FF4A12; color: #111; }
+.chip.off { border: 3px dashed #111; color: #111; box-shadow: none; background: #FFFFFF; }
+.mvp { color: #111; font-weight: 800; }
+.mvp i { border-radius: 0; background: #FF4A12; border: 3px solid #111; }
+
+/* wireframe / HP */
+.phone { border-radius: 0; background: #111; padding: 12px; box-shadow: 8px 8px 0 #FF4A12; }
+.phone .scr { border-radius: 0; }
+.sk { border-radius: 0; background: #DDD9CF; }
+.sk.o { background: #FF4A12; }
+.desk .bar, .br .bar { background: #FFFFFF; border-bottom: 3px solid #111; }
+.desk .bar i, .br .bar i { border-radius: 0; background: #FFFFFF; border: 2px solid #111; }
+.br .bar i:first-child, .desk .bar i:first-child { background: #FF4A12; }
+.stamp { border: 3px solid #111; border-radius: 0; color: #111; background: #FF4A12; font-family: "ArchivoBlack", sans-serif; font-weight: 400; letter-spacing: 0.02em; }
+
+/* kode */
+.code { background: #111; box-shadow: 8px 8px 0 #FF4A12; }
+.code .dots i { border-radius: 0; }
+.ln { border-radius: 0; }
+.tr { color: #111; }
+.tk { border-radius: 0; background: #111; }
+
+/* browser + badge */
+.br { border-radius: 0; background: #FFFFFF; }
+.badge { border-radius: 0; background: #FFFFFF; color: #111; font-weight: 800; }
+.badge i { border-radius: 0; background: #FF4A12; border: 2px solid #111; }
+
+/* contoh */
+.ex-t { font-size: 26px; }
+.ex-h { font-size: 50px; width: 1290px; top: 192px; }
+
+/* cta */
+.cta-t { font-size: 120px; line-height: 0.95; }
+.cta-s { color: #111; font-weight: 700; }
+.pill { border-radius: 0; background: #FF4A12; color: #111; font-family: "ArchivoBlack", sans-serif; font-weight: 400; text-transform: uppercase; letter-spacing: 0.01em; font-size: 40px; }
+.mini div { color: #111; font-weight: 800; text-transform: uppercase; font-size: 21px; letter-spacing: 0.04em; }
+.mini b { border-radius: 0; background: #111; }
+
+/* peringatan */
+.warn-ic { border-radius: 0; background: #FF4A12; }
+.warn-ic svg { stroke: #111; }
+.wr span { color: #111; }
+.wx { border-radius: 0; background: #111; }
+
+/* footage caption */
+.capbar b { border-radius: 0; background: #FF4A12; color: #111; font-weight: 800; text-transform: uppercase; letter-spacing: 0.06em; }
+.capbar span { color: #111; font-weight: 800; }
+
+/* chat */
+.ch-h { border-bottom: 3px solid #111; }
+.av { border-radius: 0; border: 3px solid #111; background: #FF4A12; }
+.msg { border-radius: 0; background: #FFFFFF; color: #111; box-shadow: 6px 6px 0 #111; }
+.msg.me { border-radius: 0; background: #FF4A12; color: #111; }
+.ch-h em { color: #111; }
+
+/* uptime + seo */
+.upt-on { border-radius: 0; background: #FFFFFF; color: #111; box-shadow: 5px 5px 0 #111; }
+.upt-on i { border-radius: 0; background: #16A34A; border: 2px solid #111; }
+.sbar { border-radius: 0; box-shadow: none; background: #FFFFFF; }
+.sq { color: #111; }
+.res { border-radius: 0; background: #FFFFFF; box-shadow: 6px 6px 0 #111; }
+.res small { color: #111; font-weight: 800; }
+.res b { color: #111; text-decoration: underline; text-decoration-thickness: 3px; }
+
+/* halaman */
+.blk { border-radius: 0; }
+.tag { border-radius: 0; background: #FFFFFF; color: #111; font-weight: 800; text-transform: uppercase; letter-spacing: 0.04em; }

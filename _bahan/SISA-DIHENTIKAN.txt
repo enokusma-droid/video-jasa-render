@@ -3,3 +3,6 @@ F1: J049 (render ulang saja, naskah sudah diperbaiki, tanpa --ulang-vo), J045 (W
 Catatan templat F1: meta.json bawaan bernada "aplikasi" → rapikan deskripsi/tag untuk keyword website; check kutipan-sorot positif palsu.
 F3: J051 (render ulang saja, naskah sudah diperbaiki), J063 J067 J071 J075 J079 (naskah siap). Catatan F3: label visual `halaman` maks ±14 huruf.
 F4: J048 (VO sudah ada) J052 J056 J060 J064 J068 J072 J076 (naskah siap). F4 timing.py & anim.mjs sudah diperbaiki agent batch B.
+UTANG TEMPLAT (laporan batch A 17 Okt): F1 buat.mjs belum tulis hook_pola; meta.json keyword website masih bernada aplikasi (dirapikan manual); kursor anim cta F1 tetap → judul CTA 2 baris menimpa tombol (pakai param ukuran lebih kecil); _grid.jpg F4 sering ambil frame transisi.
+UTANG TEMPLAT (batch B): F4 timing.py meleset bila kata sama muncul di blok berurutan (tanpa peringatan) — J076 versi CI memakai timing whisper baru (koreksi manual PC blok 5 tidak ikut) → cek blok 5 J076 sebelum upload. F3 buat.mjs: tag memotong keyword 3 kata + selalu kata aplikasi.
+UTANG TEMPLAT (batch C): F2 label centang default "SETELAH PAKAI APLIKASI" → jadikan netral; tema mockup `stok` data contoh sama utk semua usaha (J022 konveksi tampil beras/minyak); watermark sedikit menindih HP mockup F2. Durasi >70 dtk: J010 J022 J034 J038 J050 (VO lama 153-166 kata).

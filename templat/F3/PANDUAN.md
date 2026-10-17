@@ -101,3 +101,11 @@ Render → `hasil-polos.mp4`, lalu `_bahan/watermark.mjs` membakar nomor WA kana
 ## Gaya (dikunci)
 Terang/clean, latar putih-krem + grid halus, aksen #FF8040 untuk non-teks, teks oranye #D9480F/#E8590C (kontras), teks #0F172A,
 League Spartan (judul) + Inter, logo kanan atas, tanpa musik. Ubah tampilan → `gaya.css` + `buat.mjs`, lalu uji `produksi/UJIF3` (semua visual) dengan `--tanpa-render` + snapshot.
+
+## Tema visual (owner 17 Okt 2026)
+- `clean` (default, gaya di atas) dan `brutal` (neo-brutalism: off-white #F5F3EE, teks #111, aksen flat #FF4A12, teks oranye #E03A00,
+  border hitam 3px, sudut 0, bayangan keras `8px 8px 0 #111`, judul KAPITAL Archivo Black rapat, label "01 / ..." oranye, garis hitam tebal).
+- Pilih: env `JASA_TEMA=brutal` (menang) ATAU field `"tema": "brutal"` di blok pertama naskah.json (atau bentuk objek `{"tema":"brutal","blok":[...]}`).
+- Tanpa tema → clean, HTML identik byte-per-byte dengan versi sebelum tema brutal (diuji J003).
+- Berkas: `gaya-brutal.css` (ditempel setelah `gaya.css` hanya bila brutal), font `aset/archivo-black.woff2` (OFL), warna inline tema di objek `C` buat.mjs,
+  gerak brutal = ease tajam 0,8x + bayangan muncul (`SH`). Contoh: `produksi/J903`.

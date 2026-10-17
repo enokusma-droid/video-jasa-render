@@ -17,7 +17,12 @@ const kws = JSON.parse(fs.readFileSync(path.join(ROOT, "keywords.json"), "utf8")
 const entri = kws.find((k) => k.kode === KODE) || (KODE.startsWith("UJI") ? { kode: KODE, keyword: "jasa pembuatan website", format: "F3" } : null);
 if (!entri) throw new Error("KODE tidak ada di keywords.json: " + KODE);
 const P = path.join(ROOT, "produksi", KODE);
-const naskah = JSON.parse(fs.readFileSync(path.join(P, "naskah.json"), "utf8"));
+const RAW = JSON.parse(fs.readFileSync(path.join(P, "naskah.json"), "utf8"));
+const naskah = Array.isArray(RAW) ? RAW : RAW.blok;
+// Tema visual: env JASA_TEMA > "tema" di naskah.json (objek {tema, blok} atau field "tema" di blok mana pun, lazimnya blok 0) > "clean".
+const TEMA = String(process.env.JASA_TEMA || (Array.isArray(RAW) ? naskah.find((b) => b.tema)?.tema : RAW.tema) || "clean").toLowerCase();
+if (!["clean", "brutal"].includes(TEMA)) throw new Error("tema tidak dikenal: " + TEMA + " (clean | brutal)");
+const BR = TEMA === "brutal";
 const KW = entri.keyword;
 
 // ---------- 1. GERBANG naskah ----------
@@ -74,8 +79,20 @@ function isyarat(bi, n, kata = [], awal = 1.0, akhir = 1.2) {
 const esc = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const br = (s) => esc(s).replace(/\\n|\n/g, "<br />");
 const tl = []; // baris timeline
-const A = (sel, from, to, t) => tl.push(`tl.fromTo(${JSON.stringify(sel)}, ${JSON.stringify(from)}, ${JSON.stringify(to)}, ${(+t).toFixed(2)});`);
 const E = "power3.out", BK = "back.out(2)";
+// tema brutal: gerak lebih "snappy" (ease tajam, durasi 0,8x); tema clean tidak diubah sama sekali
+const A = (sel, from, to, t) => {
+  if (BR) { to = { ...to }; if (to.ease === E || to.ease === "power4.out") to.ease = "expo.out"; else if (to.ease === BK || to.ease === "back.out(1.7)") to.ease = "back.out(1.3)"; if (to.duration) to.duration = +(to.duration * 0.8).toFixed(2); }
+  tl.push(`tl.fromTo(${JSON.stringify(sel)}, ${JSON.stringify(from)}, ${JSON.stringify(to)}, ${(+t).toFixed(2)});`);
+};
+// bayangan keras muncul setelah elemen masuk (hanya tema brutal)
+const SH = (sel, t, col = "#111", px = 8) => { if (BR) tl.push(`tl.fromTo(${JSON.stringify(sel)}, {boxShadow: "0px 0px 0px ${col}"}, {boxShadow: "${px}px ${px}px 0px ${col}", duration: 0.22, ease: "power2.out"}, ${(+t + 0.12).toFixed(2)});`); };
+// warna inline per tema (nilai clean = nilai lama, persis)
+const C = BR
+  ? { ikon: "#111", panah: "#111", alt: "background:#FF4A12;color:#111;", av2: "#111", garis: "#FF4A12", cari: "#111", railOn: "#FF4A12", railTxt: "#111", blk: ["#111", "#FF4A12", "#DDD9CF", "#DDD9CF", "#DDD9CF", "#111"], kodeL: ["#FF4A12", "#5A5A5A", "#F5F3EE", "#5A5A5A", "#FF4A12", "#5A5A5A", "#F5F3EE", "#5A5A5A", "#FF4A12"] }
+  : { ikon: "#E8590C", panah: "#FF8040", alt: "background:#D9480F;", av2: "#0F172A", garis: "#E8590C", cari: "#64748B", railOn: "#D9480F", railTxt: "#FFFFFF", blk: ["#0F172A", "#FFD3BD", "#E2E8F0", "#E2E8F0", "#E2E8F0", "#334155"], kodeL: ["#FF8040", "#334155", "#38BDF8", "#334155", "#A78BFA", "#334155", "#FF8040", "#334155", "#38BDF8"] };
+const pad2 = (n) => String(n).padStart(2, "0");
+const KK = (i, txt) => (BR ? `${pad2(i + 1)} / ${txt}` : txt); // label kecil brutal: "01 / SEBELUM MEMESAN"
 const vids = []; let vTrack = 3;
 function video(id, klip, t, dur, box) {
   dur = Math.min(dur, 7.8);
@@ -99,7 +116,7 @@ const IKON = [
   `<rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/>`,
   `<path d="M12 2l3 6.5 7 .8-5.2 4.7 1.5 7L12 17.3 5.7 21l1.5-7L2 9.3l7-.8z"/>`,
 ];
-const ikon = (i, c = "#E8590C") => `<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">${IKON[i % IKON.length]}</svg>`;
+const ikon = (i, c = C.ikon) => `<svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="${c}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">${IKON[i % IKON.length]}</svg>`;
 
 const tahapIdx = naskah.map((b, i) => (b.anim === "tahap" ? i : -1)).filter((i) => i >= 0);
 const stepperLabel = (naskah.find((b) => b.anim === "stepper-overview")?.param?.tahap) || tahapIdx.map((i) => (naskah[i].param.judul || "").replace(/\\n|\n/g, " "));
@@ -113,9 +130,9 @@ naskah.forEach((b, i) => {
     const sor = p.sorot && kw.toLowerCase().includes(p.sorot.toLowerCase()) ? p.sorot : kw.split(" ").slice(-2).join(" ");
     const iSor = kw.toLowerCase().lastIndexOf(sor.toLowerCase());
     const l1 = kw.slice(0, iSor).trim(), l2 = kw.slice(iSor).trim();
-    const fs1 = Math.min(120, Math.floor(1640 / (Math.max(l1.length, l2.length) * 0.56)));
+    const fs1 = Math.min(BR ? 118 : 120, Math.floor(1640 / (Math.max(l1.length, l2.length) * (BR ? 0.8 : 0.56))));
     const cap = (x) => x.replace(/\b\w/g, (c) => c.toUpperCase()).replace(/\bIos\b/g, "iOS").replace(/\bPt\b/g, "PT").replace(/\bPos\b/g, "POS").replace(/\bDi\b/g, "di");
-    h = `<div class="center"><div class="kick" id="${id}k">${esc(p.kicker || "SEBELUM MEMILIH")}</div>
+    h = `<div class="center"><div class="kick" id="${id}k">${esc(KK(i, p.kicker || "SEBELUM MEMILIH"))}</div>
       ${l1 ? `<div class="t1 H" style="font-size:${fs1}px"><span class="mk"><span id="${id}w1">${esc(cap(l1))}</span></span></div>` : ""}
       <div class="t1 H or" style="font-size:${fs1}px"><span class="mk"><span id="${id}w2">${esc(cap(l2))}</span></span></div>
       <div class="q" id="${id}q">${br(p.sub || "")}</div></div>`;
@@ -130,24 +147,25 @@ naskah.forEach((b, i) => {
     h = `<div class="warn-l"><div class="warn-ic" id="${id}ic"><svg width="150" height="150" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3L2 20h20z"/><path d="M12 10v4M12 17h.01"/></svg></div>
       <div class="st H" id="${id}t" style="margin-top:40px;">${br(p.judul || "Hati-hati")}</div><span class="ul" id="${id}u"></span><div class="sd" id="${id}d">${br(p.desk || "")}</div></div>
       <div class="right">${it.map((x, j) => `<div class="card wr" id="${id}r${j}" style="top:${60 + j * 170}px;"><div class="wx">${SILANG}</div><span>${esc(x)}</span></div>`).join("")}</div>`;
-    A(`#${id}ic`, { opacity: 0, scale: 0.4, rotation: -20 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.6, ease: "back.out(2.4)" }, s + 0.1);
+    A(`#${id}ic`, { opacity: 0, scale: 0.4, rotation: -20 }, { opacity: 1, scale: 1, rotation: 0, duration: 0.6, ease: "back.out(2.4)" }, s + 0.1); SH(`#${id}ic`, s + 0.5);
     tl.push(`tl.to("#${id}ic", {rotation: 6, duration: 0.08, yoyo: true, repeat: 5, ease: "sine.inOut"}, ${(s + 0.8).toFixed(2)});`);
     A(`#${id}t`, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, s + 0.3);
     A(`#${id}u`, { scaleX: 0 }, { scaleX: 1, duration: 0.5, ease: "power2.out" }, s + 0.6);
     A(`#${id}d`, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, s + 0.8);
-    isyarat(i, it.length, p.kata, 1.0).forEach((t, j) => A(`#${id}r${j}`, { opacity: 0, x: 80 }, { opacity: 1, x: 0, duration: 0.5, ease: E }, t));
+    isyarat(i, it.length, p.kata, 1.0).forEach((t, j) => { A(`#${id}r${j}`, { opacity: 0, x: 80 }, { opacity: 1, x: 0, duration: 0.5, ease: E }, t); SH(`#${id}r${j}`, t); });
   } else if (b.anim === "stepper-overview") {
     const lb = p.tahap || stepperLabel; const n = lb.length;
-    h = `<div class="center" style="justify-content:flex-start;padding-top:${p.judul ? 300 : 360}px;"><div class="kick" id="${id}k">${esc(p.kicker || "ALUR KERJA")}</div>${p.judul ? `<div class="H" id="${id}j" style="font-size:84px;margin-top:20px;">${br(p.judul)}</div>` : ""}</div>
+    h = `<div class="center" style="justify-content:flex-start;padding-top:${p.judul ? 300 : 360}px;"><div class="kick" id="${id}k">${esc(KK(i, p.kicker || "ALUR KERJA"))}</div>${p.judul ? `<div class="H" id="${id}j" style="font-size:84px;margin-top:20px;">${br(p.judul)}</div>` : ""}</div>
       <div class="bigstep">${lb.map((x, j) => `<div class="bs" id="${id}b${j}" style="width:${n > 5 ? 250 : 270}px"><div class="c">${j + 1}</div><div class="l">${esc(x)}</div></div>`).join(`<i class="bsl" ></i>`)}</div>`;
     A(`#${id}k`, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, s + 0.1);
     if (p.judul) A(`#${id}j`, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, s + 0.25);
-    isyarat(i, n, p.kata || lb.map((x) => x.split(/[ &]/)[0]), 0.6, 1.0).forEach((t, j) => A(`#${id}b${j}`, { opacity: 0, y: 60, scale: 0.7 }, { opacity: 1, y: 0, scale: 1, duration: 0.55, ease: "back.out(1.7)" }, t));
+    isyarat(i, n, p.kata || lb.map((x) => x.split(/[ &]/)[0]), 0.6, 1.0).forEach((t, j) => { A(`#${id}b${j}`, { opacity: 0, y: 60, scale: 0.7 }, { opacity: 1, y: 0, scale: 1, duration: 0.55, ease: "back.out(1.7)" }, t); SH(`#${id}b${j} .c`, t); });
   } else if (b.anim === "tahap") {
     const no = tahapIdx.indexOf(i) + 1;
     const pj = Math.max(...String(p.judul).split(/\\n|\n/).map((x) => x.length));
-    h = `<div class="left"><div class="num" id="${id}n">${String(no).padStart(2, "0")}</div><div class="st H" id="${id}t" style="font-size:${pj > 15 ? 70 : 86}px">${br(p.judul)}</div><span class="ul" id="${id}u"></span><div class="sd" id="${id}ds">${br(p.desk || "")}</div></div>
+    h = `<div class="left">${BR ? `<div class="lbl" id="${id}lb" data-layout-allow-overlap>${pad2(no)} / ${pad2(tahapIdx.length)} TAHAP</div>` : ""}<div class="num" id="${id}n">${String(no).padStart(2, "0")}</div><div class="st H" id="${id}t" style="font-size:${BR ? Math.min(84, Math.floor(740 / (pj * 0.8))) : pj > 15 ? 70 : 86}px">${br(p.judul)}</div><span class="ul" id="${id}u"></span><div class="sd" id="${id}ds">${br(p.desk || "")}</div></div>
       <div class="right">${visual(p, i, id, s, e)}</div>`;
+    if (BR) A(`#${id}lb`, { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.5, ease: E }, s + 0.05);
     A(`#${id}n`, { opacity: 0, x: -60 }, { opacity: 1, x: 0, duration: 0.6, ease: E }, s + 0.1);
     A(`#${id}t`, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, s + 0.3);
     A(`#${id}u`, { scaleX: 0 }, { scaleX: 1, duration: 0.5, ease: "power2.out" }, s + 0.6);
@@ -156,24 +174,24 @@ naskah.forEach((b, i) => {
     const box = { l: 160, t: 196, w: 1600, h: 655 };
     h = `<div class="br" id="${id}br" style="left:${box.l}px;top:${box.t - 40}px;width:${box.w}px;height:${box.h + 40}px;"><div class="bar"><i></i><i></i><i></i></div></div>
       <div class="capbar" id="${id}c"><b>${esc(p.label || "Contoh aplikasi buatan kami")}</b><span>${br(p.caption || "")}</span></div>`;
-    A(`#${id}br`, { opacity: 0, scale: 0.94 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, s);
+    A(`#${id}br`, { opacity: 0, scale: 0.94 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, s); SH(`#${id}br`, s + 0.3);
     klipBeruntun(id, p.klip || ["dash"], s + 0.2, D - 0.3, box);
     A(`#${id}c`, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, s + 0.6);
   } else if (b.anim === "contoh-hasil") {
     const box = { l: 140, t: 360, w: 1290, h: 538 };
-    h = `<div class="ex-t" id="${id}k">${esc(p.kicker || "CONTOH HASIL")}</div><div class="ex-h H" id="${id}h">${br(p.judul || "Aplikasi klinik gigi buatan Nusawebsite")}</div>
+    h = `<div class="ex-t" id="${id}k">${esc(KK(i, p.kicker || "CONTOH HASIL"))}</div><div class="ex-h H" id="${id}h">${br(p.judul || "Aplikasi klinik gigi buatan Nusawebsite")}</div>
       <div class="br" id="${id}br" style="left:140px;top:320px;width:1290px;height:578px;"><div class="bar"><i></i><i></i><i></i></div></div>
       <div class="phone" id="${id}p" style="left:1500px;top:280px;width:270px;height:560px;"><div class="scr"><img class="pimg" src="assets/ui-dentalcare-hp.png" alt="" /></div></div>`;
     A(`#${id}k`, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, s + 0.1);
     A(`#${id}h`, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, s + 0.2);
-    A(`#${id}br`, { opacity: 0, scale: 0.94 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, s);
-    A(`#${id}p`, { opacity: 0, y: 90 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, s + 0.8);
+    A(`#${id}br`, { opacity: 0, scale: 0.94 }, { opacity: 1, scale: 1, duration: 0.5, ease: E }, s); SH(`#${id}br`, s + 0.3);
+    A(`#${id}p`, { opacity: 0, y: 90 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, s + 0.8); SH(`#${id}p`, s + 1.2, "#FF4A12");
     const kl = p.klip || ["odon", "invoice"]; const per = (D - 0.3) / kl.length;
     kl.forEach((k, j) => video(`${id}v${j}`, k, s + 0.2 + j * per, per + 0.05, box));
   } else if (b.anim === "cta") {
     const mini = p.mini || stepperLabel;
     const [j1, j2] = String(p.judul || "Konsultasi|Gratis").split("|");
-    h = `<div class="center"><div class="kick" id="${id}k">${esc(p.kicker || "LANGKAH PERTAMA")}</div>
+    h = `<div class="center"><div class="kick" id="${id}k">${esc(KK(i, p.kicker || "LANGKAH PERTAMA"))}</div>
       <div class="cta-t H" id="${id}t" style="margin-top:20px;">${esc(j1)} <span class="or">${esc(j2 || "")}</span></div>
       <div class="cta-s" id="${id}s">${br(p.sub || "Ceritakan kebutuhan bisnis Anda")}</div><div class="pill" id="${id}p">Link ada di deskripsi</div>
       <div class="mini" id="${id}m">${mini.map((x) => `<div><b>${CEK.replace(/24/g, "18")}</b>${esc(x)}</div>`).join("")}</div></div>`;
@@ -181,7 +199,7 @@ naskah.forEach((b, i) => {
     A(`#${id}t`, { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.7, ease: E }, s + 0.3);
     A(`#${id}s`, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, s + 0.9);
     const [tp] = isyarat(i, 1, [p.kata_link || "link"], 1.6);
-    A(`#${id}p`, { opacity: 0, scale: 0.7 }, { opacity: 1, scale: 1, duration: 0.55, ease: BK }, tp);
+    A(`#${id}p`, { opacity: 0, scale: 0.7 }, { opacity: 1, scale: 1, duration: 0.55, ease: BK }, tp); SH(`#${id}p`, tp + 0.2);
     A(`#${id}m`, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, tp + 0.6);
     tl.push(`tl.to("#${id}p", {scale: 1.06, duration: 0.5, yoyo: true, repeat: 3, ease: "sine.inOut"}, ${(tp + 0.8).toFixed(2)});`);
   }
@@ -194,23 +212,23 @@ naskah.forEach((b, i) => {
 function visual(p, i, id, s, e) {
   const it = p.item || [];
   const T = isyarat(i, Math.max(it.length, 1), p.kata, 1.4);
-  const kartu = (sel, t) => A(sel, { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.7, ease: E }, t);
+  const kartu = (sel, t, col) => { A(sel, BR ? { opacity: 0, x: -50, y: 30 } : { opacity: 0, y: 60 }, BR ? { opacity: 1, x: 0, y: 0, duration: 0.7, ease: E } : { opacity: 1, y: 0, duration: 0.7, ease: E }, t); SH(sel, t + 0.25, col); };
   switch (p.visual) {
     case "catatan": {
       kartu(`#${id}c`, s + 0.4);
-      if (p.bubble) A(`#${id}bb`, { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.5, ease: BK }, s + 0.9);
+      if (p.bubble) { A(`#${id}bb`, { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.5, ease: BK }, s + 0.9); SH(`#${id}bb`, s + 1.1); }
       it.forEach((x, j) => A(`#${id}r${j}`, { opacity: 0, x: 50 }, { opacity: 1, x: 0, duration: 0.5, ease: E }, T[j]));
       return `<div class="card note" id="${id}c"><h4>${esc(p.label || "CATATAN KONSULTASI")}</h4>${it.map((x, j) => `<div class="row" id="${id}r${j}"><div class="ck">${ikon(j)}</div><span>${esc(x)}</span></div>`).join("")}</div>${p.bubble ? `<div class="bub" id="${id}bb" style="left:440px;top:40px;">${esc(p.bubble)}</div>` : ""}`;
     }
     case "alur": {
       const al = p.alur || ["Input", "Proses", "Laporan"], on = p.on || it, off = p.off || [];
-      al.forEach((_, j) => { A(`#${id}f${j}`, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, s + 0.6 + j * 0.6); if (j) A(`#${id}a${j}`, { opacity: 0, x: -20 }, { opacity: 1, x: 0, duration: 0.4, ease: E }, s + 0.3 + j * 0.6); });
+      al.forEach((_, j) => { A(`#${id}f${j}`, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, s + 0.6 + j * 0.6); SH(`#${id}f${j}`, s + 0.8 + j * 0.6); if (j) A(`#${id}a${j}`, { opacity: 0, x: -20 }, { opacity: 1, x: 0, duration: 0.4, ease: E }, s + 0.3 + j * 0.6); });
       const tc = isyarat(i, on.length, p.kata, 2.4);
-      on.forEach((_, j) => A(`#${id}c${j}`, { opacity: 0, scale: 0.7 }, { opacity: 1, scale: 1, duration: 0.4, ease: BK }, tc[j]));
+      on.forEach((_, j) => { A(`#${id}c${j}`, { opacity: 0, scale: 0.7 }, { opacity: 1, scale: 1, duration: 0.4, ease: BK }, tc[j]); SH(`#${id}c${j}`, tc[j]); });
       const tOff = tc[tc.length - 1] + 0.4;
       off.forEach((_, j) => A(`#${id}o${j}`, { opacity: 0, scale: 0.7 }, { opacity: 0.45, scale: 1, duration: 0.4, ease: BK }, tOff + j * 0.25));
       if (p.catatan) A(`#${id}m`, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, tOff + 0.6);
-      const ARR = `<path d="M2 9h56M50 2l10 7-10 7" fill="none" stroke="#FF8040" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>`;
+      const ARR = `<path d="M2 9h56M50 2l10 7-10 7" fill="none" stroke="${C.panah}" stroke-width="4" stroke-linecap="${BR ? "square" : "round"}" stroke-linejoin="${BR ? "miter" : "round"}"/>`;
       return al.map((x, j) => `${j ? `<svg class="ar" id="${id}a${j}" style="left:${j * 310 - 48}px;" viewBox="0 0 70 18">${ARR}</svg>` : ""}<div class="fl" id="${id}f${j}" style="left:${30 + j * 310}px;">${esc(x)}</div>`).join("") +
         `<div class="chips">${on.map((x, j) => `<div class="chip on" id="${id}c${j}">${esc(x)}</div>`).join("")}${off.map((x, j) => `<div class="chip off" id="${id}o${j}">${esc(x)}</div>`).join("")}</div>${p.catatan ? `<div class="mvp" id="${id}m"><i></i>${esc(p.catatan)}</div>` : ""}`;
     }
@@ -221,20 +239,20 @@ function visual(p, i, id, s, e) {
       ks.forEach((_, j) => A(`#${id}k${j}`, { scaleX: 0 }, { scaleX: 1, duration: 0.45, ease: "power2.out" }, s + 0.8 + j * 0.25));
       let hp = "";
       if (!web) {
-        A(`#${id}p`, { opacity: 0, y: 80 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, s + 0.7);
+        A(`#${id}p`, { opacity: 0, y: 80 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, s + 0.7); SH(`#${id}p`, s + 1.0, "#FF4A12");
         const ps = [[20, 40, 150, 30, 1], [20, 100, 222, 150, 0], [20, 272, 222, 26, 0], [20, 314, 170, 26, 0], [20, 440, 222, 58, 1]];
         ps.forEach((_, j) => A(`#${id}q${j}`, { scaleX: 0 }, { scaleX: 1, duration: 0.45, ease: "power2.out" }, s + 1.2 + j * 0.25));
         hp = `<div class="phone" id="${id}p" style="left:520px;top:40px;width:290px;height:580px;"><div class="scr">${ps.map(([l, t, w, h, o], j) => `<span class="sk${o ? " o" : ""}" id="${id}q${j}" style="left:${l}px;top:${t}px;width:${w}px;height:${h}px;"></span>`).join("")}</div></div>`;
       }
       const [ts] = isyarat(i, 1, [p.kata_stempel || "setuju"], 2.6);
-      A(`#${id}s`, { opacity: 0, scale: 1.8, rotation: -14 }, { opacity: 1, scale: 1, rotation: -8, duration: 0.45, ease: "power4.out" }, ts);
+      A(`#${id}s`, { opacity: 0, scale: 1.8, rotation: -14 }, { opacity: 1, scale: 1, rotation: -8, duration: 0.45, ease: "power4.out" }, ts); SH(`#${id}s`, ts + 0.1);
       return `<div class="card desk" id="${id}d" style="${web ? "left:110px;width:600px;height:420px;top:100px;" : ""}"><div class="bar"><i></i><i></i><i></i></div>${ks.map(([l, t, w, h, o], j) => `<span class="sk${o ? " o" : ""}" id="${id}k${j}" style="left:${l}px;top:${t}px;width:${w}px;height:${h}px;"></span>`).join("")}</div>${hp}<div class="stamp" id="${id}s">${esc(p.stempel || "DISETUJUI ✓")}</div>`;
     }
     case "kode": {
-      kartu(`#${id}c`, s + 0.4);
-      const L = [["62%", "#FF8040", 0], ["84%", "#334155", 40], ["70%", "#38BDF8", 40], ["52%", "#334155", 80], ["76%", "#A78BFA", 80], ["44%", "#334155", 40], ["66%", "#FF8040", 0], ["80%", "#334155", 40], ["58%", "#38BDF8", 40]];
+      kartu(`#${id}c`, s + 0.4, "#FF4A12");
+      const L = [["62%", C.kodeL[0], 0], ["84%", C.kodeL[1], 40], ["70%", C.kodeL[2], 40], ["52%", C.kodeL[3], 80], ["76%", C.kodeL[4], 80], ["44%", C.kodeL[5], 40], ["66%", C.kodeL[6], 0], ["80%", C.kodeL[7], 40], ["58%", C.kodeL[8], 40]];
       L.forEach((_, j) => A(`#${id}l${j}`, { scaleX: 0 }, { scaleX: 1, duration: 0.35, ease: "power2.out" }, s + 0.8 + j * 0.25));
-      A(`#${id}t`, { opacity: 0, x: 60 }, { opacity: 1, x: 0, duration: 0.6, ease: E }, s + 1.8);
+      A(`#${id}t`, { opacity: 0, x: 60 }, { opacity: 1, x: 0, duration: 0.6, ease: E }, s + 1.8); SH(`.card.test#${id}t`, s + 2.1);
       const tt = isyarat(i, it.length, p.kata, 2.3);
       it.forEach((_, j) => A(`#${id}r${j}`, { opacity: 0, x: 30 }, { opacity: 1, x: 0, duration: 0.4, ease: E }, tt[j]));
       return `<div class="card code" id="${id}c"><div class="dots"><i style="background:#F87171"></i><i style="background:#FBBF24"></i><i style="background:#4ADE80"></i></div>${L.map(([w, c, m], j) => `<span class="ln" id="${id}l${j}" style="width:${w};background:${c};margin-left:${m}px;"></span>`).join("")}</div>
@@ -245,37 +263,37 @@ function visual(p, i, id, s, e) {
       // footage asli di bingkai browser (+ HP opsional) + label/badge mengikuti ucapan
       const hp = p.hp !== false && p.visual === "rilis";
       const box = hp ? { l: 960, t: 270, w: 820, h: 342 } : { l: 960, t: 250, w: 860, h: 360 };
-      A(`#${id}br`, { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, s + 0.1);
+      A(`#${id}br`, { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, s + 0.1); SH(`#${id}br`, s + 0.4);
       klipBeruntun(id, p.klip || ["dash"], s + 0.3, e - s - 0.6, box);
-      if (hp) A(`#${id}p`, { opacity: 0, y: 90 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, s + 0.9);
-      it.forEach((_, j) => A(`#${id}b${j}`, { opacity: 0, scale: 0.7 }, { opacity: 1, scale: 1, duration: 0.45, ease: BK }, T[j]));
+      if (hp) { A(`#${id}p`, { opacity: 0, y: 90 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, s + 0.9); SH(`#${id}p`, s + 1.2, "#FF4A12"); }
+      it.forEach((_, j) => { A(`#${id}b${j}`, { opacity: 0, scale: 0.7 }, { opacity: 1, scale: 1, duration: 0.45, ease: BK }, T[j]); SH(`#${id}b${j}`, T[j]); });
       // koordinat absolut: kolom kanan dimulai di x=980,y=170 → badge relatif .right
       return `<div class="br" id="${id}br" style="left:${box.l - 980}px;top:${box.t - 40 - 170}px;width:${box.w}px;height:${box.h + 40}px;"><div class="bar"><i></i><i></i><i></i></div></div>
         ${hp ? `<div class="phone" id="${id}p" style="left:590px;top:180px;width:240px;height:500px;"><div class="scr"><img class="pimg" src="assets/ui-dentalcare-hp.png" alt="" /></div></div>` : ""}
-        ${hp ? it.map((x, j) => `<div class="badge" id="${id}b${j}" style="left:20px;top:${520 + j * 100}px;${j % 2 ? "background:#D9480F;" : ""}"><i></i>${esc(x)}</div>`).join("")
-          : `<div class="badges">${it.map((x, j) => `<div class="badge" id="${id}b${j}" style="${j % 2 ? "background:#D9480F;" : ""}"><i></i>${esc(x)}</div>`).join("")}</div>`}`;
+        ${hp ? it.map((x, j) => `<div class="badge" id="${id}b${j}" style="left:20px;top:${520 + j * 100}px;${j % 2 ? C.alt : ""}"><i></i>${esc(x)}</div>`).join("")
+          : `<div class="badges">${it.map((x, j) => `<div class="badge" id="${id}b${j}" style="${j % 2 ? C.alt : ""}"><i></i>${esc(x)}</div>`).join("")}</div>`}`;
     }
     case "chat": {
       kartu(`#${id}c`, s + 0.3);
-      it.forEach((_, j) => A(`#${id}m${j}`, { opacity: 0, y: 30, scale: 0.9 }, { opacity: 1, y: 0, scale: 1, duration: 0.45, ease: BK }, T[j]));
-      return `<div class="card chat" id="${id}c"><div class="ch-h"><span class="av"></span><span class="av" style="background:#0F172A"></span><b>${esc(p.label || "Grup proyek")}</b><em>online</em></div>${it.map((x, j) => `<div class="msg ${j % 2 ? "me" : ""}" id="${id}m${j}">${esc(x)}</div>`).join("")}</div>`;
+      it.forEach((_, j) => { A(`#${id}m${j}`, { opacity: 0, y: 30, scale: 0.9 }, { opacity: 1, y: 0, scale: 1, duration: 0.45, ease: BK }, T[j]); SH(`#${id}m${j}`, T[j], "#111", 6); });
+      return `<div class="card chat" id="${id}c"><div class="ch-h"><span class="av"></span><span class="av" style="background:${C.av2}"></span><b>${esc(p.label || "Grup proyek")}</b><em>online</em></div>${it.map((x, j) => `<div class="msg ${j % 2 ? "me" : ""}" id="${id}m${j}">${esc(x)}</div>`).join("")}</div>`;
     }
     case "uptime": {
       kartu(`#${id}c`, s + 0.3);
       tl.push(`tl.fromTo("#${id}g", {strokeDashoffset: 1400}, {strokeDashoffset: 0, duration: ${Math.min(3, e - s - 1.5).toFixed(2)}, ease: "power1.inOut"}, ${(s + 0.8).toFixed(2)});`);
-      A(`#${id}on`, { opacity: 0, scale: 0.7 }, { opacity: 1, scale: 1, duration: 0.45, ease: BK }, s + 1.2);
+      A(`#${id}on`, { opacity: 0, scale: 0.7 }, { opacity: 1, scale: 1, duration: 0.45, ease: BK }, s + 1.2); SH(`#${id}on`, s + 1.4, "#111", 5);
       tl.push(`tl.to("#${id}dot", {scale: 1.6, opacity: 0.4, duration: 0.6, yoyo: true, repeat: ${Math.max(1, Math.floor((e - s) / 1.2))}, ease: "sine.inOut"}, ${(s + 1.4).toFixed(2)});`);
       it.forEach((_, j) => A(`#${id}r${j}`, { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.45, ease: E }, T[j]));
       return `<div class="card upt" id="${id}c"><h4>${esc(p.label || "PEMANTAUAN WEBSITE")}</h4><div class="upt-on" id="${id}on"><i id="${id}dot"></i>Online</div>
-        <svg class="gr" viewBox="0 0 640 200"><path id="${id}g" d="M0 150 L60 140 L120 146 L180 120 L240 128 L300 96 L360 104 L420 72 L480 80 L540 50 L640 40" fill="none" stroke="#E8590C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1400"/></svg>
+        <svg class="gr" viewBox="0 0 640 200"><path id="${id}g" d="M0 150 L60 140 L120 146 L180 120 L240 128 L300 96 L360 104 L420 72 L480 80 L540 50 L640 40" fill="none" stroke="${C.garis}" stroke-width="6" stroke-linecap="${BR ? "square" : "round"}" stroke-linejoin="${BR ? "miter" : "round"}" stroke-dasharray="1400"/></svg>
         ${it.map((x, j) => `<div class="tr" id="${id}r${j}"><div class="tk">${CEK}</div>${esc(x)}</div>`).join("")}</div>`;
     }
     case "seo": {
       kartu(`#${id}c`, s + 0.3);
       A(`#${id}q`, { width: 0 }, { width: 520, duration: 0.8, ease: "power2.out" }, s + 0.6);
-      A(`#${id}res`, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, s + 1.4);
+      A(`#${id}res`, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, s + 1.4); SH(`#${id}res`, s + 1.6, "#111", 6);
       it.forEach((_, j) => A(`#${id}r${j}`, { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.45, ease: E }, T[j]));
-      return `<div class="card seo" id="${id}c"><div class="sbar"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#64748B" stroke-width="2.6" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span class="sq" id="${id}q">${esc(p.cari || KW)}</span></div>
+      return `<div class="card seo" id="${id}c"><div class="sbar"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="${C.cari}" stroke-width="2.6" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span class="sq" id="${id}q">${esc(p.cari || KW)}</span></div>
         <div class="res" id="${id}res"><small>${esc(p.domain || "bisnisanda.com")}</small><b>${esc(p.judul_hasil || "Website bisnis Anda")}</b><span class="sk" style="position:relative;display:block;width:90%;height:16px;margin-top:14px;"></span><span class="sk" style="position:relative;display:block;width:70%;height:16px;margin-top:10px;"></span></div>
         ${it.map((x, j) => `<div class="tr" id="${id}r${j}"><div class="tk">${CEK}</div>${esc(x)}</div>`).join("")}</div>`;
     }
@@ -286,11 +304,11 @@ function visual(p, i, id, s, e) {
     }
     case "halaman": {
       // halaman website tersusun per bagian, label bagian muncul saat disebut
-      A(`#${id}d`, { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, s + 0.3);
-      const B = [[20, 56, 560, 46, "#0F172A"], [20, 118, 560, 170, "#FFD3BD"], [20, 304, 176, 110, "#E2E8F0"], [212, 304, 176, 110, "#E2E8F0"], [404, 304, 176, 110, "#E2E8F0"], [20, 430, 560, 50, "#334155"]];
+      A(`#${id}d`, { opacity: 0, y: 50 }, { opacity: 1, y: 0, duration: 0.6, ease: E }, s + 0.3); SH(`#${id}d`, s + 0.6);
+      const B = [[20, 56, 560, 46, C.blk[0]], [20, 118, 560, 170, C.blk[1]], [20, 304, 176, 110, C.blk[2]], [212, 304, 176, 110, C.blk[3]], [404, 304, 176, 110, C.blk[4]], [20, 430, 560, 50, C.blk[5]]];
       const tb = isyarat(i, Math.min(it.length, B.length) || 4, p.kata, 1.0);
       B.forEach((_, j) => A(`#${id}k${j}`, { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.45, ease: E }, tb[Math.min(j, tb.length - 1)] - (j >= tb.length ? -0.2 * (j - tb.length + 1) : 0)));
-      it.forEach((_, j) => A(`#${id}t${j}`, { opacity: 0, x: 30 }, { opacity: 1, x: 0, duration: 0.4, ease: E }, tb[j] + 0.15));
+      it.forEach((_, j) => { A(`#${id}t${j}`, { opacity: 0, x: 30 }, { opacity: 1, x: 0, duration: 0.4, ease: E }, tb[j] + 0.15); SH(`#${id}t${j}`, tb[j] + 0.15); });
       const tagTop = [56, 180, 340, 450];
       return `<div class="card desk" id="${id}d" style="left:0;top:80px;width:600px;height:500px;"><div class="bar"><i></i><i></i><i></i></div>${B.map(([l, t, w, h, c], j) => `<span class="blk" id="${id}k${j}" style="left:${l}px;top:${t}px;width:${w}px;height:${h}px;background:${c};"></span>`).join("")}</div>
         ${it.slice(0, 4).map((x, j) => `<div class="tag" id="${id}t${j}" style="left:640px;top:${80 + tagTop[j]}px;">${esc(x)}</div>`).join("")}`;
@@ -307,19 +325,19 @@ if (tahapIdx.length) {
   A("#rail", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, r0 + 0.05);
   tahapIdx.forEach((bi, j) => {
     const t = sStart[bi];
-    tl.push(`tl.to("#rd${j}", {backgroundColor: "#D9480F", borderColor: "#D9480F", color: "#FFFFFF", scale: 1.15, duration: 0.35, ease: "back.out(2)"}, ${(t + 0.15).toFixed(2)});`);
+    tl.push(`tl.to("#rd${j}", {backgroundColor: "${C.railOn}", borderColor: "${BR ? "#111" : "#D9480F"}", color: "${C.railTxt}", scale: 1.15, duration: 0.35, ease: "back.out(2)"}, ${(t + 0.15).toFixed(2)});`);
     if (j > 0) { A(`#rl${j - 1}`, { scaleX: 0 }, { scaleX: 1, duration: 0.4, ease: "power2.out" }, t - 0.1); tl.push(`tl.to("#rd${j - 1}", {scale: 1, duration: 0.3}, ${(t + 0.1).toFixed(2)});`); }
   });
 }
 
-const css = fs.readFileSync(path.join(DIR, "gaya.css"), "utf8");
+const css = fs.readFileSync(path.join(DIR, "gaya.css"), "utf8") + (BR ? "\n" + fs.readFileSync(path.join(DIR, "gaya-brutal.css"), "utf8") : "");
 const html = `<!doctype html>
 <html lang="id"><head><meta charset="UTF-8" /><meta name="viewport" content="width=1920, height=1080" />
 <title>${esc(KODE)} ${esc(KW)}</title>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
 <style>${css}</style></head>
 <body><div id="root" data-composition-id="main" data-start="0" data-duration="${TOTAL}" data-width="1920" data-height="1080">
-<div id="bg" class="clip full" data-start="0" data-duration="${TOTAL}" data-track-index="0"><div class="full bg-base"></div><div id="blob1" class="blob b1"></div><div id="blob2" class="blob b2"></div><div class="grid"></div><img class="logo" src="assets/logo-nusawebsite.png" alt="Nusawebsite" /></div>
+<div id="bg" class="clip full" data-start="0" data-duration="${TOTAL}" data-track-index="0"><div class="full bg-base"></div><div id="blob1" class="blob b1"></div><div id="blob2" class="blob b2"></div><div class="grid"></div>${BR ? `<div class="rule"></div>` : ""}<img class="logo" src="assets/logo-nusawebsite.png" alt="Nusawebsite" /></div>
 <audio id="vo" src="assets/vo.wav" data-start="${AUD}" data-duration="${W.durasi.toFixed(2)}" data-track-index="9" data-volume="1"></audio>
 ${rail}
 ${sec.join("\n")}
@@ -339,7 +357,7 @@ for (const f of fs.readdirSync(path.join(DIR, "aset"))) fs.copyFileSync(path.joi
 fs.copyFileSync(vo, path.join(PR, "assets", "vo.wav"));
 fs.writeFileSync(path.join(PR, "index.html"), html);
 fs.writeFileSync(path.join(PR, "hyperframes.json"), JSON.stringify({ $schema: "https://hyperframes.heygen.com/schema/hyperframes.json", paths: { assets: "assets" }, media: { autoProxy: true }, authoringSkill: "general-video" }, null, 2));
-console.log("proyek", PR, TOTAL, "dtk,", naskah.length, "scene, waktu:", W.metode);
+console.log("proyek", PR, TOTAL, "dtk,", naskah.length, "scene, waktu:", W.metode, "tema:", TEMA);
 
 // ---------- 5. meta.json ----------
 const cap = (x) => x.replace(/\b\w/g, (c) => c.toUpperCase()).replace(/\bIos\b/g, "iOS").replace(/\bPt\b/g, "PT").replace(/\bPos\b/g, "POS").replace(/\bDi\b/g, "di");
@@ -352,7 +370,7 @@ const desk = `${naskah[0].teks}\n\nDi video ini kami tunjukkan alur kerja ${KW} 
 const tagSet = new Set([KW, ...(p0tags()), "software house", "jasa pembuatan aplikasi", "aplikasi custom", "nusawebsite", "alur pembuatan aplikasi", "konsultasi aplikasi"]);
 function p0tags() { const w = KW.split(" "); const t = []; if (w.length > 3) t.push(w.slice(0, 3).join(" ")); if (/website|web/.test(KW)) t.push("jasa pembuatan website", "website bisnis"); if (/company profile/.test(KW)) t.push("website company profile"); if (/android|ios|mobile/.test(KW)) t.push("aplikasi android", "aplikasi mobile"); return t; }
 const tags = [...tagSet].slice(0, 12);
-const meta = { kode: KODE, keyword: KW, format: "F3", judul, deskripsi: desk, tag: tags, durasi: TOTAL, timing: W.metode };
+const meta = { kode: KODE, keyword: KW, format: "F3", ...(BR ? { tema: TEMA } : {}), judul, deskripsi: desk, tag: tags, durasi: TOTAL, timing: W.metode };
 fs.writeFileSync(path.join(P, "meta.json"), JSON.stringify(meta, null, 1));
 
 // ---------- 6. check + render + frame ----------

@@ -4,6 +4,7 @@ import json, re, subprocess, sys, difflib
 
 wav, naskah_f, out_f = sys.argv[1:4]
 naskah = json.load(open(naskah_f, encoding="utf-8"))
+if isinstance(naskah, dict): naskah = naskah["blok"]  # bentuk {tema, blok}
 norm = lambda w: re.sub(r"[^a-z0-9]", "", w.lower())
 blok_kata = [[norm(w) for w in b["teks"].split() if norm(w)] for b in naskah]
 flat, blok_idx = [], []

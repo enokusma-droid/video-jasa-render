@@ -1,0 +1,167 @@
+[
+ {
+  "teks": "Pelajari lima tahap ini sebelum memesan jasa pembuatan aplikasi android. Urutannya menentukan aplikasi Anda dipakai atau terbengkalai.",
+  "anim": "judul-keyword",
+  "tema": "brutal",
+  "param": {
+   "kicker": "SEBELUM MEMESAN",
+   "sorot": "aplikasi android",
+   "sub": "5 tahap yang menentukan hasil aplikasi Anda",
+   "kata_sub": "urutannya"
+  }
+ },
+ {
+  "teks": "Hati-hati dengan proyek yang langsung koding. Fitur menumpuk, tampilan membingungkan, dan tim kembali ke cara lama.",
+  "anim": "peringatan",
+  "param": {
+   "judul": "Hati-hati",
+   "desk": "Proyek yang langsung koding sebelum memahami alur bisnis.",
+   "item": [
+    "Langsung koding",
+    "Fitur menumpuk",
+    "Tampilan membingungkan",
+    "Tim kembali ke cara lama"
+   ],
+   "kata": [
+    "langsung",
+    "fitur",
+    "tampilan",
+    "kembali"
+   ]
+  }
+ },
+ {
+  "teks": "Di Nusawebsite, alurnya selalu lima tahap.",
+  "anim": "stepper-overview",
+  "param": {
+   "kicker": "CARA KERJA KAMI",
+   "tahap": [
+    "Konsultasi",
+    "Rancang MVP",
+    "Mockup",
+    "Develop & Uji",
+    "Rilis"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap satu, konsultasi. Kami dengarkan masalah bisnis, alur kerja harian, dan siapa penggunanya.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Konsultasi\nKebutuhan",
+   "desk": "Kami dengarkan masalah dan alur kerja bisnis Anda.",
+   "visual": "catatan",
+   "bubble": "Ceritakan kebutuhan Anda",
+   "item": [
+    "Masalah bisnis",
+    "Alur kerja harian",
+    "Siapa penggunanya"
+   ],
+   "kata": [
+    "masalah",
+    "alur",
+    "siapa"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap dua, rancang MVP. Fitur inti seperti data pelanggan, transaksi, dan laporan dibuat lebih dulu.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Rancang Alur\n& MVP",
+   "desk": "Fitur inti yang paling dibutuhkan dibuat lebih dulu.",
+   "visual": "alur",
+   "alur": [
+    "Input",
+    "Proses",
+    "Laporan"
+   ],
+   "on": [
+    "Data pelanggan",
+    "Transaksi",
+    "Laporan"
+   ],
+   "kata": [
+    "data",
+    "transaksi",
+    "laporan"
+   ],
+   "off": [
+    "Fitur lanjutan",
+    "Integrasi"
+   ],
+   "catatan": "MVP = fitur inti dulu, cepat berguna"
+  }
+ },
+ {
+  "teks": "Tahap tiga, mockup. Anda menyetujui desain setiap layar sebelum kode ditulis.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Mockup\nTampilan",
+   "desk": "Anda menyetujui desain setiap layar sebelum kode ditulis.",
+   "visual": "wireframe",
+   "kata_stempel": "menyetujui"
+  }
+ },
+ {
+  "teks": "Tahap empat, pengembangan dan pengujian. Login, input data, laporan, dan notifikasi diuji di ponsel Android.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Pengembangan\n& Pengujian",
+   "desk": "Dibangun bertahap, setiap fitur diuji sebelum diserahkan.",
+   "visual": "kode",
+   "item": [
+    "Login & akses",
+    "Input data",
+    "Laporan",
+    "Notifikasi"
+   ],
+   "kata": [
+    "login",
+    "input",
+    "laporan",
+    "notifikasi"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap lima, rilis. Aplikasi siap dipakai tim, dan kami tetap mendampingi setelah rilis.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Rilis &\nPendampingan",
+   "desk": "Siap dipakai tim Anda, tetap didampingi setelah rilis.",
+   "visual": "rilis",
+   "klip": [
+    "dash"
+   ],
+   "item": [
+    "Siap dipakai tim",
+    "Pendampingan setelah rilis"
+   ],
+   "kata": [
+    "siap",
+    "mendampingi"
+   ]
+  }
+ },
+ {
+  "teks": "Contohnya aplikasi klinik gigi buatan kami ini, dari antrean, rekam medis, sampai invoice.",
+  "anim": "contoh-hasil",
+  "param": {
+   "judul": "Aplikasi klinik gigi buatan Nusawebsite",
+   "klip": [
+    "antrean",
+    "odon",
+    "invoice"
+   ]
+  }
+ },
+ {
+  "teks": "Ingin alur yang pas untuk bisnis Anda? Konsultasi gratis, link ada di deskripsi.",
+  "anim": "cta",
+  "param": {
+   "sub": "Ceritakan kebutuhan aplikasi Android bisnis Anda",
+   "kata_link": "link"
+  }
+ }
+]
