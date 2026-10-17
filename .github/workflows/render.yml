@@ -1,0 +1,66 @@
+# Render video jasa Nusawebsite di GitHub Actions (owner 17 Okt 2026: pindahkan beban dari PC).
+# Jalankan: gh workflow run render.yml -f kode="J037,J041"  → hasil ke G3 konten/jasa/<KODE>/ + artifact frame untuk QC.
+name: render-video-jasa
+on:
+  workflow_dispatch:
+    inputs:
+      kode:
+        description: "KODE dipisah koma, mis. J037,J041"
+        required: true
+      paralel:
+        description: "Maks job paralel"
+        default: "6"
+jobs:
+  siapkan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - id: m
+        run: echo "matrix=$(echo '${{ inputs.kode }}' | jq -Rc 'split(",") | map(gsub(" ";"")) | map(select(length>0))')" >> "$GITHUB_OUTPUT"
+  render:
+    needs: siapkan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: ${{ fromJson(inputs.paralel) }}
+      matrix:
+        kode: ${{ fromJson(needs.siapkan.outputs.matrix) }}
+    env:
+      JASA_CPU: "1"
+      JASA_PY: python3
+      KONTEN_API_KEY: ${{ secrets.KONTEN_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - name: Pasang alat
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-core > /dev/null
+          npm i -g hyperframes@0.8.20
+          hyperframes browser ensure
+          pip install -q faster-whisper boto3
+      - name: Render
+        run: |
+          F=$(node -e "console.log(require('./keywords.json').find(x=>x.kode===process.argv[1]).format)" "${{ matrix.kode }}")
+          echo "format $F"
+          node "templat/$F/buat.mjs" "${{ matrix.kode }}"
+      - name: Simpan ke G3
+        if: always()
+        env:
+          S3_ENDPOINT: ${{ secrets.S3_ENDPOINT }}
+          S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
+          S3_SECRET: ${{ secrets.S3_SECRET }}
+          S3_REGION: ${{ secrets.S3_REGION }}
+        run: python ci/simpan-g3.py "produksi/${{ matrix.kode }}"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: qc-${{ matrix.kode }}
+          path: |
+            produksi/${{ matrix.kode }}/frames/
+            produksi/${{ matrix.kode }}/meta.json
+          retention-days: 7

@@ -1,0 +1,555 @@
+[
+          {
+                    "kode": "J001",
+                    "keyword": "jasa pembuatan aplikasi",
+                    "kategori": "aplikasi",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J002",
+                    "keyword": "jasa pembuatan aplikasi android dan ios",
+                    "kategori": "aplikasi",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J003",
+                    "keyword": "jasa pembuatan aplikasi android",
+                    "kategori": "aplikasi",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J004",
+                    "keyword": "jasa pembuatan aplikasi ios",
+                    "kategori": "aplikasi",
+                    "format": "F4",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J005",
+                    "keyword": "jasa pembuatan aplikasi mobile",
+                    "kategori": "aplikasi",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J006",
+                    "keyword": "jasa pembuatan aplikasi android jogja",
+                    "kategori": "aplikasi",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J007",
+                    "keyword": "jasa pembuatan aplikasi surabaya",
+                    "kategori": "aplikasi",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J008",
+                    "keyword": "jasa pembuatan aplikasi kasir",
+                    "kategori": "aplikasi",
+                    "format": "F4",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J009",
+                    "keyword": "jasa pembuatan aplikasi pos",
+                    "kategori": "aplikasi",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J010",
+                    "keyword": "jasa pembuatan aplikasi akuntansi",
+                    "kategori": "aplikasi",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J011",
+                    "keyword": "jasa pembuatan aplikasi toko online",
+                    "kategori": "aplikasi",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J012",
+                    "keyword": "jasa pembuatan aplikasi marketplace",
+                    "kategori": "aplikasi",
+                    "format": "F4",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J013",
+                    "keyword": "jasa pembuatan program aplikasi",
+                    "kategori": "aplikasi",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J014",
+                    "keyword": "jasa pembuat aplikasi murah",
+                    "kategori": "aplikasi",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J015",
+                    "keyword": "software house",
+                    "kategori": "software",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J016",
+                    "keyword": "perusahaan software",
+                    "kategori": "software",
+                    "format": "F4",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J017",
+                    "keyword": "pt software",
+                    "kategori": "software",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J018",
+                    "keyword": "software house indonesia",
+                    "kategori": "software",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J019",
+                    "keyword": "software house terbaik di indonesia",
+                    "kategori": "software",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J020",
+                    "keyword": "software house jogja",
+                    "kategori": "software",
+                    "format": "F4",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J021",
+                    "keyword": "software house malang",
+                    "kategori": "software",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J022",
+                    "keyword": "software house semarang",
+                    "kategori": "software",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J023",
+                    "keyword": "software house jakarta",
+                    "kategori": "software",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J024",
+                    "keyword": "software house bandung",
+                    "kategori": "software",
+                    "format": "F4",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J025",
+                    "keyword": "software house di bali",
+                    "kategori": "software",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J026",
+                    "keyword": "software house purwokerto",
+                    "kategori": "software",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J027",
+                    "keyword": "software house banyuwangi",
+                    "kategori": "software",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J028",
+                    "keyword": "software house tangerang",
+                    "kategori": "software",
+                    "format": "F4",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J029",
+                    "keyword": "software house kediri",
+                    "kategori": "software",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J030",
+                    "keyword": "software house makassar",
+                    "kategori": "software",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J031",
+                    "keyword": "jasa pembuatan website terbaik",
+                    "kategori": "website",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J032",
+                    "keyword": "jasa buat website wordpress",
+                    "kategori": "website",
+                    "format": "F4",
+                    "status": "antre"
+          },
+          {
+                    "kode": "J033",
+                    "keyword": "jasa bikin website perusahaan",
+                    "kategori": "website",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J034",
+                    "keyword": "jasa pembuatan landing page",
+                    "kategori": "website",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J035",
+                    "keyword": "jasa pembuatan toko online",
+                    "kategori": "website",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J036",
+                    "keyword": "jasa website murah",
+                    "kategori": "website",
+                    "format": "F4",
+                    "status": "antre"
+          },
+          {
+                    "kode": "J037",
+                    "keyword": "jasa pembuatan website hotel",
+                    "kategori": "website",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J038",
+                    "keyword": "jasa pembuatan website sekolah",
+                    "kategori": "website",
+                    "format": "F2",
+                    "status": "antre"
+          },
+          {
+                    "kode": "J039",
+                    "keyword": "jasa pembuatan website desa",
+                    "kategori": "website",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J040",
+                    "keyword": "jasa maintenance website",
+                    "kategori": "website",
+                    "format": "F4",
+                    "status": "antre"
+          },
+          {
+                    "kode": "J041",
+                    "keyword": "jasa perbaikan website",
+                    "kategori": "website",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J042",
+                    "keyword": "jasa redesign website",
+                    "kategori": "website",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J043",
+                    "keyword": "jasa kelola website",
+                    "kategori": "website",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J044",
+                    "keyword": "jasa desain website profesional",
+                    "kategori": "website",
+                    "format": "F4",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J045",
+                    "keyword": "jasa web design",
+                    "kategori": "website",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J046",
+                    "keyword": "jasa web developer",
+                    "kategori": "website",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J047",
+                    "keyword": "jasa website bogor",
+                    "kategori": "website",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J048",
+                    "keyword": "web design agency indonesia",
+                    "kategori": "website",
+                    "format": "F4",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J049",
+                    "keyword": "jasa pembuatan company profile jogja",
+                    "kategori": "website",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J050",
+                    "keyword": "jasa pembuatan company profile semarang",
+                    "kategori": "website",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J051",
+                    "keyword": "jasa pembuatan company profile bekasi",
+                    "kategori": "website",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J052",
+                    "keyword": "jasa membuat company profile",
+                    "kategori": "website",
+                    "format": "F4",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J053",
+                    "keyword": "kenapa bisnis harus punya website",
+                    "kategori": "website",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J054",
+                    "keyword": "jasa pembuatan website murah bandung",
+                    "kategori": "website",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J055",
+                    "keyword": "jasa pembuatan website surabaya",
+                    "kategori": "website",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J056",
+                    "keyword": "jasa pembuatan website tangerang",
+                    "kategori": "website",
+                    "format": "F4",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J057",
+                    "keyword": "jasa pembuatan website jogja",
+                    "kategori": "website",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J058",
+                    "keyword": "jasa pembuatan website makassar",
+                    "kategori": "website",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J059",
+                    "keyword": "jasa pembuatan website serang",
+                    "kategori": "website",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J060",
+                    "keyword": "jasa pembuatan website di bali",
+                    "kategori": "website",
+                    "format": "F4",
+                    "status": "antre"
+          },
+          {
+                    "kode": "J061",
+                    "keyword": "jasa pembuatan website depok",
+                    "kategori": "website",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J062",
+                    "keyword": "jasa pembuatan website jakarta",
+                    "kategori": "website",
+                    "format": "F2",
+                    "status": "antre"
+          },
+          {
+                    "kode": "J063",
+                    "keyword": "jasa pembuatan website bekasi",
+                    "kategori": "website",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J064",
+                    "keyword": "jasa pembuatan website malang",
+                    "kategori": "website",
+                    "format": "F4",
+                    "status": "antre"
+          },
+          {
+                    "kode": "J065",
+                    "keyword": "jasa pembuatan website semarang",
+                    "kategori": "website",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J066",
+                    "keyword": "jasa pembuatan website bogor",
+                    "kategori": "website",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J067",
+                    "keyword": "jasa pembuatan website batam",
+                    "kategori": "website",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J068",
+                    "keyword": "jasa pembuatan website jakarta timur",
+                    "kategori": "website",
+                    "format": "F4",
+                    "status": "antre"
+          },
+          {
+                    "kode": "J069",
+                    "keyword": "jasa pembuatan website medan",
+                    "kategori": "website",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J070",
+                    "keyword": "jasa buat website toko online",
+                    "kategori": "website",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J071",
+                    "keyword": "jasa pembuatan desain company profile",
+                    "kategori": "website",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J072",
+                    "keyword": "jasa pembuatan website jakarta selatan",
+                    "kategori": "website",
+                    "format": "F4",
+                    "status": "antre"
+          },
+          {
+                    "kode": "J073",
+                    "keyword": "jasa buat website company profile",
+                    "kategori": "website",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J074",
+                    "keyword": "jasa pembuatan company profile di medan",
+                    "kategori": "website",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J075",
+                    "keyword": "jasa buat website online shop",
+                    "kategori": "website",
+                    "format": "F3",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J076",
+                    "keyword": "jasa pembuatan website jakarta pusat",
+                    "kategori": "website",
+                    "format": "F4",
+                    "status": "antre"
+          },
+          {
+                    "kode": "J077",
+                    "keyword": "jasa pembuatan website jakarta barat",
+                    "kategori": "website",
+                    "format": "F1",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J078",
+                    "keyword": "jasa pembuatan website jakarta utara",
+                    "kategori": "website",
+                    "format": "F2",
+                    "status": "selesai"
+          },
+          {
+                    "kode": "J079",
+                    "keyword": "perusahaan software di jakarta",
+                    "kategori": "software",
+                    "format": "F3",
+                    "status": "selesai"
+          }
+]

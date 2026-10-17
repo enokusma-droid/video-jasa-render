@@ -1,0 +1,178 @@
+{
+ "hook_pola": "mitos",
+ "judul": "Jasa Pembuatan Website Jakarta Pusat: Tidak Selesai Saat Online",
+ "deskripsi": "Jasa pembuatan website Jakarta Pusat yang baik tidak berhenti saat situs online, tapi menyiapkan website yang terus terawat. Video ini membahas 5 hal yang perlu Anda cek sebelum memulai proyek website. Nusawebsite berbasis di Jogja dan melayani klien secara online ke seluruh Indonesia.\n\nKonsultasi gratis kebutuhan website bisnis Anda: {{LINK_WA}}",
+ "tag": [
+  "jasa pembuatan website jakarta pusat",
+  "nusawebsite",
+  "jasa pembuatan website",
+  "website bisnis",
+  "desain website",
+  "tips memilih jasa website",
+  "website jakarta pusat",
+  "jasa website jakarta",
+  "maintenance website"
+ ],
+ "blok": [
+  {
+   "teks": "Anggapan jasa pembuatan website Jakarta Pusat selesai saat situs online itu keliru.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Website selesai saat online itu keliru",
+    "sorot": "keliru",
+    "ikon": "silang",
+    "kicker": "Jasa pembuatan website Jakarta Pusat"
+   }
+  },
+  {
+   "teks": "Website bisnis perlu dirawat agar tetap aman, cepat, dan relevan bagi calon pelanggan.",
+   "anim": "benar-salah",
+   "param": {
+    "judul": "Cara pandang yang tepat",
+    "salah": "Selesai saat online",
+    "benar": "Dirawat agar tetap aman dan cepat"
+   }
+  },
+  {
+   "teks": "Pertama, pondasi yang rapi sejak rancangan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Pondasi rapi sejak rancangan",
+    "sorot": "rapi"
+   }
+  },
+  {
+   "teks": "Mockup setiap halaman disetujui dulu, sehingga struktur mudah dikembangkan nanti.",
+   "anim": "wireframe-disetujui",
+   "param": {
+    "judul": "Struktur disetujui sejak awal"
+   }
+  },
+  {
+   "teks": "Kedua, keamanan dan cadangan data.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Keamanan dan cadangan data",
+    "sorot": "cadangan"
+   }
+  },
+  {
+   "teks": "Pembaruan sistem dan cadangan rutin menjaga website tetap berjalan bila ada masalah.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Perawatan yang menjaga website",
+    "item": [
+     {
+      "ikon": "perisai",
+      "label": "Pembaruan keamanan"
+     },
+     {
+      "ikon": "data",
+      "label": "Cadangan rutin"
+     },
+     {
+      "ikon": "gear",
+      "label": "Pemantauan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ketiga, konten mudah diperbarui sendiri.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Konten mudah diperbarui sendiri",
+    "sorot": "sendiri"
+   }
+  },
+  {
+   "teks": "Tim Anda bisa menambah layanan, promo, atau artikel tanpa menunggu antrean developer.",
+   "anim": "centang-besar",
+   "param": {
+    "teks": "Tambah konten kapan saja",
+    "sorot": "kapan saja",
+    "sub": "lewat dasbor yang sederhana"
+   }
+  },
+  {
+   "teks": "Keempat, akses tetap milik Anda.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Akses tetap milik Anda",
+    "sorot": "milik Anda"
+   }
+  },
+  {
+   "teks": "Domain, hosting, dan admin website atas nama bisnis Anda, jadi perawatan bisa dilanjutkan siapa pun.",
+   "anim": "kepemilikan",
+   "param": {
+    "judul": "Semua tercatat milik Anda",
+    "item": [
+     {
+      "ikon": "globe",
+      "judul": "Domain",
+      "sub": "atas nama bisnis"
+     },
+     {
+      "ikon": "data",
+      "judul": "Hosting",
+      "sub": "akun milik Anda"
+     },
+     {
+      "ikon": "kunci",
+      "judul": "Admin website",
+      "sub": "dipegang Anda"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Kelima, pendampingan berkala.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Pendampingan berkala",
+    "sorot": "berkala"
+   }
+  },
+  {
+   "teks": "Nusawebsite berbasis di Jogja dan mendampingi bisnis di Jakarta Pusat secara online, mulai dari laporan sampai perbaikan.",
+   "anim": "alur",
+   "param": {
+    "judul": "Pendampingan setelah online",
+    "langkah": [
+     "Laporan berkala",
+     "Perbaikan",
+     "Pengembangan"
+    ],
+    "ikon": [
+     "dokumen",
+     "gear",
+     "roket"
+    ]
+   }
+  },
+  {
+   "teks": "Simpan checklist ini: pondasi rapi, keamanan, konten mudah, kepemilikan, dan pendampingan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist website Jakarta Pusat",
+    "item": [
+     "Pondasi rapi",
+     "Aman dan dicadangkan",
+     "Konten mudah",
+     "Milik Anda",
+     "Pendampingan"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan website bisnis Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Konsultasi gratis",
+    "sorot": "gratis",
+    "sub": "Ceritakan kebutuhan website bisnis Anda"
+   }
+  }
+ ]
+}

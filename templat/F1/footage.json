@@ -1,0 +1,16 @@
+{
+ "_sumber": "../../_bahan/dentalcare-yt004.mp4 (video review DentalCare YT004, 187 dtk). Potongan = jendela aplikasi saja (crop 1808x761 dari x56 y107), lower-third bawaan & latar blur terbuang. Rentang dipilih dari lembar kontak 3 dtk; detik 0-2 (judul), 23-41 (kartu teks), 142-168 (kartu teks), 182+ (kartu WA) DIHINDARI.",
+ "crop": "1808:761:56:107",
+ "klip": {
+  "dashboard":   { "mulai": 3,   "durasi": 17, "isi": "Dashboard: kartu pendapatan, grafik tren, demografi pasien (kursor bergerak)" },
+  "dashboard2":  { "mulai": 172, "durasi": 10, "isi": "Dashboard bagian bawah: stok rendah, leaderboard dokter" },
+  "pasien":      { "mulai": 46,  "durasi": 11, "isi": "Manajemen/data pasien: tabel daftar pasien, pencarian" },
+  "antrean":     { "mulai": 59,  "durasi": 9,  "isi": "Antrean hari ini: tombol Panggil, Buka Rekam Medis" },
+  "soap":        { "mulai": 70,  "durasi": 16, "isi": "Rekam medis SOAP: mengetik keluhan & pemeriksaan" },
+  "odontogram":  { "mulai": 87,  "durasi": 13, "isi": "Odontogram: peta gigi, klik kondisi gigi" },
+  "tindakan":    { "mulai": 102, "durasi": 10, "isi": "Tindakan & resep: pilih tindakan, obat, harga muncul di UI" },
+  "konfirmasi":  { "mulai": 113, "durasi": 11, "isi": "Konfirmasi kunjungan: simpan & selesaikan kunjungan" },
+  "invoice":     { "mulai": 130.5, "durasi": 3.5,  "isi": "Daftar invoice/tagihan dengan status lunas" },
+  "invoice-detail": { "mulai": 134, "durasi": 8, "isi": "Detail invoice pembayaran siap cetak" }
+ }
+}

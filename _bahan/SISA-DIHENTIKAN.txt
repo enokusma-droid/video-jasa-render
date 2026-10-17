@@ -1,0 +1,5 @@
+F2: J050 J054 J058 J062 J066 J070 J074 J078 (naskah sudah ada, lolos cek)
+F1: J049 (render ulang saja, naskah sudah diperbaiki, tanpa --ulang-vo), J045 (WAJIB --ulang-vo), J057 J061 J065 J069 J073 J077 (naskah siap, ≤146 kata)
+Catatan templat F1: meta.json bawaan bernada "aplikasi" → rapikan deskripsi/tag untuk keyword website; check kutipan-sorot positif palsu.
+F3: J051 (render ulang saja, naskah sudah diperbaiki), J063 J067 J071 J075 J079 (naskah siap). Catatan F3: label visual `halaman` maks ±14 huruf.
+F4: J048 (VO sudah ada) J052 J056 J060 J064 J068 J072 J076 (naskah siap). F4 timing.py & anim.mjs sudah diperbaiki agent batch B.
