@@ -130,7 +130,7 @@
    "teks": "Pemilik klinik melihat pendapatan dan pasien baru dalam satu dashboard.",
    "anim": "dashboard",
    "param": {
-    "tema": "booking",
+    "tema": "klinik",
     "judul": "Pemilik melihat dalam satu dashboard",
     "sorot": "satu dashboard",
     "sub": "Pendapatan dan pasien baru.",
