@@ -1,0 +1,180 @@
+[
+ {
+  "teks": "Ini yang jarang dijelaskan tentang aplikasi rekam medis berbasis web. Cukup buka browser, dan seluruh klinik memakai data yang sama.",
+  "anim": "judul-keyword",
+  "tema": "brutal",
+  "param": {
+   "kicker": "JARANG DIJELASKAN",
+   "sorot": "berbasis web",
+   "sub": "Satu data untuk semua ruangan",
+   "kata_sub": "cukup",
+   "judul_yt": "Aplikasi Rekam Medis Berbasis Web: Alur dari Login sampai Invoice"
+  }
+ },
+ {
+  "teks": "Hati-hati dengan program yang hanya terpasang di satu komputer. Data terkunci di satu meja, salinannya berbeda, dan sulit dibuka dari ruang praktik.",
+  "anim": "peringatan",
+  "param": {
+   "judul": "Hati-hati",
+   "desk": "Program yang hanya terpasang di satu komputer.",
+   "item": [
+    "Terkunci di satu meja",
+    "Salinan berbeda",
+    "Sulit dibuka dari ruang praktik"
+   ],
+   "kata": [
+    "terkunci",
+    "salinannya",
+    "sulit"
+   ]
+  }
+ },
+ {
+  "teks": "Di DentalCare, alurnya lima tahap.",
+  "anim": "stepper-overview",
+  "param": {
+   "kicker": "ALUR DI APLIKASI",
+   "tahap": [
+    "Login",
+    "Cari Pasien",
+    "Catatan SOAP",
+    "Odontogram",
+    "Invoice"
+   ],
+   "rail": "ALUR DI APLIKASI"
+  }
+ },
+ {
+  "teks": "Tahap satu, login. Resepsionis, dokter, dan kasir masuk dari browser dengan akun masing-masing.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Login dari\nBrowser",
+   "desk": "Tidak perlu memasang program di tiap komputer.",
+   "visual": "catatan",
+   "label": "AKUN PENGGUNA",
+   "item": [
+    "Resepsionis",
+    "Dokter",
+    "Kasir"
+   ],
+   "kata": [
+    "resepsionis",
+    "dokter",
+    "kasir"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap dua, cari pasien. Ketik nama, lalu profil dan riwayat kunjungan langsung tampil.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Cari\nPasien",
+   "desk": "Profil pasien tampil dalam satu layar.",
+   "visual": "ui",
+   "klip": [
+    "pasien"
+   ],
+   "item": [
+    "Ketik nama",
+    "Profil pasien",
+    "Riwayat kunjungan"
+   ],
+   "kata": [
+    "ketik",
+    "profil",
+    "riwayat"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap tiga, catatan SOAP. Dokter mengetik keluhan, pemeriksaan, diagnosis, dan rencana perawatan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Catatan\nSOAP",
+   "desk": "Diketik langsung di ruang praktik.",
+   "visual": "ui",
+   "klip": [
+    "soap"
+   ],
+   "item": [
+    "Keluhan",
+    "Pemeriksaan",
+    "Diagnosis",
+    "Rencana"
+   ],
+   "kata": [
+    "keluhan",
+    "pemeriksaan",
+    "diagnosis",
+    "rencana"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap empat, odontogram. Kondisi gigi ditandai pada peta gigi digital.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Odontogram\nDigital",
+   "desk": "Peta gigi tersimpan di rekam medis.",
+   "visual": "ui",
+   "klip": [
+    "odon"
+   ],
+   "item": [
+    "Kondisi gigi",
+    "Peta gigi digital"
+   ],
+   "kata": [
+    "kondisi",
+    "peta"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap lima, invoice. Tagihan terbentuk dari tindakan, dan pemilik klinik bisa memantau dari HP.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Invoice &\nPantau HP",
+   "desk": "Tagihan dan laporan bisa dibuka dari mana saja.",
+   "visual": "rilis",
+   "klip": [
+    "invoice"
+   ],
+   "item": [
+    "Tagihan otomatis",
+    "Pantau dari HP"
+   ],
+   "kata": [
+    "tagihan",
+    "memantau"
+   ]
+  }
+ },
+ {
+  "teks": "Semua layar tadi adalah DentalCare asli, aplikasi klinik gigi buatan kami.",
+  "anim": "contoh-hasil",
+  "param": {
+   "kicker": "LAYAR ASLI",
+   "judul": "DentalCare, rekam medis berbasis web",
+   "klip": [
+    "dash",
+    "pasien"
+   ]
+  }
+ },
+ {
+  "teks": "Ingin mencoba demonya? Konsultasi gratis, link ada di deskripsi.",
+  "anim": "cta",
+  "param": {
+   "sub": "Minta demo DentalCare untuk klinik Anda",
+   "kata_link": "link",
+   "mini": [
+    "Login",
+    "Cari Pasien",
+    "SOAP",
+    "Odontogram",
+    "Invoice"
+   ]
+  }
+ }
+]

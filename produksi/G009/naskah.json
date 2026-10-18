@@ -1,0 +1,149 @@
+{
+ "hook_pola": "hati-hati",
+ "judul": "E Klinik: 5 Kesalahan Saat Klinik Beralih ke Sistem Digital",
+ "tag": [
+  "e klinik",
+  "e-klinik",
+  "klinik digital",
+  "aplikasi klinik",
+  "aplikasi klinik gigi",
+  "rekam medis elektronik",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Hati-hati dengan lima kesalahan ini saat mengubah klinik menjadi e klinik.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "5 kesalahan saat beralih ke e klinik",
+    "sorot": "5 kesalahan",
+    "ikon": "peringatan"
+   }
+  },
+  {
+   "teks": "E klinik bukan sekadar komputer di meja resepsionis, tapi alur kerja yang ikut berubah.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Bukan sekadar komputer, tapi alur kerja",
+    "sorot": "alur kerja",
+    "ikon": "laptop"
+   }
+  },
+  {
+   "teks": "Pertama, data pasien lama ditinggalkan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Data pasien lama ditinggal",
+    "sorot": "ditinggal"
+   }
+  },
+  {
+   "teks": "Masukkan identitas dan riwayat pasien lebih dulu, agar pencarian di sistem langsung berguna.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "pasien"
+    ],
+    "perangkat": "browser",
+    "label": "Data pasien di DentalCare buatan kami"
+   }
+  },
+  {
+   "teks": "Kedua, separuh alur masih di kertas.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Separuh alur masih di kertas",
+    "sorot": "kertas"
+   }
+  },
+  {
+   "teks": "Kalau antrean sudah digital tapi resep masih ditulis tangan, data tetap terpecah.",
+   "anim": "benar-salah",
+   "param": {
+    "judul": "Digital setengah jalan",
+    "salah": "Antrean digital, resep di kertas",
+    "benar": "Satu alur dari antrean sampai resep"
+   }
+  },
+  {
+   "teks": "Ketiga, rekam medis tidak sesuai kebutuhan dokter.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Rekam medis tidak sesuai dokter",
+    "sorot": "sesuai"
+   }
+  },
+  {
+   "teks": "Klinik gigi butuh catatan SOAP dan odontogram, bukan formulir umum.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "soap",
+     "odon"
+    ],
+    "perangkat": "browser",
+    "label": "SOAP dan odontogram di DentalCare"
+   }
+  },
+  {
+   "teks": "Keempat, kasir masih menghitung manual.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Kasir masih menghitung manual",
+    "sorot": "manual"
+   }
+  },
+  {
+   "teks": "Pastikan tindakan dan obat langsung menjadi invoice.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "inv"
+    ],
+    "perangkat": "keduanya",
+    "label": "Invoice di DentalCare"
+   }
+  },
+  {
+   "teks": "Kelima, belum terhubung SATUSEHAT.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Belum terhubung SATUSEHAT",
+    "sorot": "SATUSEHAT"
+   }
+  },
+  {
+   "teks": "Pilih sistem yang sudah terhubung SATUSEHAT, seperti DentalCare buatan kami.",
+   "anim": "centang-besar",
+   "param": {
+    "teks": "Sudah terhubung SATUSEHAT",
+    "sorot": "SATUSEHAT",
+    "sub": "Contoh: DentalCare buatan Nusawebsite"
+   }
+  },
+  {
+   "teks": "Simpan checklist ini sebelum klinik Anda beralih.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist e klinik",
+    "item": [
+     "Data pasien dipindah",
+     "Alur digital penuh",
+     "Rekam medis sesuai",
+     "Invoice otomatis",
+     "Terhubung SATUSEHAT"
+    ]
+   }
+  },
+  {
+   "teks": "Ingin melihat contoh e klinik yang sudah berjalan? Konsultasi gratis dan minta demo, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Lihat contoh e klinik",
+    "sorot": "e klinik",
+    "sub": "Minta demo DentalCare, konsultasi gratis"
+   }
+  }
+ ]
+}

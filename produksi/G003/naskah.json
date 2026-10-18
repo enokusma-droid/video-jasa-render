@@ -1,0 +1,183 @@
+[
+ {
+  "teks": "Berhenti memanggil pasien dengan kertas nomor, aplikasi antrian klinik bisa merapikannya. Pasien tahu gilirannya, dokter tahu siapa berikutnya.",
+  "anim": "judul-keyword",
+  "tema": "brutal",
+  "param": {
+   "kicker": "UNTUK KLINIK GIGI",
+   "sorot": "antrian klinik",
+   "sub": "Alur pasien dari datang sampai bayar",
+   "kata_sub": "pasien",
+   "judul_yt": "Aplikasi Antrian Klinik: Alur Pasien dari Booking sampai Bayar"
+  }
+ },
+ {
+  "teks": "Hati-hati dengan antrean manual. Pasien menunggu tanpa kepastian, urutan tertukar, dan ruang tunggu jadi penuh.",
+  "anim": "peringatan",
+  "param": {
+   "judul": "Hati-hati",
+   "desk": "Antrean manual dengan kertas nomor dan teriakan nama.",
+   "item": [
+    "Menunggu tanpa kepastian",
+    "Urutan tertukar",
+    "Ruang tunggu penuh"
+   ],
+   "kata": [
+    "menunggu",
+    "urutan",
+    "ruang"
+   ]
+  }
+ },
+ {
+  "teks": "Di DentalCare, alurnya lima tahap.",
+  "anim": "stepper-overview",
+  "param": {
+   "kicker": "ALUR DI APLIKASI",
+   "tahap": [
+    "Booking",
+    "Antrean",
+    "Pemeriksaan",
+    "Invoice",
+    "Laporan"
+   ],
+   "rail": "ALUR KLINIK"
+  }
+ },
+ {
+  "teks": "Tahap satu, booking. Pasien membuat janji temu, lalu jadwalnya masuk ke daftar appointment klinik.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Booking\nJanji Temu",
+   "desk": "Jadwal pasien masuk ke daftar appointment.",
+   "visual": "ui",
+   "klip": [
+    "dash2"
+   ],
+   "item": [
+    "Janji temu",
+    "Daftar appointment"
+   ],
+   "kata": [
+    "janji",
+    "appointment"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap dua, antrean. Pasien yang datang masuk daftar tunggu, petugas menekan tombol panggil sesuai urutan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Antrean\nHari Ini",
+   "desk": "Dipanggil sesuai urutan kedatangan.",
+   "visual": "ui",
+   "klip": [
+    "antrean"
+   ],
+   "item": [
+    "Daftar tunggu",
+    "Tombol panggil",
+    "Sesuai urutan"
+   ],
+   "kata": [
+    "daftar",
+    "panggil",
+    "urutan"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap tiga, pemeriksaan. Dokter membuka rekam medis, mengisi catatan SOAP, dan menandai odontogram.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Pemeriksaan\nDokter",
+   "desk": "Rekam medis langsung terbuka dari antrean.",
+   "visual": "ui",
+   "klip": [
+    "soap",
+    "odon"
+   ],
+   "item": [
+    "Rekam medis",
+    "Catatan SOAP",
+    "Odontogram"
+   ],
+   "kata": [
+    "rekam",
+    "soap",
+    "odontogram"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap empat, invoice. Tindakan dan obat langsung menjadi tagihan di kasir.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Invoice\nKasir",
+   "desk": "Tagihan terbentuk dari tindakan.",
+   "visual": "ui",
+   "klip": [
+    "invoice"
+   ],
+   "item": [
+    "Tindakan",
+    "Obat",
+    "Tagihan kasir"
+   ],
+   "kata": [
+    "tindakan",
+    "obat",
+    "tagihan"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap lima, laporan. Pemilik klinik melihat pendapatan dan pasien baru di dashboard.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Laporan\nDashboard",
+   "desk": "Pemilik klinik memantau dari satu layar.",
+   "visual": "ui",
+   "klip": [
+    "dash"
+   ],
+   "item": [
+    "Pendapatan",
+    "Pasien baru",
+    "Dashboard"
+   ],
+   "kata": [
+    "pendapatan",
+    "pasien",
+    "dashboard"
+   ]
+  }
+ },
+ {
+  "teks": "Semua tahap ini sudah berjalan di DentalCare, aplikasi klinik gigi buatan kami.",
+  "anim": "contoh-hasil",
+  "param": {
+   "kicker": "LIHAT LANGSUNG",
+   "judul": "DentalCare, aplikasi klinik gigi buatan Nusawebsite",
+   "klip": [
+    "antrean",
+    "dash2"
+   ]
+  }
+ },
+ {
+  "teks": "Ingin antrean klinik Anda lebih tertib? Konsultasi gratis, link ada di deskripsi.",
+  "anim": "cta",
+  "param": {
+   "sub": "Minta demo DentalCare untuk klinik Anda",
+   "kata_link": "link",
+   "mini": [
+    "Booking",
+    "Antrean",
+    "Pemeriksaan",
+    "Invoice",
+    "Laporan"
+   ]
+  }
+ }
+]

@@ -1,0 +1,176 @@
+{
+ "hook_pola": "jangan-sebelum",
+ "judul": "Aplikasi Odontogram: Cek 5 Hal Ini Sebelum Memilih untuk Klinik Gigi",
+ "tag": [
+  "aplikasi odontogram",
+  "odontogram digital",
+  "odontogram gigi",
+  "aplikasi klinik gigi",
+  "rekam medis gigi",
+  "dentalcare",
+  "software klinik gigi",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Jangan pilih aplikasi odontogram sebelum mengecek lima hal ini.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Jangan pilih aplikasi odontogram sebelum cek 5 hal ini",
+    "sorot": "5 hal ini",
+    "ikon": "peringatan"
+   }
+  },
+  {
+   "teks": "Odontogram yang keliru membuat riwayat gigi pasien sulit dibaca dokter berikutnya.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Odontogram keliru, riwayat gigi sulit dibaca",
+    "sorot": "sulit dibaca",
+    "ikon": "dokumen"
+   }
+  },
+  {
+   "teks": "Pertama, peta gigi lengkap dengan penomoran yang jelas.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Peta gigi dengan nomor yang jelas",
+    "sorot": "nomor"
+   }
+  },
+  {
+   "teks": "Gigi dewasa dan gigi anak tampil berurutan, dokter tinggal klik gigi yang diperiksa.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "odon"
+    ],
+    "perangkat": "browser",
+    "label": "Odontogram di DentalCare buatan kami"
+   }
+  },
+  {
+   "teks": "Kedua, simbol kondisi yang seragam.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Simbol kondisi yang seragam",
+    "sorot": "seragam"
+   }
+  },
+  {
+   "teks": "Karies, tambalan, gigi dicabut, mahkota, sampai gigi hilang punya warna dan tanda sendiri.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Setiap kondisi punya tanda",
+    "item": [
+     {
+      "ikon": "peringatan",
+      "label": "Karies"
+     },
+     {
+      "ikon": "cek",
+      "label": "Tambalan"
+     },
+     {
+      "ikon": "silang",
+      "label": "Dicabut"
+     },
+     {
+      "ikon": "bintang",
+      "label": "Mahkota"
+     },
+     {
+      "ikon": "stop",
+      "label": "Gigi hilang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ketiga, tersambung dengan catatan SOAP.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Tersambung dengan catatan SOAP",
+    "sorot": "SOAP"
+   }
+  },
+  {
+   "teks": "Temuan di odontogram masuk ke pemeriksaan yang sama, bukan berkas terpisah.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "soap"
+    ],
+    "perangkat": "browser",
+    "label": "Catatan SOAP di DentalCare"
+   }
+  },
+  {
+   "teks": "Keempat, tindakan langsung menjadi tagihan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Tindakan langsung jadi tagihan",
+    "sorot": "tagihan"
+   }
+  },
+  {
+   "teks": "Tindakan pada gigi tertentu masuk ke invoice, kasir tidak perlu mengetik ulang.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "inv"
+    ],
+    "perangkat": "keduanya",
+    "label": "Invoice di DentalCare"
+   }
+  },
+  {
+   "teks": "Kelima, bisa dibuka dari mana saja.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Berbasis web, bisa dibuka dari HP",
+    "sorot": "HP"
+   }
+  },
+  {
+   "teks": "Karena berbasis web, odontogram bisa dibuka dari ruang praktik, meja resepsionis, atau HP dokter.",
+   "anim": "alur",
+   "param": {
+    "judul": "Satu data, banyak perangkat",
+    "langkah": [
+     "Ruang praktik",
+     "Meja resepsionis",
+     "HP dokter"
+    ],
+    "ikon": [
+     "klinik",
+     "laptop",
+     "hp"
+    ]
+   }
+  },
+  {
+   "teks": "Simpan checklist ini: peta gigi, simbol seragam, tersambung SOAP, tersambung tagihan, dan berbasis web.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist aplikasi odontogram",
+    "item": [
+     "Peta gigi bernomor",
+     "Simbol seragam",
+     "Tersambung SOAP",
+     "Tersambung tagihan",
+     "Berbasis web"
+    ]
+   }
+  },
+  {
+   "teks": "Ingin melihat odontogram di DentalCare secara langsung? Konsultasi gratis dan minta demo, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Minta demo odontogram",
+    "sorot": "demo",
+    "sub": "Konsultasi gratis bersama Nusawebsite"
+   }
+  }
+ ]
+}

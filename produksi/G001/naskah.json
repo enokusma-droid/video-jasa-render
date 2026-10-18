@@ -1,0 +1,230 @@
+{
+ "meta": {
+  "judul": "Aplikasi Rekam Medis Elektronik Klinik Gigi: Bedah 4 Fitur Utama",
+  "ringkas": "sebelum memilih, lihat dulu isi rekam medis elektronik yang benar-benar dipakai klinik gigi, bagian per bagian.",
+  "tag": [
+   "dentalcare",
+   "aplikasi klinik gigi",
+   "software klinik gigi",
+   "rekam medis elektronik klinik gigi",
+   "aplikasi dokter gigi"
+  ]
+ },
+ "blok": [
+  {
+   "teks": "Pelajari isi aplikasi rekam medis elektronik ini sebelum klinik Anda memilih sistem.",
+   "anim": "hook",
+   "param": {
+    "judul": "Pelajari *isinya* sebelum memilih.",
+    "sub": "Rekam medis elektronik untuk *klinik gigi*."
+   }
+  },
+  {
+   "teks": "Banyak klinik gigi masih menulis rekam medis di map kertas, buku register, dan Excel.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Cara lama",
+    "judul": "Masih memakai *ini*?",
+    "kartu": [
+     {
+      "ikon": "kertas",
+      "judul": "Map kertas",
+      "ket": "Ditulis tangan tiap kunjungan"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Buku register",
+      "ket": "Dicari halaman demi halaman"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Excel",
+      "ket": "File beda di tiap komputer"
+     }
+    ],
+    "coret": "excel"
+   }
+  },
+  {
+   "teks": "Akibatnya riwayat pasien sulit dicari, tulisan sulit dibaca, dan berkas mudah hilang.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Riwayat pasien *sulit dicari*.",
+    "masalah": [
+     {
+      "ikon": "cari",
+      "teks": "Riwayat sulit dicari"
+     },
+     {
+      "ikon": "pena",
+      "teks": "Tulisan sulit dibaca"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Berkas mudah hilang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ini DentalCare, aplikasi rekam medis klinik gigi yang kami bangun sendiri.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Ada empat bagian rekam medis yang dipakai dokter setiap hari.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 4,
+    "kicker": "Bedah rekam medis",
+    "label": "Bagian yang dipakai *setiap hari*",
+    "item": [
+     "Data pasien",
+     "Catatan SOAP",
+     "Odontogram",
+     "Tindakan & resep"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, data pasien. Identitas, alergi, dan kunjungan terakhir tersimpan dalam satu tabel.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Data pasien",
+    "ket": "Identitas sampai kunjungan terakhir",
+    "fokus": [
+     40,
+     40
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Kedua, catatan SOAP. Keluhan, pemeriksaan, diagnosis, dan rencana perawatan diketik langsung.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Catatan SOAP",
+    "ket": "Keluhan sampai rencana perawatan",
+    "fokus": [
+     40,
+     45
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Ketiga, odontogram. Kondisi setiap gigi ditandai pada peta gigi, bukan digambar tangan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "odontogram",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Odontogram digital",
+    "ket": "Kondisi gigi pada peta gigi",
+    "fokus": [
+     45,
+     55
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Keempat, tindakan dan resep. Obat dipilih dari daftar, lalu tersambung ke tagihan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "tindakan",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "04",
+    "judul": "Tindakan & resep",
+    "ket": "Dipilih dari daftar master",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Rekam medis yang dulu ditulis berulang kali, kini cukup dicatat sekali dan bisa dibuka kapan saja.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Map kertas",
+     "item": [
+      "Ditulis berulang",
+      "Dicari di rak",
+      "Mudah rusak"
+     ]
+    },
+    "kanan": {
+     "judul": "Rekam medis elektronik",
+     "item": [
+      "Dicatat sekali",
+      "Dicari dengan nama",
+      "Tersimpan rapi"
+     ]
+    },
+    "pemicu": "kini"
+   }
+  },
+  {
+   "teks": "Aplikasinya berbasis web, jadi bisa dibuka dari komputer resepsionis maupun HP dokter.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Buka dari *komputer* maupun *HP*",
+    "poin": [
+     "Komputer resepsionis",
+     "HP dokter"
+    ],
+    "notif": "Cukup lewat browser"
+   }
+  },
+  {
+   "teks": "DentalCare juga sudah terhubung dengan SATUSEHAT dari Kementerian Kesehatan.",
+   "anim": "daftar-centang",
+   "param": {
+    "kicker": "Siap untuk klinik",
+    "judul": "Sudah *terhubung SATUSEHAT*",
+    "item": [
+     "Terhubung SATUSEHAT",
+     "Berbasis web",
+     "Data pasien rapi"
+    ]
+   }
+  },
+  {
+   "teks": "Lihat demo DentalCare dan ceritakan kebutuhan klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Rekam medis elektronik",
+    "judul": "Lihat demo *DentalCare*.",
+    "sub": "Ceritakan kebutuhan klinik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

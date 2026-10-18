@@ -1,0 +1,153 @@
+{
+ "hook_pola": "kesalahan-umum",
+ "judul": "SIM Klinik: 5 Modul Wajib yang Perlu Dicek Sebelum Memilih",
+ "tag": [
+  "sim klinik",
+  "sistem informasi manajemen klinik",
+  "aplikasi klinik",
+  "aplikasi klinik gigi",
+  "software klinik gigi",
+  "rekam medis elektronik",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Kesalahan paling sering saat memilih SIM klinik adalah melihat tampilannya, bukan modulnya.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Pilih SIM klinik dari modulnya, bukan tampilannya",
+    "sorot": "modulnya",
+    "ikon": "silang"
+   }
+  },
+  {
+   "teks": "Modul yang kurang membuat staf kembali mencatat di buku.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Modul kurang, staf kembali ke buku",
+    "sorot": "kembali ke buku",
+    "ikon": "dokumen"
+   }
+  },
+  {
+   "teks": "Pertama, data pasien yang lengkap.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Data pasien yang lengkap",
+    "sorot": "lengkap"
+   }
+  },
+  {
+   "teks": "Setiap pasien punya satu profil, lengkap dengan riwayat kunjungannya.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "pasien"
+    ],
+    "perangkat": "browser",
+    "label": "Data pasien di DentalCare buatan kami"
+   }
+  },
+  {
+   "teks": "Kedua, antrean yang bisa dipanggil.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Antrean yang bisa dipanggil",
+    "sorot": "dipanggil"
+   }
+  },
+  {
+   "teks": "Petugas melihat daftar tunggu dan memanggil pasien sesuai urutan.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "antrean"
+    ],
+    "perangkat": "keduanya",
+    "label": "Antrean di DentalCare"
+   }
+  },
+  {
+   "teks": "Ketiga, rekam medis yang sesuai jenis klinik.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Rekam medis sesuai jenis klinik",
+    "sorot": "sesuai"
+   }
+  },
+  {
+   "teks": "Untuk klinik gigi, catatan SOAP dan odontogram harus ada dalam satu alur pemeriksaan.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "soap",
+     "odon"
+    ],
+    "perangkat": "browser",
+    "label": "SOAP dan odontogram di DentalCare"
+   }
+  },
+  {
+   "teks": "Keempat, invoice yang terbentuk otomatis.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Invoice terbentuk otomatis",
+    "sorot": "otomatis"
+   }
+  },
+  {
+   "teks": "Tindakan dan obat langsung menjadi tagihan, kasir tidak mengetik ulang.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "inv"
+    ],
+    "perangkat": "browser",
+    "label": "Invoice di DentalCare"
+   }
+  },
+  {
+   "teks": "Kelima, laporan untuk pemilik klinik.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Laporan untuk pemilik klinik",
+    "sorot": "pemilik"
+   }
+  },
+  {
+   "teks": "Pendapatan, pasien baru, dan stok obat terlihat di satu dashboard.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "dash"
+    ],
+    "perangkat": "keduanya",
+    "label": "Dashboard DentalCare"
+   }
+  },
+  {
+   "teks": "Simpan checklist ini: data pasien, antrean, rekam medis, invoice, dan laporan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist modul SIM klinik",
+    "item": [
+     "Data pasien",
+     "Antrean",
+     "Rekam medis",
+     "Invoice otomatis",
+     "Laporan pemilik"
+    ]
+   }
+  },
+  {
+   "teks": "Bandingkan modulnya langsung di demo DentalCare. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Bandingkan di demo DentalCare",
+    "sorot": "demo",
+    "sub": "Konsultasi gratis bersama Nusawebsite"
+   }
+  }
+ ]
+}

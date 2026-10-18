@@ -1,0 +1,264 @@
+{
+ "meta": {
+  "judul": "Aplikasi Klinik: Bedah Alur dari Pendaftaran sampai Laporan",
+  "ringkas": "kami bedah aplikasi klinik gigi buatan kami, dari antrean, pemeriksaan, kasir, sampai laporan pemilik klinik.",
+  "tag": [
+   "dentalcare",
+   "aplikasi klinik gigi",
+   "software klinik gigi",
+   "rekam medis elektronik klinik gigi",
+   "aplikasi dokter gigi",
+   "aplikasi klinik"
+  ]
+ },
+ "blok": [
+  {
+   "teks": "Ini aplikasi klinik yang kami bangun untuk klinik gigi, dari pendaftaran sampai laporan.",
+   "anim": "hook",
+   "param": {
+    "judul": "Dari *pendaftaran* sampai *laporan*.",
+    "sub": "Lihat aplikasinya *langsung*."
+   }
+  },
+  {
+   "teks": "Banyak klinik memakai beberapa alat terpisah: buku antrean, kartu berobat, dan nota kasir.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Masalahnya",
+    "judul": "Terlalu banyak *alat terpisah*.",
+    "masalah": [
+     {
+      "ikon": "buku",
+      "teks": "Buku antrean"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Kartu berobat"
+     },
+     {
+      "ikon": "printer",
+      "teks": "Nota kasir"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Padahal alur klinik selalu sama: daftar, antre, diperiksa, lalu bayar.",
+   "anim": "diagram-alur",
+   "param": {
+    "kicker": "Alur klinik",
+    "judul": "Alurnya *selalu sama*",
+    "langkah": [
+     {
+      "ikon": "user",
+      "teks": "Daftar"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Antre"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Diperiksa"
+     },
+     {
+      "ikon": "cek",
+      "teks": "Bayar"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "DentalCare menyatukan alur itu dalam satu aplikasi berbasis web.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Satu aplikasi untuk seluruh alur",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Pertama, antrean. Pasien dipanggil sesuai urutan, ruang tunggu lebih tertib.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "antrean",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Antrean pasien",
+    "ket": "Dipanggil sesuai urutan",
+    "fokus": [
+     90,
+     47
+    ],
+    "zoom": 1.12,
+    "sorot": {
+     "x": 85.5,
+     "y": 40,
+     "w": 9,
+     "h": 13,
+     "label": "Panggil sesuai urutan"
+    },
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Kedua, pemeriksaan. Dokter mengisi catatan SOAP di layar pemeriksaan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Pemeriksaan",
+    "ket": "Catatan SOAP oleh dokter",
+    "fokus": [
+     40,
+     45
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Ketiga, kasir. Invoice terbentuk dari tindakan dan siap dicetak.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice-detail",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Invoice kasir",
+    "ket": "Terbentuk dari tindakan",
+    "fokus": [
+     55,
+     40
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Keempat, laporan. Stok obat yang menipis dan kinerja dokter terlihat di dashboard.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard2",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "04",
+    "judul": "Laporan pemilik",
+    "ket": "Stok obat dan kinerja dokter",
+    "fokus": [
+     50,
+     50
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Masih ada janji temu, data pasien, resep, dan komisi dokter.",
+   "anim": "fitur-grid",
+   "param": {
+    "kicker": "Modul lain",
+    "judul": "Semua dalam *satu aplikasi*",
+    "fitur": [
+     {
+      "ikon": "kalender",
+      "teks": "Janji temu"
+     },
+     {
+      "ikon": "user",
+      "teks": "Data pasien"
+     },
+     {
+      "ikon": "pena",
+      "teks": "Resep"
+     },
+     {
+      "ikon": "grafik",
+      "teks": "Komisi dokter"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Hasilnya, data dicatat sekali lalu dipakai bersama oleh resepsionis, dokter, dan kasir.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Alat terpisah",
+     "item": [
+      "Catat berulang",
+      "Data berbeda-beda",
+      "Rekap manual"
+     ]
+    },
+    "kanan": {
+     "judul": "Satu aplikasi",
+     "item": [
+      "Catat sekali",
+      "Data yang sama",
+      "Laporan siap"
+     ]
+    },
+    "pemicu": "dipakai"
+   }
+  },
+  {
+   "teks": "Pemilik klinik bisa memantau dari HP, cukup lewat browser.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Pantau dari *HP*",
+    "poin": [
+     "Pantau dari HP",
+     "Cukup lewat browser"
+    ],
+    "notif": "Laporan klinik siap"
+   }
+  },
+  {
+   "teks": "Alurnya juga bisa kami sesuaikan untuk klinik pratama, klinik kecantikan, atau praktik mandiri.",
+   "anim": "chip-niche",
+   "param": {
+    "judul": "Bisa *disesuaikan*.",
+    "sub": "Untuk jenis klinik Anda.",
+    "pusat": "Aplikasi klinik",
+    "ikonPusat": "klinik",
+    "chip": [
+     {
+      "ikon": "klinik",
+      "teks": "Klinik gigi"
+     },
+     {
+      "ikon": "rumah",
+      "teks": "Klinik pratama"
+     },
+     {
+      "ikon": "bintang",
+      "teks": "Klinik kecantikan"
+     },
+     {
+      "ikon": "user",
+      "teks": "Praktik mandiri"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Lihat demo DentalCare atau ceritakan alur klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Aplikasi klinik",
+    "judul": "Ceritakan alur *klinik Anda*.",
+    "sub": "Atau lihat demo DentalCare.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

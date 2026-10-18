@@ -1,0 +1,209 @@
+{
+ "judul": "Aplikasi Rekam Medis Elektronik untuk Praktik Mandiri Dokter Gigi",
+ "tag": [
+  "aplikasi rekam medis elektronik untuk praktik mandiri",
+  "rekam medis elektronik praktik mandiri",
+  "rme praktik mandiri",
+  "aplikasi dokter gigi",
+  "rekam medis elektronik",
+  "dentalcare",
+  "aplikasi klinik gigi",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Anggapan bahwa aplikasi rekam medis elektronik untuk praktik mandiri itu rumit ternyata keliru.",
+   "anim": "hook",
+   "param": {
+    "kicker": "ANGGAPAN YANG KELIRU",
+    "baris": [
+     "Rekam Medis Elektronik",
+     "Praktik Mandiri"
+    ],
+    "sub": "Cukup satu dokter dan satu layar",
+    "sorot_sub": "satu layar",
+    "ikon": [
+     "klinik",
+     "kertas",
+     "aplikasi",
+     "user"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda dokter gigi yang praktik mandiri, dibantu satu asisten.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda dokter gigi praktik mandiri",
+    "sorot": "praktik mandiri",
+    "sub": "Dibantu satu asisten.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter gigi"
+     },
+     {
+      "ikon": "tim",
+      "teks": "Satu asisten"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Praktik sore"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Rekam medis ditulis di kartu, jadwal pasien di buku, dan pembayaran dicatat di nota.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Semua masih di kertas",
+    "sorot": "kertas",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Kartu",
+      "sub": "rekam medis"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Buku",
+      "sub": "jadwal pasien"
+     },
+     {
+      "ikon": "laporan",
+      "judul": "Nota",
+      "sub": "pembayaran"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tulisan sulit dibaca, kartu pasien lama terselip, dan rekap bulanan memakan waktu.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Masalah yang terus berulang",
+    "sorot": "berulang",
+    "item": [
+     "Tulisan sulit dibaca",
+     "Kartu lama terselip",
+     "Rekap bulanan lama"
+    ]
+   }
+  },
+  {
+   "teks": "Setelah praktik selesai, waktu Anda masih habis untuk merapikan berkas.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis merapikan berkas",
+    "sorot": "merapikan berkas",
+    "sub": "Padahal praktik sudah selesai.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda mencoba rekam medis elektronik yang sederhana.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Beralih ke rekam medis elektronik",
+    "sorot": "elektronik",
+    "kiri": "Kartu kertas",
+    "kanan": "Rekam medis elektronik"
+   }
+  },
+  {
+   "teks": "Bukan sistem besar yang penuh menu, tapi aplikasi yang pas untuk satu ruang praktik.",
+   "anim": "banding",
+   "param": {
+    "judul": "Pas untuk satu ruang praktik",
+    "sorot": "satu ruang praktik",
+    "kiri": {
+     "judul": "Sistem besar",
+     "item": [
+      "Menu terlalu banyak",
+      "Sulit dipelajari",
+      "Banyak fitur tak terpakai"
+     ]
+    },
+    "kanan": {
+     "judul": "Praktik mandiri",
+     "item": [
+      "Menu seperlunya",
+      "Dibuka lewat browser",
+      "Cepat dipelajari"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Di DentalCare, catatan SOAP dan odontogram diisi langsung saat pasien diperiksa.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "SOAP dan odontogram",
+    "sorot": "odontogram",
+    "klip": [
+     "soap",
+     "odon"
+    ]
+   }
+  },
+  {
+   "teks": "Setelah tindakan selesai, invoice terbentuk dan siap diberikan kepada pasien.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "LANGSUNG JADI TAGIHAN",
+    "judul": "Invoice siap diberikan",
+    "sorot": "Invoice",
+    "klip": [
+     "inv"
+    ]
+   }
+  },
+  {
+   "teks": "Jadwal pasien besok pun bisa Anda cek dari HP.",
+   "anim": "hp",
+   "param": {
+    "tema": "booking",
+    "kicker": "DARI MANA SAJA",
+    "judul": "Cek jadwal pasien dari HP",
+    "sorot": "dari HP",
+    "notif": "Janji temu besok tercatat"
+   }
+  },
+  {
+   "teks": "Berkas rapi, riwayat pasien mudah dicari, dan Anda pulang lebih cepat.",
+   "anim": "centang",
+   "param": {
+    "judul": "Praktik jadi lebih ringan",
+    "sorot": "ringan",
+    "label": "SETELAH PAKAI DENTALCARE",
+    "item": [
+     "Berkas rapi",
+     "Riwayat mudah dicari",
+     "Pulang lebih cepat"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan praktik Anda dan minta demo DentalCare. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan praktik Anda",
+    "mini": [
+     "SOAP",
+     "Odontogram",
+     "Invoice",
+     "Jadwal"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,219 @@
+{
+ "judul": "Aplikasi Data Pasien Klinik: Riwayat Pasien Rapi dalam Satu Layar",
+ "tag": [
+  "aplikasi data pasien klinik",
+  "data pasien klinik",
+  "aplikasi klinik gigi",
+  "rekam medis elektronik",
+  "software klinik gigi",
+  "dentalcare",
+  "aplikasi dokter gigi",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Pelajari cara kerja aplikasi data pasien klinik sebelum berkas pasien Anda makin menumpuk.",
+   "anim": "hook",
+   "param": {
+    "kicker": "SEBELUM BERKAS MENUMPUK",
+    "baris": [
+     "Aplikasi Data",
+     "Pasien Klinik"
+    ],
+    "sub": "Riwayat pasien rapi dalam satu layar",
+    "sorot_sub": "satu layar",
+    "ikon": [
+     "klinik",
+     "kertas",
+     "excel",
+     "user"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik klinik gigi dengan dua dokter dan satu resepsionis.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda pemilik klinik gigi",
+    "sorot": "klinik gigi",
+    "sub": "Dua dokter dan satu resepsionis.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter gigi"
+     },
+     {
+      "ikon": "tim",
+      "teks": "Resepsionis"
+     },
+     {
+      "ikon": "kalender",
+      "teks": "Janji temu"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Data pasien ditulis di kartu berobat, nomor HP disimpan di Excel, dan janji temu dicatat lewat chat.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Data pasien tersebar",
+    "sorot": "tersebar",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Kartu berobat",
+      "sub": "identitas pasien"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Excel",
+      "sub": "nomor HP"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "sub": "janji temu"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Saat pasien lama datang, resepsionis harus mencari kartunya di rak.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Mencari kartu di rak",
+    "sorot": "di rak",
+    "label": [
+     "Kartu",
+     "Alergi",
+     "Riwayat",
+     "Nomor HP",
+     "Alamat",
+     "Janji",
+     "Resep",
+     "Tindakan",
+     "Rontgen",
+     "Catatan"
+    ]
+   }
+  },
+  {
+   "teks": "Riwayat alergi terlewat, nama pasien tertukar, dan antrean jadi lebih lama.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Masalah yang terus berulang",
+    "sorot": "berulang",
+    "item": [
+     "Alergi terlewat",
+     "Nama pasien tertukar",
+     "Antrean lebih lama"
+    ]
+   }
+  },
+  {
+   "teks": "Waktu resepsionis habis untuk mencari berkas, bukan untuk melayani pasien.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis mencari berkas",
+    "sorot": "mencari berkas",
+    "sub": "Bukan untuk melayani pasien.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu klinik memutuskan beralih ke aplikasi.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Klinik beralih ke aplikasi",
+    "sorot": "aplikasi",
+    "kiri": "Kartu berobat",
+    "kanan": "Aplikasi data pasien"
+   }
+  },
+  {
+   "teks": "Bukan spreadsheet yang diisi ulang setiap hari, tapi aplikasi yang dibuat khusus untuk klinik gigi.",
+   "anim": "banding",
+   "param": {
+    "judul": "Dibuat khusus untuk klinik gigi",
+    "sorot": "klinik gigi",
+    "kiri": {
+     "judul": "Spreadsheet",
+     "item": [
+      "Diisi ulang",
+      "File berbeda-beda",
+      "Mudah tertukar"
+     ]
+    },
+    "kanan": {
+     "judul": "DentalCare",
+     "item": [
+      "Satu data pasien",
+      "Riwayat lengkap",
+      "Alergi ditandai"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Di DentalCare, setiap pasien punya satu profil, lengkap dengan nomor HP, alergi, dan kunjungan terakhir.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "Satu profil untuk setiap pasien",
+    "sorot": "satu profil",
+    "klip": [
+     "pasien"
+    ]
+   }
+  },
+  {
+   "teks": "Dari antrean, dokter langsung membuka rekam medis dan odontogram pasien itu.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "LANGSUNG KE REKAM MEDIS",
+    "judul": "Rekam medis dan odontogram",
+    "sorot": "odontogram",
+    "klip": [
+     "antrean",
+     "soap",
+     "odon"
+    ]
+   }
+  },
+  {
+   "teks": "Data pasien rapi, riwayat mudah dicari, dan pelayanan jadi lebih cepat.",
+   "anim": "centang",
+   "param": {
+    "judul": "Klinik jadi lebih rapi",
+    "sorot": "rapi",
+    "label": "SETELAH PAKAI DENTALCARE",
+    "item": [
+     "Data pasien rapi",
+     "Riwayat mudah dicari",
+     "Pelayanan lebih cepat"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda dan minta demo DentalCare. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur klinik Anda",
+    "mini": [
+     "Data pasien",
+     "Antrean",
+     "Rekam medis",
+     "Invoice"
+    ]
+   }
+  }
+ ]
+}

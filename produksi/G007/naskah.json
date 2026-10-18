@@ -1,0 +1,180 @@
+[
+ {
+  "teks": "Pindah ke software rekam medis elektronik itu bukan sekadar memasang aplikasi. Ada lima tahap agar klinik benar-benar memakainya.",
+  "anim": "judul-keyword",
+  "tema": "brutal",
+  "param": {
+   "kicker": "SEBELUM PINDAH DARI KERTAS",
+   "sorot": "rekam medis elektronik",
+   "sub": "5 tahap peralihan yang tertata",
+   "kata_sub": "lima",
+   "judul_yt": "Software Rekam Medis Elektronik: 5 Tahap Pindah dari Kertas"
+  }
+ },
+ {
+  "teks": "Hati-hati dengan peralihan yang terburu-buru. Data lama tertinggal, staf bingung, dan kertas kembali dipakai.",
+  "anim": "peringatan",
+  "param": {
+   "judul": "Hati-hati",
+   "desk": "Peralihan yang terburu-buru dari kertas ke sistem.",
+   "item": [
+    "Data lama tertinggal",
+    "Staf bingung",
+    "Kertas kembali dipakai"
+   ],
+   "kata": [
+    "data",
+    "staf",
+    "kertas"
+   ]
+  }
+ },
+ {
+  "teks": "Di Nusawebsite, peralihannya lima tahap.",
+  "anim": "stepper-overview",
+  "param": {
+   "kicker": "TAHAP PERALIHAN",
+   "tahap": [
+    "Pemetaan",
+    "Data Pasien",
+    "Akun",
+    "Pelatihan",
+    "Pendampingan"
+   ],
+   "rail": "TAHAP PERALIHAN"
+  }
+ },
+ {
+  "teks": "Tahap satu, pemetaan alur. Kami catat alur pendaftaran, pemeriksaan, dan pembayaran di klinik Anda.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Pemetaan\nAlur Klinik",
+   "desk": "Alur klinik dicatat sebelum sistem dipakai.",
+   "visual": "catatan",
+   "label": "ALUR KLINIK",
+   "item": [
+    "Pendaftaran",
+    "Pemeriksaan",
+    "Pembayaran"
+   ],
+   "kata": [
+    "pendaftaran",
+    "pemeriksaan",
+    "pembayaran"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap dua, data pasien. Identitas dan riwayat pasien lama dimasukkan ke sistem lebih dulu.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Data\nPasien Lama",
+   "desk": "Pasien lama langsung bisa dicari.",
+   "visual": "ui",
+   "klip": [
+    "pasien"
+   ],
+   "item": [
+    "Identitas pasien",
+    "Riwayat lama"
+   ],
+   "kata": [
+    "identitas",
+    "riwayat"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap tiga, akun pengguna. Resepsionis, dokter, dan kasir masing-masing punya akun sendiri.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Akun\nPengguna",
+   "desk": "Setiap staf masuk dengan akunnya sendiri.",
+   "visual": "serah",
+   "label": "AKUN PENGGUNA",
+   "item": [
+    "Resepsionis",
+    "Dokter",
+    "Kasir"
+   ],
+   "kata": [
+    "resepsionis",
+    "dokter",
+    "kasir"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap empat, pelatihan. Staf langsung mencoba mengisi catatan SOAP dan odontogram bersama tim kami.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Pelatihan\nStaf",
+   "desk": "Belajar dengan mencoba langsung.",
+   "visual": "ui",
+   "klip": [
+    "soap",
+    "odon"
+   ],
+   "item": [
+    "Catatan SOAP",
+    "Odontogram",
+    "Didampingi tim"
+   ],
+   "kata": [
+    "soap",
+    "odontogram",
+    "tim"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap lima, pendampingan. Pertanyaan staf dijawab, dan penyesuaian dicatat setelah sistem dipakai.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Pendampingan\nSetelah Pakai",
+   "desk": "Tidak dilepas setelah sistem berjalan.",
+   "visual": "chat",
+   "label": "GRUP PENDAMPINGAN",
+   "item": [
+    "Cara cetak invoice?",
+    "Menu Invoice, tombol cetak",
+    "Bisa tambah laporan bulanan?",
+    "Siap, kami catat"
+   ],
+   "kata": [
+    "pertanyaan",
+    "dijawab",
+    "penyesuaian",
+    "dicatat"
+   ]
+  }
+ },
+ {
+  "teks": "Contohnya DentalCare, rekam medis elektronik klinik gigi buatan kami yang sudah terhubung SATUSEHAT.",
+  "anim": "contoh-hasil",
+  "param": {
+   "kicker": "CONTOH NYATA",
+   "judul": "DentalCare, terhubung SATUSEHAT",
+   "klip": [
+    "soap",
+    "odon",
+    "invoice"
+   ]
+  }
+ },
+ {
+  "teks": "Ingin pindah dari kertas dengan tenang? Konsultasi gratis, link ada di deskripsi.",
+  "anim": "cta",
+  "param": {
+   "sub": "Ceritakan kondisi klinik Anda sekarang",
+   "kata_link": "link",
+   "mini": [
+    "Pemetaan",
+    "Data Pasien",
+    "Akun",
+    "Pelatihan",
+    "Pendampingan"
+   ]
+  }
+ }
+]

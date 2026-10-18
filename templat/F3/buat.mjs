@@ -321,7 +321,7 @@ function visual(p, i, id, s, e) {
 let rail = "";
 if (tahapIdx.length) {
   const n = tahapIdx.length, r0 = sStart[tahapIdx[0]], r1 = sEnd[tahapIdx[n - 1]];
-  rail = `<div id="railwrap" class="clip" data-start="${r0.toFixed(2)}" data-duration="${(r1 - r0).toFixed(2)}" data-track-index="8" style="position:absolute;inset:0;"><div id="rail">${Array.from({ length: n }, (_, j) => `<div class="rd" id="rd${j}">${j + 1}</div>${j < n - 1 ? `<div class="rl"><i id="rl${j}"></i></div>` : ""}`).join("")}<div class="rail-lbl">ALUR PROYEK</div></div></div>`;
+  rail = `<div id="railwrap" class="clip" data-start="${r0.toFixed(2)}" data-duration="${(r1 - r0).toFixed(2)}" data-track-index="8" style="position:absolute;inset:0;"><div id="rail">${Array.from({ length: n }, (_, j) => `<div class="rd" id="rd${j}">${j + 1}</div>${j < n - 1 ? `<div class="rl"><i id="rl${j}"></i></div>` : ""}`).join("")}<div class="rail-lbl">${esc(naskah.find((b) => b.anim === "stepper-overview")?.param?.rail || "ALUR PROYEK")}</div></div></div>`;
   A("#rail", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.5, ease: E }, r0 + 0.05);
   tahapIdx.forEach((bi, j) => {
     const t = sStart[bi];

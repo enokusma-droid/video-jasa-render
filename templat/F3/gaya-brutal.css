@@ -6,7 +6,7 @@ body, #root { background: #F5F3EE; color: #111; }
 .bg-base { background: #F5F3EE; }
 .blob { display: none; }
 .grid { background-image: linear-gradient(rgba(17,17,17,0.055) 2px, transparent 2px), linear-gradient(90deg, rgba(17,17,17,0.055) 2px, transparent 2px); background-size: 120px 120px; -webkit-mask-image: none; mask-image: none; }
-.rule { position: absolute; left: 0; right: 0; top: 130px; height: 3px; background: #111; }
+.rule { display: none; } /* owner 17 Okt: garis horizontal atas dihapus */
 .H { font-family: "ArchivoBlack", "InterL", sans-serif; font-weight: 400; text-transform: uppercase; letter-spacing: -0.035em; line-height: 0.95; color: #111; }
 .or, .H.or { color: #E03A00; }
 
