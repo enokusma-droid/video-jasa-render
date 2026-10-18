@@ -1,0 +1,186 @@
+{
+ "tema": "brutal",
+ "tag": [
+  "aplikasi rekam medis",
+  "rekam medis klinik gigi",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "software klinik gigi",
+  "nusawebsite"
+ ],
+ "hook_pola": "angka-spesifik",
+ "blok": [
+  {
+   "teks": "Lima tahap ini menentukan apakah aplikasi rekam medis benar-benar dipakai dokter. Lewati satu, dan staf kembali ke kertas.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "5 TAHAP PENENTU",
+    "sorot": "rekam medis",
+    "sub": "Lewati satu tahap, staf kembali ke kertas",
+    "kata_sub": "lewati",
+    "judul_yt": "Aplikasi Rekam Medis: 5 Tahap Agar Benar-Benar Dipakai Dokter"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan rekam medis yang terlalu umum. Odontogram tidak ada, formulir asing, dan catatan kembali ke kertas.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Rekam medis yang terlalu umum untuk dokter gigi.",
+    "item": [
+     "Odontogram tidak ada",
+     "Formulir terasa asing",
+     "Kembali ke kertas"
+    ],
+    "kata": [
+     "odontogram",
+     "formulir",
+     "catatan"
+    ]
+   }
+  },
+  {
+   "teks": "Di Nusawebsite, tahapnya lima.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "TAHAP PEMBUATAN",
+    "tahap": [
+     "Konsultasi",
+     "Rancang MVP",
+     "Mockup",
+     "Develop & Uji",
+     "Rilis"
+    ],
+    "rail": "TAHAP PEMBUATAN"
+   }
+  },
+  {
+   "teks": "Tahap satu, konsultasi. Kami catat pengguna, jenis klinik, dan bagian yang paling sering diisi.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Konsultasi\nKebutuhan",
+    "desk": "Kebutuhan klinik dicatat sebelum apa pun dibuat.",
+    "visual": "catatan",
+    "label": "KEBUTUHAN KLINIK",
+    "item": [
+     "Pengguna",
+     "Jenis klinik",
+     "Bagian sering diisi"
+    ],
+    "kata": [
+     "pengguna",
+     "jenis",
+     "bagian"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap dua, rancang MVP. Fitur inti dulu: pasien, SOAP, dan odontogram, sisanya menyusul.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Rancang MVP",
+    "desk": "Fitur inti dibuat lebih dulu agar cepat berguna.",
+    "visual": "alur",
+    "alur": [
+     "Pasien",
+     "Periksa",
+     "Gigi"
+    ],
+    "on": [
+     "Data pasien",
+     "Catatan SOAP",
+     "Odontogram"
+    ],
+    "kata": [
+     "pasien",
+     "soap",
+     "odontogram"
+    ],
+    "off": [
+     "Laporan tambahan",
+     "Integrasi"
+    ],
+    "catatan": "MVP = fitur inti dulu"
+   }
+  },
+  {
+   "teks": "Tahap tiga, mockup. Anda menyetujui tampilan layar sebelum kode ditulis.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Mockup\nTampilan",
+    "desk": "Setiap layar disetujui sebelum koding.",
+    "visual": "wireframe",
+    "mode": "app",
+    "stempel": "DISETUJUI",
+    "kata_stempel": "menyetujui"
+   }
+  },
+  {
+   "teks": "Tahap empat, develop dan uji. Fitur dibangun, dicoba dengan alur klinik, lalu diperbaiki.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Develop\n& Uji",
+    "desk": "Dibangun bertahap, diuji dengan alur kerja klinik.",
+    "visual": "kode",
+    "label": "UJI ALUR KLINIK",
+    "item": [
+     "Fitur dibangun",
+     "Dicoba alur klinik",
+     "Diperbaiki"
+    ],
+    "kata": [
+     "dibangun",
+     "dicoba",
+     "diperbaiki"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap lima, rilis. Aplikasi dibuka lewat browser, dan tim kami mendampingi di awal.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Rilis &\nPendampingan",
+    "desk": "Siap dipakai staf, didampingi di awal.",
+    "visual": "rilis",
+    "klip": [
+     "soap"
+    ],
+    "item": [
+     "Dibuka lewat browser",
+     "Didampingi tim"
+    ],
+    "kata": [
+     "browser",
+     "mendampingi"
+    ]
+   }
+  },
+  {
+   "teks": "Contohnya DentalCare, rekam medis klinik gigi buatan kami yang sudah terhubung SATUSEHAT.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "DentalCare, terhubung SATUSEHAT",
+    "klip": [
+     "soap",
+     "odon"
+    ]
+   }
+  },
+  {
+   "teks": "Ingin merancang rekam medis klinik Anda? Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan klinik Anda",
+    "kata_link": "link",
+    "mini": [
+     "Konsultasi",
+     "Rancang MVP",
+     "Mockup",
+     "Develop & Uji",
+     "Rilis"
+    ]
+   }
+  }
+ ]
+}

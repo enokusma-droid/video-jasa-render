@@ -1,0 +1,190 @@
+{
+ "tema": "clean",
+ "tag": [
+  "sistem rekam medis elektronik",
+  "rekam medis elektronik klinik gigi",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "satusehat",
+  "nusawebsite"
+ ],
+ "hook_pola": "mitos",
+ "blok": [
+  {
+   "teks": "Anggapan sistem rekam medis elektronik hanya untuk rumah sakit besar itu keliru. Klinik gigi kecil pun bisa memakainya dengan rapi.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "MITOS YANG KELIRU",
+    "sorot": "rekam medis elektronik",
+    "sub": "Alur lima tahap di klinik gigi",
+    "kata_sub": "klinik",
+    "judul_yt": "Sistem Rekam Medis Elektronik: Bukan Hanya untuk Rumah Sakit"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan sistem yang terlalu rumit. Staf enggan memakainya, data terisi setengah, dan kertas kembali dipakai.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Sistem yang terlalu rumit untuk klinik kecil.",
+    "item": [
+     "Staf enggan memakai",
+     "Data terisi setengah",
+     "Kertas kembali dipakai"
+    ],
+    "kata": [
+     "staf",
+     "data",
+     "kertas"
+    ]
+   }
+  },
+  {
+   "teks": "Di DentalCare, alurnya lima tahap.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "ALUR DI APLIKASI",
+    "tahap": [
+     "Pendaftaran",
+     "Antrean",
+     "Pemeriksaan",
+     "Resep",
+     "SATUSEHAT"
+    ],
+    "rail": "ALUR DI APLIKASI"
+   }
+  },
+  {
+   "teks": "Tahap satu, pendaftaran. Identitas dan alergi pasien dicatat sekali, lalu menjadi satu profil.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Daftar\nPasien",
+    "desk": "Satu profil untuk setiap pasien.",
+    "visual": "ui",
+    "klip": [
+     "pasien"
+    ],
+    "item": [
+     "Identitas",
+     "Alergi",
+     "Satu profil"
+    ],
+    "kata": [
+     "identitas",
+     "alergi",
+     "profil"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap dua, antrean. Pasien yang hadir masuk daftar tunggu, dokter memanggil sesuai urutan.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Antrean\nPasien",
+    "desk": "Dipanggil sesuai urutan kedatangan.",
+    "visual": "ui",
+    "klip": [
+     "antrean"
+    ],
+    "item": [
+     "Daftar tunggu",
+     "Dipanggil dokter",
+     "Sesuai urutan"
+    ],
+    "kata": [
+     "daftar",
+     "memanggil",
+     "urutan"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap tiga, pemeriksaan. Catatan SOAP diketik dan kondisi gigi ditandai pada odontogram.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Pemeriksaan\nDokter",
+    "desk": "Rekam medis diisi di ruang praktik.",
+    "visual": "ui",
+    "klip": [
+     "soap",
+     "odon"
+    ],
+    "item": [
+     "Catatan SOAP",
+     "Odontogram"
+    ],
+    "kata": [
+     "soap",
+     "odontogram"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap empat, resep. Obat dipilih dari daftar, lalu tersambung ke tagihan.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Resep &\nTindakan",
+    "desk": "Obat dan tindakan tersambung ke kasir.",
+    "visual": "ui",
+    "klip": [
+     "resep"
+    ],
+    "item": [
+     "Pilih dari daftar",
+     "Tersambung tagihan"
+    ],
+    "kata": [
+     "dipilih",
+     "tersambung"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap lima, SATUSEHAT. DentalCare sudah terhubung, berbasis web, dan datanya tertata.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Terhubung\nSATUSEHAT",
+    "desk": "Siap untuk klinik yang memakai SATUSEHAT.",
+    "visual": "serah",
+    "label": "SIAP DIPAKAI",
+    "item": [
+     "Terhubung SATUSEHAT",
+     "Berbasis web",
+     "Data tertata"
+    ],
+    "kata": [
+     "terhubung",
+     "berbasis",
+     "datanya"
+    ]
+   }
+  },
+  {
+   "teks": "Semua tahap ini sudah berjalan di DentalCare, aplikasi klinik gigi buatan kami.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "LIHAT LANGSUNG",
+    "judul": "DentalCare, rekam medis elektronik klinik gigi",
+    "klip": [
+     "dash",
+     "antrean"
+    ]
+   }
+  },
+  {
+   "teks": "Ingin tahu apakah cocok untuk klinik Anda? Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Minta demo DentalCare untuk klinik Anda",
+    "kata_link": "link",
+    "mini": [
+     "Pendaftaran",
+     "Antrean",
+     "Pemeriksaan",
+     "Resep",
+     "SATUSEHAT"
+    ]
+   }
+  }
+ ]
+}

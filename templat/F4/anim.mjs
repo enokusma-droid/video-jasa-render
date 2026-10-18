@@ -148,7 +148,7 @@ export const ANIM = {
       html: `${a.judul ? `<div class="bf-h"><div class="kick l" id="${p}k">${esc(a.kicker || "BUKTI NYATA")}</div><div class="bf-j H" id="${p}j">${esc(a.judul)}</div></div>` : ""}
         <div class="br" id="${p}br" style="left:${X}px;top:${Y}px;width:${W}px;height:${H + 44}px;"><div class="bar"><i></i><i></i><i></i><span>${esc(a.bar || "demo DentalCare")}</span></div></div>
         ${dua ? `<div class="phone" id="${p}hp" style="left:${X + W + 70}px;top:${Y + 40}px;width:300px;height:620px;"><div class="scr"><img class="pimg" src="assets/ui-dentalcare-hp.png" alt=""/></div></div>` : ""}
-        <div class="tag" id="${p}tag" style="left:${X}px;top:${Y + H + 44 + 34}px">${ikon("cek", 34, "#16A34A", 2.4)}<span>${esc(a.label || "Contoh dari portofolio kami:")} <b>DentalCare</b></span></div>${dot}`,
+        <div class="tag" id="${p}tag" style="left:${X}px;top:${Y + H + 44 + 34}px">${ikon("cek", 34, "#16A34A", 2.4)}<span>${esc(a.label || "Contoh dari portofolio kami:")}${/dentalcare/i.test(a.label || "") ? "" : " <b>DentalCare</b>"}</span></div>${dot}`,
       vids, js, front: dot ? `#${p}dot` : null,
     };
   },

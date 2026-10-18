@@ -1,0 +1,182 @@
+{
+ "hook_pola": "rahasia-di-balik",
+ "judul": "Sistem Informasi Klinik Gigi: Satu Sistem untuk Resepsionis, Dokter, Kasir",
+ "tag": [
+  "sistem informasi klinik gigi",
+  "sistem informasi klinik",
+  "aplikasi klinik gigi",
+  "rekam medis elektronik",
+  "software klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Ada satu hal yang jarang dibahas saat memilih sistem informasi klinik gigi. Yaitu siapa yang memakainya setiap hari.",
+   "anim": "hook",
+   "param": {
+    "kicker": "JARANG DIBAHAS",
+    "baris": [
+     "Sistem Informasi",
+     "Klinik Gigi"
+    ],
+    "sub": "Siapa yang memakainya setiap hari",
+    "sorot_sub": "setiap hari",
+    "ikon": [
+     "klinik",
+     "user",
+     "tim",
+     "kertas"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik klinik gigi dengan resepsionis, dokter, dan kasir.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda pemilik klinik gigi",
+    "sorot": "klinik gigi",
+    "sub": "Tiga peran, satu klinik.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Resepsionis"
+     },
+     {
+      "ikon": "tim",
+      "teks": "Dokter"
+     },
+     {
+      "ikon": "excel",
+      "teks": "Kasir"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Resepsionis memakai buku antrean, dokter menulis di kertas, dan kasir menghitung di Excel.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Tiga alat, tiga catatan",
+    "sorot": "tiga catatan",
+    "item": [
+     {
+      "ikon": "buku",
+      "judul": "Buku antrean",
+      "sub": "resepsionis"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Kertas dokter",
+      "sub": "pemeriksaan"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Excel kasir",
+      "sub": "tagihan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Setiap orang punya catatan sendiri, data tidak saling terhubung, dan laporan bulanan sulit dicocokkan.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Catatan berjalan sendiri-sendiri",
+    "sorot": "sendiri-sendiri",
+    "item": [
+     "Catatan masing-masing",
+     "Data tidak terhubung",
+     "Laporan sulit dicocokkan"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu klinik mencari satu sistem yang bisa dipakai ketiganya.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Klinik mencari satu sistem",
+    "sorot": "satu sistem",
+    "kiri": "Tiga catatan terpisah",
+    "kanan": "Satu sistem informasi"
+   }
+  },
+  {
+   "teks": "Bukan tiga alat yang berjalan sendiri, tapi satu sistem dengan akun untuk tiap peran.",
+   "anim": "banding",
+   "param": {
+    "judul": "Satu sistem untuk tiga peran",
+    "sorot": "tiga peran",
+    "kiri": {
+     "judul": "Alat terpisah",
+     "item": [
+      "Buku antrean",
+      "Kertas dokter",
+      "Excel kasir"
+     ]
+    },
+    "kanan": {
+     "judul": "Satu sistem",
+     "item": [
+      "Akun tiap peran",
+      "Satu data pasien",
+      "Tagihan terhubung"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Pemilik klinik melihat pendapatan dan pasien baru dalam satu dashboard.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "booking",
+    "judul": "Pemilik melihat dalam satu dashboard",
+    "sorot": "satu dashboard",
+    "sub": "Pendapatan dan pasien baru.",
+    "label": "Ilustrasi sistem klinik"
+   }
+  },
+  {
+   "teks": "Di DentalCare, antrean, rekam medis, dan invoice tersambung dalam satu alur.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "Antrean sampai invoice, satu alur",
+    "sorot": "satu alur",
+    "klip": [
+     "dash",
+     "soap",
+     "inv"
+    ]
+   }
+  },
+  {
+   "teks": "Resepsionis, dokter, dan kasir memakai data yang sama, dan sistemnya sudah terhubung SATUSEHAT.",
+   "anim": "centang",
+   "param": {
+    "judul": "Semua memakai data yang sama",
+    "sorot": "data yang sama",
+    "label": "SETELAH PAKAI DENTALCARE",
+    "item": [
+     "Data pasien sama",
+     "Alur satu jalur",
+     "Terhubung SATUSEHAT"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda dan minta demo DentalCare. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur klinik Anda",
+    "mini": [
+     "Antrean",
+     "Rekam medis",
+     "Invoice",
+     "Dashboard"
+    ]
+   }
+  }
+ ]
+}

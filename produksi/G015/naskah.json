@@ -1,0 +1,139 @@
+{
+ "hook_pola": "kontras",
+ "judul": "Software Klinik Gigi: Pilih yang Alurnya Cocok, Bukan Fitur Terbanyak",
+ "tag": [
+  "software klinik gigi",
+  "aplikasi klinik gigi",
+  "rekam medis elektronik",
+  "aplikasi dokter gigi",
+  "satusehat",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Software klinik gigi yang baik bukan yang paling ramai fitur, tapi paling cocok alurnya.",
+   "anim": "hook-peringatan",
+   "param": {
+    "kicker": "BUKAN SOAL FITUR",
+    "judul": "Software klinik gigi: pilih alurnya, bukan fiturnya",
+    "sorot": "alurnya",
+    "ikon": "kacamata"
+   }
+  },
+  {
+   "teks": "Fitur banyak tapi terpisah membuat staf mengetik ulang, sedangkan satu alur membuat data dipakai bersama.",
+   "anim": "benar-salah",
+   "param": {
+    "judul": "Fitur atau alur?",
+    "salah": "Fitur banyak, data terpisah",
+    "benar": "Satu alur, data dipakai bersama",
+    "label_salah": "Staf mengetik ulang",
+    "label_benar": "Data dipakai bersama"
+   }
+  },
+  {
+   "teks": "Pertama, alur dari pendaftaran sampai bayar.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Alur daftar sampai bayar",
+    "sorot": "bayar"
+   }
+  },
+  {
+   "teks": "Pendaftaran, antrean, pemeriksaan, dan invoice berjalan dalam satu urutan.",
+   "anim": "alur",
+   "param": {
+    "judul": "Satu urutan, satu data",
+    "langkah": [
+     "Pendaftaran",
+     "Antrean",
+     "Pemeriksaan",
+     "Invoice"
+    ],
+    "ikon": [
+     "orang",
+     "jam",
+     "klinik",
+     "dokumen"
+    ]
+   }
+  },
+  {
+   "teks": "Kedua, data tidak diketik ulang.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Data tidak diketik ulang",
+    "sorot": "ulang"
+   }
+  },
+  {
+   "teks": "Profil pasien terbuka dari antrean langsung ke catatan SOAP.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "antrean",
+     "soap"
+    ],
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Ketiga, laporan yang jelas untuk pemilik klinik.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Laporan jelas untuk pemilik",
+    "sorot": "laporan"
+   }
+  },
+  {
+   "teks": "Pendapatan dan pasien baru terlihat di satu dashboard, bahkan dari HP.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "dash"
+    ],
+    "perangkat": "keduanya"
+   }
+  },
+  {
+   "teks": "Keempat, terhubung SATUSEHAT.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Terhubung SATUSEHAT",
+    "sorot": "SATUSEHAT"
+   }
+  },
+  {
+   "teks": "DentalCare buatan kami sudah terhubung SATUSEHAT dan berbasis web.",
+   "anim": "centang-besar",
+   "param": {
+    "teks": "Sudah terhubung SATUSEHAT",
+    "sorot": "SATUSEHAT",
+    "sub": "DentalCare, berbasis web"
+   }
+  },
+  {
+   "teks": "Simpan checklist ini: satu alur, tanpa ketik ulang, laporan jelas, dan SATUSEHAT.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist software klinik gigi",
+    "item": [
+     "Satu alur",
+     "Tanpa ketik ulang",
+     "Laporan jelas",
+     "Terhubung SATUSEHAT"
+    ]
+   }
+  },
+  {
+   "teks": "Bandingkan alurnya langsung di demo DentalCare. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Bandingkan alurnya di demo",
+    "sorot": "demo",
+    "sub": "Konsultasi gratis bersama Nusawebsite"
+   }
+  }
+ ]
+}

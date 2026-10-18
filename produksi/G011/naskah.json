@@ -1,0 +1,231 @@
+{
+ "meta": {
+  "judul": "Aplikasi Klinik Gigi: Jangan Menyesal, Cek 3 Bagian Ini Dulu",
+  "ringkas": "banyak pemilik klinik menyesal memilih aplikasi dari tampilannya saja. Lihat tiga bagian yang menentukan: antrean, rekam medis, dan invoice.",
+  "tag": [
+   "dentalcare",
+   "software klinik gigi",
+   "aplikasi dokter gigi",
+   "rekam medis elektronik klinik gigi",
+   "aplikasi klinik berbasis web"
+  ]
+ },
+ "hook_pola": "penyesalan",
+ "blok": [
+  {
+   "teks": "Banyak pemilik klinik menyesal memilih aplikasi klinik gigi hanya dari tampilannya.",
+   "anim": "hook",
+   "param": {
+    "judul": "Banyak pemilik klinik *menyesal*.",
+    "sub": "Mereka memilih dari *tampilan*, bukan alurnya."
+   }
+  },
+  {
+   "teks": "Mereka baru sadar saat dokter masih mencatat di kertas, kasir memakai Excel, dan jadwal lewat chat.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Setelah terlambat",
+    "judul": "Ternyata masih *begini*.",
+    "kartu": [
+     {
+      "ikon": "kertas",
+      "judul": "Catatan kertas",
+      "ket": "Dokter menulis tangan"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Excel kasir",
+      "ket": "Hitung manual"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Jadwal lewat chat",
+      "ket": "Mudah terlewat"
+     }
+    ],
+    "coret": "excel"
+   }
+  },
+  {
+   "teks": "Akibatnya data terpecah, staf enggan memakai, dan pekerjaan dilakukan dua kali.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Pekerjaan jadi *dua kali*.",
+    "masalah": [
+     {
+      "ikon": "alert",
+      "teks": "Data terpecah"
+     },
+     {
+      "ikon": "user",
+      "teks": "Staf enggan memakai"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Pekerjaan dua kali"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Karena itu kami tunjukkan DentalCare, aplikasi klinik gigi buatan kami, dari layar aslinya.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi buatan kami",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare",
+    "ikon": "klinik"
+   }
+  },
+  {
+   "teks": "Cek tiga bagian ini lebih dulu.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Sebelum memilih",
+    "label": "Bagian yang *dicek dulu*",
+    "item": [
+     "Antrean",
+     "Rekam medis",
+     "Invoice"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, antrean. Petugas memanggil pasien sesuai urutan datang.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "antrean",
+    "kicker": "Bedah fitur DentalCare",
+    "judul": "Antrean pasien",
+    "ket": "Dipanggil sesuai urutan",
+    "fokus": [
+     90,
+     47
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare",
+    "nomor": "01",
+    "sorot": {
+     "x": 85.5,
+     "y": 40,
+     "w": 9,
+     "h": 13,
+     "label": "Panggil sesuai urutan"
+    }
+   }
+  },
+  {
+   "teks": "Kedua, rekam medis. Dokter mengetik catatan SOAP dan menandai odontogram pada peta gigi.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "judul": "Rekam medis SOAP",
+    "ket": "Catatan SOAP diketik langsung",
+    "fokus": [
+     40,
+     45
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare",
+    "nomor": "02"
+   }
+  },
+  {
+   "teks": "Ketiga, invoice. Tagihan terbentuk dari tindakan dan siap dicetak.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice-detail",
+    "kicker": "Bedah fitur DentalCare",
+    "judul": "Invoice siap cetak",
+    "ket": "Terbentuk dari tindakan",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare",
+    "nomor": "03"
+   }
+  },
+  {
+   "teks": "Hasilnya, data cukup dicatat sekali lalu dipakai bersama oleh resepsionis, dokter, dan kasir.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Cara terpisah",
+     "item": [
+      "Kertas dan Excel",
+      "Data terpecah",
+      "Hitung ulang"
+     ]
+    },
+    "kanan": {
+     "judul": "Aplikasi klinik gigi",
+     "item": [
+      "Dicatat sekali",
+      "Dipakai bersama",
+      "Tagihan otomatis"
+     ]
+    },
+    "pemicu": "cukup"
+   }
+  },
+  {
+   "teks": "Alurnya juga bisa disesuaikan untuk klinik pratama, klinik kecantikan, atau praktik mandiri.",
+   "anim": "chip-niche",
+   "param": {
+    "judul": "Bisa *disesuaikan*.",
+    "sub": "Untuk jenis klinik Anda.",
+    "pusat": "Aplikasi klinik",
+    "ikonPusat": "klinik",
+    "chip": [
+     {
+      "ikon": "rumah",
+      "teks": "Klinik pratama"
+     },
+     {
+      "ikon": "bintang",
+      "teks": "Klinik kecantikan"
+     },
+     {
+      "ikon": "user",
+      "teks": "Praktik mandiri"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Karena berbasis web, pemilik klinik memantau dari HP lewat browser, dan sudah terhubung SATUSEHAT.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Pantau dari *HP*",
+    "poin": [
+     "Pantau dari HP",
+     "Terhubung SATUSEHAT"
+    ],
+    "notif": "Cukup lewat browser"
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan klinik Anda dan lihat demonya. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Aplikasi klinik gigi",
+    "judul": "Lihat demo *DentalCare*.",
+    "sub": "Ceritakan kebutuhan klinik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

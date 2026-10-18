@@ -1,0 +1,135 @@
+{
+ "hook_pola": "berhenti",
+ "judul": "Aplikasi Rekam Medis Klinik: Berhenti Menyalin Catatan Dua Kali",
+ "tag": [
+  "aplikasi rekam medis klinik",
+  "rekam medis klinik gigi",
+  "aplikasi klinik gigi",
+  "rekam medis elektronik",
+  "dentalcare",
+  "software klinik gigi",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Berhenti menyalin catatan pasien dua kali, aplikasi rekam medis klinik bisa merapikannya.",
+   "anim": "hook-peringatan",
+   "param": {
+    "kicker": "BERHENTI MENYALIN",
+    "judul": "Berhenti menyalin catatan pasien dua kali",
+    "sorot": "dua kali",
+    "ikon": "silang"
+   }
+  },
+  {
+   "teks": "Menyalin dua kali memakan waktu dan membuka peluang salah ketik.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Salin dua kali, waktu habis dan salah ketik",
+    "sorot": "salah ketik",
+    "ikon": "jam"
+   }
+  },
+  {
+   "teks": "Pertama, catatan SOAP diketik sekali saja.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Catatan SOAP diketik sekali",
+    "sorot": "sekali"
+   }
+  },
+  {
+   "teks": "Keluhan, pemeriksaan, diagnosis, dan rencana perawatan tersimpan di rekam medis pasien.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "soap"
+    ],
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Kedua, kondisi gigi ditandai di odontogram.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Kondisi gigi di odontogram",
+    "sorot": "odontogram"
+   }
+  },
+  {
+   "teks": "Dokter berikutnya langsung melihat riwayat gigi pasien pada peta gigi yang sama.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "odon"
+    ],
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Ketiga, tindakan langsung menjadi invoice.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Tindakan langsung jadi invoice",
+    "sorot": "invoice"
+   }
+  },
+  {
+   "teks": "Kasir tinggal memeriksa dan mencetak, tanpa menghitung dari catatan lain.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "inv"
+    ],
+    "perangkat": "keduanya"
+   }
+  },
+  {
+   "teks": "Keempat, bisa dibuka lewat browser.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Dibuka lewat browser",
+    "sorot": "browser"
+   }
+  },
+  {
+   "teks": "Data pasien yang sama terbuka di meja resepsionis, ruang praktik, dan HP dokter.",
+   "anim": "alur",
+   "param": {
+    "judul": "Satu data, banyak tempat",
+    "langkah": [
+     "Resepsionis",
+     "Ruang praktik",
+     "HP dokter"
+    ],
+    "ikon": [
+     "orang",
+     "klinik",
+     "hp"
+    ]
+   }
+  },
+  {
+   "teks": "Simpan checklist ini: SOAP sekali, odontogram, invoice otomatis, dan berbasis web.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist rekam medis klinik",
+    "item": [
+     "SOAP diketik sekali",
+     "Odontogram digital",
+     "Invoice otomatis",
+     "Berbasis web"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda dan minta demo DentalCare. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Minta demo DentalCare",
+    "sorot": "demo",
+    "sub": "Konsultasi gratis bersama Nusawebsite"
+   }
+  }
+ ]
+}

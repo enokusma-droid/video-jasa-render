@@ -1,0 +1,228 @@
+{
+ "meta": {
+  "judul": "Aplikasi Klinik Berbasis Web: Lihat Layar Aslinya Sebelum Memilih",
+  "ringkas": "lihat dulu layar asli sebelum memilih. Kami bedah tiga bagian aplikasi klinik gigi berbasis web: data pasien, konfirmasi kunjungan, dan odontogram.",
+  "tag": [
+   "dentalcare",
+   "aplikasi klinik gigi",
+   "software klinik gigi",
+   "rekam medis elektronik",
+   "aplikasi dokter gigi"
+  ]
+ },
+ "hook_pola": "jangan-sebelum",
+ "blok": [
+  {
+   "teks": "Jangan pilih aplikasi klinik berbasis web sebelum melihat layar aslinya.",
+   "anim": "hook",
+   "param": {
+    "judul": "Jangan pilih *sebelum melihat* layarnya.",
+    "sub": "Aplikasi klinik *berbasis web*."
+   }
+  },
+  {
+   "teks": "Brosur sering rapi, tetapi alurnya belum jelas, fiturnya jarang dipakai, dan staf bingung.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Yang sering terjadi",
+    "judul": "Brosur rapi, *alur kacau*.",
+    "masalah": [
+     {
+      "ikon": "alert",
+      "teks": "Alur belum jelas"
+     },
+     {
+      "ikon": "gear",
+      "teks": "Fitur jarang dipakai"
+     },
+     {
+      "ikon": "user",
+      "teks": "Staf bingung"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Padahal alur klinik sederhana: daftar, antre, periksa, bayar, lalu laporan.",
+   "anim": "diagram-alur",
+   "param": {
+    "kicker": "Alur klinik",
+    "judul": "Alurnya *sederhana*",
+    "langkah": [
+     {
+      "ikon": "user",
+      "teks": "Daftar"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Antre"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Periksa"
+     },
+     {
+      "ikon": "cek",
+      "teks": "Bayar"
+     },
+     {
+      "ikon": "grafik",
+      "teks": "Laporan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ini DentalCare, aplikasi klinik berbasis web yang kami bangun sendiri.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi berbasis web",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare",
+    "ikon": "klinik"
+   }
+  },
+  {
+   "teks": "Satu, data pasien. Profil, alergi, dan kunjungan terakhir muncul setelah nama diketik.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah fitur DentalCare",
+    "judul": "Data pasien",
+    "ket": "Profil sampai kunjungan terakhir",
+    "fokus": [
+     40,
+     40
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare",
+    "nomor": "01"
+   }
+  },
+  {
+   "teks": "Dua, konfirmasi kunjungan. Staf memastikan kunjungan sebelum disimpan dan diselesaikan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "konfirmasi",
+    "kicker": "Bedah fitur DentalCare",
+    "judul": "Konfirmasi kunjungan",
+    "ket": "Simpan dan selesaikan kunjungan",
+    "fokus": [
+     50,
+     50
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare",
+    "nomor": "02"
+   }
+  },
+  {
+   "teks": "Tiga, odontogram. Kondisi gigi ditandai pada peta gigi digital.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "odontogram",
+    "kicker": "Bedah fitur DentalCare",
+    "judul": "Odontogram digital",
+    "ket": "Kondisi gigi pada peta gigi",
+    "fokus": [
+     45,
+     55
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare",
+    "nomor": "03"
+   }
+  },
+  {
+   "teks": "Karena berbasis web, klinik cukup membuka browser, datanya sama di semua ruangan, dan sudah terhubung SATUSEHAT.",
+   "anim": "daftar-centang",
+   "param": {
+    "kicker": "Berbasis web",
+    "judul": "Cukup *buka browser*",
+    "item": [
+     "Dibuka lewat browser",
+     "Data sama di semua ruangan",
+     "Terhubung SATUSEHAT"
+    ]
+   }
+  },
+  {
+   "teks": "Untuk klinik Anda, mockup layar kami buat dan Anda setujui lebih dulu sebelum dikembangkan.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikembangkan.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Hasilnya, resepsionis tidak lagi menyalin data, dan dokter langsung bekerja dari satu catatan.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Cara lama",
+     "item": [
+      "Menyalin data",
+      "Mencari berkas",
+      "Catatan terpisah"
+     ]
+    },
+    "kanan": {
+     "judul": "Aplikasi berbasis web",
+     "item": [
+      "Satu catatan",
+      "Dicari dengan nama",
+      "Dibuka di mana saja"
+     ]
+    },
+    "pemicu": "tidak"
+   }
+  },
+  {
+   "teks": "Fitur lain mencakup janji temu, resep, stok obat, dan laporan pemilik klinik.",
+   "anim": "fitur-grid",
+   "param": {
+    "kicker": "Modul lain",
+    "judul": "Semua dalam *satu aplikasi*",
+    "fitur": [
+     {
+      "ikon": "kalender",
+      "teks": "Janji temu"
+     },
+     {
+      "ikon": "pena",
+      "teks": "Resep"
+     },
+     {
+      "ikon": "stok",
+      "teks": "Stok obat"
+     },
+     {
+      "ikon": "grafik",
+      "teks": "Laporan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda dan minta demo DentalCare. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Aplikasi klinik berbasis web",
+    "judul": "Minta demo *DentalCare*.",
+    "sub": "Ceritakan alur klinik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}
