@@ -571,7 +571,7 @@
   "keyword": "aplikasi odontogram",
   "kategori": "dental",
   "format": "F4",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G003",
@@ -592,7 +592,7 @@
   "keyword": "sim klinik",
   "kategori": "dental",
   "format": "F4",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G006",
@@ -613,14 +613,14 @@
   "keyword": "aplikasi rekam medis elektronik untuk praktik mandiri",
   "kategori": "dental",
   "format": "F2",
-  "status": "selesai"
+  "status": "render ulang"
  },
  {
   "kode": "G009",
   "keyword": "e klinik",
   "kategori": "dental",
   "format": "F4",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G010",
@@ -634,7 +634,7 @@
   "keyword": "aplikasi klinik gigi",
   "kategori": "dental",
   "format": "F1",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G012",
@@ -648,7 +648,7 @@
   "keyword": "aplikasi rekam medis",
   "kategori": "dental",
   "format": "F3",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G014",

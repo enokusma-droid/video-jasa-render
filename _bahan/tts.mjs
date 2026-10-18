@@ -12,7 +12,8 @@ const id = s.id; console.log("job", id);
 const t0 = Date.now();
 while (!s.url && !["gagal", "failed"].includes(s.status)) {
   if (Date.now() - t0 > 30 * 60e3) throw new Error("TTS timeout " + id);
-  await sleep(5000); s = await fetch(U + "/api/tts/" + id, { headers: { "x-api-key": K } }).then((r) => r.json());
+  await sleep(5000);
+  try { s = await fetch(U + "/api/tts/" + id, { headers: { "x-api-key": K } }).then((r) => r.json()); } catch (e) { console.error("poll gagal (jaringan), ulang:", e.cause?.code || e.message); } // 18 Okt: jaringan putus ≠ job gagal
 }
 if (!s.url) throw new Error("TTS gagal: " + s.status + " " + (s.error || ""));
 if (s.suara && s.suara.toLowerCase() !== "fola") throw new Error("suara salah: " + s.suara);
