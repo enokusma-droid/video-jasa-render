@@ -1,0 +1,172 @@
+{
+ "tema": "brutal",
+ "tag": [
+  "cara daftar satusehat klinik",
+  "satusehat klinik",
+  "satusehat untuk klinik",
+  "rekam medis elektronik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "hook_pola": "pelajari-sebelum",
+ "blok": [
+  {
+   "teks": "Pelajari cara daftar satusehat klinik sebelum menyiapkan data pasien dan aplikasinya.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "SEBELUM MENYIAPKAN",
+    "sorot": "satusehat klinik",
+    "sub": "4 persiapan agar klinik siap terhubung",
+    "kata_sub": "siap",
+    "judul_yt": "Cara Daftar SATUSEHAT Klinik: 4 Persiapan yang Perlu Dicek"
+   }
+  },
+  {
+   "teks": "Prosedur resminya mengikuti panduan Kementerian Kesehatan, jadi selalu cek ketentuan terbaru. Berikut persiapan dari sisi aplikasi.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Cek dulu",
+    "desk": "Rujukan utama tetap sumber resmi.",
+    "item": [
+     "Panduan resmi",
+     "Ketentuan terbaru",
+     "Persyaratan klinik"
+    ],
+    "kata": [
+     "panduan",
+     "ketentuan",
+     "persiapan"
+    ]
+   }
+  },
+  {
+   "teks": "Persiapannya empat tahap, dan semuanya bisa dimulai dari sekarang.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "PERSIAPAN KLINIK",
+    "tahap": [
+     "Panduan",
+     "Data klinik",
+     "Aplikasi",
+     "Uji"
+    ],
+    "rail": "PERSIAPAN KLINIK"
+   }
+  },
+  {
+   "teks": "Tahap satu, panduan. Baca persyaratan resmi dan catat apa saja yang diminta.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Baca\nPanduan",
+    "desk": "Rujukan utama: sumber resmi.",
+    "visual": "catatan",
+    "label": "PANDUAN RESMI",
+    "item": [
+     "Persyaratan",
+     "Dokumen klinik",
+     "Catatan tambahan"
+    ],
+    "kata": [
+     "persyaratan",
+     "dokumen",
+     "catat"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap dua, data klinik. Rapikan identitas klinik, data tenaga kesehatan, dan data pasien.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Rapikan\nData Klinik",
+    "desk": "Data rapi memudahkan penyiapan.",
+    "visual": "serah",
+    "label": "DATA SIAP",
+    "item": [
+     "Identitas klinik",
+     "Tenaga kesehatan",
+     "Data pasien"
+    ],
+    "kata": [
+     "identitas",
+     "tenaga",
+     "pasien"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap tiga, aplikasi. Pilih aplikasi yang mencatat rekam medis dengan rapi dan siap dihubungkan, agar nanti tidak perlu menyalin ulang.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Siapkan\nAplikasi",
+    "desk": "Catatan tertata sejak awal.",
+    "visual": "alur",
+    "alur": [
+     "Catat",
+     "Simpan",
+     "Hubungkan"
+    ],
+    "on": [
+     "Rekam medis",
+     "Data pasien",
+     "Invoice"
+    ],
+    "kata": [
+     "mencatat",
+     "rapi",
+     "dihubungkan"
+    ],
+    "off": [
+     "Laporan tambahan"
+    ],
+    "catatan": "Data tertata dulu"
+   }
+  },
+  {
+   "teks": "Tahap empat, uji. Coba alurnya bersama staf sebelum dipakai sehari-hari.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Uji Bersama\nStaf",
+    "desk": "Dicoba sebelum dipakai harian.",
+    "visual": "kode",
+    "label": "UJI ALUR",
+    "item": [
+     "Coba alur",
+     "Catat kendala",
+     "Perbaiki"
+    ],
+    "kata": [
+     "coba",
+     "staf",
+     "dipakai"
+    ]
+   }
+  },
+  {
+   "teks": "Contohnya DentalCare, aplikasi klinik gigi buatan kami yang sudah terhubung SATUSEHAT, lengkap dengan rekam medis dan invoice.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "DentalCare, terhubung SATUSEHAT",
+    "klip": [
+     "pasien",
+     "soap"
+    ]
+   }
+  },
+  {
+   "teks": "Ingin merapikan rekam medis klinik Anda? Ceritakan alurnya. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan klinik Anda",
+    "kata_link": "link",
+    "mini": [
+     "Panduan",
+     "Data klinik",
+     "Aplikasi",
+     "Uji"
+    ]
+   }
+  }
+ ]
+}

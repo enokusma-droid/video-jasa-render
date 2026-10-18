@@ -1,0 +1,221 @@
+{
+ "meta": {
+  "judul": "Rekam Medis Dokter Gigi: Bedah 4 Bagian yang Dipakai Setiap Hari",
+  "ringkas": "lihat rekam medis dokter gigi yang benar-benar dipakai: antrean, catatan SOAP, odontogram, serta tindakan dan resep.",
+  "tag": [
+   "dentalcare",
+   "rekam medis klinik gigi",
+   "aplikasi dokter gigi",
+   "software klinik gigi",
+   "odontogram digital"
+  ]
+ },
+ "hook_pola": "kontras",
+ "blok": [
+  {
+   "teks": "Rekam medis dokter gigi yang baik bukan yang paling rumit, tapi yang paling cepat diisi.",
+   "anim": "hook",
+   "param": {
+    "judul": "Bukan yang *rumit*, tapi yang *cepat diisi*.",
+    "sub": "Rekam medis untuk *dokter gigi*.",
+    "gambar": false
+   }
+  },
+  {
+   "teks": "Dokter sering menulis hal yang sama berulang di kertas pasien.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Masalah umum",
+    "judul": "Menulis *berulang*.",
+    "masalah": [
+     {
+      "ikon": "pena",
+      "teks": "Menulis hal sama"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Waktu praktik habis"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Kertas menumpuk"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Gambar gigi digambar tangan, lalu sulit dibandingkan pada kunjungan berikutnya.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Cara lama",
+    "judul": "Gigi *digambar tangan*.",
+    "kartu": [
+     {
+      "ikon": "pena",
+      "judul": "Gambar tangan",
+      "ket": "Berbeda tiap dokter"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Lembar terpisah",
+      "ket": "Mudah terselip"
+     }
+    ],
+    "coret": "digambar"
+   }
+  },
+  {
+   "teks": "Ini DentalCare, aplikasi klinik gigi yang kami bangun dengan rekam medis di dalamnya.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Rekam medis dokter gigi",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Ada empat bagian yang dilewati dokter setiap hari.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 4,
+    "kicker": "Alur dokter",
+    "label": "Bagian yang *dilewati setiap hari*",
+    "item": [
+     "Antrean",
+     "Catatan SOAP",
+     "Odontogram",
+     "Tindakan & resep"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, antrean. Dokter melihat pasien yang sedang menunggu.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "antrean",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Antrean pasien",
+    "ket": "Dipanggil sesuai urutan",
+    "fokus": [
+     90,
+     47
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare",
+    "sorot": {
+     "x": 85.5,
+     "y": 40,
+     "w": 9,
+     "h": 13,
+     "label": "Panggil sesuai urutan"
+    }
+   }
+  },
+  {
+   "teks": "Kedua, catatan SOAP diketik langsung pada rekam medis.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Catatan SOAP",
+    "ket": "Diketik langsung saat periksa",
+    "fokus": [
+     40,
+     45
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Ketiga, odontogram menandai kondisi gigi pada peta gigi.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "odontogram",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Odontogram digital",
+    "ket": "Kondisi gigi pada peta gigi",
+    "fokus": [
+     45,
+     55
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Keempat, tindakan dan resep dipilih dari daftar.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "tindakan",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "04",
+    "judul": "Tindakan & resep",
+    "ket": "Dipilih dari daftar",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Dulu catatan menumpuk di kertas, kini cukup sekali dicatat, lalu bisa dibuka kapan saja.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Kertas",
+     "item": [
+      "Menulis berulang",
+      "Gambar tangan",
+      "Dicari di rak"
+     ]
+    },
+    "kanan": {
+     "judul": "Rekam medis digital",
+     "item": [
+      "Dicatat sekali",
+      "Peta gigi digital",
+      "Dicari dengan nama"
+     ]
+    },
+    "pemicu": "kini"
+   }
+  },
+  {
+   "teks": "Karena berbasis web, rekam medisnya bisa dibuka lewat browser di komputer maupun HP.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Buka lewat *browser*",
+    "poin": [
+     "Komputer klinik",
+     "HP dokter"
+    ],
+    "notif": "Cukup lewat browser"
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Rekam medis dokter gigi",
+    "judul": "Lihat demo *DentalCare*.",
+    "sub": "Ceritakan kebutuhan klinik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

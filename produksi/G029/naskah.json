@@ -1,0 +1,184 @@
+{
+ "hook_pola": "hasil-dulu",
+ "judul": "Contoh Rekam Medis Klinik Gigi: Isi SOAP, Odontogram, Data Pasien",
+ "tag": [
+  "contoh rekam medis klinik gigi",
+  "contoh rekam medis",
+  "rekam medis klinik gigi",
+  "odontogram digital",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Ini contoh rekam medis klinik gigi yang kami bangun, dan begini isinya.",
+   "anim": "hook",
+   "param": {
+    "kicker": "LIHAT ISINYA",
+    "baris": [
+     "Contoh Rekam Medis",
+     "Klinik Gigi"
+    ],
+    "sub": "Dari aplikasi yang kami bangun",
+    "sorot_sub": "kami bangun",
+    "ikon": [
+     "klinik",
+     "kertas",
+     "cek",
+     "user"
+    ]
+   }
+  },
+  {
+   "teks": "Bagian pertama adalah catatan SOAP: keluhan, pemeriksaan, diagnosis, dan rencana perawatan.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "CONTOH: CATATAN SOAP",
+    "judul": "Keluhan sampai rencana perawatan",
+    "sorot": "rencana perawatan",
+    "klip": [
+     "soap"
+    ]
+   }
+  },
+  {
+   "teks": "Bagian kedua adalah odontogram, peta gigi yang menandai kondisi setiap gigi.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "CONTOH: ODONTOGRAM",
+    "judul": "Peta gigi dengan kondisi tiap gigi",
+    "sorot": "peta gigi",
+    "klip": [
+     "odon"
+    ]
+   }
+  },
+  {
+   "teks": "Bagian ketiga adalah data pasien: identitas dan riwayat kunjungan dalam satu tabel.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "CONTOH: DATA PASIEN",
+    "judul": "Identitas dan riwayat kunjungan",
+    "sorot": "riwayat kunjungan",
+    "klip": [
+     "pasien"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda dokter gigi yang masih memakai formulir kertas.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda dokter gigi pakai kertas",
+    "sorot": "formulir kertas",
+    "sub": "Isi tiap formulir bisa berbeda-beda.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter gigi"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Formulir"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Isi formulir berubah-ubah, ada bagian terlewat, dan lembar mudah terselip.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Formulir kertas bermasalah",
+    "sorot": "bermasalah",
+    "item": [
+     "Isi berubah-ubah",
+     "Bagian terlewat",
+     "Lembar terselip"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu klinik beralih ke rekam medis yang formatnya tetap.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Beralih ke format tetap",
+    "sorot": "format tetap",
+    "kiri": "Formulir kertas",
+    "kanan": "Rekam medis digital"
+   }
+  },
+  {
+   "teks": "Bukan lembar kosong yang diisi bebas, tapi bagian yang sudah tertata untuk klinik gigi.",
+   "anim": "banding",
+   "param": {
+    "judul": "Bagian sudah tertata",
+    "sorot": "tertata",
+    "kiri": {
+     "judul": "Lembar bebas",
+     "item": [
+      "Isi bebas",
+      "Mudah terlewat",
+      "Sulit dicari"
+     ]
+    },
+    "kanan": {
+     "judul": "Rekam medis gigi",
+     "item": [
+      "SOAP berurutan",
+      "Odontogram siap",
+      "Riwayat per pasien"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Tampilannya bisa disesuaikan untuk klinik pratama, klinik kecantikan, atau praktik mandiri.",
+   "anim": "chip_niche",
+   "param": {
+    "item": [
+     {
+      "ikon": "klinik",
+      "teks": "Klinik pratama"
+     },
+     {
+      "ikon": "bintang",
+      "teks": "Klinik kecantikan"
+     },
+     {
+      "ikon": "user",
+      "teks": "Praktik mandiri"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Hasilnya, catatan konsisten, lengkap, dan mudah dibuka kembali.",
+   "anim": "centang",
+   "param": {
+    "judul": "Catatan jadi konsisten",
+    "sorot": "konsisten",
+    "label": "SETELAH PAKAI DENTALCARE",
+    "item": [
+     "Format konsisten",
+     "Bagian lengkap",
+     "Mudah dibuka kembali"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda dan minta demo DentalCare. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur klinik Anda",
+    "mini": [
+     "SOAP",
+     "Odontogram",
+     "Data pasien",
+     "Invoice"
+    ]
+   }
+  }
+ ]
+}

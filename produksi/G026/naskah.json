@@ -1,0 +1,179 @@
+{
+ "hook_pola": "pelajari-sebelum",
+ "judul": "SATUSEHAT untuk Klinik: Siapkan Data Pasien Lebih Dulu",
+ "tag": [
+  "satusehat untuk klinik",
+  "satusehat klinik",
+  "rekam medis elektronik",
+  "aplikasi klinik gigi",
+  "software klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Pelajari satusehat untuk klinik sebelum data pasien Anda terlanjur berantakan.",
+   "anim": "hook",
+   "param": {
+    "kicker": "SEBELUM DATA BERANTAKAN",
+    "baris": [
+     "SATUSEHAT",
+     "untuk Klinik"
+    ],
+    "sub": "Rapikan dulu data pasien Anda",
+    "sorot_sub": "data pasien",
+    "ikon": [
+     "klinik",
+     "laporan",
+     "kertas",
+     "excel"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik klinik pratama dengan beberapa tenaga kesehatan dan banyak berkas pasien.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda pemilik klinik pratama",
+    "sorot": "klinik pratama",
+    "sub": "Data tersebar di banyak tempat.",
+    "chip": [
+     {
+      "ikon": "tim",
+      "teks": "Tenaga kesehatan"
+     },
+     {
+      "ikon": "user",
+      "teks": "Pasien"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Catatan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Data pasien ada di map kertas, nomor kontak di Excel, dan jadwal lewat chat.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Data tersebar",
+    "sorot": "tersebar",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Map kertas",
+      "sub": "data pasien"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Excel",
+      "sub": "kontak"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "sub": "jadwal"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Saat klinik ingin terhubung dengan SATUSEHAT, data yang tercecer sulit dirapikan.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Sulit terhubung",
+    "sorot": "sulit",
+    "item": [
+     "Data tercecer",
+     "Format berbeda-beda",
+     "Sulit dirapikan"
+    ]
+   }
+  },
+  {
+   "teks": "Persyaratannya bisa berubah, jadi cek selalu panduan resmi terbaru dari Kementerian Kesehatan.",
+   "anim": "kutipan",
+   "param": {
+    "teks": "Selalu cek *panduan resmi* terbaru.",
+    "sorot": "panduan resmi"
+   }
+  },
+  {
+   "teks": "Karena itu klinik memilih aplikasi yang datanya sudah tertata sejak awal.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Data tertata sejak awal",
+    "sorot": "tertata",
+    "kiri": "Data tercecer",
+    "kanan": "Aplikasi klinik"
+   }
+  },
+  {
+   "teks": "Bukan data yang dirapikan belakangan, tapi dicatat rapi sejak pasien pertama datang.",
+   "anim": "banding",
+   "param": {
+    "judul": "Rapi sejak pasien pertama",
+    "sorot": "sejak pasien pertama",
+    "kiri": {
+     "judul": "Dirapikan belakangan",
+     "item": [
+      "Disalin ulang",
+      "Mudah salah",
+      "Memakan waktu"
+     ]
+    },
+    "kanan": {
+     "judul": "Dicatat rapi",
+     "item": [
+      "Satu data pasien",
+      "Rekam medis tertata",
+      "Siap dipakai"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Di DentalCare, data pasien, rekam medis, dan invoice tertata, dan sudah terhubung SATUSEHAT.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "Tertata dan terhubung SATUSEHAT",
+    "sorot": "terhubung SATUSEHAT",
+    "klip": [
+     "pasien",
+     "soap",
+     "inv"
+    ]
+   }
+  },
+  {
+   "teks": "Hasilnya, klinik lebih siap mengikuti ketentuan yang berlaku, dan staf tidak perlu menyalin data berulang.",
+   "anim": "centang",
+   "param": {
+    "judul": "Klinik lebih siap",
+    "sorot": "siap",
+    "label": "SETELAH PAKAI DENTALCARE",
+    "item": [
+     "Data pasien rapi",
+     "Rekam medis tertata",
+     "Terhubung SATUSEHAT"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda dan minta demo DentalCare. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan klinik Anda",
+    "mini": [
+     "Data pasien",
+     "Rekam medis",
+     "Invoice",
+     "SATUSEHAT"
+    ]
+   }
+  }
+ ]
+}

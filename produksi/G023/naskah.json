@@ -1,0 +1,171 @@
+{
+ "tema": "brutal",
+ "tag": [
+  "rekam medis elektronik adalah",
+  "rekam medis elektronik",
+  "pengertian rekam medis elektronik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "hook_pola": "definisi-singkat",
+ "blok": [
+  {
+   "teks": "Rekam medis elektronik adalah catatan kesehatan pasien yang disimpan secara digital. Begini cara kerjanya di klinik gigi.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "PENGERTIAN SINGKAT",
+    "sorot": "elektronik adalah",
+    "sub": "Catatan pasien digital, 4 tahap kerjanya",
+    "kata_sub": "digital",
+    "judul_yt": "Rekam Medis Elektronik Adalah? Cara Kerjanya di Klinik Gigi"
+   }
+  },
+  {
+   "teks": "Hati-hati menyamakannya dengan file biasa. Tanpa struktur, catatan tetap sulit dicari, tidak seragam, dan mudah hilang.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Bukan sekadar file di komputer.",
+    "item": [
+     "Sulit dicari",
+     "Tidak seragam",
+     "Mudah hilang"
+    ],
+    "kata": [
+     "dicari",
+     "seragam",
+     "hilang"
+    ]
+   }
+  },
+  {
+   "teks": "Alurnya empat tahap, dari pasien datang sampai catatan tersimpan.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "ALUR KERJA",
+    "tahap": [
+     "Daftar",
+     "Periksa",
+     "Tindakan",
+     "Simpan"
+    ],
+    "rail": "ALUR KERJA"
+   }
+  },
+  {
+   "teks": "Tahap satu, daftar. Identitas pasien, keluhan, dan kunjungan terakhir dicatat.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Daftar\nPasien",
+    "desk": "Data pasien dicatat sekali.",
+    "visual": "catatan",
+    "label": "DATA PASIEN",
+    "item": [
+     "Identitas",
+     "Keluhan",
+     "Kunjungan terakhir"
+    ],
+    "kata": [
+     "identitas",
+     "keluhan",
+     "kunjungan"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap dua, periksa. Dokter mengetik catatan SOAP langsung saat pemeriksaan.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Periksa\n& Catat",
+    "desk": "Catatan SOAP diketik langsung.",
+    "visual": "ui",
+    "klip": [
+     "soap"
+    ],
+    "item": [
+     "Catatan SOAP",
+     "Diketik langsung"
+    ],
+    "kata": [
+     "soap",
+     "mengetik"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap tiga, tindakan. Kondisi gigi ditandai, lalu tindakan dan resep dipilih dari daftar.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Tindakan\n& Resep",
+    "desk": "Dipilih dari daftar, tidak diketik ulang.",
+    "visual": "alur",
+    "alur": [
+     "Gigi",
+     "Tindakan",
+     "Resep"
+    ],
+    "on": [
+     "Odontogram",
+     "Tindakan",
+     "Resep"
+    ],
+    "kata": [
+     "gigi",
+     "tindakan",
+     "resep"
+    ],
+    "off": [
+     "Laporan tambahan"
+    ],
+    "catatan": "Semua tersambung ke rekam medis"
+   }
+  },
+  {
+   "teks": "Tahap empat, simpan. Catatan tersimpan rapi dan hanya dibuka oleh peran yang berhak, jadi mudah dicari kembali.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Simpan\n& Akses",
+    "desk": "Tersimpan rapi, akses sesuai peran.",
+    "visual": "serah",
+    "label": "PENYIMPANAN",
+    "item": [
+     "Tersimpan rapi",
+     "Akses sesuai peran",
+     "Mudah dicari"
+    ],
+    "kata": [
+     "rapi",
+     "peran",
+     "dicari"
+    ]
+   }
+  },
+  {
+   "teks": "Contohnya DentalCare, rekam medis elektronik klinik gigi buatan kami, lengkap dengan catatan SOAP dan odontogram.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "DentalCare, rekam medis klinik gigi",
+    "klip": [
+     "soap",
+     "odon"
+    ]
+   }
+  },
+  {
+   "teks": "Ingin merapikan rekam medis klinik Anda? Ceritakan alurnya. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan klinik Anda",
+    "kata_link": "link",
+    "mini": [
+     "Daftar",
+     "Periksa",
+     "Tindakan",
+     "Simpan"
+    ]
+   }
+  }
+ ]
+}

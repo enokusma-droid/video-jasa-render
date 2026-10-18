@@ -1,0 +1,212 @@
+{
+ "hook_pola": "tanda-bahaya",
+ "judul": "Rekam Medis Elektronik Klinik Gigi: Tanda Bahaya yang Perlu Dicek",
+ "tag": [
+  "rekam medis elektronik klinik gigi",
+  "rekam medis klinik gigi",
+  "aplikasi klinik gigi",
+  "odontogram digital",
+  "software klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Kalau rekam medis elektronik klinik gigi tidak punya odontogram, itu tanda bahaya.",
+   "anim": "hook",
+   "param": {
+    "kicker": "TANDA BAHAYA",
+    "baris": [
+     "Rekam Medis Elektronik",
+     "Klinik Gigi"
+    ],
+    "sub": "Odontogram bukan fitur tambahan",
+    "sorot_sub": "odontogram",
+    "ikon": [
+     "klinik",
+     "peringatan",
+     "kertas",
+     "user"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda dokter gigi yang membuka praktik mandiri.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda dokter gigi praktik mandiri",
+    "sorot": "praktik mandiri",
+    "sub": "Pasien, jadwal, dan catatan Anda urus sendiri.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter gigi"
+     },
+     {
+      "ikon": "kalender",
+      "teks": "Jadwal"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Catatan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Catatan pasien ditulis di kertas, gambar gigi di lembar lain, dan jadwal di buku.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Tiga catatan terpisah",
+    "sorot": "terpisah",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Kertas pasien",
+      "sub": "catatan"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Lembar gigi",
+      "sub": "lembar lain"
+     },
+     {
+      "ikon": "kalender",
+      "judul": "Buku jadwal",
+      "sub": "janji temu"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Lembar gigi lama terselip di antara map pasien lain.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Lembar gigi terselip",
+    "sorot": "terselip",
+    "label": [
+     "Odontogram",
+     "Map",
+     "Catatan",
+     "Resep",
+     "Rontgen",
+     "Jadwal",
+     "Alergi",
+     "Riwayat"
+    ]
+   }
+  },
+  {
+   "teks": "Riwayat perawatan sulit ditelusuri, tulisan sulit dibaca, dan pasien menunggu.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Masalah yang berulang",
+    "sorot": "berulang",
+    "item": [
+     "Riwayat sulit ditelusuri",
+     "Tulisan sulit dibaca",
+     "Pasien menunggu"
+    ]
+   }
+  },
+  {
+   "teks": "Setiap kunjungan, waktu habis untuk mencari catatan sebelumnya.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis mencari catatan",
+    "sorot": "mencari catatan",
+    "sub": "Setiap kunjungan.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu praktik memutuskan pindah ke rekam medis elektronik.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Praktik pindah ke digital",
+    "sorot": "digital",
+    "kiri": "Kertas dan buku",
+    "kanan": "Rekam medis elektronik"
+   }
+  },
+  {
+   "teks": "Bukan sekadar file yang dipindah ke komputer, tapi rekam medis yang dibuat untuk dokter gigi.",
+   "anim": "banding",
+   "param": {
+    "judul": "Dibuat untuk dokter gigi",
+    "sorot": "dokter gigi",
+    "kiri": {
+     "judul": "File biasa",
+     "item": [
+      "Tanpa peta gigi",
+      "Format bebas",
+      "Sulit dicari"
+     ]
+    },
+    "kanan": {
+     "judul": "Rekam medis gigi",
+     "item": [
+      "Odontogram digital",
+      "Catatan SOAP",
+      "Riwayat per pasien"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Di DentalCare, catatan SOAP dan odontogram tersimpan di rekam medis pasien.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "SOAP dan odontogram di satu rekam medis",
+    "sorot": "satu rekam medis",
+    "klip": [
+     "soap",
+     "odon"
+    ]
+   }
+  },
+  {
+   "teks": "Karena berbasis web, rekam medis juga bisa dibuka dari HP dokter.",
+   "anim": "hp",
+   "param": {
+    "tema": "booking",
+    "notif": "Rekam medis dibuka dari HP"
+   }
+  },
+  {
+   "teks": "Catatan rapi, riwayat mudah dicari, dan pasien lebih cepat dilayani.",
+   "anim": "centang",
+   "param": {
+    "judul": "Praktik jadi lebih rapi",
+    "sorot": "rapi",
+    "label": "SETELAH PAKAI DENTALCARE",
+    "item": [
+     "Catatan rapi",
+     "Riwayat mudah dicari",
+     "Pasien cepat dilayani"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda dan minta demo DentalCare. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur klinik Anda",
+    "mini": [
+     "Odontogram",
+     "SOAP",
+     "Riwayat",
+     "Invoice"
+    ]
+   }
+  }
+ ]
+}

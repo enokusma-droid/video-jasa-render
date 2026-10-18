@@ -1,0 +1,213 @@
+{
+ "meta": {
+  "judul": "Software Rekam Medis: Bedah 3 Bagian yang Dipakai Dokter",
+  "ringkas": "sebelum memilih, lihat dulu isi software rekam medis yang benar-benar dipakai klinik gigi: data pasien, catatan SOAP, dan odontogram.",
+  "tag": [
+   "dentalcare",
+   "software klinik gigi",
+   "aplikasi rekam medis",
+   "rekam medis klinik gigi",
+   "aplikasi dokter gigi"
+  ]
+ },
+ "hook_pola": "jangan-sebelum",
+ "blok": [
+  {
+   "teks": "Jangan pilih software rekam medis sebelum melihat isinya. Tampilan menarik belum tentu cocok dengan kerja dokter.",
+   "anim": "hook",
+   "param": {
+    "judul": "Jangan pilih *sebelum* melihat isinya.",
+    "sub": "Software rekam medis untuk *klinik gigi*."
+   }
+  },
+  {
+   "teks": "Banyak klinik masih mencatat di kertas, Excel, dan chat yang terpisah.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Cara lama",
+    "judul": "Catatan *terpisah-pisah*.",
+    "kartu": [
+     {
+      "ikon": "kertas",
+      "judul": "Kertas",
+      "ket": "Ditulis tangan"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Excel",
+      "ket": "File berbeda-beda"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "ket": "Mudah tenggelam"
+     }
+    ],
+    "coret": "excel"
+   }
+  },
+  {
+   "teks": "Akibatnya riwayat pasien sulit dicari dan catatan sering berbeda.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Riwayat pasien *sulit dicari*.",
+    "masalah": [
+     {
+      "ikon": "cari",
+      "teks": "Riwayat sulit dicari"
+     },
+     {
+      "ikon": "layer",
+      "teks": "Catatan berbeda"
+     },
+     {
+      "ikon": "alert",
+      "teks": "Data mudah hilang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ini DentalCare, software klinik gigi buatan kami, kami tunjukkan dari layar aslinya.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Kita bedah tiga bagian rekam medisnya.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Bedah rekam medis",
+    "label": "Bagian yang *dipakai dokter*",
+    "item": [
+     "Data pasien",
+     "Catatan SOAP",
+     "Odontogram"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, data pasien dalam satu tabel.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Data pasien",
+    "ket": "Identitas dalam satu tabel",
+    "fokus": [
+     40,
+     40
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Kedua, catatan SOAP diketik langsung oleh dokter.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Catatan SOAP",
+    "ket": "Diketik langsung saat periksa",
+    "fokus": [
+     40,
+     45
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Ketiga, odontogram menandai kondisi setiap gigi.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "odontogram",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Odontogram digital",
+    "ket": "Kondisi gigi pada peta gigi",
+    "fokus": [
+     45,
+     55
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Hasilnya, catatan rapi, mudah dicari, dan bisa dipakai bersama oleh dokter dan resepsionis.",
+   "anim": "daftar-centang",
+   "param": {
+    "kicker": "Hasilnya",
+    "judul": "Catatan jadi *rapi*",
+    "item": [
+     "Catatan rapi",
+     "Mudah dicari",
+     "Dipakai bersama"
+    ]
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk klinik pratama, klinik kecantikan, atau praktik mandiri.",
+   "anim": "chip-niche",
+   "param": {
+    "judul": "Bisa *disesuaikan*.",
+    "sub": "Untuk jenis klinik Anda.",
+    "pusat": "Software klinik",
+    "ikonPusat": "klinik",
+    "chip": [
+     {
+      "ikon": "rumah",
+      "teks": "Klinik pratama"
+     },
+     {
+      "ikon": "bintang",
+      "teks": "Klinik kecantikan"
+     },
+     {
+      "ikon": "user",
+      "teks": "Praktik mandiri"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Mockup disetujui dulu, lalu jadi aplikasi sesuai kebutuhan klinik, dibangun bertahap.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja",
+    "judul": "Setujui tampilan *dulu*",
+    "ket": "Baru dibangun bertahap",
+    "jadi": "jadi",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Software rekam medis",
+    "judul": "Lihat demo *DentalCare*.",
+    "sub": "Ceritakan kebutuhan klinik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "tema": "brutal",
+ "tag": [
+  "cara membuat rekam medis elektronik",
+  "membuat rekam medis elektronik",
+  "rekam medis elektronik klinik gigi",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "hook_pola": "angka-spesifik",
+ "blok": [
+  {
+   "teks": "Empat tahap ini menentukan cara membuat rekam medis elektronik yang benar-benar dipakai dokter.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "4 TAHAP PENENTU",
+    "sorot": "rekam medis elektronik",
+    "sub": "Lewati satu tahap, dokter kembali ke kertas",
+    "kata_sub": "lewati",
+    "judul_yt": "Cara Membuat Rekam Medis Elektronik: 4 Tahap Agar Dipakai Dokter"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan proyek yang langsung koding. Isi rekam medis tidak cocok, formulir terasa asing, dan dokter kembali ke kertas.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Proyek yang langsung koding.",
+    "item": [
+     "Isi tidak cocok",
+     "Formulir terasa asing",
+     "Kembali ke kertas"
+    ],
+    "kata": [
+     "isi",
+     "formulir",
+     "kertas"
+    ]
+   }
+  },
+  {
+   "teks": "Di Nusawebsite, tahapnya empat, dan Anda ikut menyetujui di tiap tahap.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "TAHAP PEMBUATAN",
+    "tahap": [
+     "Petakan Alur",
+     "Rancang Isi",
+     "Mockup",
+     "Uji & Rilis"
+    ],
+    "rail": "TAHAP PEMBUATAN"
+   }
+  },
+  {
+   "teks": "Tahap satu, petakan alur. Kami catat siapa mengisi apa, dari pendaftaran sampai kasir.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Petakan\nAlur Klinik",
+    "desk": "Alur nyata klinik dicatat dulu.",
+    "visual": "catatan",
+    "label": "ALUR KLINIK",
+    "item": [
+     "Siapa mengisi",
+     "Pendaftaran",
+     "Kasir"
+    ],
+    "kata": [
+     "siapa",
+     "pendaftaran",
+     "kasir"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap dua, rancang isi. Catatan SOAP, odontogram, dan resep disusun sesuai cara dokter bekerja.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Rancang\nIsi Rekam Medis",
+    "desk": "Disusun sesuai cara dokter bekerja.",
+    "visual": "alur",
+    "alur": [
+     "SOAP",
+     "Gigi",
+     "Resep"
+    ],
+    "on": [
+     "Catatan SOAP",
+     "Odontogram",
+     "Resep"
+    ],
+    "kata": [
+     "soap",
+     "odontogram",
+     "resep"
+    ],
+    "off": [
+     "Laporan tambahan",
+     "Integrasi"
+    ],
+    "catatan": "Isi inti dulu, sisanya menyusul"
+   }
+  },
+  {
+   "teks": "Tahap tiga, mockup. Anda menyetujui tampilan layar sebelum kode ditulis.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Mockup\nTampilan",
+    "desk": "Setiap layar disetujui sebelum koding.",
+    "visual": "wireframe",
+    "mode": "app",
+    "stempel": "DISETUJUI",
+    "kata_stempel": "menyetujui"
+   }
+  },
+  {
+   "teks": "Tahap empat, uji dan rilis. Dokter mencoba alurnya, lalu aplikasi dibuka lewat browser.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Uji &\nRilis",
+    "desk": "Dicoba dokter, lalu dirilis.",
+    "visual": "rilis",
+    "klip": [
+     "soap"
+    ],
+    "item": [
+     "Dicoba dokter",
+     "Dibuka lewat browser"
+    ],
+    "kata": [
+     "mencoba",
+     "browser"
+    ]
+   }
+  },
+  {
+   "teks": "Contohnya DentalCare, rekam medis elektronik klinik gigi buatan kami, lengkap dengan SOAP dan odontogram.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "DentalCare, rekam medis klinik gigi",
+    "klip": [
+     "soap",
+     "odon"
+    ]
+   }
+  },
+  {
+   "teks": "Ingin merapikan rekam medis klinik Anda? Ceritakan alurnya. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan klinik Anda",
+    "kata_link": "link",
+    "mini": [
+     "Petakan Alur",
+     "Rancang Isi",
+     "Mockup",
+     "Uji & Rilis"
+    ]
+   }
+  }
+ ]
+}

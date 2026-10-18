@@ -1,0 +1,196 @@
+{
+ "meta": {
+  "judul": "Rekam Medis Elektronik Terbaik? Cek 3 Hal Ini untuk Klinik Gigi",
+  "ringkas": "jangan menilai dari jumlah fitur. Cek tiga hal yang menentukan rekam medis elektronik cocok untuk klinik Anda: alur dokter, kemudahan staf, dan data yang tersambung.",
+  "tag": [
+   "dentalcare",
+   "rekam medis elektronik klinik gigi",
+   "software klinik gigi",
+   "aplikasi klinik gigi",
+   "aplikasi dokter gigi"
+  ]
+ },
+ "hook_pola": "mitos",
+ "blok": [
+  {
+   "teks": "Anggapan rekam medis elektronik terbaik selalu yang fiturnya paling banyak itu keliru.",
+   "anim": "hook",
+   "param": {
+    "judul": "Fitur terbanyak belum tentu *cocok*.",
+    "sub": "Cek *alurnya* dulu, baru fiturnya."
+   }
+  },
+  {
+   "teks": "Fitur banyak yang tidak dipakai justru membuat staf bingung dan akhirnya kembali ke kertas.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibat fitur berlebih",
+    "judul": "Staf jadi *bingung*.",
+    "masalah": [
+     {
+      "ikon": "layer",
+      "teks": "Menu terlalu banyak"
+     },
+     {
+      "ikon": "user",
+      "teks": "Staf enggan memakai"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Balik ke kertas"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ukurannya sederhana: cocok dengan alur dokter, mudah dipakai staf, dan datanya tersambung.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Ukuran yang tepat",
+    "label": "Hal yang *dicek dulu*",
+    "item": [
+     "Cocok alur dokter",
+     "Mudah dipakai staf",
+     "Data tersambung"
+    ]
+   }
+  },
+  {
+   "teks": "Kami tunjukkan DentalCare, rekam medis klinik gigi buatan kami.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Cek pertama, alur dokter. Catatan SOAP diketik langsung saat pemeriksaan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Catatan SOAP",
+    "ket": "Diketik langsung saat periksa",
+    "fokus": [
+     40,
+     45
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Cek kedua, kemudahan staf. Konfirmasi kunjungan dilakukan dalam satu layar.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "konfirmasi",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Konfirmasi kunjungan",
+    "ket": "Dalam satu layar",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Cek ketiga, data tersambung. Tagihan terbentuk dari tindakan dan siap dicetak.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice-detail",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Invoice siap cetak",
+    "ket": "Terbentuk dari tindakan",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Jadi pilih yang cocok dengan alur klinik, bukan yang paling ramai fiturnya.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Pilih fitur terbanyak",
+     "item": [
+      "Menu membingungkan",
+      "Staf enggan",
+      "Alur tidak cocok"
+     ]
+    },
+    "kanan": {
+     "judul": "Pilih yang cocok",
+     "item": [
+      "Alur dokter pas",
+      "Staf nyaman",
+      "Data tersambung"
+     ]
+    },
+    "pemicu": "cocok"
+   }
+  },
+  {
+   "teks": "Alur bisa disesuaikan, dan mockup disetujui dulu sebelum aplikasi dibangun.",
+   "anim": "diagram-alur",
+   "param": {
+    "kicker": "Cara kerja",
+    "judul": "Disesuaikan *dulu*",
+    "langkah": [
+     {
+      "ikon": "chat",
+      "teks": "Konsultasi"
+     },
+     {
+      "ikon": "layar",
+      "teks": "Mockup"
+     },
+     {
+      "ikon": "kode",
+      "teks": "Dibangun"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Berbasis web, jadi terbuka dari HP pemilik klinik. Sudah terhubung SATUSEHAT juga.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Pantau dari *HP*",
+    "poin": [
+     "Pantau dari HP",
+     "Terhubung SATUSEHAT"
+    ],
+    "notif": "Cukup lewat browser"
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Rekam medis elektronik",
+    "judul": "Lihat demo *DentalCare*.",
+    "sub": "Ceritakan kebutuhan klinik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

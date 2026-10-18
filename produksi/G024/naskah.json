@@ -1,0 +1,136 @@
+{
+ "hook_pola": "pelajari-sebelum",
+ "judul": "Permenkes 24 Tahun 2022 tentang Rekam Medis: 4 Hal untuk Klinik",
+ "tag": [
+  "permenkes 24 tahun 2022 tentang rekam medis",
+  "permenkes rekam medis",
+  "rekam medis elektronik",
+  "aplikasi klinik gigi",
+  "software klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Pahami permenkes 24 tahun 2022 tentang rekam medis sebelum menata catatan klinik Anda.",
+   "anim": "hook-peringatan",
+   "param": {
+    "kicker": "SEBELUM MENATA CATATAN",
+    "judul": "Pahami aturan rekam medis sebelum menata catatan klinik",
+    "sorot": "aturan rekam medis",
+    "ikon": "peringatan"
+   }
+  },
+  {
+   "teks": "Video ini bukan nasihat hukum. Aturan bisa diperbarui, jadi cek sumber resmi terbaru.",
+   "anim": "teks-besar",
+   "param": {
+    "kicker": "CATATAN PENTING",
+    "teks": "Aturan bisa berubah, cek sumber resmi",
+    "sorot": "sumber resmi",
+    "ikon": "dokumen"
+   }
+  },
+  {
+   "teks": "Pertama, baca sumber resminya.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Baca sumber resminya",
+    "sorot": "resmi"
+   }
+  },
+  {
+   "teks": "Pakai teks resmi dari Kementerian Kesehatan, bukan ringkasan atau potongan dari pihak lain.",
+   "anim": "centang-besar",
+   "param": {
+    "teks": "Teks resmi, bukan ringkasan",
+    "sorot": "resmi",
+    "sub": "Dari Kementerian Kesehatan"
+   }
+  },
+  {
+   "teks": "Kedua, catat dengan format yang konsisten.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Catat dengan format konsisten",
+    "sorot": "konsisten"
+   }
+  },
+  {
+   "teks": "Catatan SOAP yang terstruktur membuat setiap kunjungan tertata, seperti contoh DentalCare ini.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "soap"
+    ],
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Ketiga, atur siapa yang membuka catatan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Atur siapa membuka catatan",
+    "sorot": "siapa"
+   }
+  },
+  {
+   "teks": "Setiap peran sebaiknya hanya membuka bagian yang dibutuhkan.",
+   "anim": "alur",
+   "param": {
+    "judul": "Satu peran, bagian sendiri",
+    "langkah": [
+     "Resepsionis",
+     "Dokter",
+     "Kasir"
+    ],
+    "ikon": [
+     "orang",
+     "klinik",
+     "dokumen"
+    ]
+   }
+  },
+  {
+   "teks": "Keempat, siapkan cadangan data.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Siapkan cadangan data",
+    "sorot": "cadangan"
+   }
+  },
+  {
+   "teks": "Data di satu laptop saja berisiko hilang bila perangkat rusak, cadangan rutin jauh lebih aman.",
+   "anim": "benar-salah",
+   "param": {
+    "judul": "Simpan di mana?",
+    "salah": "Satu laptop saja",
+    "benar": "Cadangan rutin",
+    "label_salah": "Berisiko",
+    "label_benar": "Lebih aman"
+   }
+  },
+  {
+   "teks": "Ringkasnya, baca sumber resmi, catat konsisten, atur akses, dan siapkan cadangan data secara rutin.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist rekam medis klinik",
+    "item": [
+     "Baca sumber resmi",
+     "Catat konsisten",
+     "Atur akses",
+     "Siapkan cadangan"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan pencatatan klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Minta demo DentalCare",
+    "sorot": "demo",
+    "sub": "Konsultasi gratis bersama Nusawebsite"
+   }
+  }
+ ]
+}
