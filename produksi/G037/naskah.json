@@ -1,0 +1,190 @@
+{
+ "hook_pola": "kesalahan-umum",
+ "judul": "Cara Mengisi Rekam Medis Gigi: Urutan yang Rapi dan Mudah Dibaca",
+ "tag": [
+  "cara mengisi rekam medis gigi",
+  "rekam medis gigi",
+  "rekam medis elektronik",
+  "aplikasi klinik gigi",
+  "software klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Kesalahan paling sering dalam cara mengisi rekam medis gigi: catatan ditulis tanpa urutan yang jelas.",
+   "anim": "hook",
+   "param": {
+    "kicker": "KESALAHAN PALING SERING",
+    "baris": [
+     "Cara Mengisi",
+     "Rekam Medis Gigi"
+    ],
+    "sub": "Urutan yang jelas membuat catatan mudah dibaca",
+    "sorot_sub": "urutan yang jelas",
+    "ikon": [
+     "kertas",
+     "buku",
+     "user",
+     "klinik"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda asisten di klinik gigi yang baru mulai membantu dokter mencatat.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda asisten klinik gigi",
+    "sorot": "asisten",
+    "sub": "Baru mulai membantu dokter mencatat.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter gigi"
+     },
+     {
+      "ikon": "tim",
+      "teks": "Asisten"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Rekam medis"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Keluhan, hasil pemeriksaan, dan tindakan ditulis di kertas yang sama, tanpa kolom yang tetap.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Semua tercampur di satu kertas",
+    "sorot": "tercampur",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Kertas kosong",
+      "sub": "tanpa kolom tetap"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Buku catatan",
+      "sub": "tulisan berbeda"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Dokter berikutnya sulit membaca, dan bagian penting seperti alergi terlewat.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Catatan sulit dibaca",
+    "sorot": "sulit dibaca",
+    "item": [
+     "Tulisan sulit dibaca",
+     "Alergi terlewat",
+     "Urutan tidak jelas"
+    ]
+   }
+  },
+  {
+   "teks": "Padahal urutannya sederhana: identitas, keluhan, pemeriksaan, odontogram, lalu rencana perawatan.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Urutan yang sering tertukar",
+    "sorot": "tertukar",
+    "label": [
+     "Identitas",
+     "Keluhan",
+     "Pemeriksaan",
+     "Odontogram",
+     "Rencana",
+     "Alergi",
+     "Tindakan",
+     "Resep"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu klinik mencari aplikasi yang menjaga urutan itu lewat kolom yang sudah tertata.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Mencari kolom yang sudah tertata",
+    "sorot": "tertata",
+    "kiri": "Kertas kosong",
+    "kanan": "Kolom berurutan"
+   }
+  },
+  {
+   "teks": "Bukan kertas kosong yang diisi bebas, tetapi formulir digital yang mengikuti alur dokter gigi.",
+   "anim": "banding",
+   "param": {
+    "judul": "Formulir mengikuti alur dokter",
+    "sorot": "alur dokter",
+    "kiri": {
+     "judul": "Kertas kosong",
+     "item": [
+      "Diisi bebas",
+      "Urutan tertukar"
+     ]
+    },
+    "kanan": {
+     "judul": "Formulir digital",
+     "item": [
+      "Kolom berurutan",
+      "Alergi terlihat",
+      "Mudah dibaca"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Di DentalCare, dokter mengisi SOAP lalu menandai kondisi gigi pada odontogram.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "SOAP dan odontogram",
+    "sorot": "odontogram",
+    "klip": [
+     "soap",
+     "odon"
+    ]
+   }
+  },
+  {
+   "teks": "Aplikasinya juga terbuka dari HP dokter, jadi catatan bisa dilihat di ruang praktik.",
+   "anim": "hp",
+   "param": {
+    "tema": "klinik",
+    "notif": "Rekam medis terbuka di HP"
+   }
+  },
+  {
+   "teks": "Hasilnya catatan lebih rapi, mudah dibaca, dan konsisten untuk setiap pasien.",
+   "anim": "centang",
+   "param": {
+    "judul": "Catatan jadi konsisten",
+    "sorot": "konsisten",
+    "label": "SETELAH PAKAI APLIKASI",
+    "item": [
+     "Urutan sama",
+     "Mudah dibaca",
+     "Alergi terlihat"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur pemeriksaan klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur pemeriksaan klinik Anda",
+    "mini": [
+     "Pasien",
+     "SOAP",
+     "Odontogram",
+     "Invoice"
+    ]
+   }
+  }
+ ]
+}
