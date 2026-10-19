@@ -676,7 +676,7 @@
   "keyword": "sistem rekam medis elektronik",
   "kategori": "dental",
   "format": "F3",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G018",
@@ -690,14 +690,14 @@
   "keyword": "aplikasi rekam medis klinik",
   "kategori": "dental",
   "format": "F4",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G020",
   "keyword": "sistem informasi klinik",
   "kategori": "dental",
   "format": "F3",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G021",
@@ -711,14 +711,14 @@
   "keyword": "rekam medis elektronik klinik gigi",
   "kategori": "dental",
   "format": "F2",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G023",
   "keyword": "rekam medis elektronik adalah",
   "kategori": "dental",
   "format": "F3",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G024",
@@ -732,14 +732,14 @@
   "keyword": "rekam medis dokter gigi",
   "kategori": "dental",
   "format": "F1",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G026",
   "keyword": "satusehat untuk klinik",
   "kategori": "dental",
   "format": "F2",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G027",
@@ -753,7 +753,7 @@
   "keyword": "rekam medis elektronik terbaik",
   "kategori": "dental",
   "format": "F1",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G029",
@@ -774,7 +774,7 @@
   "keyword": "odontogram",
   "kategori": "dental",
   "format": "F4",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G032",
@@ -795,7 +795,7 @@
   "keyword": "soap rekam medis gigi",
   "kategori": "dental",
   "format": "F3",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G035",
