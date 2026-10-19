@@ -37,6 +37,10 @@ jobs:
         with: { node-version: "22" }
       - uses: actions/setup-python@v5
         with: { python-version: "3.11" }
+      - name: Cek VO (19 Okt 2026)
+        # VO WAJIB sudah dibuat di PC (siapkan-repo.sh ikut mengirim vo/vo.wav). Tanpa ini tts.mjs menunggu antrean TTS VPS 30 mnt lalu gagal (run 18 Okt).
+        run: |
+          test -s "produksi/${{ matrix.kode }}/vo/vo.wav" || { echo "::error::vo/vo.wav tidak ada untuk ${{ matrix.kode }}: buat VO di PC (node templat/F?/buat.mjs ${{ matrix.kode }} --tanpa-render) lalu siapkan-repo.sh"; exit 1; }
       - name: Pasang alat
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-core > /dev/null
@@ -64,3 +68,4 @@ jobs:
             produksi/${{ matrix.kode }}/frames/
             produksi/${{ matrix.kode }}/meta.json
           retention-days: 7
+          if-no-files-found: warn
