@@ -641,7 +641,7 @@
   "keyword": "aplikasi dokter gigi",
   "kategori": "dental",
   "format": "F4",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G013",
@@ -669,7 +669,7 @@
   "keyword": "aplikasi klinik berbasis web",
   "kategori": "dental",
   "format": "F1",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G017",

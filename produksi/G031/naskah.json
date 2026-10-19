@@ -1,0 +1,153 @@
+{
+ "hook_pola": "mitos",
+ "judul": "Odontogram: Bukan Sekadar Gambar Gigi, Ini 4 Hal yang Perlu Dilihat",
+ "tag": [
+  "odontogram",
+  "odontogram gigi",
+  "odontogram digital",
+  "rekam medis gigi",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "software klinik gigi",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Anggapan odontogram hanya gambar gigi biasa itu keliru.",
+   "anim": "hook-peringatan",
+   "param": {
+    "kicker": "MITOS ODONTOGRAM",
+    "judul": "Odontogram bukan sekadar gambar gigi",
+    "sorot": "bukan sekadar",
+    "ikon": "kacamata"
+   }
+  },
+  {
+   "teks": "Odontogram adalah peta kondisi gigi pasien, dan dokter membacanya sebelum menentukan tindakan.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Peta kondisi gigi, dasar tindakan dokter",
+    "sorot": "dasar tindakan",
+    "ikon": "dokumen"
+   }
+  },
+  {
+   "teks": "Pertama, setiap gigi punya kotaknya sendiri.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Setiap gigi punya kotak sendiri",
+    "sorot": "kotak sendiri"
+   }
+  },
+  {
+   "teks": "Gigi tersusun urut pada peta, jadi dokter langsung tahu gigi mana yang dibahas.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "odon"
+    ],
+    "perangkat": "browser",
+    "label": "Odontogram di DentalCare buatan kami"
+   }
+  },
+  {
+   "teks": "Kedua, kondisi gigi ditandai dengan simbol.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Kondisi gigi ditandai simbol",
+    "sorot": "simbol"
+   }
+  },
+  {
+   "teks": "Karies, tambalan, gigi dicabut, dan mahkota punya tanda berbeda, jadi mudah dibaca sekilas.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Setiap kondisi punya tanda",
+    "item": [
+     {
+      "ikon": "peringatan",
+      "label": "Karies"
+     },
+     {
+      "ikon": "cek",
+      "label": "Tambalan"
+     },
+     {
+      "ikon": "silang",
+      "label": "Dicabut"
+     },
+     {
+      "ikon": "bintang",
+      "label": "Mahkota"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ketiga, hasilnya terhubung ke catatan SOAP.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Terhubung ke catatan SOAP",
+    "sorot": "SOAP"
+   }
+  },
+  {
+   "teks": "Temuan pada peta gigi ikut masuk ke pemeriksaan, jadi tidak ada catatan yang terpisah.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "soap"
+    ],
+    "perangkat": "browser",
+    "label": "Catatan SOAP di DentalCare"
+   }
+  },
+  {
+   "teks": "Keempat, bisa dibuka dari mana saja.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Berbasis web, terbuka dari mana saja",
+    "sorot": "mana saja"
+   }
+  },
+  {
+   "teks": "Karena berbasis web, peta gigi terbuka di ruang praktik, meja dokter, maupun di HP dokter.",
+   "anim": "alur",
+   "param": {
+    "judul": "Satu data, banyak perangkat",
+    "langkah": [
+     "Ruang praktik",
+     "Meja dokter",
+     "HP dokter"
+    ],
+    "ikon": [
+     "klinik",
+     "laptop",
+     "hp"
+    ]
+   }
+  },
+  {
+   "teks": "Ingat empat hal ini: kotak per gigi, simbol, terhubung SOAP, dan berbasis web.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Yang perlu dilihat pada odontogram",
+    "item": [
+     "Kotak per gigi",
+     "Simbol kondisi",
+     "Terhubung SOAP",
+     "Berbasis web"
+    ]
+   }
+  },
+  {
+   "teks": "Ingin melihat odontogramnya langsung? Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Lihat odontogram DentalCare",
+    "sorot": "odontogram",
+    "sub": "Konsultasi gratis bersama Nusawebsite"
+   }
+  }
+ ]
+}

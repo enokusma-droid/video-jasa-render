@@ -1,0 +1,165 @@
+{
+ "tema": "brutal",
+ "hook_pola": "angka-spesifik",
+ "tag": [
+  "soap rekam medis gigi",
+  "catatan soap gigi",
+  "rekam medis gigi",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "software klinik gigi",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Pelajari soap rekam medis gigi sebelum klinik Anda mencatat dengan format yang berbeda-beda. Empat huruf ini menjaga catatan tetap runtut.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "4 HURUF PENENTU",
+    "sorot": "rekam medis gigi",
+    "sub": "Subjective, Objective, Assessment, Plan",
+    "kata_sub": "empat",
+    "judul_yt": "SOAP Rekam Medis Gigi: 4 Bagian Catatan yang Runtut"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan catatan bebas. Keluhan bercampur hasil periksa, diagnosis tidak jelas, dan rencana terlewat.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Catatan bebas tanpa susunan yang tetap.",
+    "item": [
+     "Keluhan bercampur",
+     "Diagnosis tidak jelas",
+     "Rencana terlewat"
+    ],
+    "kata": [
+     "keluhan",
+     "diagnosis",
+     "rencana"
+    ]
+   }
+  },
+  {
+   "teks": "Di DentalCare, catatan SOAP punya empat bagian yang berurutan.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "EMPAT BAGIAN SOAP",
+    "tahap": [
+     "Subjective",
+     "Objective",
+     "Assessment",
+     "Plan"
+    ],
+    "rail": "SOAP"
+   }
+  },
+  {
+   "teks": "Bagian satu, subjective. Dokter menulis keluhan pasien, riwayat penyakit, dan alergi yang disampaikan.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Subjective\nKeluhan",
+    "desk": "Apa yang disampaikan pasien.",
+    "visual": "catatan",
+    "label": "KELUHAN PASIEN",
+    "item": [
+     "Keluhan utama",
+     "Riwayat penyakit",
+     "Alergi"
+    ],
+    "kata": [
+     "keluhan",
+     "riwayat",
+     "alergi"
+    ]
+   }
+  },
+  {
+   "teks": "Bagian dua, objective. Hasil pemeriksaan klinis dicatat langsung di rekam medis, bukan di kertas terpisah.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Objective\nPemeriksaan",
+    "desk": "Yang ditemukan dokter.",
+    "visual": "ui",
+    "klip": [
+     "soap"
+    ],
+    "item": [
+     "Hasil pemeriksaan",
+     "Rekam medis"
+    ],
+    "kata": [
+     "hasil",
+     "rekam"
+    ]
+   }
+  },
+  {
+   "teks": "Bagian tiga, assessment. Dokter menulis diagnosis berdasarkan keluhan dan temuan, lalu menandai kondisi gigi.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Assessment\nDiagnosis",
+    "desk": "Kesimpulan dokter.",
+    "visual": "ui",
+    "klip": [
+     "odon"
+    ],
+    "item": [
+     "Diagnosis",
+     "Kondisi gigi"
+    ],
+    "kata": [
+     "diagnosis",
+     "temuan"
+    ]
+   }
+  },
+  {
+   "teks": "Bagian empat, plan. Rencana perawatan, tindakan, dan resep dipilih dari daftar, lalu tersambung ke tagihan.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Plan\nRencana",
+    "desk": "Langkah perawatan berikutnya.",
+    "visual": "ui",
+    "klip": [
+     "resep"
+    ],
+    "item": [
+     "Rencana perawatan",
+     "Tindakan",
+     "Resep"
+    ],
+    "kata": [
+     "rencana",
+     "tindakan",
+     "resep"
+    ]
+   }
+  },
+  {
+   "teks": "Semuanya ada di DentalCare, aplikasi klinik gigi buatan kami, dan bisa dilihat langsung.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "SOAP di DentalCare, buatan Nusawebsite",
+    "klip": [
+     "soap",
+     "odon"
+    ]
+   }
+  },
+  {
+   "teks": "Ingin catatan SOAP klinik Anda lebih runtut? Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": [
+     "Subjective",
+     "Objective",
+     "Assessment",
+     "Plan"
+    ],
+    "kata_link": "link"
+   }
+  }
+ ]
+}
