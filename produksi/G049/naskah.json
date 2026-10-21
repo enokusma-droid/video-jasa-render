@@ -1,0 +1,201 @@
+{
+ "hook_pola": "pemborosan-jika-dilewati",
+ "judul": "Sewa Aplikasi Klinik: Petakan Kebutuhan Klinik Dulu",
+ "tag": [
+  "sewa aplikasi klinik",
+  "aplikasi klinik berlangganan",
+  "aplikasi klinik gigi",
+  "software klinik gigi",
+  "model kerja sama aplikasi klinik",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Sewa aplikasi klinik bisa jadi kurang pas kalau kebutuhan klinik belum dipetakan.",
+   "anim": "hook",
+   "param": {
+    "kicker": "PETAKAN DULU",
+    "baris": [
+     "Sewa Aplikasi",
+     "Klinik"
+    ],
+    "sub": "Pahami kebutuhan, baru pilih model",
+    "sorot_sub": "kebutuhan",
+    "ikon": [
+     "klinik",
+     "aplikasi",
+     "kalender",
+     "laporan"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda memiliki klinik gigi dengan beberapa ruang praktik.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda memiliki klinik gigi",
+    "sorot": "klinik gigi",
+    "sub": "Beberapa ruang praktik.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter gigi"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Ruang praktik"
+     },
+     {
+      "ikon": "kalender",
+      "teks": "Janji temu"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pencatatan masih di map, jadwal di chat, dan rekap di Excel.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Tersebar di banyak tempat",
+    "sorot": "banyak tempat",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Map pasien",
+      "sub": "pencatatan"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "sub": "jadwal"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Excel",
+      "sub": "rekap"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Data berpindah-pindah, antrean tidak jelas, dan laporan sulit dibuat.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Masalah yang berulang",
+    "sorot": "berulang",
+    "item": [
+     "Data berpindah-pindah",
+     "Antrean tidak jelas",
+     "Laporan sulit dibuat"
+    ]
+   }
+  },
+  {
+   "teks": "Banyak waktu staf habis untuk merapikan catatan, bukan untuk pasien.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis merapikan catatan",
+    "sorot": "merapikan catatan",
+    "sub": "Bukan untuk pasien.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda mempertimbangkan model kerja sama, sewa atau pengembangan khusus.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Pilih model kerja sama",
+    "sorot": "model",
+    "kiri": "Kebutuhan belum jelas",
+    "kanan": "Model sesuai klinik"
+   }
+  },
+  {
+   "teks": "Bukan soal mana yang paling populer, tapi mana yang cocok dengan alur klinik.",
+   "anim": "banding",
+   "param": {
+    "judul": "Cocok dengan alur klinik",
+    "sorot": "alur klinik",
+    "kiri": {
+     "judul": "Asal pilih",
+     "item": [
+      "Kebutuhan belum dipetakan",
+      "Fitur tidak terpakai",
+      "Staf menyesuaikan"
+     ]
+    },
+    "kanan": {
+     "judul": "Dipetakan dulu",
+     "item": [
+      "Kebutuhan jelas",
+      "Fitur sesuai alur",
+      "Model kerja sama pas"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Di DentalCare, antrean, rekam medis SOAP, dan invoice berjalan dalam satu alur.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "Satu alur di DentalCare",
+    "sorot": "satu alur",
+    "klip": [
+     "dash",
+     "soap",
+     "inv"
+    ]
+   }
+  },
+  {
+   "teks": "Pemilik klinik juga bisa melihat jadwal pasien dari HP lewat browser.",
+   "anim": "hp",
+   "param": {
+    "tema": "klinik",
+    "kicker": "DARI MANA SAJA",
+    "judul": "Cek jadwal dari HP",
+    "sorot": "dari HP",
+    "notif": "Janji temu tercatat"
+   }
+  },
+  {
+   "teks": "Hasilnya klinik tahu apa yang dibutuhkan sebelum memilih model kerja sama.",
+   "anim": "centang",
+   "param": {
+    "judul": "Keputusan jadi lebih mantap",
+    "sorot": "mantap",
+    "label": "SETELAH DIPETAKAN",
+    "item": [
+     "Kebutuhan jelas",
+     "Alur dipahami",
+     "Model sesuai"
+    ]
+   }
+  },
+  {
+   "teks": "Sewa atau pengembangan khusus bisa dibahas dalam konsultasi gratis, sesuai kebutuhan klinik Anda.",
+   "anim": "kutipan",
+   "param": {
+    "teks": "Bahas model kerja sama sesuai kebutuhan klinik Anda",
+    "sorot": [
+     "kebutuhan",
+     "klinik"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {}
+  }
+ ]
+}

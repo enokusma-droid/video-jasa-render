@@ -1,0 +1,222 @@
+{
+ "meta": {
+  "judul": "Jasa Pembuatan Aplikasi Klinik: Lihat Hasil Kerjanya Dulu",
+  "ringkas": "lihat dulu aplikasi klinik yang benar-benar sudah dibangun. Kami bedah DentalCare: dashboard, data pasien, antrean, dan invoice.",
+  "tag": [
+   "jasa pembuatan aplikasi klinik",
+   "pembuatan aplikasi klinik",
+   "aplikasi klinik gigi",
+   "software klinik",
+   "dentalcare"
+  ]
+ },
+ "hook_pola": "hati-hati",
+ "blok": [
+  {
+   "teks": "Hati-hati memilih jasa pembuatan aplikasi klinik yang belum menunjukkan hasil kerjanya.",
+   "anim": "hook",
+   "param": {
+    "judul": "Hati-hati *sebelum memilih*.",
+    "sub": "Minta lihat *hasil kerjanya* dulu."
+   }
+  },
+  {
+   "teks": "Janji manis mudah dibuat, tetapi alur klinik baru terlihat saat aplikasinya dicoba.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Yang sering terjadi",
+    "judul": "Janji *tanpa bukti*.",
+    "masalah": [
+     {
+      "ikon": "alert",
+      "teks": "Hanya presentasi"
+     },
+     {
+      "ikon": "layar",
+      "teks": "Layar belum bisa dicoba"
+     },
+     {
+      "ikon": "user",
+      "teks": "Staf bingung"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Padahal alur klinik jelas: daftar, antre, periksa, bayar, lalu laporan.",
+   "anim": "diagram-alur",
+   "param": {
+    "kicker": "Alur klinik",
+    "judul": "Alurnya *jelas*",
+    "langkah": [
+     {
+      "ikon": "user",
+      "teks": "Daftar"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Antre"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Periksa"
+     },
+     {
+      "ikon": "cek",
+      "teks": "Bayar"
+     },
+     {
+      "ikon": "grafik",
+      "teks": "Laporan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ini hasil kerja kami: DentalCare, aplikasi klinik gigi yang kami bangun sendiri.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi berbasis web",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare",
+    "ikon": "klinik"
+   }
+  },
+  {
+   "teks": "Satu, data pasien. Profil dan riwayat muncul setelah nama diketik.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Data pasien",
+    "ket": "Profil dan riwayat kunjungan",
+    "fokus": [
+     40,
+     40
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Dua, antrean. Petugas memanggil pasien sesuai urutan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "antrean",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Antrean pasien",
+    "ket": "Dipanggil sesuai urutan",
+    "fokus": [
+     90,
+     47
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare",
+    "sorot": {
+     "x": 85.5,
+     "y": 40,
+     "w": 9,
+     "h": 13,
+     "label": "Panggil sesuai urutan"
+    }
+   }
+  },
+  {
+   "teks": "Tiga, invoice. Tagihan terbentuk dari tindakan yang sudah dicatat.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice-detail",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Invoice pasien",
+    "ket": "Terbentuk dari tindakan",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Hasilnya staf tidak lagi menyalin data, dan pemilik klinik melihat laporan yang rapi.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Cara lama",
+     "item": [
+      "Menyalin data",
+      "Mencari berkas",
+      "Rekap manual"
+     ]
+    },
+    "kanan": {
+     "judul": "Aplikasi klinik",
+     "item": [
+      "Satu catatan",
+      "Dicari dengan nama",
+      "Laporan otomatis"
+     ]
+    },
+    "pemicu": "laporan"
+   }
+  },
+  {
+   "teks": "Untuk klinik Anda, kami buat mockup layar yang Anda setujui lebih dulu.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikembangkan.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Fitur lain bisa ditambahkan sesuai kebutuhan: janji temu, resep, stok obat, dan laporan.",
+   "anim": "fitur-grid",
+   "param": {
+    "kicker": "Sesuai kebutuhan",
+    "judul": "Fitur *menyesuaikan klinik*",
+    "fitur": [
+     {
+      "ikon": "kalender",
+      "teks": "Janji temu"
+     },
+     {
+      "ikon": "pena",
+      "teks": "Resep"
+     },
+     {
+      "ikon": "stok",
+      "teks": "Stok obat"
+     },
+     {
+      "ikon": "grafik",
+      "teks": "Laporan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Jasa pembuatan aplikasi klinik",
+    "judul": "Lihat dulu, *baru putuskan*.",
+    "sub": "Ceritakan alur klinik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}
