@@ -1,0 +1,164 @@
+{
+ "tema": "brutal",
+ "tag": [
+  "rekam medis poli gigi",
+  "rekam medis gigi",
+  "aplikasi rekam medis gigi",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "hook_pola": "jangan-dulu",
+ "blok": [
+  {
+   "teks": "Jangan digitalkan rekam medis poli gigi sebelum alurnya dipetakan. Salah urutan, dokter kembali ke kertas.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "JANGAN BURU-BURU",
+    "sorot": "poli gigi",
+    "sub": "Petakan alurnya dulu, baru digitalkan",
+    "kata_sub": "alurnya",
+    "judul_yt": "Rekam Medis Poli Gigi: Petakan Alurnya Sebelum Digitalkan"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan formulir yang tidak sesuai kerja dokter gigi. Odontogram hilang, istilah asing, dan input berulang.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Formulir yang tidak sesuai kerja dokter gigi.",
+    "item": [
+     "Odontogram hilang",
+     "Istilah asing",
+     "Input berulang"
+    ],
+    "kata": [
+     "odontogram",
+     "istilah",
+     "input"
+    ]
+   }
+  },
+  {
+   "teks": "Di Nusawebsite, alurnya empat tahap.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "TAHAP PEMBUATAN",
+    "tahap": [
+     "Konsultasi",
+     "Rancang alur",
+     "Mockup",
+     "Uji & Rilis"
+    ],
+    "rail": "TAHAP PEMBUATAN"
+   }
+  },
+  {
+   "teks": "Tahap satu, konsultasi. Kami catat pengguna poli, bagian yang sering diisi, dan kebiasaan dokter.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Konsultasi\nPoli Gigi",
+    "desk": "Kebiasaan kerja poli dicatat dulu.",
+    "visual": "catatan",
+    "label": "KEBUTUHAN POLI",
+    "item": [
+     "Pengguna poli",
+     "Bagian sering diisi",
+     "Kebiasaan dokter"
+    ],
+    "kata": [
+     "pengguna",
+     "bagian",
+     "kebiasaan"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap dua, rancang alur. Pasien, pemeriksaan, dan odontogram dibuat dulu, tambahan menyusul.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Rancang Alur\nInti",
+    "desk": "Alur inti dulu, tambahan menyusul.",
+    "visual": "alur",
+    "alur": [
+     "Pasien",
+     "Periksa",
+     "Gigi"
+    ],
+    "on": [
+     "Data pasien",
+     "Pemeriksaan",
+     "Odontogram"
+    ],
+    "kata": [
+     "pasien",
+     "pemeriksaan",
+     "odontogram"
+    ],
+    "off": [
+     "Laporan tambahan",
+     "Integrasi"
+    ],
+    "catatan": "Alur inti dulu"
+   }
+  },
+  {
+   "teks": "Tahap tiga, mockup. Anda menyetujui tampilan layar sebelum kode ditulis.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Mockup\nTampilan",
+    "desk": "Setiap layar disetujui sebelum koding.",
+    "visual": "wireframe",
+    "mode": "app",
+    "stempel": "DISETUJUI",
+    "kata_stempel": "menyetujui"
+   }
+  },
+  {
+   "teks": "Tahap empat, uji dan rilis. Dicoba dengan alur poli, lalu dibuka lewat browser.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Uji &\nRilis",
+    "desk": "Diuji dengan alur poli, lalu dirilis.",
+    "visual": "rilis",
+    "klip": [
+     "odon"
+    ],
+    "item": [
+     "Dicoba alur poli",
+     "Dibuka lewat browser"
+    ],
+    "kata": [
+     "dicoba",
+     "browser"
+    ]
+   }
+  },
+  {
+   "teks": "Contohnya DentalCare, rekam medis klinik gigi buatan kami dengan SOAP dan odontogram.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "DentalCare, SOAP dan odontogram",
+    "klip": [
+     "soap",
+     "odon"
+    ]
+   }
+  },
+  {
+   "teks": "Ingin merapikan rekam medis poli gigi Anda? Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur poli gigi Anda",
+    "kata_link": "link",
+    "mini": [
+     "Konsultasi",
+     "Rancang alur",
+     "Mockup",
+     "Uji & Rilis"
+    ]
+   }
+  }
+ ]
+}

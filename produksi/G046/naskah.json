@@ -1,0 +1,164 @@
+{
+ "tema": "clean",
+ "tag": [
+  "booking online klinik gigi",
+  "janji temu online klinik gigi",
+  "aplikasi booking klinik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "hook_pola": "hati-hati",
+ "blok": [
+  {
+   "teks": "Hati-hati dengan booking online klinik gigi yang tidak terhubung ke jadwal dokter. Pasien datang, dokter tidak siap.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "HATI-HATI",
+    "sorot": "klinik gigi",
+    "sub": "Booking harus nyambung ke jadwal dokter",
+    "kata_sub": "nyambung",
+    "judul_yt": "Booking Online Klinik Gigi: Harus Nyambung ke Jadwal Dokter"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan form yang berdiri sendiri. Jadwal bentrok, data pasien tertinggal, dan staf menyalin ulang.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Form yang berdiri sendiri.",
+    "item": [
+     "Jadwal bentrok",
+     "Data tertinggal",
+     "Staf menyalin ulang"
+    ],
+    "kata": [
+     "jadwal",
+     "data",
+     "staf"
+    ]
+   }
+  },
+  {
+   "teks": "Di Nusawebsite, alurnya empat tahap.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "TAHAP PEMBUATAN",
+    "tahap": [
+     "Konsultasi",
+     "Rancang alur",
+     "Mockup",
+     "Uji & Rilis"
+    ],
+    "rail": "TAHAP PEMBUATAN"
+   }
+  },
+  {
+   "teks": "Tahap satu, konsultasi. Kami catat jam praktik, jumlah dokter, dan jenis tindakan.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Konsultasi\nJadwal Klinik",
+    "desk": "Jadwal nyata klinik dicatat dulu.",
+    "visual": "catatan",
+    "label": "KEBUTUHAN KLINIK",
+    "item": [
+     "Jam praktik",
+     "Jumlah dokter",
+     "Jenis tindakan"
+    ],
+    "kata": [
+     "jam",
+     "jumlah",
+     "jenis"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap dua, rancang alur. Pasien memilih jadwal, klinik mengonfirmasi, dan antrean terbentuk.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Rancang Alur\nBooking",
+    "desk": "Dari memilih jadwal sampai antrean.",
+    "visual": "alur",
+    "alur": [
+     "Pilih jadwal",
+     "Konfirmasi",
+     "Antrean"
+    ],
+    "on": [
+     "Pilih jadwal",
+     "Konfirmasi klinik",
+     "Antrean terbentuk"
+    ],
+    "kata": [
+     "memilih",
+     "mengonfirmasi",
+     "antrean"
+    ],
+    "off": [
+     "Pengingat tambahan",
+     "Integrasi"
+    ],
+    "catatan": "Alur inti dulu"
+   }
+  },
+  {
+   "teks": "Tahap tiga, mockup. Anda menyetujui tampilan halaman booking sebelum kode ditulis.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Mockup\nHalaman Booking",
+    "desk": "Tampilan disetujui sebelum koding.",
+    "visual": "wireframe",
+    "mode": "web",
+    "stempel": "DISETUJUI",
+    "kata_stempel": "menyetujui"
+   }
+  },
+  {
+   "teks": "Tahap empat, uji dan rilis. Booking dicoba dari HP, lalu dibuka untuk pasien.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Uji &\nRilis",
+    "desk": "Dicoba dari HP, lalu dirilis.",
+    "visual": "rilis",
+    "klip": [
+     "antrean"
+    ],
+    "item": [
+     "Dicoba dari HP",
+     "Dibuka untuk pasien"
+    ],
+    "kata": [
+     "dicoba",
+     "dibuka"
+    ]
+   }
+  },
+  {
+   "teks": "Contohnya DentalCare, aplikasi klinik gigi buatan kami dengan antrean dan jadwal pasien.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "DentalCare, antrean dan jadwal",
+    "klip": [
+     "antrean",
+     "dash"
+    ]
+   }
+  },
+  {
+   "teks": "Ingin booking online klinik gigi Anda rapi? Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan jadwal klinik gigi Anda",
+    "kata_link": "link",
+    "mini": [
+     "Konsultasi",
+     "Rancang alur",
+     "Mockup",
+     "Uji & Rilis"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "hook_pola": "hati-hati",
+ "judul": "Kelebihan dan Kekurangan Rekam Medis Elektronik untuk Klinik Gigi",
+ "tag": [
+  "kelebihan dan kekurangan rekam medis elektronik",
+  "rekam medis elektronik",
+  "rekam medis elektronik klinik gigi",
+  "aplikasi klinik gigi",
+  "software klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Hati-hati menilai kelebihan dan kekurangan rekam medis elektronik hanya dari brosurnya.",
+   "anim": "hook-peringatan",
+   "param": {
+    "kicker": "HATI-HATI SEBELUM BERALIH",
+    "judul": "Kelebihan dan kekurangan rekam medis elektronik",
+    "sorot": "kekurangan",
+    "ikon": "peringatan"
+   }
+  },
+  {
+   "teks": "Keduanya perlu dilihat dengan jujur, sebelum klinik memutuskan beralih dari kertas ke sistem.",
+   "anim": "benar-salah",
+   "param": {
+    "judul": "Kertas atau elektronik",
+    "salah": "Map kertas, riwayat dicari manual",
+    "benar": "Elektronik, riwayat dicari dengan nama",
+    "label_salah": "Cara lama",
+    "label_benar": "Cara baru"
+   }
+  },
+  {
+   "teks": "Kelebihan pertama, riwayat pasien cepat dicari.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Riwayat pasien cepat dicari",
+    "sorot": "cepat"
+   }
+  },
+  {
+   "teks": "Cukup ketik nama pasien di kolom pencarian, lalu riwayat kunjungannya terbuka tanpa membongkar rak.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "pasien"
+    ],
+    "perangkat": "browser",
+    "label": "Data pasien di DentalCare"
+   }
+  },
+  {
+   "teks": "Kelebihan kedua, tindakan tersambung ke tagihan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Tindakan tersambung ke tagihan",
+    "sorot": "tagihan"
+   }
+  },
+  {
+   "teks": "Tindakan yang dicatat dokter langsung menjadi invoice di kasir, jadi tidak perlu menghitung ulang.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "inv"
+    ],
+    "perangkat": "keduanya",
+    "label": "Invoice di DentalCare"
+   }
+  },
+  {
+   "teks": "Kekurangan pertama, staf perlu waktu membiasakan diri.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Staf perlu waktu membiasakan diri",
+    "sorot": "membiasakan"
+   }
+  },
+  {
+   "teks": "Karena itu, latihan bertahap dan pendampingan di awal membantu staf cepat terbiasa dengan alur baru.",
+   "anim": "alur",
+   "param": {
+    "judul": "Pembiasaan bertahap",
+    "langkah": [
+     "Pelatihan",
+     "Uji coba",
+     "Dipakai harian"
+    ],
+    "ikon": [
+     "orang",
+     "gear",
+     "cek"
+    ]
+   }
+  },
+  {
+   "teks": "Kekurangan kedua, butuh koneksi internet.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Butuh koneksi internet",
+    "sorot": "internet"
+   }
+  },
+  {
+   "teks": "Karena berbasis web, pastikan koneksi internet dan perangkat di klinik selalu tersedia.",
+   "anim": "centang-besar",
+   "param": {
+    "teks": "Pastikan koneksi dan perangkat siap",
+    "sorot": "siap"
+   }
+  },
+  {
+   "teks": "Catat: riwayat cepat dicari dan tersambung tagihan, tetapi butuh pembiasaan staf dan koneksi yang stabil.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Timbang kedua sisi",
+    "item": [
+     "Riwayat cepat dicari",
+     "Tersambung tagihan",
+     "Staf perlu pembiasaan",
+     "Butuh koneksi stabil"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Timbang bersama kami",
+    "sorot": "bersama",
+    "sub": "Konsultasi gratis bersama Nusawebsite"
+   }
+  }
+ ]
+}

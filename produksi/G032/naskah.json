@@ -1,0 +1,186 @@
+{
+ "meta": {
+  "judul": "Manfaat Rekam Medis Elektronik untuk Klinik Gigi: 3 Fitur Utama",
+  "ringkas": "lihat tiga manfaat yang terasa sehari-hari di klinik gigi: riwayat pasien mudah dicari, catatan SOAP rapi, dan tagihan yang tersambung.",
+  "tag": [
+   "dentalcare",
+   "rekam medis elektronik klinik gigi",
+   "aplikasi klinik gigi",
+   "software klinik gigi",
+   "aplikasi dokter gigi"
+  ]
+ },
+ "hook_pola": "angka-spesifik",
+ "blok": [
+  {
+   "teks": "Tiga manfaat rekam medis elektronik ini bisa membuat kerja klinik gigi lebih rapi.",
+   "anim": "hook",
+   "param": {
+    "judul": "Tiga manfaat yang *terasa* tiap hari.",
+    "sub": "Rekam medis elektronik untuk *klinik gigi*."
+   }
+  },
+  {
+   "teks": "Selama ini catatan pasien di klinik gigi tersebar di map kertas, buku register, dan file Excel.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Sebelum beralih",
+    "judul": "Catatan *tersebar*.",
+    "kartu": [
+     {
+      "ikon": "kertas",
+      "judul": "Map kertas",
+      "ket": "Satu map per pasien"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Buku register",
+      "ket": "Dibuka halaman demi halaman"
+     },
+     {
+      "ikon": "excel",
+      "judul": "File Excel",
+      "ket": "Beda isi di tiap komputer"
+     }
+    ],
+    "coret": "excel"
+   }
+  },
+  {
+   "teks": "Dokter butuh waktu mencari riwayat, data yang sama sering ditulis dua kali, dan antrean jadi memanjang.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Waktu habis *mencari*.",
+    "masalah": [
+     {
+      "ikon": "cari",
+      "teks": "Riwayat dicari manual"
+     },
+     {
+      "ikon": "pena",
+      "teks": "Data ditulis dua kali"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Antrean memanjang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ini DentalCare, aplikasi rekam medis klinik gigi buatan kami.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Manfaat pertama, riwayat pasien mudah dicari lewat satu tabel, cukup dengan mengetik nama.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Data pasien",
+    "ket": "Tabel pasien dengan pencarian",
+    "fokus": [
+     40,
+     40
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Manfaat kedua, catatan SOAP diketik langsung oleh dokter dan tersimpan rapi di rekam medis.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Catatan SOAP",
+    "ket": "Keluhan sampai rencana perawatan",
+    "fokus": [
+     40,
+     45
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Manfaat ketiga, invoice siap dicetak setelah tindakan dicatat, jadi kasir tidak menghitung ulang.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice-detail",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Detail invoice",
+    "ket": "Siap dicetak untuk pasien",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Pekerjaan yang dulu ditulis berulang kini cukup dicatat sekali dan bisa dibuka kapan saja.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Cara manual",
+     "item": [
+      "Ditulis berulang",
+      "Dicari di rak",
+      "Mudah hilang"
+     ]
+    },
+    "kanan": {
+     "judul": "Rekam medis elektronik",
+     "item": [
+      "Dicatat sekali",
+      "Dicari dengan nama",
+      "Tersimpan rapi"
+     ]
+    },
+    "pemicu": "kini"
+   }
+  },
+  {
+   "teks": "Aplikasinya berbasis web, jadi terbuka dari komputer resepsionis maupun HP dokter.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Buka dari *komputer* maupun *HP*",
+    "poin": [
+     "Komputer resepsionis",
+     "HP dokter"
+    ],
+    "notif": "Cukup lewat browser"
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan klinik Anda dan lihat demonya. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Rekam medis elektronik",
+    "judul": "Lihat demo *DentalCare*.",
+    "sub": "Ceritakan kebutuhan klinik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

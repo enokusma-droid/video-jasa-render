@@ -1,0 +1,163 @@
+{
+ "hook_pola": "jangan-sebelum",
+ "judul": "Pemusnahan Rekam Medis Elektronik: Cek 4 Hal Ini Dulu",
+ "tag": [
+  "pemusnahan rekam medis elektronik",
+  "rekam medis elektronik",
+  "pengelolaan rekam medis",
+  "aplikasi rekam medis klinik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Jangan lakukan pemusnahan rekam medis elektronik sebelum Anda mengecek empat hal ini.",
+   "anim": "hook-peringatan",
+   "param": {
+    "kicker": "CEK DULU",
+    "judul": "Pemusnahan rekam medis elektronik: cek 4 hal ini",
+    "sorot": "cek 4 hal",
+    "ikon": "peringatan"
+   }
+  },
+  {
+   "teks": "Data pasien bersifat sensitif, jadi keputusan menghapus perlu dasar yang jelas dan tercatat.",
+   "anim": "teks-besar",
+   "param": {
+    "kicker": "DATA SENSITIF",
+    "teks": "Menghapus data pasien perlu dasar yang jelas",
+    "sorot": "dasar yang jelas",
+    "ikon": "kunci"
+   }
+  },
+  {
+   "teks": "Pertama, cek aturan terbaru.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Cek aturan terbaru",
+    "sorot": "aturan terbaru"
+   }
+  },
+  {
+   "teks": "Ketentuan bisa berubah, jadi rujuk aturan yang berlaku dan konsultasikan dengan pihak berwenang.",
+   "anim": "centang-besar",
+   "param": {
+    "teks": "Rujuk aturan yang berlaku",
+    "sorot": "berlaku",
+    "sub": "Bukan dari kabar atau ingatan"
+   }
+  },
+  {
+   "teks": "Kedua, petakan data apa saja yang dikelola.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Petakan data yang dikelola",
+    "sorot": "petakan"
+   }
+  },
+  {
+   "teks": "Identitas, catatan SOAP, odontogram, dan invoice pasien tersimpan di satu tempat yang rapi.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "pasien",
+     "soap",
+     "odon"
+    ],
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Ketiga, catat siapa yang bertindak dan kapan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Catat siapa dan kapan",
+    "sorot": "siapa"
+   }
+  },
+  {
+   "teks": "Setiap tindakan penting punya jejak, supaya klinik bisa menelusurinya kembali.",
+   "anim": "papan-progres",
+   "param": {
+    "judul": "Jejak tindakan tertelusur",
+    "kolom": [
+     {
+      "judul": "Diajukan",
+      "item": [
+       "Alasan",
+       "Petugas"
+      ]
+     },
+     {
+      "judul": "Ditinjau",
+      "item": [
+       "Pemilik klinik",
+       "Catatan"
+      ]
+     },
+     {
+      "judul": "Tercatat",
+      "item": [
+       "Tanggal",
+       "Hasil"
+      ]
+     }
+    ],
+    "persen": 1
+   }
+  },
+  {
+   "teks": "Keempat, siapkan cadangan dan hak akses.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Cadangan dan hak akses",
+    "sorot": "cadangan"
+   }
+  },
+  {
+   "teks": "Hanya petugas berwenang yang boleh bertindak, dan data penting dicadangkan lebih dulu.",
+   "anim": "kepemilikan",
+   "param": {
+    "judul": "Akses dan cadangan terjaga",
+    "item": [
+     {
+      "ikon": "kunci",
+      "judul": "Hak akses",
+      "sub": "Sesuai peran"
+     },
+     {
+      "ikon": "data",
+      "judul": "Cadangan",
+      "sub": "Sebelum bertindak"
+     },
+     {
+      "ikon": "perisai",
+      "judul": "Data terlindungi",
+      "sub": "Akun petugas"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Inilah checklist pemusnahan yang rapi: aturan, data, jejak, dan cadangan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist sebelum pemusnahan",
+    "item": [
+     "Cek aturan terbaru",
+     "Petakan data",
+     "Catat jejak",
+     "Cadangan dan akses"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan klinik Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Rapikan pencatatan rekam medis klinik Anda"
+   }
+  }
+ ]
+}

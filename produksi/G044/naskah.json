@@ -1,0 +1,209 @@
+{
+ "meta": {
+  "judul": "Kewajiban Rekam Medis Elektronik: Cek Aturan, Lalu Tata Pencatatan",
+  "ringkas": "cek aturan terbaru yang berlaku, lalu lihat bagaimana aplikasi klinik gigi membantu menata pencatatan: rekam medis SOAP, tindakan dan resep, serta konfirmasi kunjungan.",
+  "tag": [
+   "kewajiban rekam medis elektronik",
+   "rekam medis elektronik",
+   "aplikasi rekam medis klinik",
+   "aplikasi klinik gigi",
+   "dentalcare"
+  ]
+ },
+ "hook_pola": "kontras",
+ "blok": [
+  {
+   "teks": "Kewajiban rekam medis elektronik dicek dari aturan terbaru, bukan dari kabar di grup chat.",
+   "anim": "hook",
+   "param": {
+    "judul": "Cek *aturan terbaru*, bukan kabar grup.",
+    "sub": "Kewajiban rekam medis *elektronik*."
+   }
+  },
+  {
+   "teks": "Banyak klinik masih mencatat di kertas, menyalin ke Excel, dan menyimpan berkas terpisah.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Kebiasaan lama",
+    "judul": "Pencatatan *terpisah*.",
+    "kartu": [
+     {
+      "ikon": "kertas",
+      "judul": "Catatan kertas",
+      "ket": "Ditulis tangan"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Salinan Excel",
+      "ket": "Disalin ulang"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Berkas terpisah",
+      "ket": "Sulit dicari"
+     }
+    ],
+    "coret": "excel"
+   }
+  },
+  {
+   "teks": "Akibatnya data sulit ditelusuri dan pencatatan sulit dirapikan saat dibutuhkan.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Sulit *dirapikan*.",
+    "masalah": [
+     {
+      "ikon": "alert",
+      "teks": "Data sulit ditelusuri"
+     },
+     {
+      "ikon": "cari",
+      "teks": "Riwayat susah dicari"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Waktu terbuang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Bagian aturan silakan cek sendiri. Bagian pencatatan, ini DentalCare, aplikasi klinik gigi buatan kami.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi berbasis web",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare",
+    "ikon": "klinik"
+   }
+  },
+  {
+   "teks": "Satu, rekam medis SOAP. Keluhan dan pemeriksaan diketik langsung di layar.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Rekam medis SOAP",
+    "ket": "Keluhan dan pemeriksaan di layar",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Dua, tindakan dan resep. Dokter memilih tindakan serta obat dari satu halaman.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "tindakan",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Tindakan dan resep",
+    "ket": "Tindakan dan obat satu halaman",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Tiga, konfirmasi kunjungan. Staf memastikan data sebelum kunjungan disimpan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "konfirmasi",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Konfirmasi kunjungan",
+    "ket": "Data dipastikan sebelum disimpan",
+    "fokus": [
+     50,
+     50
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Hasilnya pencatatan lebih tertata dan mudah ditelusuri kembali oleh klinik.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Cara lama",
+     "item": [
+      "Tulis tangan",
+      "Berkas terpisah",
+      "Sulit ditelusuri"
+     ]
+    },
+    "kanan": {
+     "judul": "Aplikasi klinik",
+     "item": [
+      "Satu catatan",
+      "Dicari dengan nama",
+      "Mudah ditelusuri"
+     ]
+    },
+    "pemicu": "tertata"
+   }
+  },
+  {
+   "teks": "Untuk klinik Anda, mockup layar kami buat dan Anda setujui lebih dulu.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikembangkan.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk klinik gigi, klinik pratama, dan praktik mandiri.",
+   "anim": "chip-niche",
+   "param": {
+    "kicker": "Bisa disesuaikan",
+    "judul": "Sesuai *jenis klinik*",
+    "pusat": "Aplikasi",
+    "ikonPusat": "klinik",
+    "chip": [
+     {
+      "ikon": "klinik",
+      "teks": "Klinik gigi"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Klinik pratama"
+     },
+     {
+      "ikon": "user",
+      "teks": "Praktik mandiri"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Kewajiban rekam medis elektronik",
+    "judul": "Tata pencatatan *klinik Anda*.",
+    "sub": "Ceritakan alur klinik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

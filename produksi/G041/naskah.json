@@ -1,0 +1,227 @@
+{
+ "hook_pola": "rahasia-di-balik",
+ "judul": "Sistem Informasi Klinik Pratama: Yang Jarang Dijelaskan Sebelum Memilih",
+ "tag": [
+  "sistem informasi klinik pratama",
+  "sistem informasi klinik",
+  "aplikasi klinik pratama",
+  "aplikasi klinik gigi",
+  "software klinik",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Ini yang jarang dijelaskan tentang sistem informasi klinik pratama sebelum Anda memilihnya.",
+   "anim": "hook",
+   "param": {
+    "kicker": "JARANG DIJELASKAN",
+    "baris": [
+     "Sistem Informasi",
+     "Klinik Pratama"
+    ],
+    "sub": "Pahami alurnya sebelum memilih",
+    "sorot_sub": "alurnya",
+    "ikon": [
+     "klinik",
+     "aplikasi",
+     "laporan",
+     "user"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda mengelola klinik pratama dengan satu dokter dan dua staf.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda mengelola klinik pratama",
+    "sorot": "klinik pratama",
+    "sub": "Satu dokter, dua staf.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter"
+     },
+     {
+      "ikon": "tim",
+      "teks": "Dua staf"
+     },
+     {
+      "ikon": "kalender",
+      "teks": "Jadwal"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pendaftaran dicatat di buku, rekam medis di map, dan tagihan di kalkulator.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Semua dicatat manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "buku",
+      "judul": "Buku daftar",
+      "sub": "pendaftaran"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Map pasien",
+      "sub": "rekam medis"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Hitung manual",
+      "sub": "tagihan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Berkas pasien tercecer, riwayat sulit dicari, dan jadwal sering bentrok.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Berkas tercecer",
+    "sorot": "tercecer",
+    "label": [
+     "Pendaftaran",
+     "Rekam medis",
+     "Resep",
+     "Tagihan",
+     "Jadwal",
+     "Riwayat",
+     "Laporan",
+     "Kontak"
+    ]
+   }
+  },
+  {
+   "teks": "Staf kehabisan waktu untuk mencari data, bukan untuk melayani pasien.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis mencari data",
+    "sorot": "mencari data",
+    "sub": "Bukan melayani pasien.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda berbicara dengan software house tentang sistem yang menyatukan semuanya.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Satu sistem untuk klinik",
+    "sorot": "satu sistem",
+    "kiri": "Buku dan map",
+    "kanan": "Sistem informasi klinik"
+   }
+  },
+  {
+   "teks": "Bukan aplikasi jadi yang kaku, tapi sistem yang mengikuti alur klinik Anda.",
+   "anim": "banding",
+   "param": {
+    "judul": "Mengikuti alur klinik",
+    "sorot": "alur klinik",
+    "kiri": {
+     "judul": "Aplikasi jadi",
+     "item": [
+      "Alur kaku",
+      "Fitur tidak terpakai",
+      "Staf menyesuaikan"
+     ]
+    },
+    "kanan": {
+     "judul": "Sistem custom",
+     "item": [
+      "Mengikuti alur klinik",
+      "Fitur sesuai kebutuhan",
+      "Bertahap berkembang"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Pendaftaran, jadwal dokter, dan kunjungan pasien terlihat dalam satu dashboard.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "klinik",
+    "judul": "Kunjungan di satu dashboard",
+    "sorot": "satu dashboard",
+    "label": "Ilustrasi sistem klinik"
+   }
+  },
+  {
+   "teks": "Pemilik klinik juga bisa memantau kunjungan dari HP lewat browser.",
+   "anim": "hp",
+   "param": {
+    "tema": "klinik",
+    "kicker": "DARI MANA SAJA",
+    "judul": "Pantau kunjungan dari HP",
+    "sorot": "dari HP",
+    "notif": "Kunjungan hari ini tercatat"
+   }
+  },
+  {
+   "teks": "Kami sudah membangun aplikasi serupa, salah satunya DentalCare untuk klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "DentalCare, klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "soap",
+     "inv"
+    ]
+   }
+  },
+  {
+   "teks": "Hasilnya data rapi, antrean jelas, dan laporan siap dibaca pemilik.",
+   "anim": "centang",
+   "param": {
+    "judul": "Klinik jadi lebih tertata",
+    "sorot": "tertata",
+    "label": "SETELAH PAKAI SISTEM",
+    "item": [
+     "Data rapi",
+     "Antrean jelas",
+     "Laporan siap dibaca"
+    ]
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk klinik pratama, praktik dokter, dan klinik gigi.",
+   "anim": "chip_niche",
+   "param": {
+    "judul": "Bisa disesuaikan",
+    "sorot": "disesuaikan",
+    "item": [
+     {
+      "ikon": "klinik",
+      "teks": "Klinik pratama"
+     },
+     {
+      "ikon": "user",
+      "teks": "Praktik dokter"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Klinik gigi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {}
+  }
+ ]
+}

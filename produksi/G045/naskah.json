@@ -1,0 +1,194 @@
+{
+ "hook_pola": "kesalahan-umum",
+ "judul": "Aplikasi Kasir Klinik Gigi: Tagihan Terhubung ke Tindakan",
+ "tag": [
+  "aplikasi kasir klinik gigi",
+  "kasir klinik gigi",
+  "aplikasi kasir klinik",
+  "aplikasi klinik gigi",
+  "software klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Kesalahan paling sering pada aplikasi kasir klinik gigi: tagihan terpisah dari tindakan.",
+   "anim": "hook",
+   "param": {
+    "kicker": "KESALAHAN PALING SERING",
+    "baris": [
+     "Aplikasi Kasir",
+     "Klinik Gigi"
+    ],
+    "sub": "Tagihan harus ikut tindakan",
+    "sorot_sub": "ikut tindakan",
+    "ikon": [
+     "toko",
+     "kertas",
+     "excel",
+     "klinik"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda mengelola klinik gigi dengan dua dokter dan satu kasir.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda mengelola klinik gigi",
+    "sorot": "klinik gigi",
+    "sub": "Dua dokter, satu kasir.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter gigi"
+     },
+     {
+      "ikon": "toko",
+      "teks": "Kasir"
+     },
+     {
+      "ikon": "kalender",
+      "teks": "Jadwal"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Dokter mencatat tindakan di kertas, lalu kasir menghitung ulang di Excel.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Dihitung dua kali",
+    "sorot": "dua kali",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Catatan dokter",
+      "sub": "tindakan"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Excel kasir",
+      "sub": "hitung ulang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tindakan terlewat, nota tertukar, dan rekap harian tidak pernah cocok.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Yang sering terjadi",
+    "sorot": "terjadi",
+    "item": [
+     "Tindakan terlewat",
+     "Nota tertukar",
+     "Rekap tidak cocok"
+    ]
+   }
+  },
+  {
+   "teks": "Setiap hari kasir menghabiskan waktu merapikan nota, bukan melayani pasien.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis merapikan nota",
+    "sorot": "merapikan nota",
+    "sub": "Bukan melayani pasien.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Karena itu klinik beralih ke aplikasi kasir yang nyambung dengan rekam medis.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Kasir nyambung ke rekam medis",
+    "sorot": "nyambung",
+    "kiri": "Nota manual",
+    "kanan": "Kasir terhubung"
+   }
+  },
+  {
+   "teks": "Bukan dua catatan yang dicocokkan, tapi satu data dari tindakan sampai pembayaran.",
+   "anim": "banding",
+   "param": {
+    "judul": "Satu data sampai bayar",
+    "sorot": "satu data",
+    "kiri": {
+     "judul": "Kasir terpisah",
+     "item": [
+      "Hitung ulang",
+      "Nota tertukar",
+      "Rekap tidak cocok"
+     ]
+    },
+    "kanan": {
+     "judul": "Kasir terhubung",
+     "item": [
+      "Tindakan otomatis masuk",
+      "Satu data",
+      "Rekap cocok"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Di DentalCare, setelah tindakan selesai, invoice terbentuk dari data yang sama.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "Invoice dari tindakan",
+    "sorot": "tindakan",
+    "klip": [
+     "inv",
+     "soap"
+    ]
+   }
+  },
+  {
+   "teks": "Pemilik klinik melihat rekap pembayaran harian di dashboard yang rapi.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "klinik",
+    "judul": "Rekap harian di dashboard",
+    "sorot": "rekap harian",
+    "label": "Ilustrasi kasir klinik"
+   }
+  },
+  {
+   "teks": "Kasir juga bisa mengecek status pembayaran dari HP lewat browser.",
+   "anim": "hp",
+   "param": {
+    "tema": "klinik",
+    "kicker": "DARI MANA SAJA",
+    "judul": "Cek pembayaran dari HP",
+    "sorot": "dari HP",
+    "notif": "Pembayaran tercatat"
+   }
+  },
+  {
+   "teks": "Hasilnya nota rapi, rekap cocok, dan kasir fokus melayani pasien.",
+   "anim": "centang",
+   "param": {
+    "judul": "Kasir jadi lebih tenang",
+    "sorot": "tenang",
+    "label": "SETELAH KASIR TERHUBUNG",
+    "item": [
+     "Nota rapi",
+     "Rekap cocok",
+     "Fokus melayani"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur kasir klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {}
+  }
+ ]
+}

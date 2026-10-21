@@ -1,0 +1,174 @@
+{
+ "meta": {
+  "judul": "Contoh SK Rekam Medis Elektronik: Sesuaikan dengan Klinik Anda",
+  "ringkas": "sebelum menyalin contoh SK dari mana pun, pahami dulu alur klinik Anda. Lihat bagaimana aplikasi membantu menata pencatatan rekam medis. Untuk isi SK, ikuti ketentuan yang berlaku.",
+  "tag": [
+   "dentalcare",
+   "rekam medis elektronik klinik gigi",
+   "aplikasi klinik gigi",
+   "software klinik gigi",
+   "sk rekam medis"
+  ]
+ },
+ "hook_pola": "jangan-sebelum",
+ "blok": [
+  {
+   "teks": "Jangan menyalin contoh sk rekam medis elektronik sebelum menyesuaikannya dengan alur klinik Anda.",
+   "anim": "hook",
+   "param": {
+    "judul": "Jangan menyalin *sebelum menyesuaikan*.",
+    "sub": "Contoh SK rekam medis elektronik."
+   }
+  },
+  {
+   "teks": "Contoh dari internet sering tidak cocok dengan cara kerja klinik, sehingga staf tidak menjalankannya dan SK hanya tersimpan.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Yang sering terjadi",
+    "judul": "Contoh *tidak cocok*.",
+    "kartu": [
+     {
+      "ikon": "web",
+      "judul": "Contoh dari internet",
+      "ket": "Alurnya milik klinik lain"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "File SK",
+      "ket": "Tersimpan, jarang dibuka"
+     },
+     {
+      "ikon": "user",
+      "judul": "Staf",
+      "ket": "Tidak tahu alurnya"
+     }
+    ],
+    "coret": "internet"
+   }
+  },
+  {
+   "teks": "Isi SK mengikuti ketentuan yang berlaku, jadi cek aturan terbaru dan tanyakan ke pihak yang berwenang.",
+   "anim": "kutipan-sorot",
+   "param": {
+    "teks": "Isi SK mengikuti *ketentuan yang berlaku*. Cek aturan terbaru.",
+    "atribusi": "Bukan nasihat hukum"
+   }
+  },
+  {
+   "teks": "Yang bisa kami bantu adalah menata pencatatannya di aplikasi, mulai dari pasien sampai tagihan.",
+   "anim": "daftar-centang",
+   "param": {
+    "kicker": "Bagian aplikasi",
+    "judul": "Yang *ditata* aplikasi",
+    "item": [
+     "Data pasien",
+     "Catatan SOAP",
+     "Odontogram",
+     "Invoice"
+    ]
+   }
+  },
+  {
+   "teks": "Ini DentalCare, aplikasi klinik gigi buatan kami yang sudah berjalan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Pertama, identitas dan kunjungan pasien tercatat dalam satu tabel yang mudah dicari.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Data pasien",
+    "ket": "Identitas sampai kunjungan",
+    "fokus": [
+     40,
+     40
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Kedua, dokter mengisi catatan SOAP langsung di sistem, tanpa menyalin dari kertas.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Catatan SOAP",
+    "ket": "Diisi langsung oleh dokter",
+    "fokus": [
+     40,
+     45
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Ketiga, kunjungan dikonfirmasi sebelum disimpan, sehingga alurnya jelas.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "konfirmasi",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Konfirmasi kunjungan",
+    "ket": "Disimpan setelah dikonfirmasi",
+    "fokus": [
+     50,
+     50
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Dengan begitu, alur yang tertulis di SK punya alat untuk dijalankan setiap hari.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "SK saja",
+     "item": [
+      "Tersimpan di map",
+      "Jarang dibuka",
+      "Alur tidak terlihat"
+     ]
+    },
+    "kanan": {
+     "judul": "SK dan aplikasi",
+     "item": [
+      "Alur tercatat",
+      "Dipakai tiap hari",
+      "Mudah ditelusuri"
+     ]
+    },
+    "pemicu": "dengan"
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda dan minta demo. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Rekam medis elektronik",
+    "judul": "Lihat demo *DentalCare*.",
+    "sub": "Ceritakan alur klinik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

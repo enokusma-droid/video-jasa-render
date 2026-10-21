@@ -1,0 +1,151 @@
+{
+ "hook_pola": "jangan-dulu",
+ "judul": "White Label Aplikasi Klinik: Cek Dulu yang Bisa Disesuaikan",
+ "tag": [
+  "white label aplikasi klinik",
+  "aplikasi klinik custom",
+  "aplikasi klinik dengan merek sendiri",
+  "aplikasi klinik gigi",
+  "software klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Jangan setujui white label aplikasi klinik sebelum jelas apa saja yang bisa disesuaikan.",
+   "anim": "hook-peringatan",
+   "param": {
+    "kicker": "TANYAKAN DULU",
+    "judul": "White label aplikasi klinik: tanya yang disesuaikan",
+    "sorot": "disesuaikan",
+    "ikon": "stop"
+   }
+  },
+  {
+   "teks": "Istilah ini sering dipakai longgar, jadi pastikan maksudnya sama dengan kebutuhan klinik Anda.",
+   "anim": "teks-besar",
+   "param": {
+    "kicker": "SAMAKAN MAKSUDNYA",
+    "teks": "Maksudnya harus sama dengan kebutuhan klinik",
+    "sorot": "sama",
+    "ikon": "kacamata"
+   }
+  },
+  {
+   "teks": "Pertama, identitas klinik.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Identitas klinik",
+    "sorot": "identitas"
+   }
+  },
+  {
+   "teks": "Aplikasi klinik yang bisa disesuaikan memakai nama, logo, dan warna klinik Anda.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Tampil sebagai klinik Anda",
+    "item": [
+     {
+      "ikon": "klinik",
+      "label": "Nama klinik"
+     },
+     {
+      "ikon": "palet",
+      "label": "Warna"
+     },
+     {
+      "ikon": "bintang",
+      "label": "Logo"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Kedua, fitur yang cocok dengan alur klinik.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Fitur sesuai alur klinik",
+    "sorot": "alur klinik"
+   }
+  },
+  {
+   "teks": "Contohnya DentalCare: antrean, rekam medis SOAP, dan invoice berjalan dalam satu alur.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "antrean",
+     "soap",
+     "inv"
+    ],
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Ketiga, tampilan di HP dan browser.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Nyaman di HP dan browser",
+    "sorot": "HP"
+   }
+  },
+  {
+   "teks": "Staf dan pemilik klinik membuka aplikasi dari perangkat yang mereka pegang.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "dash"
+    ],
+    "perangkat": "keduanya"
+   }
+  },
+  {
+   "teks": "Keempat, tahap pengerjaan yang jelas.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Tahap pengerjaan jelas",
+    "sorot": "jelas"
+   }
+  },
+  {
+   "teks": "Mockup disetujui dulu, lalu dikembangkan, diuji, dan didampingi saat dipakai.",
+   "anim": "alur",
+   "param": {
+    "judul": "Dari mockup sampai pendampingan",
+    "langkah": [
+     "Mockup",
+     "Setuju",
+     "Kembangkan",
+     "Uji",
+     "Pendampingan"
+    ],
+    "ikon": [
+     "palet",
+     "cek",
+     "kode",
+     "perisai",
+     "tangan"
+    ]
+   }
+  },
+  {
+   "teks": "Rekap singkat: identitas, fitur, perangkat, dan tahapan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist white label klinik",
+    "item": [
+     "Identitas klinik",
+     "Fitur sesuai alur",
+     "HP dan browser",
+     "Tahapan jelas"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan klinik Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Sesuaikan aplikasi dengan identitas klinik Anda"
+   }
+  }
+ ]
+}

@@ -1,0 +1,206 @@
+{
+ "hook_pola": "tanda-bahaya",
+ "judul": "Contoh SOP Rekam Medis Elektronik: Jangan Sampai Hanya Jadi Arsip",
+ "tag": [
+  "contoh sop rekam medis elektronik",
+  "sop rekam medis elektronik",
+  "rekam medis elektronik",
+  "aplikasi klinik gigi",
+  "software klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Kalau contoh sop rekam medis elektronik hanya tersimpan di map, itu tanda bahaya.",
+   "anim": "hook",
+   "param": {
+    "kicker": "TANDA BAHAYA",
+    "baris": [
+     "Contoh SOP Rekam",
+     "Medis Elektronik"
+    ],
+    "sub": "SOP harus punya alat untuk dijalankan",
+    "sorot_sub": "alat",
+    "ikon": [
+     "kertas",
+     "buku",
+     "laporan",
+     "klinik"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda kepala klinik gigi yang baru saja menyusun SOP pencatatan.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda kepala klinik gigi",
+    "sorot": "SOP pencatatan",
+    "sub": "SOP baru selesai disusun.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter gigi"
+     },
+     {
+      "ikon": "tim",
+      "teks": "Staf pendaftaran"
+     },
+     {
+      "ikon": "buku",
+      "teks": "SOP"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "SOP dicetak, dijilid, lalu diletakkan di rak bersama map pasien.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "SOP tersimpan di rak",
+    "sorot": "di rak",
+    "item": [
+     {
+      "ikon": "buku",
+      "judul": "SOP dijilid",
+      "sub": "diletakkan di rak"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Map pasien",
+      "sub": "di rak yang sama"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Grup chat",
+      "sub": "pengingat staf"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tiap staf mencatat dengan cara berbeda, dan formulirnya tidak seragam.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Pencatatan tidak seragam",
+    "sorot": "tidak seragam",
+    "item": [
+     "Cara mencatat berbeda",
+     "Formulir tidak seragam",
+     "SOP jarang dibuka"
+    ]
+   }
+  },
+  {
+   "teks": "Akhirnya SOP hanya menjadi arsip, dan pencatatan kembali ke kebiasaan masing-masing.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "SOP jadi arsip",
+    "sorot": "arsip",
+    "label": [
+     "SOP",
+     "Formulir",
+     "Catatan",
+     "Riwayat",
+     "Alergi",
+     "Resep",
+     "Tindakan",
+     "Map",
+     "Jadwal"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu kepala klinik berbicara dengan software house tentang alat untuk menjalankannya.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Mencari alat untuk menjalankan SOP",
+    "sorot": "alat",
+    "kiri": "SOP di rak",
+    "kanan": "SOP di aplikasi"
+   }
+  },
+  {
+   "teks": "Isi SOP mengikuti ketentuan yang berlaku, jadi cek aturan terbaru, lalu aplikasi menata pencatatannya.",
+   "anim": "kutipan",
+   "param": {
+    "teks": "Isi SOP ikuti ketentuan yang berlaku, cek aturan terbaru",
+    "sorot": "ketentuan yang berlaku"
+   }
+  },
+  {
+   "teks": "Bukan formulir kertas yang berbeda-beda, tetapi alur pencatatan yang sama untuk semua staf.",
+   "anim": "banding",
+   "param": {
+    "judul": "Satu alur untuk semua staf",
+    "sorot": "satu alur",
+    "kiri": {
+     "judul": "Formulir kertas",
+     "item": [
+      "Berbeda tiap staf",
+      "Mudah terlewat"
+     ]
+    },
+    "kanan": {
+     "judul": "Aplikasi klinik",
+     "item": [
+      "Alur sama",
+      "Terisi berurutan",
+      "Tersimpan rapi"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Pencatatan terlihat di dashboard, jadi kepala klinik bisa memantau tanpa membuka map.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "klinik",
+    "judul": "Pencatatan terpantau di dashboard",
+    "sorot": "dashboard",
+    "label": "Ilustrasi dashboard klinik"
+   }
+  },
+  {
+   "teks": "Kami sudah membangun aplikasi seperti ini, salah satunya DentalCare untuk klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "DentalCare, aplikasi klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "soap"
+    ]
+   }
+  },
+  {
+   "teks": "Hasilnya SOP lebih mudah dijalankan, dan catatan pasien lebih rapi.",
+   "anim": "centang",
+   "param": {
+    "judul": "SOP benar-benar dijalankan",
+    "sorot": "dijalankan",
+    "label": "SETELAH PAKAI APLIKASI",
+    "item": [
+     "Alur sama untuk semua",
+     "Catatan pasien rapi",
+     "Mudah ditelusuri"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur pencatatan klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur pencatatan klinik Anda",
+    "mini": [
+     "Pasien",
+     "SOAP",
+     "Odontogram",
+     "Invoice"
+    ]
+   }
+  }
+ ]
+}

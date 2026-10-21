@@ -1,0 +1,182 @@
+{
+ "meta": {
+  "judul": "Aplikasi Klinik Gigi Berbasis Web: Buka dari Komputer dan HP",
+  "ringkas": "data pasien tidak lagi terkunci di satu komputer. Lihat bagaimana aplikasi klinik gigi berbasis web membuka antrean, rekam medis, dan invoice dari mana saja.",
+  "tag": [
+   "dentalcare",
+   "aplikasi klinik berbasis web",
+   "software klinik gigi",
+   "rekam medis elektronik",
+   "aplikasi dokter gigi"
+  ]
+ },
+ "hook_pola": "berhenti",
+ "blok": [
+  {
+   "teks": "Berhenti mengikat data pasien di satu komputer, aplikasi klinik gigi berbasis web bisa membukanya dari mana saja.",
+   "anim": "hook",
+   "param": {
+    "judul": "Berhenti mengikat data di *satu komputer*.",
+    "sub": "Aplikasi klinik gigi *berbasis web*."
+   }
+  },
+  {
+   "teks": "Data yang tersimpan di satu komputer sulit dibuka dokter dari ruang lain, dan resepsionis harus memindahkannya.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Cara lama",
+    "judul": "Data terkunci di *satu komputer*.",
+    "masalah": [
+     {
+      "ikon": "layar",
+      "teks": "Hanya satu komputer"
+     },
+     {
+      "ikon": "user",
+      "teks": "Dokter menunggu"
+     },
+     {
+      "ikon": "alert",
+      "teks": "Data sulit dibuka"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Flashdisk dan file Excel yang berpindah tangan juga mudah tertukar.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Yang sering terjadi",
+    "judul": "Berpindah tangan, *mudah tertukar*.",
+    "kartu": [
+     {
+      "ikon": "layer",
+      "judul": "Flashdisk",
+      "ket": "Berpindah dari meja ke meja"
+     },
+     {
+      "ikon": "excel",
+      "judul": "File Excel",
+      "ket": "Versi berbeda-beda"
+     }
+    ],
+    "coret": "excel"
+   }
+  },
+  {
+   "teks": "Ini DentalCare, aplikasi klinik gigi berbasis web yang kami bangun sendiri.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi berbasis web",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Dari meja resepsionis, antrean hari ini terlihat dan pasien dipanggil sesuai urutan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "antrean",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Antrean pasien",
+    "ket": "Dipanggil sesuai urutan",
+    "fokus": [
+     88,
+     45
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Di ruang praktik, dokter membuka rekam medis dan mengisi catatan SOAP.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Catatan SOAP",
+    "ket": "Rekam medis dibuka dari antrean",
+    "fokus": [
+     40,
+     45
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Setelah itu, kunjungan dikonfirmasi lalu disimpan, sehingga data pasien selalu terbaru.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "konfirmasi",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Konfirmasi kunjungan",
+    "ket": "Disimpan sebelum selesai",
+    "fokus": [
+     50,
+     50
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Karena lewat browser, aplikasinya tidak perlu dipasang di tiap komputer dan bisa dibuka dari HP dokter.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Buka lewat *browser* di *HP*",
+    "poin": [
+     "Tanpa pasang di tiap komputer",
+     "Buka dari HP dokter"
+    ],
+    "notif": "Cukup lewat browser"
+   }
+  },
+  {
+   "teks": "Aplikasi seperti ini bisa disesuaikan untuk praktik mandiri maupun klinik dengan beberapa dokter dan ruang praktik.",
+   "anim": "chip-niche",
+   "param": {
+    "kicker": "Bisa disesuaikan",
+    "judul": "Untuk berbagai *klinik*",
+    "pusat": "Aplikasi",
+    "ikonPusat": "klinik",
+    "chip": [
+     {
+      "ikon": "klinik",
+      "teks": "Praktik mandiri"
+     },
+     {
+      "ikon": "user",
+      "teks": "Beberapa dokter"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Klinik gigi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda dan minta demo. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Aplikasi klinik gigi berbasis web",
+    "judul": "Lihat demo *DentalCare*.",
+    "sub": "Ceritakan alur klinik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

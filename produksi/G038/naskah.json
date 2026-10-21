@@ -1,0 +1,164 @@
+{
+ "tema": "brutal",
+ "hook_pola": "kontras",
+ "tag": [
+  "berapa lama penyimpanan rekam medis elektronik",
+  "penyimpanan rekam medis elektronik",
+  "rekam medis elektronik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "software klinik gigi",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Soal berapa lama penyimpanan rekam medis elektronik, ikuti ketentuan yang berlaku sebelum menghapus data apa pun. Aplikasi membantu menata, aturannya tetap dicek.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "CEK ATURAN TERBARU",
+    "sorot": "rekam medis elektronik",
+    "sub": "Aplikasi menata data, aturan tetap dicek",
+    "kata_sub": "menata",
+    "judul_yt": "Berapa Lama Penyimpanan Rekam Medis Elektronik? Cek Aturan Terbaru"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan data yang dihapus sembarangan. Riwayat pasien hilang, berkas tercecer, dan klinik sulit membuktikan pencatatan.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Data dihapus tanpa melihat ketentuan.",
+    "item": [
+     "Riwayat pasien hilang",
+     "Berkas tercecer",
+     "Pencatatan sulit dibuktikan"
+    ],
+    "kata": [
+     "riwayat",
+     "berkas",
+     "pencatatan"
+    ]
+   }
+  },
+  {
+   "teks": "Di DentalCare, penataan datanya empat tahap.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "PENATAAN DATA",
+    "tahap": [
+     "Ketentuan",
+     "Pasien",
+     "Rekam medis",
+     "Kebijakan"
+    ],
+    "rail": "PENATAAN DATA"
+   }
+  },
+  {
+   "teks": "Tahap satu, ketentuan. Cek aturan terbaru dan pastikan kebijakan klinik mengikutinya, jangan mengandalkan ingatan.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Cek\nKetentuan",
+    "desk": "Rujuk aturan yang berlaku.",
+    "visual": "catatan",
+    "label": "CEK KETENTUAN",
+    "item": [
+     "Aturan terbaru",
+     "Kebijakan klinik",
+     "Bukan ingatan"
+    ],
+    "kata": [
+     "aturan",
+     "kebijakan",
+     "ingatan"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap dua, data pasien. Identitas dan riwayat kunjungan tercatat dalam satu tabel yang mudah dicari.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Data\nPasien",
+    "desk": "Satu data untuk tiap pasien.",
+    "visual": "ui",
+    "klip": [
+     "pasien"
+    ],
+    "item": [
+     "Identitas",
+     "Riwayat kunjungan"
+    ],
+    "kata": [
+     "identitas",
+     "riwayat"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap tiga, rekam medis. Catatan SOAP dan odontogram tersimpan rapi per pasien, tidak tercecer di map.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Rekam Medis\nTertata",
+    "desk": "Catatan tersimpan per pasien.",
+    "visual": "ui",
+    "klip": [
+     "soap",
+     "odon"
+    ],
+    "item": [
+     "Catatan SOAP",
+     "Odontogram"
+    ],
+    "kata": [
+     "soap",
+     "odontogram"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap empat, kebijakan klinik. Tulis siapa yang boleh mengakses dan cara mencarinya kembali.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Kebijakan\nKlinik",
+    "desk": "Disusun dan disepakati tim.",
+    "visual": "serah",
+    "label": "KEBIJAKAN KLINIK",
+    "item": [
+     "Siapa mengakses",
+     "Cara mencari",
+     "Penanggung jawab"
+    ],
+    "kata": [
+     "siapa",
+     "cara",
+     "tulis"
+    ]
+   }
+  },
+  {
+   "teks": "Penataan seperti ini sudah berjalan di DentalCare, aplikasi klinik gigi buatan kami.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "DentalCare, aplikasi klinik gigi buatan Nusawebsite",
+    "klip": [
+     "pasien",
+     "soap"
+    ]
+   }
+  },
+  {
+   "teks": "Ingin data pasien klinik Anda lebih tertata? Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": [
+     "Ketentuan",
+     "Pasien",
+     "Rekam medis",
+     "Kebijakan"
+    ],
+    "kata_link": "link"
+   }
+  }
+ ]
+}

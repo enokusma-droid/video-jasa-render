@@ -1,0 +1,145 @@
+{
+ "hook_pola": "pemborosan",
+ "judul": "Odontogram Digital: 4 Hal agar Tidak Sia-sia Saat Beralih",
+ "tag": [
+  "odontogram digital",
+  "odontogram",
+  "aplikasi odontogram",
+  "rekam medis gigi",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "software klinik gigi",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Odontogram digital bisa jadi pemborosan kalau empat hal ini dilewati.",
+   "anim": "hook-peringatan",
+   "param": {
+    "kicker": "SEBELUM BERALIH",
+    "judul": "Odontogram digital bisa sia-sia kalau empat hal ini dilewati",
+    "sorot": "empat hal",
+    "ikon": "stop"
+   }
+  },
+  {
+   "teks": "Banyak klinik membeli sistem, tetapi dokter tetap menggambar odontogram di kertas karena sistemnya tidak cocok.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Sistem ada, dokter tetap menggambar di kertas",
+    "sorot": "di kertas",
+    "ikon": "dokumen"
+   }
+  },
+  {
+   "teks": "Pertama, coba dulu contoh yang benar-benar jalan, bukan sekadar gambar.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Coba contoh yang benar-benar jalan",
+    "sorot": "jalan"
+   }
+  },
+  {
+   "teks": "Kami punya DentalCare, dan peta giginya bisa dicoba lebih dulu sebelum Anda memutuskan.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "odon",
+     "soap"
+    ],
+    "perangkat": "browser",
+    "label": "Contoh dari portofolio kami: DentalCare"
+   }
+  },
+  {
+   "teks": "Kedua, tampilan disetujui sebelum dibuat.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Tampilan disetujui sebelum dibuat",
+    "sorot": "disetujui"
+   }
+  },
+  {
+   "teks": "Mockup layar ditunjukkan dulu, lalu Anda menyetujuinya sebelum kode ditulis.",
+   "anim": "wireframe-disetujui",
+   "param": {
+    "judul": "Mockup layar odontogram",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Ketiga, data pasien tetap milik klinik Anda.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Data pasien milik klinik Anda",
+    "sorot": "milik"
+   }
+  },
+  {
+   "teks": "Pastikan data pasien dan akun admin berada di tangan klinik, bukan di tangan pihak lain.",
+   "anim": "kepemilikan",
+   "param": {
+    "judul": "Yang dipegang klinik",
+    "item": [
+     {
+      "ikon": "data",
+      "judul": "Data pasien",
+      "sub": "milik klinik"
+     },
+     {
+      "ikon": "kunci",
+      "judul": "Akun admin",
+      "sub": "dipegang klinik"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Keempat, ada pendampingan di awal.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Ada pendampingan di awal",
+    "sorot": "pendampingan"
+   }
+  },
+  {
+   "teks": "Staf dilatih bertahap di awal, supaya odontogram benar-benar dipakai setiap hari oleh dokter.",
+   "anim": "alur",
+   "param": {
+    "judul": "Pendampingan bertahap",
+    "langkah": [
+     "Pelatihan",
+     "Dicoba",
+     "Dipakai"
+    ],
+    "ikon": [
+     "orang",
+     "gear",
+     "cek"
+    ]
+   }
+  },
+  {
+   "teks": "Simpan empat hal ini: coba dulu, tampilan disetujui, data milik klinik, dan pendampingan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist odontogram digital",
+    "item": [
+     "Bisa dicoba dulu",
+     "Tampilan disetujui",
+     "Data milik klinik",
+     "Ada pendampingan"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan klinik Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Minta demo odontogram",
+    "sorot": "demo",
+    "sub": "Konsultasi gratis bersama Nusawebsite"
+   }
+  }
+ ]
+}
