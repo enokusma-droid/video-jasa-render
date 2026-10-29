@@ -1,0 +1,161 @@
+{
+ "tag": [
+  "aplikasi rekam medis rumah sakit",
+  "rekam medis rumah sakit",
+  "sistem informasi rumah sakit",
+  "nusawebsite"
+ ],
+ "hook_pola": "jangan-sebelum",
+ "blok": [
+  {
+   "teks": "Jangan memilih aplikasi rekam medis rumah sakit sebelum memahami alur antar unitnya. Pendaftaran, poli, dan farmasi saling bergantung.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "JANGAN BURU-BURU",
+    "sorot": "rumah sakit",
+    "sub": "Pahami alur antar unit dulu",
+    "kata_sub": "alur",
+    "judul_yt": "Aplikasi Rekam Medis Rumah Sakit: Pahami Alur Dulu"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan sistem yang tidak terhubung. Data berbeda antar unit, antrean menumpuk, dan laporan terlambat.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Alur antar unit yang terputus.",
+    "item": [
+     "Data berbeda antar unit",
+     "Antrean menumpuk",
+     "Laporan terlambat"
+    ],
+    "kata": [
+     "berbeda",
+     "antrean",
+     "laporan"
+    ]
+   }
+  },
+  {
+   "teks": "Untuk kebutuhan seperti ini, Nusawebsite bekerja dalam empat tahap.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "TAHAP PEMBUATAN",
+    "tahap": [
+     "Konsultasi",
+     "Petakan unit",
+     "Mockup",
+     "Uji dan rilis"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap satu, konsultasi. Kami catat unit yang terlibat, alur pasien, dan siapa penggunanya.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Konsultasi\nKebutuhan",
+    "desk": "Unit dan alur dicatat.",
+    "visual": "catatan",
+    "label": "KEBUTUHAN",
+    "item": [
+     "Unit terlibat",
+     "Alur pasien",
+     "Siapa pengguna"
+    ],
+    "kata": [
+     "unit",
+     "alur",
+     "siapa"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap dua, petakan unit. Pendaftaran, poli, dan farmasi dihubungkan lewat satu alur data.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Petakan\nUnit",
+    "desk": "Satu alur data.",
+    "visual": "alur",
+    "alur": [
+     "Pendaftaran",
+     "Poli",
+     "Farmasi"
+    ],
+    "on": [
+     "Data pasien",
+     "Pemeriksaan",
+     "Resep"
+    ],
+    "kata": [
+     "pendaftaran",
+     "poli",
+     "farmasi"
+    ],
+    "off": [
+     "Laporan tambahan",
+     "Integrasi"
+    ],
+    "catatan": "Satu alur data"
+   }
+  },
+  {
+   "teks": "Tahap tiga, mockup. Pengguna menyetujui tampilan layar sebelum kode ditulis.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Mockup\nTampilan",
+    "desk": "Disetujui sebelum koding.",
+    "visual": "wireframe",
+    "mode": "app",
+    "stempel": "DISETUJUI",
+    "kata_stempel": "menyetujui"
+   }
+  },
+  {
+   "teks": "Tahap empat, uji dan rilis. Dicoba di satu unit, ada perbaikan, lalu diperluas bertahap.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Uji dan\nRilis",
+    "desk": "Bertahap dari satu unit.",
+    "visual": "kode",
+    "label": "UJI BERTAHAP",
+    "item": [
+     "Satu unit dulu",
+     "Perbaikan",
+     "Diperluas"
+    ],
+    "kata": [
+     "satu",
+     "perbaikan",
+     "diperluas"
+    ]
+   }
+  },
+  {
+   "teks": "Sebagai contoh karya kami, DentalCare adalah aplikasi klinik gigi yang sudah berjalan. Datanya tersimpan di satu sistem, sehingga mudah dicari dan dibandingkan.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "DentalCare, aplikasi klinik gigi",
+    "klip": [
+     "soap",
+     "invoice"
+    ]
+   }
+  },
+  {
+   "teks": "Butuh sistem sesuai kebutuhan Anda? Ceritakan alur Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan Anda",
+    "kata_link": "link",
+    "mini": [
+     "Konsultasi",
+     "Petakan unit",
+     "Mockup",
+     "Uji dan rilis"
+    ]
+   }
+  }
+ ],
+ "tema": "brutal"
+}

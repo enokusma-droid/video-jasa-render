@@ -1,0 +1,221 @@
+{
+ "hook_pola": "tanda-bahaya",
+ "judul": "Odontogram Template: Kapan Perlu Beralih ke Aplikasi",
+ "tag": [
+  "odontogram template",
+  "template odontogram",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Kalau odontogram template Anda masih berupa file cetak, itu tanda alur klinik perlu dirapikan.",
+   "anim": "hook",
+   "param": {
+    "kicker": "TANDA BAHAYA",
+    "baris": [
+     "Odontogram",
+     "Template"
+    ],
+    "sub": "Cetak, isi, lalu simpan di map",
+    "sorot_sub": "map",
+    "ikon": [
+     "kertas",
+     "klinik",
+     "aplikasi",
+     "peringatan"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik klinik gigi yang mengunduh template dari internet.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda pemilik klinik gigi",
+    "sorot": "klinik gigi",
+    "chip": [
+     {
+      "ikon": "online",
+      "teks": "Template internet"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Dicetak"
+     },
+     {
+      "ikon": "user",
+      "teks": "Dokter"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Template dicetak, diisi tangan, lalu disimpan di map.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Cetak, isi, simpan",
+    "sorot": "cetak",
+    "item": [
+     {
+      "ikon": "online",
+      "judul": "Unduh template",
+      "sub": "internet"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Cetak dan isi",
+      "sub": "tangan"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Simpan di map",
+      "sub": "arsip"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Lembar yang menumpuk tercecer, sebagian rusak, sebagian tidak lengkap.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Lembar menumpuk",
+    "sorot": "menumpuk",
+    "label": [
+     "Odontogram",
+     "Catatan",
+     "Resep",
+     "Tagihan",
+     "Jadwal",
+     "Riwayat",
+     "Foto",
+     "Kontak"
+    ]
+   }
+  },
+  {
+   "teks": "Staf kehabisan waktu mencetak, mencari, dan memindahkan data yang sama.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis mencetak",
+    "sorot": "mencetak",
+    "sub": "Dan memindahkan data.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda berbicara dengan software house tentang aplikasi klinik.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Aplikasi klinik",
+    "sorot": "aplikasi",
+    "kiri": "Template cetak",
+    "kanan": "Aplikasi klinik"
+   }
+  },
+  {
+   "teks": "Bukan sekadar template, tapi alur yang tersambung dengan rekam medis.",
+   "anim": "banding",
+   "param": {
+    "judul": "Tersambung rekam medis",
+    "sorot": "tersambung",
+    "kiri": {
+     "judul": "Template cetak",
+     "item": [
+      "Diisi tangan",
+      "Terpisah dari rekam medis",
+      "Sulit dicari"
+     ]
+    },
+    "kanan": {
+     "judul": "Aplikasi",
+     "item": [
+      "Diisi di layar",
+      "Tersambung rekam medis",
+      "Mudah dicari"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Dokter membuka riwayat pasien dari tablet atau HP lewat browser.",
+   "anim": "hp",
+   "param": {
+    "tema": "klinik",
+    "kicker": "DARI MANA SAJA",
+    "judul": "Buka riwayat dari HP",
+    "sorot": "dari HP",
+    "notif": "Riwayat pasien terbuka"
+   }
+  },
+  {
+   "teks": "Kami sudah membangun aplikasi serupa, salah satunya DentalCare untuk klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "DentalCare, klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "odon",
+     "dash"
+    ]
+   }
+  },
+  {
+   "teks": "Hasilnya odontogram diisi di layar, tersimpan rapi, dan siap dibuka kapan saja.",
+   "anim": "centang",
+   "param": {
+    "judul": "Odontogram lebih rapi",
+    "sorot": "rapi",
+    "label": "SETELAH PAKAI APLIKASI",
+    "item": [
+     "Diisi di layar",
+     "Tersimpan rapi",
+     "Siap dibuka"
+    ]
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk klinik gigi, praktik dokter, dan klinik umum.",
+   "anim": "chip_niche",
+   "param": {
+    "judul": "Bisa disesuaikan",
+    "sorot": "disesuaikan",
+    "item": [
+     {
+      "ikon": "klinik",
+      "teks": "Klinik gigi"
+     },
+     {
+      "ikon": "user",
+      "teks": "Praktik dokter"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Klinik umum"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Prosesnya bertahap, dari konsultasi gratis sampai tampilan disetujui dulu.",
+   "anim": "kutipan",
+   "param": {
+    "teks": "Tampilan disetujui dulu, *baru* dikerjakan.",
+    "sorot": "baru"
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {}
+  }
+ ]
+}

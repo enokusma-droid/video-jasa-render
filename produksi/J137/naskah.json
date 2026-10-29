@@ -1,0 +1,224 @@
+{
+ "meta": {
+  "judul": "Jasa Pembuatan Website Cikarang: Alur Rapi untuk Usaha Industri",
+  "ringkas": "Penyedia website yang baik bukan yang paling cepat, tapi yang alurnya paling jelas. Kami bedah DentalCare sebagai contoh sistem web buatan kami.",
+  "paragraf": "Website yang baik dimulai dari alur yang jelas: konsultasi kebutuhan, mockup tampilan yang disetujui dulu, sampai rilis dan pendampingan. Kami melayani online dari Jogja untuk usaha di Cikarang dan seluruh Indonesia.",
+  "tag": [
+   "jasa website cikarang",
+   "pembuatan website cikarang",
+   "jasa pembuatan website",
+   "website usaha cikarang"
+  ],
+  "hook_pola": "6 kontras"
+ },
+ "blok": [
+  {
+   "teks": "Penyedia jasa pembuatan website Cikarang yang baik bukan yang paling cepat, tapi yang paling jelas alurnya.",
+   "anim": "hook",
+   "param": {
+    "judul": "Bukan yang tercepat, tapi *alurnya jelas*.",
+    "sub": "Alur jelas membuat hasil *sesuai harapan*."
+   }
+  },
+  {
+   "teks": "Banyak usaha di Cikarang masih menerima permintaan lewat chat dan email terpisah.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Yang sering terjadi",
+    "judul": "Permintaan masuk lewat *ini*",
+    "kartu": [
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "ket": "Permintaan tenggelam"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Email terpisah",
+      "ket": "Sulit dilacak"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Rekap Excel",
+      "ket": "Mudah beda versi"
+     }
+    ],
+    "coret": "email"
+   }
+  },
+  {
+   "teks": "Akibatnya penawaran terlambat dan peluang berpindah.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Penawaran *terlambat*",
+    "masalah": [
+     {
+      "ikon": "jam",
+      "teks": "Penawaran terlambat"
+     },
+     {
+      "ikon": "user",
+      "teks": "Klien menunggu"
+     },
+     {
+      "ikon": "x",
+      "teks": "Peluang berpindah"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Karena itu kami tunjukkan bukti. Ini DentalCare, sistem web klinik gigi buatan kami.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard2",
+    "kicker": "Portofolio Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Sistem web klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     40
+    ],
+    "zoom": 1.08
+   }
+  },
+  {
+   "teks": "Kita bedah tiga bagiannya.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Bedah portofolio",
+    "label": "Bagian yang *kita bedah*",
+    "item": [
+     "Data pasien",
+     "Tindakan dan resep",
+     "Daftar invoice"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, data pasien. Semua riwayat tersimpan rapi dan mudah dicari.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah DentalCare",
+    "nomor": "01",
+    "judul": "Data pasien",
+    "ket": "Riwayat rapi dan mudah dicari",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Kedua, tindakan dan resep. Dicatat sekali, langsung terhubung.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "tindakan",
+    "kicker": "Bedah DentalCare",
+    "nomor": "02",
+    "judul": "Tindakan dan resep",
+    "ket": "Dicatat sekali, langsung terhubung",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Ketiga, daftar invoice. Kasir melihat semua tagihan dalam satu halaman.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice",
+    "kicker": "Bedah DentalCare",
+    "nomor": "03",
+    "judul": "Daftar invoice",
+    "ket": "Semua tagihan dalam satu halaman",
+    "fokus": [
+     50,
+     40
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Dari bukti ini, Anda bisa menilai kerapian, alur, dan ketelitian kami.",
+   "anim": "daftar-centang",
+   "param": {
+    "kicker": "Dari bukti nyata",
+    "judul": "Yang bisa Anda *nilai*",
+    "item": [
+     "Kerapian tampilan",
+     "Alur yang jelas",
+     "Ketelitian detail"
+    ],
+    "gambar": true
+   }
+  },
+  {
+   "teks": "Kemampuan yang sama kami pakai untuk website pemasok, jasa teknik, logistik, dan company profile di Cikarang.",
+   "anim": "fitur-grid",
+   "param": {
+    "kicker": "Untuk usaha di Cikarang",
+    "judul": "Kemampuan yang *sama*",
+    "fitur": [
+     {
+      "ikon": "gudang",
+      "teks": "Pemasok"
+     },
+     {
+      "ikon": "gear",
+      "teks": "Jasa teknik"
+     },
+     {
+      "ikon": "truk",
+      "teks": "Logistik"
+     },
+     {
+      "ikon": "layar",
+      "teks": "Company profile"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Sebelum dikoding, mockup tampilan kami kirim dan Anda setujui dulu.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikoding.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Kami melayani online dari Jogja ke Cikarang, hasilnya nyaman dibuka dari HP.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Online dari *Jogja*, nyaman di *HP*",
+    "poin": [
+     "Konsultasi online",
+     "Tampilan ramah HP"
+    ],
+    "notif": "Bisa dibuka dari HP"
+   }
+  },
+  {
+   "teks": "Siap menjelaskan usaha Anda dengan rapi? Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Jasa Pembuatan Website Cikarang",
+    "judul": "Jelaskan usaha Anda dengan *rapi*.",
+    "sub": "Ceritakan kebutuhan website Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

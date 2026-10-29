@@ -1,0 +1,139 @@
+{
+ "hook_pola": "berhenti",
+ "judul": "Software House Denpasar: Pilih dari Bukti, Bukan Janji",
+ "blok": [
+  {
+   "teks": "Berhenti memilih software house Denpasar dari janji, mulailah dari bukti.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Berhenti pilih dari janji, mulai dari bukti",
+    "sorot": "bukti",
+    "ikon": "silang"
+   }
+  },
+  {
+   "teks": "Janji mudah diucapkan, sedangkan bukti kerja bisa Anda lihat dan uji sendiri.",
+   "anim": "benar-salah",
+   "param": {
+    "judul": "Janji atau bukti",
+    "salah": "Percaya janji",
+    "benar": "Lihat bukti",
+    "label_salah": "Sering keliru",
+    "label_benar": "Lebih tenang"
+   }
+  },
+  {
+   "teks": "Pertama, lihat aplikasi yang sudah jalan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Lihat aplikasi yang sudah jalan",
+    "sorot": "sudah jalan"
+   }
+  },
+  {
+   "teks": "Minta demo yang benar-benar berfungsi, seperti sistem klinik gigi buatan kami ini, bukan sekadar gambar desain.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "antrean",
+     "soap"
+    ],
+    "perangkat": "keduanya"
+   }
+  },
+  {
+   "teks": "Kedua, minta mockup dulu.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Minta mockup dulu",
+    "sorot": "mockup"
+   }
+  },
+  {
+   "teks": "Rancangan setiap layar Anda setujui sebelum satu baris kode ditulis, jadi hasilnya tidak mengejutkan.",
+   "anim": "wireframe-disetujui",
+   "param": {
+    "judul": "Setiap layar disetujui dulu"
+   }
+  },
+  {
+   "teks": "Ketiga, tanyakan kepemilikan kode.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Tanyakan kepemilikan kode",
+    "sorot": "kepemilikan"
+   }
+  },
+  {
+   "teks": "Kode, data, dan akun penting sebaiknya tercatat milik Anda sejak awal.",
+   "anim": "kepemilikan",
+   "param": {
+    "judul": "Semua tercatat milik Anda",
+    "item": [
+     {
+      "ikon": "kode",
+      "judul": "Kode sumber",
+      "sub": "repositori proyek"
+     },
+     {
+      "ikon": "data",
+      "judul": "Data bisnis",
+      "sub": "database dan cadangan"
+     },
+     {
+      "ikon": "kunci",
+      "judul": "Akun penting",
+      "sub": "atas nama Anda"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Keempat, pastikan ada pendampingan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Pastikan ada pendampingan",
+    "sorot": "pendampingan"
+   }
+  },
+  {
+   "teks": "Kami berbasis di Jogja dan melayani Denpasar secara online, dengan pendampingan yang tetap berjalan setelah rilis.",
+   "anim": "alur",
+   "param": {
+    "judul": "Pendampingan berkelanjutan",
+    "langkah": [
+     "Rapat online",
+     "Perbaikan",
+     "Pembaruan"
+    ],
+    "ikon": [
+     "laptop",
+     "gear",
+     "roket"
+    ]
+   }
+  },
+  {
+   "teks": "Simpan checklist ini: aplikasi jalan, mockup, kepemilikan kode, dan pendampingan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist software house Denpasar",
+    "item": [
+     "Aplikasi sudah jalan",
+     "Mockup dulu",
+     "Kode milik Anda",
+     "Ada pendampingan"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan usaha Anda di Denpasar. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Konsultasi gratis",
+    "sorot": "gratis",
+    "sub": "Ceritakan kebutuhan usaha Anda"
+   }
+  }
+ ]
+}

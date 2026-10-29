@@ -1,0 +1,151 @@
+{
+ "hook_pola": "satu-menit",
+ "judul": "Jasa Pembuatan Website Restoran: Cek 4 Hal Ini Dulu",
+ "blok": [
+  {
+   "teks": "Dalam satu menit, Anda tahu empat hal yang harus dicek sebelum memakai jasa pembuatan website restoran.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Cek 4 hal ini sebelum buat website restoran",
+    "sorot": "4 hal ini",
+    "ikon": "kacamata"
+   }
+  },
+  {
+   "teks": "Website restoran yang membingungkan membuat calon pelanggan pindah ke tempat makan lain.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Bingung, lalu pindah ke tempat lain",
+    "sorot": "pindah",
+    "ikon": "silang"
+   }
+  },
+  {
+   "teks": "Pertama, menu mudah diperbarui sendiri.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Menu mudah diperbarui sendiri",
+    "sorot": "diperbarui sendiri"
+   }
+  },
+  {
+   "teks": "Menu, foto hidangan, dan jam buka bisa Anda ubah tanpa menunggu pihak lain.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Bagian yang mudah diubah",
+    "item": [
+     {
+      "ikon": "dokumen",
+      "label": "Menu"
+     },
+     {
+      "ikon": "palet",
+      "label": "Foto hidangan"
+     },
+     {
+      "ikon": "jam",
+      "label": "Jam buka"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Kedua, tampil cepat dan rapi di HP.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Tampil cepat dan rapi di HP",
+    "sorot": "di HP"
+   }
+  },
+  {
+   "teks": "Banyak orang mencari tempat makan lewat ponsel, jadi tampilan HP perlu diuji.",
+   "anim": "benar-salah",
+   "param": {
+    "judul": "Tampilan di HP",
+    "salah": "Huruf kecil, tombol sempit",
+    "benar": "Mudah dibaca dan ditekan",
+    "label_salah": "Menyulitkan",
+    "label_benar": "Nyaman"
+   }
+  },
+  {
+   "teks": "Ketiga, lokasi dan tombol pesan jelas.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Lokasi dan tombol pesan jelas",
+    "sorot": "tombol pesan"
+   }
+  },
+  {
+   "teks": "Alamat, peta, dan tombol WhatsApp untuk pesan atau reservasi harus terlihat tanpa mencari.",
+   "anim": "alur",
+   "param": {
+    "judul": "Dari buka sampai pesan",
+    "langkah": [
+     "Lihat menu",
+     "Cek lokasi",
+     "Pesan via WA"
+    ],
+    "ikon": [
+     "dokumen",
+     "globe",
+     "wa"
+    ]
+   }
+  },
+  {
+   "teks": "Keempat, domain atas nama Anda.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Domain atas nama Anda",
+    "sorot": "atas nama Anda"
+   }
+  },
+  {
+   "teks": "Domain, hosting, dan akses website tercatat milik restoran Anda sejak awal.",
+   "anim": "kepemilikan",
+   "param": {
+    "judul": "Semua tercatat milik Anda",
+    "item": [
+     {
+      "ikon": "globe",
+      "judul": "Domain",
+      "sub": "nama restoran Anda"
+     },
+     {
+      "ikon": "data",
+      "judul": "Konten dan menu",
+      "sub": "bisa Anda ubah"
+     },
+     {
+      "ikon": "kunci",
+      "judul": "Akses website",
+      "sub": "atas nama Anda"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Simpan checklist ini: menu mudah diubah, nyaman di HP, tombol pesan jelas, dan domain milik Anda.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist website restoran Anda",
+    "item": [
+     "Menu mudah diperbarui",
+     "Nyaman di HP",
+     "Lokasi dan tombol pesan jelas",
+     "Domain milik Anda"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan konsep restoran Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Konsultasi gratis",
+    "sorot": "gratis",
+    "sub": "Ceritakan konsep restoran Anda"
+   }
+  }
+ ]
+}

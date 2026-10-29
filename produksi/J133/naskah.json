@@ -1,0 +1,224 @@
+{
+ "meta": {
+  "judul": "Jasa Pembuatan Website Purwokerto: Hati-hati Sebelum Memilih",
+  "ringkas": "Hati-hati memilih penyedia website tanpa melihat hasil kerjanya. Kami bedah DentalCare sebagai contoh sistem web buatan kami.",
+  "paragraf": "Website yang baik dimulai dari alur yang jelas: konsultasi kebutuhan, mockup tampilan yang disetujui dulu, sampai rilis dan pendampingan. Kami melayani online dari Jogja untuk usaha di Purwokerto dan seluruh Indonesia.",
+  "tag": [
+   "jasa website purwokerto",
+   "pembuatan website purwokerto",
+   "jasa pembuatan website",
+   "website usaha purwokerto"
+  ],
+  "hook_pola": "2 hati-hati"
+ },
+ "blok": [
+  {
+   "teks": "Hati-hati dengan satu hal ini sebelum memilih jasa pembuatan website Purwokerto: hasil kerja yang belum terbukti.",
+   "anim": "hook",
+   "param": {
+    "judul": "Hati-hati *hasil kerja* belum terbukti.",
+    "sub": "Minta lihat contoh yang *nyata*."
+   }
+  },
+  {
+   "teks": "Banyak usaha di Purwokerto menilai penyedia hanya dari janji dan tampilan contoh.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Yang sering terjadi",
+    "judul": "Menilai hanya dari *ini*",
+    "kartu": [
+     {
+      "ikon": "chat",
+      "judul": "Janji",
+      "ket": "Belum ada bukti"
+     },
+     {
+      "ikon": "layar",
+      "judul": "Tampilan contoh",
+      "ket": "Belum tentu hasil sendiri"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Brosur",
+      "ket": "Tidak menunjukkan sistem"
+     }
+    ],
+    "coret": "janji"
+   }
+  },
+  {
+   "teks": "Akibatnya hasil jauh dari bayangan dan harus diulang.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Pekerjaan *diulang* dari awal",
+    "masalah": [
+     {
+      "ikon": "x",
+      "teks": "Jauh dari bayangan"
+     },
+     {
+      "ikon": "sync",
+      "teks": "Diulang dari awal"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Waktu terbuang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Karena itu kami tunjukkan bukti. Ini DentalCare, sistem web klinik gigi buatan kami.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard2",
+    "kicker": "Portofolio Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Sistem web klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     40
+    ],
+    "zoom": 1.08
+   }
+  },
+  {
+   "teks": "Kita bedah tiga bagiannya.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Bedah portofolio",
+    "label": "Bagian yang *kita bedah*",
+    "item": [
+     "Data pasien",
+     "Tindakan dan resep",
+     "Daftar invoice"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, data pasien. Semua riwayat tersimpan rapi dan mudah dicari.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah DentalCare",
+    "nomor": "01",
+    "judul": "Data pasien",
+    "ket": "Riwayat rapi dan mudah dicari",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Kedua, tindakan dan resep. Dicatat sekali, langsung terhubung.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "tindakan",
+    "kicker": "Bedah DentalCare",
+    "nomor": "02",
+    "judul": "Tindakan dan resep",
+    "ket": "Dicatat sekali, langsung terhubung",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Ketiga, daftar invoice. Kasir melihat semua tagihan dalam satu halaman.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice",
+    "kicker": "Bedah DentalCare",
+    "nomor": "03",
+    "judul": "Daftar invoice",
+    "ket": "Semua tagihan dalam satu halaman",
+    "fokus": [
+     50,
+     40
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Dari bukti ini, Anda bisa menilai kerapian, alur, dan ketelitian kami.",
+   "anim": "daftar-centang",
+   "param": {
+    "kicker": "Dari bukti nyata",
+    "judul": "Yang bisa Anda *nilai*",
+    "item": [
+     "Kerapian tampilan",
+     "Alur yang jelas",
+     "Ketelitian detail"
+    ],
+    "gambar": true
+   }
+  },
+  {
+   "teks": "Kemampuan yang sama kami pakai untuk website kuliner, kampus, toko, dan company profile di Purwokerto.",
+   "anim": "fitur-grid",
+   "param": {
+    "kicker": "Untuk usaha di Purwokerto",
+    "judul": "Kemampuan yang *sama*",
+    "fitur": [
+     {
+      "ikon": "resto",
+      "teks": "Kuliner"
+     },
+     {
+      "ikon": "sekolah",
+      "teks": "Kampus"
+     },
+     {
+      "ikon": "toko",
+      "teks": "Toko"
+     },
+     {
+      "ikon": "layar",
+      "teks": "Company profile"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Sebelum dikoding, mockup tampilan kami kirim dan Anda setujui dulu.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikoding.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Kami melayani online dari Jogja ke Purwokerto, hasilnya nyaman dibuka dari HP.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Online dari *Jogja*, nyaman di *HP*",
+    "poin": [
+     "Konsultasi online",
+     "Tampilan ramah HP"
+    ],
+    "notif": "Bisa dibuka dari HP"
+   }
+  },
+  {
+   "teks": "Supaya tidak salah pilih, lihat dulu hasilnya. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Jasa Pembuatan Website Purwokerto",
+    "judul": "Lihat hasilnya, *baru pilih*.",
+    "sub": "Kami tunjukkan hasil kerja kami.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

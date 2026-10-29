@@ -1,0 +1,168 @@
+{
+ "tag": [
+  "odontogram charting",
+  "odontogram digital",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "hook_pola": "pelajari-sebelum",
+ "blok": [
+  {
+   "teks": "Pelajari empat langkah odontogram charting ini sebelum Anda mencatat kondisi gigi pasien. Urutan yang rapi mencegah data salah catat.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "SEBELUM MENCATAT",
+    "sorot": "charting",
+    "sub": "Empat langkah mencatat kondisi gigi",
+    "kata_sub": "empat",
+    "judul_yt": "Odontogram Charting: 4 Langkah Rapi Sebelum Mencatat"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan pencatatan yang terburu-buru. Gigi tertukar, kondisi terlewat, dan riwayat tidak terbaca.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Pencatatan gigi yang terburu-buru.",
+    "item": [
+     "Gigi tertukar",
+     "Kondisi terlewat",
+     "Riwayat tidak terbaca"
+    ],
+    "kata": [
+     "tertukar",
+     "terlewat",
+     "riwayat"
+    ]
+   }
+  },
+  {
+   "teks": "Charting yang rapi mengikuti empat tahap.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "TAHAP CHARTING",
+    "tahap": [
+     "Data pasien",
+     "Tandai gigi",
+     "Cek ulang",
+     "Simpan"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap satu, data pasien. Pastikan identitas, usia, dan riwayat kesehatan sudah benar.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Data\nPasien",
+    "desk": "Pastikan datanya benar dulu.",
+    "visual": "catatan",
+    "label": "DATA PASIEN",
+    "item": [
+     "Identitas",
+     "Usia",
+     "Riwayat kesehatan"
+    ],
+    "kata": [
+     "identitas",
+     "usia",
+     "riwayat"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap dua, tandai gigi. Pilih nomor gigi lalu pilih kondisi gigi, misalnya tambalan atau gigi berlubang.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Tandai\nGigi",
+    "desk": "Satu gigi, satu kondisi.",
+    "visual": "alur",
+    "alur": [
+     "Gigi",
+     "Kondisi",
+     "Tanda"
+    ],
+    "on": [
+     "Nomor gigi",
+     "Kondisi gigi",
+     "Tanda di peta"
+    ],
+    "kata": [
+     "nomor",
+     "kondisi",
+     "tambalan"
+    ],
+    "off": [
+     "Catatan tambahan"
+    ],
+    "catatan": "Satu gigi, satu kondisi"
+   }
+  },
+  {
+   "teks": "Tahap tiga, cek ulang. Cocokkan nomor gigi, kondisi, dan catatan dengan pemeriksaan langsung.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Cek\nUlang",
+    "desk": "Cocokkan dengan pemeriksaan.",
+    "visual": "serah",
+    "label": "CEK ULANG",
+    "item": [
+     "Nomor gigi cocok",
+     "Kondisi cocok",
+     "Catatan cocok"
+    ],
+    "kata": [
+     "nomor",
+     "kondisi",
+     "catatan"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap empat, simpan. Hasilnya tersimpan di rekam medis sehingga riwayat gigi mudah dibuka lagi.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Simpan\nRekam Medis",
+    "desk": "Riwayat gigi mudah dibuka.",
+    "visual": "ui",
+    "klip": [
+     "odon"
+    ],
+    "item": [
+     "Tersimpan di rekam medis",
+     "Riwayat mudah dibuka"
+    ],
+    "kata": [
+     "tersimpan",
+     "riwayat"
+    ]
+   }
+  },
+  {
+   "teks": "Contohnya DentalCare, aplikasi klinik gigi buatan kami dengan odontogram digital. Datanya tersimpan di satu sistem, sehingga mudah dicari dan dibandingkan.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "DentalCare, odontogram digital",
+    "klip": [
+     "odon",
+     "soap"
+    ]
+   }
+  },
+  {
+   "teks": "Ingin charting lebih rapi? Ceritakan alur Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur klinik Anda",
+    "kata_link": "link",
+    "mini": [
+     "Data pasien",
+     "Tandai gigi",
+     "Cek ulang",
+     "Simpan"
+    ]
+   }
+  }
+ ]
+}

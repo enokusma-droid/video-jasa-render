@@ -1,0 +1,224 @@
+{
+ "meta": {
+  "judul": "Jasa Pembuatan Website Banjarmasin: Lihat Contoh Nyata Dulu",
+  "ringkas": "Jangan tanda tangan kontrak sebelum melihat contoh hasil kerja. Di video ini kami bedah DentalCare agar Anda bisa menilai kerapian dan ketelitian kami.",
+  "paragraf": "Website yang baik dimulai dari alur yang jelas: konsultasi kebutuhan, mockup tampilan yang disetujui dulu, sampai rilis dan pendampingan. Kami melayani online dari Jogja untuk usaha di Banjarmasin dan seluruh Indonesia.",
+  "tag": [
+   "jasa website banjarmasin",
+   "pembuatan website banjarmasin",
+   "jasa pembuatan website",
+   "website usaha banjarmasin"
+  ],
+  "hook_pola": "3 jangan dulu"
+ },
+ "blok": [
+  {
+   "teks": "Jangan tanda tangan kontrak jasa pembuatan website Banjarmasin sebelum melihat contoh hasil kerja yang nyata.",
+   "anim": "hook",
+   "param": {
+    "judul": "Jangan tanda tangan *sebelum melihat* ini.",
+    "sub": "Lihat contoh hasil kerja yang *nyata*."
+   }
+  },
+  {
+   "teks": "Banyak usaha di Banjarmasin memilih penyedia hanya dari penawaran di chat dan gambar contoh.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Yang sering terjadi",
+    "judul": "Memilih hanya dari *ini*",
+    "kartu": [
+     {
+      "ikon": "chat",
+      "judul": "Penawaran chat",
+      "ket": "Belum terlihat hasilnya"
+     },
+     {
+      "ikon": "layar",
+      "judul": "Gambar contoh",
+      "ket": "Belum tentu buatan sendiri"
+     },
+     {
+      "ikon": "user",
+      "judul": "Rekomendasi sekilas",
+      "ket": "Sulit dinilai"
+     }
+    ],
+    "coret": "gambar"
+   }
+  },
+  {
+   "teks": "Akibatnya tampilan tidak sesuai harapan, dan perbaikan memakan waktu lama.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Perbaikan *berulang* dan lama",
+    "masalah": [
+     {
+      "ikon": "x",
+      "teks": "Tidak sesuai harapan"
+     },
+     {
+      "ikon": "sync",
+      "teks": "Perbaikan berulang"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Waktu terbuang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Karena itu kami tunjukkan bukti. Ini DentalCare, sistem web klinik gigi buatan kami.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard2",
+    "kicker": "Portofolio Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Sistem web klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     40
+    ],
+    "zoom": 1.08
+   }
+  },
+  {
+   "teks": "Kita bedah tiga bagiannya.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Bedah portofolio",
+    "label": "Bagian yang *kita bedah*",
+    "item": [
+     "Data pasien",
+     "Tindakan dan resep",
+     "Daftar invoice"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, data pasien. Semua riwayat tersimpan rapi dan mudah dicari.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah DentalCare",
+    "nomor": "01",
+    "judul": "Data pasien",
+    "ket": "Riwayat rapi dan mudah dicari",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Kedua, tindakan dan resep. Dicatat sekali, langsung terhubung.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "tindakan",
+    "kicker": "Bedah DentalCare",
+    "nomor": "02",
+    "judul": "Tindakan dan resep",
+    "ket": "Dicatat sekali, langsung terhubung",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Ketiga, daftar invoice. Kasir melihat semua tagihan dalam satu halaman.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice",
+    "kicker": "Bedah DentalCare",
+    "nomor": "03",
+    "judul": "Daftar invoice",
+    "ket": "Semua tagihan dalam satu halaman",
+    "fokus": [
+     50,
+     40
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Dari bukti ini, Anda bisa menilai kerapian, alur, dan ketelitian kami.",
+   "anim": "daftar-centang",
+   "param": {
+    "kicker": "Dari bukti nyata",
+    "judul": "Yang bisa Anda *nilai*",
+    "item": [
+     "Kerapian tampilan",
+     "Alur yang jelas",
+     "Ketelitian detail"
+    ],
+    "gambar": true
+   }
+  },
+  {
+   "teks": "Kemampuan yang sama kami pakai untuk website usaha kuliner, toko, jasa, dan company profile di Banjarmasin.",
+   "anim": "fitur-grid",
+   "param": {
+    "kicker": "Untuk usaha di Banjarmasin",
+    "judul": "Kemampuan yang *sama*",
+    "fitur": [
+     {
+      "ikon": "resto",
+      "teks": "Kuliner"
+     },
+     {
+      "ikon": "toko",
+      "teks": "Toko"
+     },
+     {
+      "ikon": "gear",
+      "teks": "Jasa"
+     },
+     {
+      "ikon": "layar",
+      "teks": "Company profile"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Sebelum dikoding, mockup tampilan kami kirim dan Anda setujui dulu.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikoding.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Kami melayani online dari Jogja ke Banjarmasin, hasilnya nyaman dibuka dari HP.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Online dari *Jogja*, nyaman di *HP*",
+    "poin": [
+     "Konsultasi online",
+     "Tampilan ramah HP"
+    ],
+    "notif": "Bisa dibuka dari HP"
+   }
+  },
+  {
+   "teks": "Supaya yakin, lihat dulu, baru putuskan. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Jasa Pembuatan Website Banjarmasin",
+    "judul": "Lihat dulu, *baru putuskan*.",
+    "sub": "Kami tunjukkan hasil kerja kami.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

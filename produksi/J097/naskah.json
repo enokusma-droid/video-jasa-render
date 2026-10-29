@@ -1,0 +1,221 @@
+{
+ "blok": [
+  {
+   "teks": "Hati-hati dengan satu kesalahan ini sebelum memilih software house Palembang.",
+   "anim": "hook",
+   "param": {
+    "judul": "Satu kesalahan *sebelum memilih*.",
+    "sub": "Minta *bukti* hasil kerjanya."
+   }
+  },
+  {
+   "teks": "Banyak orang memilih dari brosur, janji lisan, dan gambar desain saja.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Yang sering terjadi",
+    "judul": "Memilih tanpa *bukti*?",
+    "kartu": [
+     {
+      "ikon": "kertas",
+      "judul": "Brosur saja",
+      "ket": "Tanpa contoh nyata"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Janji lisan",
+      "ket": "Tidak tertulis"
+     },
+     {
+      "ikon": "layar",
+      "judul": "Gambar desain",
+      "ket": "Belum jadi aplikasi"
+     }
+    ],
+    "coret": "desain"
+   }
+  },
+  {
+   "teks": "Akibatnya hasil akhir berbeda dari bayangan dan proyek sulit diperbaiki.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Hasil akhir *berbeda*.",
+    "masalah": [
+     {
+      "ikon": "alert",
+      "teks": "Hasil tak sesuai bayangan"
+     },
+     {
+      "ikon": "sync",
+      "teks": "Proyek diulang"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Waktu terbuang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Karena itu lihat contoh nyata. Ini DentalCare, aplikasi klinik gigi yang kami bangun.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Portofolio Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08
+   }
+  },
+  {
+   "teks": "Ada tiga hal yang bisa Anda nilai langsung dari hasil kerja.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Bedah fitur",
+    "label": "Hal yang bisa *dinilai langsung*",
+    "item": [
+     "Tampilan",
+     "Alur",
+     "Laporan"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, tampilan. Data tersusun rapi dan mudah dibaca.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Tampilan rapi",
+    "ket": "Data mudah dibaca",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Kedua, alur kerja. Tindakan dan resep dicatat langsung saat pemeriksaan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "tindakan",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Alur kerja",
+    "ket": "Dicatat saat pemeriksaan",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Ketiga, laporan. Pemilik melihat stok dan kinerja tim dalam satu layar.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard2",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Laporan pemilik",
+    "ket": "Stok dan kinerja tim",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Bukti nyata membuat keputusan Anda jauh lebih tenang.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Tanpa bukti",
+     "item": [
+      "Hanya janji",
+      "Hasil mengejutkan",
+      "Sulit diperbaiki"
+     ]
+    },
+    "kanan": {
+     "judul": "Dengan portofolio",
+     "item": [
+      "Hasil bisa dilihat",
+      "Alur jelas",
+      "Sesuai harapan"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk toko, gudang, sekolah, atau bisnis jasa di Palembang.",
+   "anim": "chip-niche",
+   "param": {
+    "judul": "Klinik hanyalah *satu contoh*.",
+    "sub": "Alurnya bisa kami sesuaikan.",
+    "pusat": "Aplikasi custom",
+    "chip": [
+     {
+      "ikon": "toko",
+      "teks": "Toko"
+     },
+     {
+      "ikon": "gudang",
+      "teks": "Gudang"
+     },
+     {
+      "ikon": "sekolah",
+      "teks": "Sekolah"
+     },
+     {
+      "ikon": "user",
+      "teks": "Bisnis jasa"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tampilannya kami rancang dan Anda setujui dulu, sebelum dikoding.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikoding.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Kami berbasis di Jogja dan melayani online, jadi progres bisa dipantau dari HP.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Pantau progres dari *HP*",
+    "poin": [
+     "Rapat online",
+     "Pantau dari HP"
+    ],
+    "notif": "Progres bisa dipantau"
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan usaha Anda di Palembang. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Software house untuk Palembang",
+    "judul": "Ceritakan kebutuhan *usaha Anda*.",
+    "sub": "Kami melayani online dari Jogja.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

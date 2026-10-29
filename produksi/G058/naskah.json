@@ -1,0 +1,168 @@
+{
+ "tag": [
+  "sop odontogram",
+  "odontogram",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "hook_pola": "jangan-sebelum",
+ "blok": [
+  {
+   "teks": "Jangan menyusun sop odontogram sebelum alur pemeriksaan klinik Anda jelas. SOP yang tidak sesuai kerja hanya jadi arsip.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "JANGAN BURU-BURU",
+    "sorot": "sop odontogram",
+    "sub": "Petakan alur klinik dulu",
+    "kata_sub": "alur",
+    "judul_yt": "SOP Odontogram: Petakan Alur Klinik Sebelum Menyusun"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan SOP salinan. Alurnya milik klinik lain, staf bingung, dan SOP jarang dibuka.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "SOP yang tidak sesuai klinik.",
+    "item": [
+     "Alur milik klinik lain",
+     "Staf bingung",
+     "SOP jarang dibuka"
+    ],
+    "kata": [
+     "alurnya",
+     "staf",
+     "jarang"
+    ]
+   }
+  },
+  {
+   "teks": "Menyusun SOP yang bisa dijalankan membutuhkan empat tahap.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "TAHAP SOP",
+    "tahap": [
+     "Petakan alur",
+     "Tentukan peran",
+     "Tulis langkah",
+     "Uji coba"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap satu, petakan alur. Lihat siapa mengisi odontogram, kapan, dan di bagian mana.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Petakan\nAlur",
+    "desk": "Alur nyata klinik dulu.",
+    "visual": "catatan",
+    "label": "ALUR KLINIK",
+    "item": [
+     "Siapa mengisi",
+     "Kapan diisi",
+     "Di bagian mana"
+    ],
+    "kata": [
+     "siapa",
+     "kapan",
+     "bagian"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap dua, tentukan peran. Dokter, asisten, dan admin punya tugas yang jelas terhadap odontogram.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Tentukan\nPeran",
+    "desk": "Tugas jelas tiap orang.",
+    "visual": "alur",
+    "alur": [
+     "Dokter",
+     "Asisten",
+     "Admin"
+    ],
+    "on": [
+     "Mengisi",
+     "Membantu",
+     "Memeriksa"
+    ],
+    "kata": [
+     "dokter",
+     "asisten",
+     "admin"
+    ],
+    "off": [
+     "Laporan tambahan"
+    ],
+    "catatan": "Tugas jelas"
+   }
+  },
+  {
+   "teks": "Tahap tiga, tulis langkah. Setiap langkah ditulis singkat sehingga mudah diikuti staf baru.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Tulis\nLangkah",
+    "desk": "Singkat dan mudah diikuti.",
+    "visual": "serah",
+    "label": "LANGKAH SOP",
+    "item": [
+     "Singkat",
+     "Berurutan",
+     "Mudah diikuti"
+    ],
+    "kata": [
+     "singkat",
+     "setiap",
+     "mudah"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap empat, uji coba. Jalankan di beberapa pasien, lalu perbaiki bagian yang membingungkan.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Uji\nCoba",
+    "desk": "Perbaiki yang membingungkan.",
+    "visual": "ui",
+    "klip": [
+     "odon"
+    ],
+    "item": [
+     "Dicoba di pasien",
+     "Diperbaiki bertahap"
+    ],
+    "kata": [
+     "jalankan",
+     "perbaiki"
+    ]
+   }
+  },
+  {
+   "teks": "Contohnya DentalCare, aplikasi klinik gigi buatan kami yang membantu alur itu berjalan. Datanya tersimpan di satu sistem, sehingga mudah dicari dan dibandingkan.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "DentalCare, alur klinik gigi",
+    "klip": [
+     "odon",
+     "pasien"
+    ]
+   }
+  },
+  {
+   "teks": "Butuh sistem yang mengikuti SOP klinik Anda? Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur klinik Anda",
+    "kata_link": "link",
+    "mini": [
+     "Petakan alur",
+     "Tentukan peran",
+     "Tulis langkah",
+     "Uji coba"
+    ]
+   }
+  }
+ ]
+}

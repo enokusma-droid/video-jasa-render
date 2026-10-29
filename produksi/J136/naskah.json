@@ -1,0 +1,164 @@
+{
+ "hook_pola": "14 mitos",
+ "judul": "Jasa Pembuatan Website Tasikmalaya: Anggapan yang Keliru",
+ "deskripsi": "Anggapan bahwa jasa pembuatan website Tasikmalaya selalu rumit itu keliru bila tahapnya jelas. Video ini membahas lima hal yang perlu dicek. Nusawebsite berbasis di Jogja dan melayani klien secara online ke seluruh Indonesia.\n\nKonsultasi gratis kebutuhan website bisnis Anda: {{LINK_WA}}",
+ "tag": [
+  "jasa pembuatan website tasikmalaya",
+  "website tasikmalaya",
+  "website usaha tasikmalaya",
+  "jasa website tasikmalaya",
+  "nusawebsite",
+  "jasa pembuatan website",
+  "website bisnis",
+  "desain website",
+  "software house"
+ ],
+ "blok": [
+  {
+   "teks": "Anggapan jasa pembuatan website Tasikmalaya selalu rumit itu keliru.",
+   "anim": "hook-peringatan",
+   "param": {
+    "kicker": "Jasa Pembuatan Website Tasikmalaya",
+    "judul": "Anggapan website selalu rumit itu keliru",
+    "sorot": "keliru",
+    "ikon": "silang"
+   }
+  },
+  {
+   "teks": "Prosesnya terasa sederhana bila setiap tahap dijelaskan sejak awal.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Tahap jelas, prosesnya sederhana",
+    "sorot": "sederhana",
+    "ikon": "gear",
+    "sub": "Dijelaskan sejak awal"
+   }
+  },
+  {
+   "teks": "Pertama, mulai dari konsultasi.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Mulai dari konsultasi",
+    "sorot": "konsultasi"
+   }
+  },
+  {
+   "teks": "Anda cukup menceritakan usaha, pelanggan, dan tujuan, lalu kami yang menyusun rencananya.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Cukup bercerita",
+    "item": [
+     {
+      "ikon": "chat",
+      "label": "Cerita usaha"
+     },
+     {
+      "ikon": "orang",
+      "label": "Pelanggan"
+     },
+     {
+      "ikon": "bendera",
+      "label": "Tujuan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Kedua, lihat hasil nyata.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Lihat hasil nyata",
+    "sorot": "nyata"
+   }
+  },
+  {
+   "teks": "Minta contoh sistem web yang benar-benar jalan, seperti sistem klinik gigi buatan kami ini.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "pasien",
+     "dash"
+    ],
+    "perangkat": "keduanya"
+   }
+  },
+  {
+   "teks": "Ketiga, mockup disetujui.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Mockup disetujui",
+    "sorot": "disetujui"
+   }
+  },
+  {
+   "teks": "Anda melihat rancangan lebih dulu, dan membangunnya baru dimulai setelah setuju.",
+   "anim": "wireframe-disetujui",
+   "param": {
+    "judul": "Setuju dulu, baru dibangun"
+   }
+  },
+  {
+   "teks": "Keempat, online dan SEO dasar.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Online dan SEO dasar",
+    "sorot": "SEO"
+   }
+  },
+  {
+   "teks": "Website diuji, disiapkan agar mudah dicari, lalu ditayangkan.",
+   "anim": "alur",
+   "param": {
+    "judul": "Menuju tayang",
+    "langkah": [
+     "Diuji",
+     "SEO dasar",
+     "Tayang"
+    ],
+    "ikon": [
+     "cek",
+     "kacamata",
+     "roket"
+    ]
+   }
+  },
+  {
+   "teks": "Kelima, ada pendampingan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Ada pendampingan",
+    "sorot": "pendampingan"
+   }
+  },
+  {
+   "teks": "Setelah tayang, Anda dipandu cara memperbarui konten, jadi tidak perlu bingung sendiri.",
+   "anim": "centang-besar",
+   "param": {
+    "teks": "Dipandu sampai bisa",
+    "sorot": "dipandu",
+    "sub": "pendampingan setelah tayang"
+   }
+  },
+  {
+   "teks": "Simpan lima hal ini: mulai konsultasi, hasil nyata, mockup disetujui, online dan SEO dasar, serta pendampingan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist website Tasikmalaya",
+    "item": [
+     "Mulai konsultasi",
+     "Hasil nyata",
+     "Mockup disetujui",
+     "Online dan SEO dasar",
+     "Ada pendampingan"
+    ]
+   }
+  },
+  {
+   "teks": "Nusawebsite melayani Tasikmalaya secara online dari Jogja. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan website usaha Anda di Tasikmalaya"
+   }
+  }
+ ]
+}

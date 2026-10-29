@@ -1,0 +1,145 @@
+[
+ {
+  "teks": "Pelajari empat tahap ini sebelum memesan jasa pembuatan software custom. Urutannya menentukan software Anda dipakai atau ditinggalkan.",
+  "anim": "judul-keyword",
+  "param": {
+   "kicker": "SEBELUM MEMESAN",
+   "sorot": "software custom",
+   "sub": "4 tahap yang menentukan hasilnya",
+   "kata_sub": "urutannya",
+   "judul_yt": "Jasa Pembuatan Software Custom: 4 Tahap Sebelum Memesan"
+  }
+ },
+ {
+  "teks": "Hati-hati dengan software yang dibuat tanpa memahami alur. Fitur tak terpakai, data berantakan, dan tim kembali manual.",
+  "anim": "peringatan",
+  "param": {
+   "judul": "Hati-hati",
+   "desk": "Software yang dibuat tanpa memahami alur kerja.",
+   "item": [
+    "Fitur tak terpakai",
+    "Data berantakan",
+    "Tim kembali manual"
+   ],
+   "kata": [
+    "fitur",
+    "data",
+    "tim"
+   ]
+  }
+ },
+ {
+  "teks": "Di Nusawebsite, alurnya empat tahap.",
+  "anim": "stepper-overview",
+  "param": {
+   "kicker": "CARA KERJA KAMI",
+   "tahap": [
+    "Konsultasi",
+    "Rancang MVP",
+    "Mockup",
+    "Uji & Rilis"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap satu, konsultasi. Kami dengarkan masalah, alur kerja, dan target pengguna.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Konsultasi\nKebutuhan",
+   "desk": "Masalah dan alur kerja bisnis Anda didengarkan.",
+   "visual": "catatan",
+   "item": [
+    "Masalah bisnis",
+    "Alur kerja",
+    "Target pengguna"
+   ],
+   "kata": [
+    "masalah",
+    "alur",
+    "target"
+   ],
+   "bubble": "Ceritakan kebutuhan Anda"
+  }
+ },
+ {
+  "teks": "Tahap dua, rancang MVP. Fitur inti dibuat dulu, supaya cepat dipakai dan mudah dikembangkan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Rancang Alur\n& MVP",
+   "desk": "Fitur inti dulu, supaya cepat berguna.",
+   "visual": "alur",
+   "alur": [
+    "Input",
+    "Proses",
+    "Laporan"
+   ],
+   "on": [
+    "Fitur inti",
+    "Cepat dipakai",
+    "Mudah berkembang"
+   ],
+   "kata": [
+    "fitur",
+    "dipakai",
+    "dikembangkan"
+   ],
+   "off": [
+    "Integrasi",
+    "Fitur tambahan"
+   ],
+   "catatan": "MVP = fitur inti dulu"
+  }
+ },
+ {
+  "teks": "Tahap tiga, mockup. Anda menyetujui desain setiap layar sebelum kode ditulis.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Mockup\nTampilan",
+   "desk": "Setiap layar disetujui sebelum kode ditulis.",
+   "visual": "wireframe",
+   "kata_stempel": "menyetujui"
+  }
+ },
+ {
+  "teks": "Tahap empat, uji dan rilis. Login, input data, laporan, dan notifikasi dicoba sebelum dipakai tim Anda.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Uji &\nRilis",
+   "desk": "Setiap fitur dicoba sebelum dipakai.",
+   "visual": "kode",
+   "item": [
+    "Login",
+    "Input data",
+    "Laporan",
+    "Notifikasi"
+   ],
+   "kata": [
+    "login",
+    "input",
+    "laporan",
+    "notifikasi"
+   ]
+  }
+ },
+ {
+  "teks": "Sebagai contoh, aplikasi klinik gigi buatan kami, dari antrean, rekam medis, sampai invoice.",
+  "anim": "contoh-hasil",
+  "param": {
+   "kicker": "CONTOH HASIL",
+   "judul": "Contoh: aplikasi klinik gigi buatan Nusawebsite",
+   "klip": [
+    "antrean",
+    "soap",
+    "invoice"
+   ]
+  }
+ },
+ {
+  "teks": "Ingin alur yang pas untuk bisnis Anda? Konsultasi gratis, link ada di deskripsi.",
+  "anim": "cta",
+  "param": {
+   "sub": "Ceritakan kebutuhan software bisnis Anda",
+   "kata_link": "link"
+  }
+ }
+]

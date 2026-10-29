@@ -1,0 +1,194 @@
+{
+ "hook_pola": "kontras",
+ "judul": "Pemeriksaan Odontogram: Mudah Ditelusuri Antar Kunjungan",
+ "tag": [
+  "pemeriksaan odontogram",
+  "odontogram",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Pemeriksaan odontogram yang baik bukan yang paling cepat, tapi yang paling mudah ditelusuri.",
+   "anim": "hook",
+   "param": {
+    "kicker": "BUKAN SEKADAR CEPAT",
+    "baris": [
+     "Pemeriksaan",
+     "Odontogram"
+    ],
+    "sub": "Mudah ditelusuri antar kunjungan",
+    "sorot_sub": "ditelusuri",
+    "ikon": [
+     "klinik",
+     "cari",
+     "laporan",
+     "cek"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda mengelola klinik gigi dengan tiga dokter yang memeriksa setiap hari.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda mengelola klinik gigi",
+    "sorot": "klinik gigi",
+    "chip": [
+     {
+      "ikon": "tim",
+      "teks": "Tiga dokter"
+     },
+     {
+      "ikon": "kalender",
+      "teks": "Setiap hari"
+     },
+     {
+      "ikon": "user",
+      "teks": "Banyak pasien"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Odontogram di lembar kertas, keluhan di buku, dan foto gigi di chat.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Catatan di mana-mana",
+    "sorot": "mana-mana",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Lembar odontogram",
+      "sub": "pemeriksaan"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Buku catatan",
+      "sub": "keluhan"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Pesan chat",
+      "sub": "foto gigi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Dokter berbeda mencatat dengan gaya berbeda, sehingga riwayat pasien sulit dibandingkan.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Riwayat sulit dibandingkan",
+    "sorot": "sulit",
+    "item": [
+     "Gaya catatan berbeda",
+     "Riwayat sulit dicari",
+     "Perubahan tidak terlihat"
+    ]
+   }
+  },
+  {
+   "teks": "Setiap kunjungan, staf mencari catatan lama dulu sebelum pemeriksaan dimulai.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Mencari catatan lama",
+    "sorot": "catatan lama",
+    "sub": "Sebelum pemeriksaan dimulai.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda memutuskan bicara dengan software house tentang pencatatan yang seragam.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Satu sistem seragam",
+    "sorot": "seragam",
+    "kiri": "Catatan berbeda",
+    "kanan": "Satu sistem"
+   }
+  },
+  {
+   "teks": "Dokter dan staf melihat pasien, jadwal, dan riwayat dalam satu tampilan.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "klinik",
+    "judul": "Semua di satu tampilan",
+    "sorot": "satu tampilan",
+    "label": "Ilustrasi sistem klinik"
+   }
+  },
+  {
+   "teks": "Kami sudah membangun aplikasi serupa, salah satunya DentalCare dengan odontogram dan catatan SOAP.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "DentalCare, odontogram dan SOAP",
+    "sorot": "DentalCare",
+    "klip": [
+     "odon",
+     "soap"
+    ]
+   }
+  },
+  {
+   "teks": "Hasilnya pemeriksaan seragam, riwayat mudah dibuka, dan perubahan gigi terlihat.",
+   "anim": "centang",
+   "param": {
+    "judul": "Pemeriksaan lebih tertata",
+    "sorot": "tertata",
+    "label": "SETELAH PAKAI SISTEM",
+    "item": [
+     "Pemeriksaan seragam",
+     "Riwayat mudah dibuka",
+     "Perubahan terlihat"
+    ]
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk klinik gigi, praktik dokter, dan klinik umum.",
+   "anim": "chip_niche",
+   "param": {
+    "judul": "Bisa disesuaikan",
+    "sorot": "disesuaikan",
+    "item": [
+     {
+      "ikon": "klinik",
+      "teks": "Klinik gigi"
+     },
+     {
+      "ikon": "user",
+      "teks": "Praktik dokter"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Klinik umum"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pemilik klinik juga bisa memantau data dari HP lewat browser.",
+   "anim": "hp",
+   "param": {
+    "tema": "klinik",
+    "kicker": "DARI MANA SAJA",
+    "judul": "Pantau dari HP",
+    "sorot": "dari HP",
+    "notif": "Data klinik tercatat"
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {}
+  }
+ ]
+}

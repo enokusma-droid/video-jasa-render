@@ -1,0 +1,228 @@
+{
+ "blok": [
+  {
+   "teks": "Kesalahan paling sering saat memilih software house Cirebon adalah menilai dari promosi, bukan dari hasil kerjanya.",
+   "anim": "hook",
+   "param": {
+    "judul": "Menilai dari *promosi*, bukan *hasil*.",
+    "sub": "Nilai dari *aplikasi yang jalan*."
+   }
+  },
+  {
+   "teks": "Banyak orang menilai dari tampilan website dan kata-kata promosinya.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Yang sering terjadi",
+    "judul": "Menilai dari *ini*?",
+    "kartu": [
+     {
+      "ikon": "web",
+      "judul": "Tampilan website",
+      "ket": "Belum tentu mewakili"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Kata promosi",
+      "ket": "Sulit dibuktikan"
+     },
+     {
+      "ikon": "layar",
+      "judul": "Gambar desain",
+      "ket": "Bukan aplikasi jalan"
+     }
+    ],
+    "coret": "promosinya"
+   }
+  },
+  {
+   "teks": "Akibatnya pilihan sering keliru, lalu proyek harus diulang dari awal.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Pilihan *keliru*.",
+    "masalah": [
+     {
+      "ikon": "alert",
+      "teks": "Pilihan keliru"
+     },
+     {
+      "ikon": "sync",
+      "teks": "Proyek diulang"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Waktu terbuang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Nilai dari aplikasi yang jalan. Ini DentalCare, aplikasi klinik gigi buatan kami.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Portofolio Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08
+   }
+  },
+  {
+   "teks": "Lihat tiga bagian ini untuk menilai kualitas kerja.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Bedah fitur",
+    "label": "Bagian untuk *menilai kualitas*",
+    "item": [
+     "Tampilan",
+     "Alur",
+     "Laporan"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, tampilan. Rekam medis tersusun jelas dalam satu layar.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Tampilan jelas",
+    "ket": "Rekam medis satu layar",
+    "fokus": [
+     40,
+     45
+    ],
+    "zoom": 1.12
+   }
+  },
+  {
+   "teks": "Kedua, alur. Petugas memanggil pasien sesuai urutan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "antrean",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Alur antrean",
+    "ket": "Dipanggil sesuai urutan",
+    "fokus": [
+     90,
+     47
+    ],
+    "zoom": 1.12,
+    "sorot": {
+     "x": 85.5,
+     "y": 40,
+     "w": 9,
+     "h": 13,
+     "label": "Panggil sesuai urutan"
+    }
+   }
+  },
+  {
+   "teks": "Ketiga, laporan. Pendapatan dan tren terbaca sekilas.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Laporan terbaca",
+    "ket": "Pendapatan dan tren",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08
+   }
+  },
+  {
+   "teks": "Menilai dari hasil jauh lebih tepat daripada menilai dari janji.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Menilai dari janji",
+     "item": [
+      "Kata promosi",
+      "Gambar desain",
+      "Belum terbukti"
+     ]
+    },
+    "kanan": {
+     "judul": "Menilai dari hasil",
+     "item": [
+      "Aplikasi berjalan",
+      "Alur terlihat",
+      "Laporan nyata"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Alurnya bisa kami sesuaikan untuk toko, kuliner, sekolah, atau usaha jasa di Cirebon.",
+   "anim": "chip-niche",
+   "param": {
+    "judul": "Klinik hanyalah *satu contoh*.",
+    "sub": "Alurnya bisa kami sesuaikan.",
+    "pusat": "Aplikasi custom",
+    "chip": [
+     {
+      "ikon": "toko",
+      "teks": "Toko"
+     },
+     {
+      "ikon": "resto",
+      "teks": "Kuliner"
+     },
+     {
+      "ikon": "sekolah",
+      "teks": "Sekolah"
+     },
+     {
+      "ikon": "user",
+      "teks": "Usaha jasa"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Mockup kami rancang dulu dan Anda setujui sebelum dikoding.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikoding.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Layanan kami online dari Jogja, hasilnya bisa dibuka dari HP maupun komputer.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Buka dari *HP* maupun *komputer*",
+    "poin": [
+     "Layanan online",
+     "Tampilan ramah HP"
+    ],
+    "notif": "Bisa dibuka dari HP"
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan usaha Anda di Cirebon. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Software house untuk Cirebon",
+    "judul": "Ceritakan kebutuhan *usaha Anda*.",
+    "sub": "Kami melayani online dari Jogja.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

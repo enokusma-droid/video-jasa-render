@@ -1,0 +1,170 @@
+{
+ "hook_pola": "angka-spesifik",
+ "judul": "Aplikasi Praktek Dokter: 3 Tanda yang Layak Dipertimbangkan",
+ "tag": [
+  "aplikasi praktek dokter",
+  "aplikasi praktik dokter",
+  "aplikasi klinik",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Tiga tanda aplikasi praktek dokter yang layak Anda pertimbangkan.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "3 tanda aplikasi praktek dokter yang layak",
+    "sorot": "3 tanda",
+    "ikon": "cek",
+    "kicker": "TIGA TANDA"
+   }
+  },
+  {
+   "teks": "Praktik dokter yang sibuk butuh aplikasi yang membantu, bukan menambah pekerjaan.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Membantu, bukan menambah pekerjaan",
+    "sorot": "membantu",
+    "ikon": "dokumen",
+    "kicker": "TUJUANNYA"
+   }
+  },
+  {
+   "teks": "Pertama, alurnya sederhana.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Alurnya sederhana",
+    "sorot": "sederhana"
+   }
+  },
+  {
+   "teks": "Pendaftaran, antrean, dan pemeriksaan berurutan, seperti contoh DentalCare ini untuk klinik gigi.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "antrean",
+     "soap"
+    ],
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Kedua, data pasien terjaga.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Data pasien terjaga",
+    "sorot": "terjaga"
+   }
+  },
+  {
+   "teks": "Akun dibagi sesuai peran, dan data pasien dikelola oleh pemilik praktik.",
+   "anim": "kepemilikan",
+   "param": {
+    "judul": "Data pasien terjaga",
+    "item": [
+     {
+      "ikon": "kunci",
+      "judul": "Akun per peran",
+      "sub": "Dokter dan staf"
+     },
+     {
+      "ikon": "data",
+      "judul": "Data praktik",
+      "sub": "Dikelola pemilik"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ketiga, bisa disesuaikan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Bisa disesuaikan",
+    "sorot": "disesuaikan"
+   }
+  },
+  {
+   "teks": "Nusawebsite membuat sistem sesuai kebutuhan praktik, dari dokter umum sampai spesialis.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Sesuai kebutuhan praktik",
+    "item": [
+     {
+      "ikon": "orang",
+      "label": "Dokter umum"
+     },
+     {
+      "ikon": "klinik",
+      "label": "Praktik spesialis"
+     },
+     {
+      "ikon": "gear",
+      "label": "Fitur sesuai"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk klinik gigi, praktik dokter, dan klinik umum.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Bisa disesuaikan",
+    "item": [
+     {
+      "ikon": "klinik",
+      "label": "Klinik gigi"
+     },
+     {
+      "ikon": "orang",
+      "label": "Praktik dokter"
+     },
+     {
+      "ikon": "klinik",
+      "label": "Klinik umum"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Dengan begitu, pencatatan klinik lebih rapi dan mudah dilacak.",
+   "anim": "centang-besar",
+   "param": {
+    "teks": "Pencatatan lebih rapi",
+    "sorot": "rapi",
+    "sub": "Dan mudah dilacak"
+   }
+  },
+  {
+   "teks": "Cara kerjanya sederhana: konsultasi, mockup disetujui, pengembangan, lalu rilis.",
+   "anim": "alur",
+   "param": {
+    "judul": "Cara kerja Nusawebsite",
+    "langkah": [
+     "Konsultasi",
+     "Mockup",
+     "Develop",
+     "Rilis"
+    ]
+   }
+  },
+  {
+   "teks": "Jadi pilih aplikasi yang alurnya sederhana, datanya terjaga, dan bisa disesuaikan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Tiga tanda aplikasi praktek dokter",
+    "item": [
+     "Alur sederhana",
+     "Data terjaga",
+     "Bisa disesuaikan"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan praktik Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Rapikan praktik dokter Anda"
+   }
+  }
+ ]
+}

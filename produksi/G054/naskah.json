@@ -1,0 +1,161 @@
+{
+ "tag": [
+  "odontogram gigi anak",
+  "odontogram anak",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "hook_pola": "hati-hati",
+ "blok": [
+  {
+   "teks": "Hati-hati mencatat odontogram gigi anak, karena gigi susu dan gigi tetap bisa ada bersamaan. Salah catat, riwayat jadi membingungkan.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "HATI-HATI MENCATAT",
+    "sorot": "gigi anak",
+    "sub": "Gigi susu dan gigi tetap berbeda",
+    "kata_sub": "berbeda",
+    "judul_yt": "Odontogram Gigi Anak: Hati-hati Sebelum Mencatat"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan tiga kesalahan umum. Gigi susu tertukar, penomoran keliru, dan perubahan tidak terlihat.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Kesalahan umum pada gigi anak.",
+    "item": [
+     "Gigi susu tertukar",
+     "Penomoran keliru",
+     "Perubahan tidak terlihat"
+    ],
+    "kata": [
+     "susu",
+     "penomoran",
+     "perubahan"
+    ]
+   }
+  },
+  {
+   "teks": "Pencatatan gigi anak yang rapi punya empat tahap.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "TAHAP PENCATATAN",
+    "tahap": [
+     "Data anak",
+     "Jenis gigi",
+     "Tandai",
+     "Pantau"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap satu, data anak. Catat usia, keluhan, dan riwayat kesehatan dengan lengkap.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Data\nAnak",
+    "desk": "Usia sangat menentukan.",
+    "visual": "catatan",
+    "label": "DATA ANAK",
+    "item": [
+     "Usia",
+     "Keluhan",
+     "Riwayat kesehatan"
+    ],
+    "kata": [
+     "usia",
+     "keluhan",
+     "riwayat"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap dua, kenali jenis gigi. Bedakan gigi susu dan gigi tetap, lalu pilih penomoran yang sesuai.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Jenis\nGigi",
+    "desk": "Susu dan tetap dibedakan.",
+    "visual": "alur",
+    "alur": [
+     "Gigi susu",
+     "Gigi tetap",
+     "Penomoran"
+    ],
+    "on": [
+     "Gigi susu",
+     "Gigi tetap",
+     "Nomor sesuai"
+    ],
+    "kata": [
+     "susu",
+     "tetap",
+     "penomoran"
+    ],
+    "off": [
+     "Catatan tambahan"
+    ],
+    "catatan": "Bedakan dulu"
+   }
+  },
+  {
+   "teks": "Tahap tiga, tandai kondisi. Setiap gigi diberi tanda sesuai hasil pemeriksaan dokter.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Tandai\nKondisi",
+    "desk": "Sesuai hasil pemeriksaan.",
+    "visual": "wireframe",
+    "mode": "app",
+    "stempel": "SESUAI PEMERIKSAAN",
+    "kata_stempel": "sesuai"
+   }
+  },
+  {
+   "teks": "Tahap empat, pantau perubahan. Riwayat tiap kunjungan tersimpan sehingga pertumbuhan gigi mudah dibandingkan.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Pantau\nPerubahan",
+    "desk": "Riwayat antar kunjungan.",
+    "visual": "ui",
+    "klip": [
+     "odon"
+    ],
+    "item": [
+     "Riwayat tiap kunjungan",
+     "Mudah dibandingkan"
+    ],
+    "kata": [
+     "riwayat",
+     "dibandingkan"
+    ]
+   }
+  },
+  {
+   "teks": "Contohnya DentalCare, aplikasi klinik gigi buatan kami dengan odontogram dan catatan SOAP. Datanya tersimpan di satu sistem, sehingga mudah dicari dan dibandingkan.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "DentalCare, odontogram digital",
+    "klip": [
+     "odon",
+     "soap"
+    ]
+   }
+  },
+  {
+   "teks": "Ingin pencatatan gigi anak lebih rapi? Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur klinik Anda",
+    "kata_link": "link",
+    "mini": [
+     "Data anak",
+     "Jenis gigi",
+     "Tandai",
+     "Pantau"
+    ]
+   }
+  }
+ ],
+ "tema": "brutal"
+}

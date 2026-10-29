@@ -1,0 +1,192 @@
+{
+ "hook_pola": "6 kontras",
+ "judul": "Jasa Pembuatan Website Sidoarjo: Pilih yang Alurnya Jelas",
+ "deskripsi": "Jasa pembuatan website Sidoarjo yang baik bukan yang paling cepat, tapi yang paling jelas alurnya. Video ini membahas lima hal yang perlu dicek. Nusawebsite berbasis di Jogja dan melayani klien secara online ke seluruh Indonesia.\n\nKonsultasi gratis kebutuhan website bisnis Anda: {{LINK_WA}}",
+ "tag": [
+  "jasa pembuatan website sidoarjo",
+  "website sidoarjo",
+  "website usaha sidoarjo",
+  "jasa website sidoarjo",
+  "nusawebsite",
+  "jasa pembuatan website",
+  "website bisnis",
+  "desain website",
+  "software house"
+ ],
+ "blok": [
+  {
+   "teks": "Jasa pembuatan website Sidoarjo yang baik bukan yang paling cepat, tapi yang paling jelas alurnya.",
+   "anim": "hook-peringatan",
+   "param": {
+    "kicker": "Jasa Pembuatan Website Sidoarjo",
+    "judul": "Bukan yang tercepat, tapi yang alurnya jelas",
+    "sorot": "alurnya jelas",
+    "ikon": "kacamata"
+   }
+  },
+  {
+   "teks": "Cepat tanpa alur membuat hasil sering tidak sesuai kebutuhan usaha.",
+   "anim": "benar-salah",
+   "param": {
+    "judul": "Cepat atau jelas",
+    "salah": "Cepat, alur tidak jelas",
+    "benar": "Jelas, hasil terarah"
+   }
+  },
+  {
+   "teks": "Pertama, kebutuhan dipetakan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Kebutuhan dipetakan",
+    "sorot": "dipetakan"
+   }
+  },
+  {
+   "teks": "Kami catat bidang usaha, pelanggan yang dituju, dan fitur yang benar-benar dibutuhkan.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Dipetakan di awal",
+    "item": [
+     {
+      "ikon": "toko",
+      "label": "Bidang usaha"
+     },
+     {
+      "ikon": "orang",
+      "label": "Pelanggan"
+     },
+     {
+      "ikon": "gear",
+      "label": "Fitur"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Kedua, hasil kerja nyata.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Hasil kerja yang nyata",
+    "sorot": "nyata"
+   }
+  },
+  {
+   "teks": "Minta contoh sistem web yang benar-benar jalan, seperti sistem klinik gigi buatan kami ini.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "soap",
+     "inv"
+    ],
+    "perangkat": "keduanya"
+   }
+  },
+  {
+   "teks": "Ketiga, rancangan disepakati.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Rancangan disepakati",
+    "sorot": "disepakati"
+   }
+  },
+  {
+   "teks": "Mockup Anda periksa lebih dulu, sehingga revisi tidak menumpuk di akhir.",
+   "anim": "wireframe-disetujui",
+   "param": {
+    "judul": "Revisi di awal, bukan di akhir"
+   }
+  },
+  {
+   "teks": "Keempat, progres terpantau.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Progres terpantau",
+    "sorot": "terpantau"
+   }
+  },
+  {
+   "teks": "Anda bisa melihat bagian yang selesai, sedang dikerjakan, dan berikutnya.",
+   "anim": "papan-progres",
+   "param": {
+    "judul": "Progres yang terlihat",
+    "kolom": [
+     {
+      "judul": "Selesai",
+      "item": [
+       "Mockup",
+       "Beranda"
+      ]
+     },
+     {
+      "judul": "Dikerjakan",
+      "item": [
+       "Halaman layanan"
+      ]
+     },
+     {
+      "judul": "Berikutnya",
+      "item": [
+       "Uji HP",
+       "Online"
+      ]
+     }
+    ],
+    "persen": 0.55
+   }
+  },
+  {
+   "teks": "Kelima, akses diserahkan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Akses diserahkan",
+    "sorot": "diserahkan"
+   }
+  },
+  {
+   "teks": "Setelah tayang, domain, akses admin, dan panduan diserahkan kepada Anda.",
+   "anim": "kepemilikan",
+   "param": {
+    "judul": "Semua diserahkan",
+    "item": [
+     {
+      "ikon": "globe",
+      "judul": "Domain",
+      "sub": "milik Anda"
+     },
+     {
+      "ikon": "kunci",
+      "judul": "Akses admin",
+      "sub": "diserahkan"
+     },
+     {
+      "ikon": "dokumen",
+      "judul": "Panduan",
+      "sub": "disertakan"
+     }
+    ],
+    "badge": "MILIK ANDA"
+   }
+  },
+  {
+   "teks": "Simpan lima hal ini: kebutuhan dipetakan, hasil nyata, rancangan disepakati, progres terpantau, dan akses diserahkan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist website Sidoarjo",
+    "item": [
+     "Kebutuhan dipetakan",
+     "Hasil nyata",
+     "Rancangan disepakati",
+     "Progres terpantau",
+     "Akses diserahkan"
+    ]
+   }
+  },
+  {
+   "teks": "Nusawebsite melayani Sidoarjo secara online dari Jogja. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan website usaha Anda di Sidoarjo"
+   }
+  }
+ ]
+}

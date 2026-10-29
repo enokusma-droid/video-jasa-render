@@ -1,0 +1,207 @@
+{
+ "hook_pola": "mitos",
+ "judul": "Rekam Medis Kedokteran Gigi: Jangan Hanya di Kertas",
+ "tag": [
+  "rekam medis kedokteran gigi",
+  "rekam medis gigi",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Anggapan bahwa rekam medis kedokteran gigi cukup ditulis di kertas itu keliru.",
+   "anim": "hook",
+   "param": {
+    "kicker": "ANGGAPAN KELIRU",
+    "baris": [
+     "Rekam Medis",
+     "Kedokteran Gigi"
+    ],
+    "sub": "Kertas saja tidak cukup rapi",
+    "sorot_sub": "tidak cukup rapi",
+    "ikon": [
+     "kertas",
+     "klinik",
+     "aplikasi",
+     "cek"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda dokter gigi praktik mandiri dengan satu asisten.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda dokter gigi praktik mandiri",
+    "sorot": "praktik mandiri",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter"
+     },
+     {
+      "ikon": "tim",
+      "teks": "Asisten"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Praktik"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Keluhan di buku, odontogram di lembar, dan resep di kertas terpisah.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Catatan terpisah",
+    "sorot": "terpisah",
+    "item": [
+     {
+      "ikon": "buku",
+      "judul": "Buku keluhan",
+      "sub": "pasien"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Lembar odontogram",
+      "sub": "gigi"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Kertas resep",
+      "sub": "obat"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Catatan terpisah membuat riwayat pasien tidak lengkap saat dibutuhkan.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Riwayat tidak lengkap",
+    "sorot": "tidak lengkap",
+    "item": [
+     "Catatan terpisah",
+     "Riwayat tidak lengkap",
+     "Sulit dicari"
+    ]
+   }
+  },
+  {
+   "teks": "Saat pasien datang lagi, Anda membuka tiga tempat untuk menemukan riwayatnya.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Mencari di tiga tempat",
+    "sorot": "tiga tempat",
+    "sub": "Untuk satu pasien.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda berbicara dengan software house tentang rekam medis yang menyatu.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Rekam medis menyatu",
+    "sorot": "menyatu",
+    "kiri": "Catatan terpisah",
+    "kanan": "Satu rekam medis"
+   }
+  },
+  {
+   "teks": "Bukan aplikasi jadi yang kaku, tapi sistem yang mengikuti cara Anda bekerja.",
+   "anim": "banding",
+   "param": {
+    "judul": "Mengikuti cara Anda",
+    "sorot": "cara Anda",
+    "kiri": {
+     "judul": "Aplikasi jadi",
+     "item": [
+      "Alur kaku",
+      "Fitur tidak terpakai",
+      "Staf menyesuaikan"
+     ]
+    },
+    "kanan": {
+     "judul": "Sistem custom",
+     "item": [
+      "Mengikuti alur Anda",
+      "Fitur sesuai kebutuhan",
+      "Bertahap berkembang"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Pasien, jadwal, dan riwayat pemeriksaan terlihat dalam satu dashboard.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "klinik",
+    "judul": "Riwayat di satu dashboard",
+    "sorot": "satu dashboard",
+    "label": "Ilustrasi sistem klinik"
+   }
+  },
+  {
+   "teks": "Kami sudah membangun aplikasi serupa, salah satunya DentalCare dengan catatan SOAP dan odontogram.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "DentalCare, SOAP dan odontogram",
+    "sorot": "DentalCare",
+    "klip": [
+     "soap",
+     "odon"
+    ]
+   }
+  },
+  {
+   "teks": "Hasilnya rekam medis lengkap, mudah dibuka, dan tersimpan di satu tempat.",
+   "anim": "centang",
+   "param": {
+    "judul": "Rekam medis lengkap",
+    "sorot": "lengkap",
+    "label": "SETELAH PAKAI SISTEM",
+    "item": [
+     "Rekam medis lengkap",
+     "Mudah dibuka",
+     "Satu tempat"
+    ]
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk praktik mandiri, klinik gigi, dan poli gigi.",
+   "anim": "chip_niche",
+   "param": {
+    "judul": "Bisa disesuaikan",
+    "sorot": "disesuaikan",
+    "item": [
+     {
+      "ikon": "klinik",
+      "teks": "Praktik mandiri"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Klinik gigi"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Poli gigi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur praktik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {}
+  }
+ ]
+}

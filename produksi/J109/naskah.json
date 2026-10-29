@@ -1,0 +1,228 @@
+{
+ "blok": [
+  {
+   "teks": "Kesalahan paling sering saat memakai jasa pembuatan website klinik: tampilan bagus, tapi pasien bingung cara mendaftar.",
+   "anim": "hook",
+   "param": {
+    "judul": "Tampilan bagus, pasien *bingung*.",
+    "sub": "Jadwal dan kontak harus *jelas*."
+   }
+  },
+  {
+   "teks": "Banyak klinik hanya punya informasi di media sosial dan grup chat.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Yang sering terjadi",
+    "judul": "Informasi *tersebar*?",
+    "kartu": [
+     {
+      "ikon": "chat",
+      "judul": "Grup chat",
+      "ket": "Pertanyaan berulang"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Brosur",
+      "ket": "Cepat usang"
+     },
+     {
+      "ikon": "hp",
+      "judul": "Telepon",
+      "ket": "Antrean saat sibuk"
+     }
+    ],
+    "coret": "chat"
+   }
+  },
+  {
+   "teks": "Akibatnya pasien bertanya hal yang sama berulang kali dan petugas kewalahan.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Petugas *kewalahan*.",
+    "masalah": [
+     {
+      "ikon": "chat",
+      "teks": "Pertanyaan berulang"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Jadwal tidak jelas"
+     },
+     {
+      "ikon": "user",
+      "teks": "Petugas kewalahan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Untuk dunia klinik, ini DentalCare, aplikasi klinik gigi yang kami bangun dari nol.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Portofolio Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08
+   }
+  },
+  {
+   "teks": "Ada tiga alur klinik yang perlu tergambar jelas di website.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Bedah fitur",
+    "label": "Alur yang *perlu jelas*",
+    "item": [
+     "Antrean",
+     "Konfirmasi",
+     "Layanan"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, antrean. Pasien tahu urutan dan petugas mudah memanggil.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "antrean",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Antrean jelas",
+    "ket": "Urutan mudah dipahami",
+    "fokus": [
+     90,
+     47
+    ],
+    "zoom": 1.12,
+    "sorot": {
+     "x": 85.5,
+     "y": 40,
+     "w": 9,
+     "h": 13,
+     "label": "Panggil sesuai urutan"
+    }
+   }
+  },
+  {
+   "teks": "Kedua, konfirmasi kunjungan. Jadwal yang jelas mengurangi pasien yang lupa datang.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "konfirmasi",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Konfirmasi kunjungan",
+    "ket": "Jadwal jelas",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Ketiga, layanan dan tindakan. Informasi perawatan tertata dan tidak membingungkan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "tindakan",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Tindakan tertata",
+    "ket": "Informasi tidak membingungkan",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Website yang terarah membuat pasien paham alurnya sejak awal.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Website asal ada",
+     "item": [
+      "Info usang",
+      "Jadwal tidak jelas",
+      "Pasien bingung"
+     ]
+    },
+    "kanan": {
+     "judul": "Website terarah",
+     "item": [
+      "Layanan jelas",
+      "Kontak mudah",
+      "Pasien paham alur"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Polanya bisa disesuaikan untuk klinik gigi, klinik umum, bidan, atau apotek.",
+   "anim": "chip-niche",
+   "param": {
+    "judul": "Klinik gigi hanyalah *satu contoh*.",
+    "sub": "Polanya bisa kami sesuaikan.",
+    "pusat": "Website klinik",
+    "chip": [
+     {
+      "ikon": "klinik",
+      "teks": "Klinik gigi"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Klinik umum"
+     },
+     {
+      "ikon": "user",
+      "teks": "Bidan"
+     },
+     {
+      "ikon": "stok",
+      "teks": "Apotek"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Rancangan halaman kami tunjukkan dulu dan Anda setujui sebelum dikoding.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Rancangan *disetujui* dulu",
+    "ket": "Baru setelah itu dikoding.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Hasilnya nyaman dibuka dari HP maupun komputer.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Buka dari *HP* maupun *komputer*",
+    "poin": [
+     "Tampilan ramah HP",
+     "Mudah dibaca pasien"
+    ],
+    "notif": "Bisa dibuka dari HP"
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Jasa pembuatan website klinik",
+    "judul": "Ceritakan kebutuhan *klinik Anda*.",
+    "sub": "Kami bantu rancang websitenya.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

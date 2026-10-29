@@ -1,0 +1,147 @@
+{
+ "hook_pola": "penyesalan",
+ "judul": "Jasa Pembuatan Aplikasi Sekolah: 4 Hal Agar Tidak Menyesal",
+ "blok": [
+  {
+   "teks": "Banyak pengelola sekolah menyesal karena memakai jasa pembuatan aplikasi sekolah yang tidak melibatkan guru.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Banyak yang menyesal memilih aplikasi sekolah",
+    "sorot": "menyesal",
+    "ikon": "peringatan"
+   }
+  },
+  {
+   "teks": "Aplikasi yang tidak cocok dengan kerja guru akhirnya ditinggalkan, lalu data kembali ke buku.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Tidak cocok dengan guru, lalu ditinggalkan",
+    "sorot": "ditinggalkan",
+    "ikon": "silang"
+   }
+  },
+  {
+   "teks": "Pertama, guru dan staf dilibatkan sejak awal.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Guru dan staf dilibatkan sejak awal",
+    "sorot": "dilibatkan"
+   }
+  },
+  {
+   "teks": "Kebutuhan guru, tata usaha, dan kepala sekolah dikumpulkan sebelum rancangan dibuat.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Pengguna yang dilibatkan",
+    "item": [
+     {
+      "ikon": "orang",
+      "label": "Guru"
+     },
+     {
+      "ikon": "dokumen",
+      "label": "Tata usaha"
+     },
+     {
+      "ikon": "sekolah",
+      "label": "Kepala sekolah"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Kedua, mockup disetujui sebelum koding.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Mockup disetujui sebelum koding",
+    "sorot": "disetujui"
+   }
+  },
+  {
+   "teks": "Layar untuk guru dan staf Anda setujui dulu, supaya tidak ada kejutan saat aplikasi jadi.",
+   "anim": "wireframe-disetujui",
+   "param": {
+    "judul": "Setiap layar disetujui dulu"
+   }
+  },
+  {
+   "teks": "Ketiga, data siswa aman dan akses diatur.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Data siswa aman dan akses diatur",
+    "sorot": "aman"
+   }
+  },
+  {
+   "teks": "Setiap peran hanya melihat data yang memang menjadi tanggung jawabnya, sisanya tertutup.",
+   "anim": "kepemilikan",
+   "param": {
+    "judul": "Data siswa dijaga",
+    "item": [
+     {
+      "ikon": "kunci",
+      "judul": "Akses per peran",
+      "sub": "guru, staf, pimpinan"
+     },
+     {
+      "ikon": "data",
+      "judul": "Cadangan data",
+      "sub": "tersimpan berkala"
+     },
+     {
+      "ikon": "perisai",
+      "judul": "Data milik sekolah",
+      "sub": "atas nama lembaga"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Keempat, ada pelatihan dan pendampingan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Ada pelatihan dan pendampingan",
+    "sorot": "pendampingan"
+   }
+  },
+  {
+   "teks": "Mulai dari pelatihan pemakaian, perbaikan, sampai pembaruan saat kebutuhan sekolah berubah.",
+   "anim": "alur",
+   "param": {
+    "judul": "Tidak dilepas setelah jadi",
+    "langkah": [
+     "Pelatihan guru",
+     "Perbaikan",
+     "Pembaruan"
+    ],
+    "ikon": [
+     "orang",
+     "gear",
+     "roket"
+    ]
+   }
+  },
+  {
+   "teks": "Simpan checklist ini: pengguna dilibatkan, mockup, data aman, dan pendampingan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist aplikasi sekolah Anda",
+    "item": [
+     "Guru dan staf dilibatkan",
+     "Mockup disetujui",
+     "Data siswa aman",
+     "Ada pendampingan"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan sekolah Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Konsultasi gratis",
+    "sorot": "gratis",
+    "sub": "Ceritakan kebutuhan sekolah Anda"
+   }
+  }
+ ]
+}

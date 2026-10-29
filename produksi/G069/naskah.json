@@ -1,0 +1,220 @@
+{
+ "hook_pola": "berhenti",
+ "judul": "Aplikasi Rekam Medis Puskesmas: Satu Alur Terpadu",
+ "tag": [
+  "aplikasi rekam medis puskesmas",
+  "rekam medis puskesmas",
+  "sistem informasi puskesmas",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Berhenti mengetik ulang data pasien, aplikasi rekam medis puskesmas bisa menyatukannya.",
+   "anim": "hook",
+   "param": {
+    "kicker": "BERHENTI MENGETIK ULANG",
+    "baris": [
+     "Aplikasi Rekam Medis",
+     "Puskesmas"
+    ],
+    "sub": "Satu alur untuk semua petugas",
+    "sorot_sub": "satu alur",
+    "ikon": [
+     "klinik",
+     "aplikasi",
+     "laporan",
+     "user"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda petugas puskesmas yang melayani pasien dari pagi sampai siang.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda petugas puskesmas",
+    "sorot": "puskesmas",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Petugas"
+     },
+     {
+      "ikon": "kalender",
+      "teks": "Pagi hari"
+     },
+     {
+      "ikon": "tim",
+      "teks": "Banyak pasien"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pendaftaran di buku, pemeriksaan di formulir, dan laporan bulanan di spreadsheet.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Tiga tempat berbeda",
+    "sorot": "berbeda",
+    "item": [
+     {
+      "ikon": "buku",
+      "judul": "Buku pendaftaran",
+      "sub": "pasien"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Formulir periksa",
+      "sub": "poli"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Spreadsheet",
+      "sub": "laporan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Berkas menumpuk, data sama ditulis berulang, dan laporan harus dihitung ulang.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Berkas menumpuk",
+    "sorot": "menumpuk",
+    "label": [
+     "Pendaftaran",
+     "Poli",
+     "Resep",
+     "Laporan",
+     "Jadwal",
+     "Riwayat",
+     "Rujukan",
+     "Kontak"
+    ]
+   }
+  },
+  {
+   "teks": "Petugas menghabiskan waktu menyalin data untuk laporan, bukan melayani pasien.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis menyalin data",
+    "sorot": "menyalin data",
+    "sub": "Bukan melayani pasien.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu puskesmas berbicara dengan software house tentang sistem yang terpadu.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Sistem terpadu",
+    "sorot": "terpadu",
+    "kiri": "Buku dan formulir",
+    "kanan": "Sistem terpadu"
+   }
+  },
+  {
+   "teks": "Bukan aplikasi jadi yang kaku, tapi sistem yang mengikuti alur puskesmas Anda.",
+   "anim": "banding",
+   "param": {
+    "judul": "Mengikuti alur puskesmas",
+    "sorot": "alur puskesmas",
+    "kiri": {
+     "judul": "Aplikasi jadi",
+     "item": [
+      "Alur kaku",
+      "Petugas menyesuaikan"
+     ]
+    },
+    "kanan": {
+     "judul": "Sistem custom",
+     "item": [
+      "Mengikuti alur puskesmas",
+      "Fitur sesuai kebutuhan"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Pendaftaran, pemeriksaan, dan laporan terlihat dalam satu dashboard.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "klinik",
+    "judul": "Semua di satu dashboard",
+    "sorot": "satu dashboard",
+    "label": "Ilustrasi sistem klinik"
+   }
+  },
+  {
+   "teks": "Sebagai contoh, kami membangun DentalCare untuk klinik gigi, dan sistem puskesmas dibuat sesuai kebutuhan.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "DentalCare, contoh karya kami",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "soap"
+    ]
+   }
+  },
+  {
+   "teks": "Hasilnya data rapi, antrean jelas, dan laporan siap dibaca.",
+   "anim": "centang",
+   "param": {
+    "judul": "Pelayanan lebih tertata",
+    "sorot": "tertata",
+    "label": "SETELAH PAKAI SISTEM",
+    "item": [
+     "Data rapi",
+     "Antrean jelas",
+     "Laporan siap dibaca"
+    ]
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk puskesmas, klinik pratama, dan praktik dokter.",
+   "anim": "chip_niche",
+   "param": {
+    "judul": "Bisa disesuaikan",
+    "sorot": "disesuaikan",
+    "item": [
+     {
+      "ikon": "klinik",
+      "teks": "Puskesmas"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Klinik pratama"
+     },
+     {
+      "ikon": "user",
+      "teks": "Praktik dokter"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pemilik klinik juga bisa memantau data dari HP lewat browser.",
+   "anim": "hp",
+   "param": {
+    "tema": "klinik",
+    "kicker": "DARI MANA SAJA",
+    "judul": "Pantau dari HP",
+    "sorot": "dari HP",
+    "notif": "Data klinik tercatat"
+   }
+  },
+  {
+   "teks": "Ceritakan alur puskesmas Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {}
+  }
+ ]
+}

@@ -1,0 +1,235 @@
+{
+ "meta": {
+  "judul": "Dental Management Software: Mulai dari Alur Klinik",
+  "ringkas": "Dental management software yang dibangun dari alur kerja klinik gigi, bukan dari daftar fitur.",
+  "tag": [
+   "dental management software",
+   "software klinik gigi",
+   "aplikasi klinik gigi",
+   "dentalcare"
+  ]
+ },
+ "hook_pola": "kontras",
+ "blok": [
+  {
+   "teks": "Dental management software yang tepat dimulai dari alur klinik, bukan dari daftar fitur.",
+   "anim": "hook",
+   "param": {
+    "judul": "Mulai dari alur, *bukan daftar fitur*.",
+    "sub": "Dental management software."
+   }
+  },
+  {
+   "teks": "Software dengan fitur melimpah sering membuat staf bingung dan akhirnya kembali ke cara lama.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Yang sering terjadi",
+    "judul": "Fitur banyak, *alur kabur*.",
+    "kartu": [
+     {
+      "ikon": "layar",
+      "judul": "Banyak menu",
+      "ket": "Staf bingung"
+     },
+     {
+      "ikon": "user",
+      "judul": "Staf",
+      "ket": "Kembali ke kertas"
+     },
+     {
+      "ikon": "gear",
+      "judul": "Fitur",
+      "ket": "Jarang dipakai"
+     }
+    ],
+    "coret": "melimpah"
+   }
+  },
+  {
+   "teks": "Software klinik gigi yang baik mengurus pasien, rekam medis, tindakan, dan tagihan dalam satu alur.",
+   "anim": "daftar-centang",
+   "param": {
+    "kicker": "Yang dibutuhkan klinik",
+    "judul": "Satu alur *lengkap*",
+    "item": [
+     "Data pasien",
+     "Rekam medis",
+     "Tindakan",
+     "Tagihan"
+    ]
+   }
+  },
+  {
+   "teks": "Ini DentalCare, software klinik gigi buatan kami yang sudah berjalan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Pertama, dashboard menampilkan ringkasan klinik dalam satu layar.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Dashboard klinik",
+    "ket": "Ringkasan dalam satu layar",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Kedua, antrean pasien tertata dan dokter tinggal memanggil.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "antrean",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Antrean pasien",
+    "ket": "Dokter tinggal memanggil",
+    "fokus": [
+     90,
+     47
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare",
+    "sorot": {
+     "x": 85.5,
+     "y": 40,
+     "w": 9,
+     "h": 13,
+     "label": "Panggil sesuai urutan"
+    }
+   }
+  },
+  {
+   "teks": "Ketiga, tindakan dan resep dicatat, lalu invoice mengikuti.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "tindakan",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Tindakan dan resep",
+    "ket": "Invoice mengikuti",
+    "fokus": [
+     50,
+     50
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Dengan begitu, klinik bekerja dengan satu sistem, bukan beberapa alat terpisah.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Alat terpisah",
+     "item": [
+      "Data tercecer",
+      "Laporan manual"
+     ]
+    },
+    "kanan": {
+     "judul": "Satu sistem",
+     "item": [
+      "Data tertata",
+      "Laporan siap"
+     ]
+    },
+    "pemicu": "dengan"
+   }
+  },
+  {
+   "teks": "Pemilik klinik juga bisa membuka data dari HP lewat browser.",
+   "anim": "footage-hp",
+   "param": {
+    "kicker": "Dari mana saja",
+    "judul": "Buka dari *HP*",
+    "ket": "Lewat browser",
+    "poin": [
+     "Data pasien",
+     "Jadwal",
+     "Laporan"
+    ],
+    "notif": "Data klinik terbuka",
+    "ikonNotif": "klinik"
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk klinik gigi, praktik dokter, dan klinik umum.",
+   "anim": "chip-niche",
+   "param": {
+    "kicker": "Bisa disesuaikan",
+    "judul": "Sesuai kebutuhan *Anda*",
+    "sub": "Alurnya mengikuti klinik.",
+    "chip": [
+     {
+      "ikon": "klinik",
+      "teks": "Klinik gigi"
+     },
+     {
+      "ikon": "user",
+      "teks": "Praktik dokter"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Klinik umum"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Cara kerjanya sederhana: konsultasi, mockup disetujui, pengembangan, lalu rilis.",
+   "anim": "diagram-alur",
+   "param": {
+    "kicker": "Cara kerja",
+    "judul": "Empat tahap *jelas*",
+    "langkah": [
+     {
+      "ikon": "chat",
+      "teks": "Konsultasi"
+     },
+     {
+      "ikon": "layar",
+      "teks": "Mockup"
+     },
+     {
+      "ikon": "kode",
+      "teks": "Develop"
+     },
+     {
+      "ikon": "roket",
+      "teks": "Rilis"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Software klinik gigi",
+    "judul": "Lihat demo *DentalCare*.",
+    "sub": "Ceritakan alur klinik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

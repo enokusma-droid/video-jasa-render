@@ -1,0 +1,153 @@
+{
+ "hook_pola": "angka-spesifik",
+ "judul": "Software House Medan: 4 Tanda yang Layak Anda Percaya",
+ "blok": [
+  {
+   "teks": "Empat tanda software house Medan yang layak Anda percaya.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "4 tanda software house Medan yang layak dipercaya",
+    "sorot": "4 tanda",
+    "ikon": "bintang"
+   }
+  },
+  {
+   "teks": "Kalau tanda ini tidak ada, proyek mudah molor, komunikasi putus, dan hasil sulit dikembangkan.",
+   "anim": "red-flag",
+   "param": {
+    "judul": "Kalau tandanya tidak ada",
+    "item": [
+     "Proyek mudah molor",
+     "Komunikasi putus",
+     "Sulit dikembangkan"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, punya portofolio yang bisa dicoba.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Portofolio yang bisa dicoba",
+    "sorot": "bisa dicoba"
+   }
+  },
+  {
+   "teks": "Seperti sistem klinik gigi buatan kami ini, yang bisa Anda lihat langsung bekerja.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "dash",
+     "pasien"
+    ],
+    "perangkat": "keduanya"
+   }
+  },
+  {
+   "teks": "Kedua, memberi mockup sebelum koding.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Mockup sebelum koding",
+    "sorot": "mockup"
+   }
+  },
+  {
+   "teks": "Anda menyetujui rancangan setiap layar dulu, jadi tidak ada kejutan saat aplikasi jadi.",
+   "anim": "wireframe-disetujui",
+   "param": {
+    "judul": "Rancangan disetujui dulu"
+   }
+  },
+  {
+   "teks": "Ketiga, progres terbuka untuk Anda.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Progres terbuka untuk Anda",
+    "sorot": "terbuka"
+   }
+  },
+  {
+   "teks": "Nusawebsite berbasis di Jogja dan melayani klien Medan secara online, dengan progres yang bisa dipantau.",
+   "anim": "papan-progres",
+   "param": {
+    "judul": "Progres bisa dipantau",
+    "kolom": [
+     {
+      "judul": "Selesai",
+      "item": [
+       "Mockup",
+       "Login"
+      ]
+     },
+     {
+      "judul": "Dikerjakan",
+      "item": [
+       "Data utama"
+      ]
+     },
+     {
+      "judul": "Berikutnya",
+      "item": [
+       "Laporan",
+       "Uji"
+      ]
+     }
+    ],
+    "persen": 0.5
+   }
+  },
+  {
+   "teks": "Keempat, kode dan data diserahkan kepada Anda.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Kode dan data diserahkan",
+    "sorot": "diserahkan"
+   }
+  },
+  {
+   "teks": "Kode sumber, database, dan akun penting tercatat atas nama usaha Anda sejak awal.",
+   "anim": "kepemilikan",
+   "param": {
+    "judul": "Semua tercatat milik Anda",
+    "item": [
+     {
+      "ikon": "kode",
+      "judul": "Kode sumber",
+      "sub": "repositori proyek"
+     },
+     {
+      "ikon": "data",
+      "judul": "Data bisnis",
+      "sub": "database dan cadangan"
+     },
+     {
+      "ikon": "kunci",
+      "judul": "Akun penting",
+      "sub": "atas nama Anda"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Simpan checklist ini: portofolio, mockup, progres terbuka, dan kepemilikan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist software house Medan",
+    "item": [
+     "Portofolio dicoba",
+     "Mockup dulu",
+     "Progres terbuka",
+     "Kode milik Anda"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan usaha Anda di Medan. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Konsultasi gratis",
+    "sorot": "gratis",
+    "sub": "Ceritakan kebutuhan usaha Anda"
+   }
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "tag": [
+  "contoh rekam medis poli gigi puskesmas",
+  "rekam medis poli gigi",
+  "rekam medis puskesmas",
+  "sistem rekam medis",
+  "nusawebsite"
+ ],
+ "hook_pola": "hasil-dulu",
+ "blok": [
+  {
+   "teks": "Contoh rekam medis poli gigi puskesmas berikut menunjukkan bagian apa saja yang perlu dicatat. Isinya bisa disesuaikan dengan ketentuan yang berlaku.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "CONTOH BAGIAN",
+    "sorot": "poli gigi puskesmas",
+    "sub": "Bagian yang perlu dicatat",
+    "kata_sub": "bagian",
+    "judul_yt": "Contoh Rekam Medis Poli Gigi Puskesmas: Bagian Pentingnya"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan formulir yang tidak lengkap. Identitas kurang, pemeriksaan terlewat, dan tindakan tidak tercatat.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Formulir rekam medis yang tidak lengkap.",
+    "item": [
+     "Identitas kurang",
+     "Pemeriksaan terlewat",
+     "Tindakan tidak tercatat"
+    ],
+    "kata": [
+     "identitas",
+     "pemeriksaan",
+     "tindakan"
+    ]
+   }
+  },
+  {
+   "teks": "Rekam medis poli gigi umumnya memuat empat bagian.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "BAGIAN REKAM MEDIS",
+    "tahap": [
+     "Identitas",
+     "Pemeriksaan",
+     "Diagnosis",
+     "Tindakan"
+    ]
+   }
+  },
+  {
+   "teks": "Bagian satu, identitas. Nama, usia, alamat, dan keluhan utama pasien dicatat di awal.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Identitas\nPasien",
+    "desk": "Dicatat di awal kunjungan.",
+    "visual": "catatan",
+    "label": "IDENTITAS",
+    "item": [
+     "Nama dan usia",
+     "Alamat",
+     "Keluhan utama"
+    ],
+    "kata": [
+     "nama",
+     "alamat",
+     "keluhan"
+    ]
+   }
+  },
+  {
+   "teks": "Bagian dua, pemeriksaan. Dokter mencatat keadaan gigi dan mulut, termasuk peta gigi.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Pemeriksaan\nGigi",
+    "desk": "Termasuk peta gigi.",
+    "visual": "wireframe",
+    "mode": "app",
+    "stempel": "TERCATAT",
+    "kata_stempel": "termasuk"
+   }
+  },
+  {
+   "teks": "Bagian tiga, diagnosis. Hasil penilaian dokter ditulis jelas, mudah dilanjutkan, dan ada tanggalnya.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Diagnosis\nDokter",
+    "desk": "Ditulis jelas.",
+    "visual": "serah",
+    "label": "DIAGNOSIS",
+    "item": [
+     "Ditulis jelas",
+     "Mudah dilanjutkan",
+     "Tercatat tanggalnya"
+    ],
+    "kata": [
+     "jelas",
+     "mudah",
+     "tanggalnya"
+    ]
+   }
+  },
+  {
+   "teks": "Bagian empat, tindakan. Tindakan dan obat yang diberikan dicatat bersama tanggal kunjungan.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Tindakan\ndan Obat",
+    "desk": "Bersama tanggal kunjungan.",
+    "visual": "ui",
+    "klip": [
+     "soap"
+    ],
+    "item": [
+     "Tindakan tercatat",
+     "Obat tercatat"
+    ],
+    "kata": [
+     "tindakan",
+     "obat"
+    ]
+   }
+  },
+  {
+   "teks": "Sistem rekam medis kami, DentalCare untuk klinik gigi, bisa menjadi contoh. Nusawebsite juga membuat sistem sesuai kebutuhan puskesmas. Datanya tersimpan di satu sistem, sehingga mudah dicari dan dibandingkan.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "DentalCare, rekam medis gigi",
+    "klip": [
+     "soap",
+     "odon"
+    ]
+   }
+  },
+  {
+   "teks": "Butuh rekam medis yang sesuai alur poli gigi Anda? Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur poli gigi Anda",
+    "kata_link": "link",
+    "mini": [
+     "Identitas",
+     "Pemeriksaan",
+     "Diagnosis",
+     "Tindakan"
+    ]
+   }
+  }
+ ],
+ "tema": "brutal"
+}

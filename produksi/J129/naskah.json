@@ -1,0 +1,224 @@
+{
+ "meta": {
+  "judul": "Jasa Pembuatan Website Denpasar: Pahami Alurnya Sebelum Mulai",
+  "ringkas": "Pelajari alur kerja yang rapi sebelum memilih penyedia website. Kami bedah DentalCare sebagai contoh sistem web buatan kami.",
+  "paragraf": "Website yang baik dimulai dari alur yang jelas: konsultasi kebutuhan, mockup tampilan yang disetujui dulu, sampai rilis dan pendampingan. Kami melayani online dari Jogja untuk usaha di Denpasar dan seluruh Indonesia.",
+  "tag": [
+   "jasa website denpasar",
+   "pembuatan website denpasar",
+   "jasa pembuatan website",
+   "website usaha denpasar"
+  ],
+  "hook_pola": "1 pelajari sebelum"
+ },
+ "blok": [
+  {
+   "teks": "Pelajari tiga bagian ini sebelum memakai jasa pembuatan website Denpasar.",
+   "anim": "hook",
+   "param": {
+    "judul": "Pelajari *3 bagian ini* dulu.",
+    "sub": "Supaya website Anda *dipakai*, bukan sekadar ada."
+   }
+  },
+  {
+   "teks": "Banyak usaha pariwisata dan jasa di Denpasar masih menerima pemesanan lewat chat, telepon, dan catatan harian.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Yang sering terjadi",
+    "judul": "Pemesanan masih lewat *ini*",
+    "kartu": [
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "ket": "Pesan bisa tenggelam"
+     },
+     {
+      "ikon": "hp",
+      "judul": "Telepon",
+      "ket": "Tidak tercatat rapi"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Catatan harian",
+      "ket": "Mudah terlewat"
+     }
+    ],
+    "coret": "catatan"
+   }
+  },
+  {
+   "teks": "Akibatnya jadwal bentrok, pelanggan menunggu balasan, dan peluang pesanan hilang.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Jadwal *bentrok*, pelanggan menunggu",
+    "masalah": [
+     {
+      "ikon": "kalender",
+      "teks": "Jadwal bentrok"
+     },
+     {
+      "ikon": "chat",
+      "teks": "Balasan lambat"
+     },
+     {
+      "ikon": "x",
+      "teks": "Peluang hilang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Sebagai gambaran, ini DentalCare, sistem web klinik gigi yang kami bangun.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard2",
+    "kicker": "Portofolio Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Sistem web klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     40
+    ],
+    "zoom": 1.08
+   }
+  },
+  {
+   "teks": "Kami bedah tiga bagian utamanya.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Bedah portofolio",
+    "label": "Bagian yang *kita bedah*",
+    "item": [
+     "Data pasien",
+     "Tindakan dan resep",
+     "Daftar invoice"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, data pasien. Semua riwayat tersimpan rapi dan mudah dicari.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah DentalCare",
+    "nomor": "01",
+    "judul": "Data pasien",
+    "ket": "Riwayat rapi dan mudah dicari",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Kedua, tindakan dan resep. Dicatat sekali, langsung terhubung.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "tindakan",
+    "kicker": "Bedah DentalCare",
+    "nomor": "02",
+    "judul": "Tindakan dan resep",
+    "ket": "Dicatat sekali, langsung terhubung",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Ketiga, daftar invoice. Kasir melihat semua tagihan dalam satu halaman.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice",
+    "kicker": "Bedah DentalCare",
+    "nomor": "03",
+    "judul": "Daftar invoice",
+    "ket": "Semua tagihan dalam satu halaman",
+    "fokus": [
+     50,
+     40
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Dari sini terlihat alur kerja yang rapi, data yang tertata, dan tagihan yang jelas.",
+   "anim": "daftar-centang",
+   "param": {
+    "kicker": "Dari bukti nyata",
+    "judul": "Yang terlihat *jelas*",
+    "item": [
+     "Alur kerja rapi",
+     "Data tertata",
+     "Tagihan jelas"
+    ],
+    "gambar": true
+   }
+  },
+  {
+   "teks": "Pola yang sama kami sesuaikan untuk website villa, restoran, jasa wisata, dan company profile di Denpasar.",
+   "anim": "fitur-grid",
+   "param": {
+    "kicker": "Untuk usaha di Denpasar",
+    "judul": "Kemampuan yang *sama*",
+    "fitur": [
+     {
+      "ikon": "rumah",
+      "teks": "Villa"
+     },
+     {
+      "ikon": "resto",
+      "teks": "Restoran"
+     },
+     {
+      "ikon": "truk",
+      "teks": "Jasa wisata"
+     },
+     {
+      "ikon": "layar",
+      "teks": "Company profile"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Sebelum dikoding, mockup tampilan kami kirim dan Anda setujui dulu.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikoding.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Kami melayani online dari Jogja ke Denpasar, hasilnya nyaman dibuka dari HP.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Online dari *Jogja*, nyaman di *HP*",
+    "poin": [
+     "Konsultasi online",
+     "Tampilan ramah HP"
+    ],
+    "notif": "Bisa dibuka dari HP"
+   }
+  },
+  {
+   "teks": "Siap merapikan alur pemesanan Anda? Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Jasa Pembuatan Website Denpasar",
+    "judul": "Rapikan alur *pemesanan*.",
+    "sub": "Ceritakan kebutuhan usaha Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

@@ -1,0 +1,219 @@
+{
+ "meta": {
+  "judul": "Panduan Odontogram: 3 Hal untuk Dokter Gigi",
+  "ringkas": "Panduan odontogram singkat dan cara aplikasi klinik gigi membantu mencatatnya.",
+  "tag": [
+   "panduan odontogram",
+   "odontogram",
+   "aplikasi klinik gigi",
+   "dentalcare"
+  ]
+ },
+ "hook_pola": "angka-spesifik",
+ "blok": [
+  {
+   "teks": "Panduan odontogram ini merangkum tiga hal yang perlu dipahami setiap dokter gigi.",
+   "anim": "hook",
+   "param": {
+    "judul": "Panduan odontogram, *tiga hal*.",
+    "sub": "Nomor gigi, kondisi, riwayat."
+   }
+  },
+  {
+   "teks": "Nomor gigi yang salah, kondisi yang terlewat, dan riwayat yang tidak terbaca membuat catatan tidak bisa dipercaya.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Tiga hal",
+    "judul": "Catatan gigi *rawan salah*",
+    "sub": "Kalau tidak tertata.",
+    "masalah": [
+     {
+      "ikon": "alert",
+      "teks": "Nomor gigi salah"
+     },
+     {
+      "ikon": "x",
+      "teks": "Kondisi terlewat"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Riwayat tak terbaca"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Satu odontogram, satu pasien, satu kunjungan. Tanggalnya selalu tercatat supaya perubahan terlihat.",
+   "anim": "kutipan-sorot",
+   "param": {
+    "teks": "Satu pasien, satu kunjungan, *tanggal tercatat*.",
+    "atribusi": "Prinsip pencatatan"
+   }
+  },
+  {
+   "teks": "Ini DentalCare, aplikasi klinik gigi buatan kami yang sudah berjalan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Pertama, pasien dipilih dari data yang rapi, jadi odontogram tidak tertukar.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Data pasien",
+    "ket": "Odontogram tidak tertukar",
+    "fokus": [
+     40,
+     40
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Kedua, kondisi gigi ditandai langsung di peta gigi digital.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "odontogram",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Peta gigi",
+    "ket": "Kondisi ditandai langsung",
+    "fokus": [
+     50,
+     50
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Ketiga, hasil pemeriksaan tersimpan bersama catatan SOAP.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Catatan SOAP",
+    "ket": "Tersimpan bersama odontogram",
+    "fokus": [
+     40,
+     45
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Dengan begitu, riwayat gigi tidak lagi bergantung pada ingatan atau map.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Cara lama",
+     "item": [
+      "Map dan ingatan",
+      "Sulit dicari"
+     ]
+    },
+    "kanan": {
+     "judul": "Dengan aplikasi",
+     "item": [
+      "Riwayat tersimpan",
+      "Mudah dibuka"
+     ]
+    },
+    "pemicu": "dengan"
+   }
+  },
+  {
+   "teks": "Pemilik klinik juga bisa membuka data dari HP lewat browser.",
+   "anim": "footage-hp",
+   "param": {
+    "kicker": "Dari mana saja",
+    "judul": "Buka dari *HP*",
+    "ket": "Lewat browser",
+    "poin": [
+     "Data pasien",
+     "Jadwal",
+     "Laporan"
+    ],
+    "notif": "Data klinik terbuka",
+    "ikonNotif": "klinik"
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk klinik gigi, praktik dokter, dan klinik umum.",
+   "anim": "chip-niche",
+   "param": {
+    "kicker": "Bisa disesuaikan",
+    "judul": "Sesuai kebutuhan *Anda*",
+    "sub": "Alurnya mengikuti klinik.",
+    "chip": [
+     {
+      "ikon": "klinik",
+      "teks": "Klinik gigi"
+     },
+     {
+      "ikon": "user",
+      "teks": "Praktik dokter"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Klinik umum"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Cara kerjanya sederhana: konsultasi, mockup disetujui, pengembangan, lalu rilis.",
+   "anim": "diagram-alur",
+   "param": {
+    "kicker": "Cara kerja",
+    "judul": "Empat tahap *jelas*",
+    "langkah": [
+     {
+      "ikon": "chat",
+      "teks": "Konsultasi"
+     },
+     {
+      "ikon": "layar",
+      "teks": "Mockup"
+     },
+     {
+      "ikon": "kode",
+      "teks": "Develop"
+     },
+     {
+      "ikon": "roket",
+      "teks": "Rilis"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Mau odontogram yang lebih rapi? Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Panduan odontogram",
+    "judul": "Lihat demo *DentalCare*.",
+    "sub": "Ceritakan alur klinik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

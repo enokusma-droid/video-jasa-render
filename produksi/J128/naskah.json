@@ -1,0 +1,171 @@
+{
+ "hook_pola": "8 tanda bahaya",
+ "judul": "Jasa Pembuatan Website Manado: Tanda Bahaya yang Perlu Dicek",
+ "deskripsi": "Jasa pembuatan website Manado yang tidak menjelaskan alur kerjanya adalah tanda bahaya. Video ini membahas lima hal yang perlu dicek sebelum memilih. Nusawebsite berbasis di Jogja dan melayani klien secara online ke seluruh Indonesia.\n\nKonsultasi gratis kebutuhan website bisnis Anda: {{LINK_WA}}",
+ "tag": [
+  "jasa pembuatan website manado",
+  "website manado",
+  "website usaha manado",
+  "jasa website manado",
+  "nusawebsite",
+  "jasa pembuatan website",
+  "website bisnis",
+  "desain website",
+  "software house"
+ ],
+ "blok": [
+  {
+   "teks": "Kalau jasa pembuatan website Manado tidak menjelaskan alur kerjanya, itu tanda bahaya.",
+   "anim": "hook-peringatan",
+   "param": {
+    "kicker": "Jasa Pembuatan Website Manado",
+    "judul": "Alur kerja tidak dijelaskan itu tanda bahaya",
+    "sorot": "tanda bahaya",
+    "ikon": "peringatan"
+   }
+  },
+  {
+   "teks": "Tanpa alur, hasilnya sering seadanya, revisi tidak berujung, dan website sulit dikelola.",
+   "anim": "red-flag",
+   "param": {
+    "judul": "Yang sering terjadi",
+    "item": [
+     "Alur tidak jelas",
+     "Hasil seadanya",
+     "Revisi tanpa ujung",
+     "Sulit dikelola"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, alur kerja jelas.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Alur kerja jelas",
+    "sorot": "jelas"
+   }
+  },
+  {
+   "teks": "Tahapnya berurutan, dari konsultasi, mockup, pembangunan, uji, sampai website online.",
+   "anim": "alur",
+   "param": {
+    "judul": "Tahap yang berurutan",
+    "langkah": [
+     "Konsultasi",
+     "Mockup",
+     "Bangun",
+     "Uji",
+     "Online"
+    ],
+    "ikon": [
+     "chat",
+     "palet",
+     "kode",
+     "cek",
+     "roket"
+    ]
+   }
+  },
+  {
+   "teks": "Kedua, contoh hasil nyata.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Contoh hasil nyata",
+    "sorot": "nyata"
+   }
+  },
+  {
+   "teks": "Minta contoh sistem web yang benar-benar jalan, seperti sistem klinik gigi buatan kami ini.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "dash",
+     "antrean"
+    ],
+    "perangkat": "keduanya"
+   }
+  },
+  {
+   "teks": "Ketiga, mockup disetujui dulu.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Mockup disetujui dulu",
+    "sorot": "disetujui"
+   }
+  },
+  {
+   "teks": "Rancangan halaman Anda periksa sebelum website dibangun.",
+   "anim": "wireframe-disetujui",
+   "param": {
+    "judul": "Disetujui sebelum dibangun"
+   }
+  },
+  {
+   "teks": "Keempat, mudah dikelola sendiri.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Mudah dikelola sendiri",
+    "sorot": "sendiri"
+   }
+  },
+  {
+   "teks": "Tim Anda bisa mengganti foto, promo, dan artikel sendiri, dengan pendampingan bila perlu.",
+   "anim": "centang-besar",
+   "param": {
+    "teks": "Kelola konten sendiri",
+    "sorot": "sendiri",
+    "sub": "dengan pendampingan bila perlu"
+   }
+  },
+  {
+   "teks": "Kelima, siap SEO dasar.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Siap SEO dasar",
+    "sorot": "SEO"
+   }
+  },
+  {
+   "teks": "Judul halaman, kecepatan buka, dan tampilan ponsel disiapkan agar mudah dicari.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Disiapkan sejak awal",
+    "item": [
+     {
+      "ikon": "kacamata",
+      "label": "Judul halaman"
+     },
+     {
+      "ikon": "jam",
+      "label": "Cepat dibuka"
+     },
+     {
+      "ikon": "hp",
+      "label": "Rapi di HP"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Simpan lima hal ini: alur jelas, hasil nyata, mockup disetujui, mudah dikelola, dan siap SEO dasar.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist website Manado",
+    "item": [
+     "Alur jelas",
+     "Hasil nyata",
+     "Mockup disetujui",
+     "Mudah dikelola",
+     "Siap SEO dasar"
+    ]
+   }
+  },
+  {
+   "teks": "Nusawebsite melayani Manado secara online dari Jogja. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan website usaha Anda di Manado"
+   }
+  }
+ ]
+}

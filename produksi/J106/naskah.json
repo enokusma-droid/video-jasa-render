@@ -1,0 +1,210 @@
+{
+ "blok": [
+  {
+   "teks": "Berhenti menyesuaikan bisnis dengan software jadi, jasa pembuatan software bisa membalik keadaannya.",
+   "anim": "hook",
+   "param": {
+    "kicker": "BERHENTI, LALU MULAI",
+    "baris": [
+     "Jasa Pembuatan",
+     "Software"
+    ],
+    "sub": "Software yang mengikuti bisnis Anda",
+    "sorot_sub": "mengikuti",
+    "ikon": [
+     "x",
+     "aplikasi",
+     "gear",
+     "cek"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik usaha produksi dengan banyak pesanan dan bahan baku.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "gudang",
+    "judul": "Anda pemilik usaha produksi",
+    "sorot": "produksi",
+    "sub": "Banyak pesanan dan bahan baku.",
+    "chip": [
+     {
+      "ikon": "gudang",
+      "teks": "Bahan baku"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Pesanan"
+     },
+     {
+      "ikon": "tim",
+      "teks": "Tim produksi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pesanan ditulis di kertas, bahan baku dicatat di Excel, dan progres dikabarkan lewat chat.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Semua masih dicatat manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Kertas",
+      "sub": "catatan pesanan"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Excel",
+      "sub": "bahan baku"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "sub": "progres produksi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Akhirnya data pesanan dan bahan baku tersebar, sulit dilacak saat dibutuhkan.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Data produksi tersebar",
+    "sorot": "tersebar",
+    "label": [
+     "Pesanan",
+     "Bahan baku",
+     "Produksi",
+     "Stok",
+     "Nota",
+     "Pelanggan",
+     "Jadwal",
+     "Rekap",
+     "Catatan",
+     "Kontak"
+    ]
+   }
+  },
+  {
+   "teks": "Pesanan terlewat, bahan baku kurang, dan jadwal produksi sering bertabrakan.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Masalah yang berulang",
+    "sorot": "berulang",
+    "item": [
+     "Pesanan terlewat",
+     "Bahan baku kurang",
+     "Jadwal bertabrakan"
+    ]
+   }
+  },
+  {
+   "teks": "Waktu Anda habis untuk mengatur ulang jadwal, bukan untuk meningkatkan produksi.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis untuk mengatur ulang",
+    "sorot": "mengatur ulang",
+    "sub": "Bukan untuk meningkatkan produksi.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda memutuskan bicara dengan software house.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Anda bicara dengan software house",
+    "sorot": "software house",
+    "kiri": "Catatan manual",
+    "kanan": "Software custom"
+   }
+  },
+  {
+   "teks": "Bukan software jadi yang membuat usaha menyesuaikan diri, tapi software custom yang mengikuti alur produksi Anda.",
+   "anim": "banding",
+   "param": {
+    "judul": "Software yang mengikuti alur produksi",
+    "sorot": "mengikuti",
+    "kiri": {
+     "judul": "Software jadi",
+     "item": [
+      "Alur disesuaikan software",
+      "Fitur tak terpakai",
+      "Sulit diubah"
+     ]
+    },
+    "kanan": {
+     "judul": "Software custom",
+     "item": [
+      "Mengikuti alur produksi",
+      "Fitur sesuai kebutuhan",
+      "Bisa dikembangkan"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Tim lapangan memperbarui status pesanan dari HP, lalu data langsung tersimpan.",
+   "anim": "hp",
+   "param": {
+    "tema": "pesanan",
+    "kicker": "UNTUK TIM PRODUKSI",
+    "judul": "Status pesanan dari HP",
+    "sorot": "langsung tersimpan",
+    "sub": "Dibuka dari HP.",
+    "notif": "Status pesanan diperbarui"
+   }
+  },
+  {
+   "teks": "Di kantor, Anda melihat pesanan, bahan baku, dan jadwal produksi dalam satu dashboard.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "stok",
+    "judul": "Produksi terlihat di satu dashboard",
+    "sorot": "satu dashboard",
+    "sub": "Pesanan, bahan baku, dan jadwal.",
+    "label": "Ilustrasi software produksi"
+   }
+  },
+  {
+   "teks": "Pesanan terpantau, bahan baku terkontrol, dan jadwal produksi lebih tertib.",
+   "anim": "centang",
+   "param": {
+    "judul": "Produksi jadi lebih tertib",
+    "sorot": "tertib",
+    "item": [
+     "Pesanan terpantau",
+     "Bahan baku terkontrol",
+     "Jadwal lebih tertib"
+    ]
+   }
+  },
+  {
+   "teks": "Kami sudah membangun software seperti ini, salah satunya DentalCare untuk klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "judul": "DentalCare, aplikasi klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "soap"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur kerja usaha Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur kerja usaha Anda"
+   }
+  }
+ ]
+}

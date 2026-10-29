@@ -1,0 +1,170 @@
+{
+ "hook_pola": "hasil-dulu",
+ "judul": "Contoh Aplikasi Rekam Medis: Lihat Dulu Sebelum Memilih",
+ "tag": [
+  "contoh aplikasi rekam medis",
+  "aplikasi rekam medis",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Ini contoh aplikasi rekam medis yang bisa Anda lihat dulu sebelum memutuskan.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Contoh aplikasi rekam medis: lihat dulu",
+    "sorot": "lihat dulu",
+    "ikon": "kacamata",
+    "kicker": "LIHAT DULU"
+   }
+  },
+  {
+   "teks": "Aplikasi yang baik bisa didemokan, bukan hanya dijanjikan lewat daftar fitur.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Bisa didemokan, bukan hanya dijanjikan",
+    "sorot": "didemokan",
+    "ikon": "kacamata",
+    "kicker": "BUKTI DULU"
+   }
+  },
+  {
+   "teks": "Pertama, dashboard yang jelas.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Dashboard yang jelas",
+    "sorot": "jelas"
+   }
+  },
+  {
+   "teks": "Pemilik klinik melihat ringkasan kunjungan dalam satu layar, seperti di DentalCare ini.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "dash"
+    ],
+    "perangkat": "keduanya"
+   }
+  },
+  {
+   "teks": "Kedua, data pasien dan antrean.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Data pasien dan antrean",
+    "sorot": "antrean"
+   }
+  },
+  {
+   "teks": "Pasien terdaftar rapi, dan antrean dipanggil sesuai urutan.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "pasien",
+     "antrean"
+    ],
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Ketiga, catatan pemeriksaan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Catatan pemeriksaan",
+    "sorot": "pemeriksaan"
+   }
+  },
+  {
+   "teks": "Dokter mengisi catatan SOAP dan menandai kondisi gigi di odontogram.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "soap",
+     "odon"
+    ],
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Keempat, tagihan terhubung.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Tagihan terhubung",
+    "sorot": "tagihan"
+   }
+  },
+  {
+   "teks": "Invoice terbit dari tindakan yang sudah dicatat, lalu siap dicetak.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "inv"
+    ],
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk klinik gigi, praktik dokter, dan klinik umum.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Bisa disesuaikan",
+    "item": [
+     {
+      "ikon": "klinik",
+      "label": "Klinik gigi"
+     },
+     {
+      "ikon": "orang",
+      "label": "Praktik dokter"
+     },
+     {
+      "ikon": "klinik",
+      "label": "Klinik umum"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Dengan begitu, pencatatan klinik lebih rapi dan mudah dilacak.",
+   "anim": "centang-besar",
+   "param": {
+    "teks": "Pencatatan lebih rapi",
+    "sorot": "rapi",
+    "sub": "Dan mudah dilacak"
+   }
+  },
+  {
+   "teks": "Cara kerjanya sederhana: konsultasi, mockup disetujui, pengembangan, lalu rilis.",
+   "anim": "alur",
+   "param": {
+    "judul": "Cara kerja Nusawebsite",
+    "langkah": [
+     "Konsultasi",
+     "Mockup",
+     "Develop",
+     "Rilis"
+    ]
+   }
+  },
+  {
+   "teks": "Jadi minta demo dashboard, pasien, pemeriksaan, dan tagihan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist saat melihat contoh",
+    "item": [
+     "Dashboard jelas",
+     "Pasien dan antrean",
+     "Catatan pemeriksaan",
+     "Tagihan terhubung"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan klinik Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Minta demo aplikasi klinik"
+   }
+  }
+ ]
+}
