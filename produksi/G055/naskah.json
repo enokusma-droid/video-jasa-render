@@ -1,0 +1,167 @@
+{
+ "hook_pola": "kesalahan-umum",
+ "judul": "Odontogram Gigi Puskesmas: 4 Kesalahan Umum",
+ "tag": [
+  "odontogram gigi puskesmas",
+  "odontogram puskesmas",
+  "rekam medis puskesmas",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Kesalahan paling sering pada odontogram gigi puskesmas: pencatatan berbeda-beda di tiap petugas.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Kesalahan umum odontogram gigi puskesmas",
+    "sorot": "kesalahan umum",
+    "ikon": "silang",
+    "kicker": "KESALAHAN UMUM"
+   }
+  },
+  {
+   "teks": "Kalau tiap petugas mencatat dengan caranya sendiri, riwayat pasien sulit dibandingkan.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Cara catat berbeda, riwayat sulit dibandingkan",
+    "sorot": "sulit dibandingkan",
+    "ikon": "dokumen",
+    "kicker": "DAMPAKNYA"
+   }
+  },
+  {
+   "teks": "Pertama, satu acuan simbol.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Satu acuan simbol",
+    "sorot": "acuan"
+   }
+  },
+  {
+   "teks": "Semua petugas memakai kode dan warna yang sama, jadi peta gigi terbaca siapa saja.",
+   "anim": "benar-salah",
+   "param": {
+    "judul": "Simbol harus seragam",
+    "salah": "Tiap petugas beda simbol",
+    "benar": "Satu acuan untuk semua"
+   }
+  },
+  {
+   "teks": "Kedua, data pasien yang rapi.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Data pasien yang rapi",
+    "sorot": "rapi"
+   }
+  },
+  {
+   "teks": "Identitas dan peta gigi tersimpan di satu sistem, seperti contoh DentalCare ini.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "pasien",
+     "odon"
+    ],
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Ketiga, alur berurutan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Alur berurutan",
+    "sorot": "berurutan"
+   }
+  },
+  {
+   "teks": "Pasien dipanggil, diperiksa, dicatat, lalu disimpan dalam alur yang sama.",
+   "anim": "alur",
+   "param": {
+    "judul": "Alur yang sama tiap pasien",
+    "langkah": [
+     "Panggil",
+     "Periksa",
+     "Catat",
+     "Simpan"
+    ]
+   }
+  },
+  {
+   "teks": "Keempat, akses sesuai peran.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Akses sesuai peran",
+    "sorot": "peran"
+   }
+  },
+  {
+   "teks": "Dokter dan petugas hanya membuka bagian yang perlu, dan sistem bisa dibuat sesuai kebutuhan puskesmas.",
+   "anim": "kepemilikan",
+   "param": {
+    "judul": "Akses sesuai peran",
+    "item": [
+     {
+      "ikon": "kunci",
+      "judul": "Akun per peran",
+      "sub": "Dokter dan petugas"
+     },
+     {
+      "ikon": "perisai",
+      "judul": "Data terlindungi",
+      "sub": "Akun petugas"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk puskesmas, klinik pratama, dan praktik dokter.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Bisa disesuaikan",
+    "item": [
+     {
+      "ikon": "klinik",
+      "label": "Puskesmas"
+     },
+     {
+      "ikon": "klinik",
+      "label": "Klinik pratama"
+     },
+     {
+      "ikon": "orang",
+      "label": "Praktik dokter"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Dengan begitu, pencatatan klinik lebih rapi dan mudah dilacak.",
+   "anim": "centang-besar",
+   "param": {
+    "teks": "Pencatatan lebih rapi",
+    "sorot": "rapi",
+    "sub": "Dan mudah dilacak"
+   }
+  },
+  {
+   "teks": "Jadi pastikan acuan simbol, data rapi, alur berurutan, dan akses sesuai peran.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist odontogram puskesmas",
+    "item": [
+     "Satu acuan simbol",
+     "Data pasien rapi",
+     "Alur berurutan",
+     "Akses sesuai peran"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan puskesmas Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Rapikan pencatatan gigi puskesmas Anda"
+   }
+  }
+ ]
+}

@@ -1,0 +1,214 @@
+{
+ "hook_pola": "hasil-dulu",
+ "judul": "Contoh Odontogram: Dari Kertas ke Aplikasi Klinik",
+ "tag": [
+  "contoh odontogram",
+  "odontogram",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Ini contoh odontogram yang rapi, dan alasan klinik gigi memindahkannya ke aplikasi.",
+   "anim": "hook",
+   "param": {
+    "kicker": "CONTOH YANG RAPI",
+    "baris": [
+     "Contoh",
+     "Odontogram"
+    ],
+    "sub": "Dari kertas ke aplikasi",
+    "sorot_sub": "aplikasi",
+    "ikon": [
+     "klinik",
+     "kertas",
+     "aplikasi",
+     "cek"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda dokter gigi yang menggambar odontogram di kertas setiap kunjungan.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda dokter gigi",
+    "sorot": "dokter gigi",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Odontogram"
+     },
+     {
+      "ikon": "kalender",
+      "teks": "Kunjungan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Odontogram digambar tangan, catatan ditulis di map, dan tagihan dihitung di kalkulator.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Semua dicatat manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Gambar tangan",
+      "sub": "odontogram"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Map pasien",
+      "sub": "catatan"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Hitung manual",
+      "sub": "tagihan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Lembar odontogram tercecer, tulisan sulit dibaca, dan riwayat gigi susah dibandingkan.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Lembar tercecer",
+    "sorot": "tercecer",
+    "label": [
+     "Odontogram",
+     "Catatan",
+     "Resep",
+     "Tagihan",
+     "Jadwal",
+     "Riwayat",
+     "Foto",
+     "Kontak"
+    ]
+   }
+  },
+  {
+   "teks": "Waktu habis untuk mencari lembar lama, bukan untuk merawat pasien.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis mencari lembar",
+    "sorot": "mencari lembar",
+    "sub": "Bukan merawat pasien.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda berbicara dengan software house tentang odontogram digital.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Odontogram digital",
+    "sorot": "digital",
+    "kiri": "Lembar kertas",
+    "kanan": "Odontogram digital"
+   }
+  },
+  {
+   "teks": "Bukan template yang kaku, tapi aplikasi yang mengikuti alur klinik Anda.",
+   "anim": "banding",
+   "param": {
+    "judul": "Mengikuti alur klinik",
+    "sorot": "alur klinik",
+    "kiri": {
+     "judul": "Template jadi",
+     "item": [
+      "Alur kaku",
+      "Tidak sesuai klinik",
+      "Staf menyesuaikan"
+     ]
+    },
+    "kanan": {
+     "judul": "Aplikasi custom",
+     "item": [
+      "Mengikuti alur klinik",
+      "Fitur sesuai kebutuhan",
+      "Bertahap berkembang"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Kami sudah membangun aplikasi serupa, salah satunya DentalCare dengan odontogram digital.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "DentalCare, odontogram digital",
+    "sorot": "DentalCare",
+    "klip": [
+     "odon",
+     "soap",
+     "dash"
+    ]
+   }
+  },
+  {
+   "teks": "Hasilnya peta gigi jelas, riwayat mudah dibuka, dan catatan tidak tercecer.",
+   "anim": "centang",
+   "param": {
+    "judul": "Klinik jadi lebih tertata",
+    "sorot": "tertata",
+    "label": "SETELAH PAKAI APLIKASI",
+    "item": [
+     "Peta gigi jelas",
+     "Riwayat mudah dibuka",
+     "Catatan tidak tercecer"
+    ]
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk klinik gigi, praktik dokter, dan klinik umum.",
+   "anim": "chip_niche",
+   "param": {
+    "judul": "Bisa disesuaikan",
+    "sorot": "disesuaikan",
+    "item": [
+     {
+      "ikon": "klinik",
+      "teks": "Klinik gigi"
+     },
+     {
+      "ikon": "user",
+      "teks": "Praktik dokter"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Klinik umum"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pemilik klinik juga bisa memantau data dari HP lewat browser.",
+   "anim": "hp",
+   "param": {
+    "tema": "klinik",
+    "kicker": "DARI MANA SAJA",
+    "judul": "Pantau dari HP",
+    "sorot": "dari HP",
+    "notif": "Data klinik tercatat"
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {}
+  }
+ ]
+}

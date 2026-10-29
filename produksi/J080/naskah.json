@@ -1,0 +1,151 @@
+{
+ "hook_pola": "pelajari-sebelum",
+ "judul": "Jasa Pembuatan Sistem Informasi: Pelajari 4 Hal Ini Dulu",
+ "blok": [
+  {
+   "teks": "Pelajari empat hal ini sebelum memakai jasa pembuatan sistem informasi untuk organisasi Anda.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Pelajari 4 hal ini sebelum memakai jasa sistem informasi",
+    "sorot": "4 hal ini",
+    "ikon": "kacamata"
+   }
+  },
+  {
+   "teks": "Sistem yang salah rancang biasanya dipakai sebentar, lalu ditinggalkan oleh penggunanya sendiri.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Salah rancang, lalu ditinggalkan",
+    "sorot": "ditinggalkan",
+    "ikon": "silang"
+   }
+  },
+  {
+   "teks": "Pertama, alur kerja dan data dipetakan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Alur kerja dan data dipetakan",
+    "sorot": "dipetakan"
+   }
+  },
+  {
+   "teks": "Siapa mengisi data, siapa menyetujui, dan laporan apa yang dibutuhkan harus jelas sejak awal.",
+   "anim": "alur",
+   "param": {
+    "judul": "Dipetakan sebelum dibangun",
+    "langkah": [
+     "Isi data",
+     "Persetujuan",
+     "Laporan"
+    ],
+    "ikon": [
+     "dokumen",
+     "cek",
+     "grafik"
+    ]
+   }
+  },
+  {
+   "teks": "Kedua, mockup disetujui sebelum koding.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Mockup disetujui sebelum koding",
+    "sorot": "disetujui"
+   }
+  },
+  {
+   "teks": "Anda melihat setiap layar dan menyetujuinya dulu, jadi hasilnya sesuai kebutuhan organisasi Anda.",
+   "anim": "wireframe-disetujui",
+   "param": {
+    "judul": "Setiap layar disetujui dulu"
+   }
+  },
+  {
+   "teks": "Ketiga, hak akses pengguna diatur per peran.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Hak akses diatur per peran",
+    "sorot": "per peran"
+   }
+  },
+  {
+   "teks": "Admin, operator, dan pimpinan hanya melihat bagian yang memang menjadi tugasnya.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Akses sesuai peran",
+    "item": [
+     {
+      "ikon": "orang",
+      "label": "Admin"
+     },
+     {
+      "ikon": "laptop",
+      "label": "Operator"
+     },
+     {
+      "ikon": "grafik",
+      "label": "Pimpinan"
+     },
+     {
+      "ikon": "kunci",
+      "label": "Hak akses"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Keempat, kode dan data menjadi milik Anda.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Kode dan data milik Anda",
+    "sorot": "milik Anda"
+   }
+  },
+  {
+   "teks": "Kode sumber, database, dan akun penting tercatat atas nama organisasi Anda sejak awal.",
+   "anim": "kepemilikan",
+   "param": {
+    "judul": "Semua tercatat milik Anda",
+    "item": [
+     {
+      "ikon": "kode",
+      "judul": "Kode sumber",
+      "sub": "repositori proyek"
+     },
+     {
+      "ikon": "data",
+      "judul": "Data bisnis",
+      "sub": "database dan cadangan"
+     },
+     {
+      "ikon": "kunci",
+      "judul": "Akun penting",
+      "sub": "atas nama Anda"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Simpan checklist ini: alur dipetakan, mockup, hak akses, dan kepemilikan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist sistem informasi Anda",
+    "item": [
+     "Alur dipetakan",
+     "Mockup disetujui",
+     "Hak akses per peran",
+     "Kode dan data milik Anda"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan sistem informasi Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Konsultasi gratis",
+    "sorot": "gratis",
+    "sub": "Ceritakan kebutuhan sistem informasi Anda"
+   }
+  }
+ ]
+}

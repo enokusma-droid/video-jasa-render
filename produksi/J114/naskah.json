@@ -1,0 +1,208 @@
+{
+ "hook_pola": "12 penyesalan",
+ "judul": "Jasa Pembuatan Website Kontraktor: Jangan Sampai Menyesal",
+ "deskripsi": "Jasa Pembuatan Website Kontraktor untuk usaha yang ingin websitenya benar-benar dipakai pelanggan. Cerita pemilik usaha konstruksi yang portofolio proyeknya tersebar di galeri HP dan chat, lalu dirapikan dengan website kontraktor.\n\nNusawebsite membangun website custom yang mengikuti alur usaha Anda: konsultasi, rancang alur dan isi, mockup disetujui, pengembangan, lalu pendampingan. Kami melayani online dari Jogja ke seluruh Indonesia.\n\nKonsultasi gratis: {{LINK_WA}}\n\n#jasapembuatanwebsitekontraktor #jasawebsite #nusawebsite",
+ "tag": [
+  "jasa website kontraktor",
+  "website kontraktor",
+  "website jasa konstruksi",
+  "portofolio proyek",
+  "jasa pembuatan website",
+  "website custom",
+  "software house",
+  "website bisnis",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Banyak pemilik usaha menyesal memakai jasa pembuatan website kontraktor yang hanya memajang beberapa foto.",
+   "anim": "hook",
+   "param": {
+    "kicker": "BANYAK YANG MENYESAL",
+    "baris": [
+     "Jasa Pembuatan Website",
+     "Kontraktor"
+    ],
+    "sub": "Bukan sekadar memajang foto",
+    "sorot_sub": "foto",
+    "ikon": [
+     "x",
+     "website",
+     "kantor",
+     "kertas"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik usaha kontraktor yang ingin dipercaya calon klien baru.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "kantor",
+    "judul": "Anda pemilik usaha kontraktor",
+    "sorot": "kontraktor",
+    "sub": "Calon klien menilai dari bukti.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Calon klien"
+     },
+     {
+      "ikon": "buku",
+      "teks": "Proyek"
+     },
+     {
+      "ikon": "kunci",
+      "teks": "Kepercayaan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Foto proyek menumpuk di galeri HP, brosur dicetak, penawaran lewat chat.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Portofolio masih tercecer",
+    "sorot": "tercecer",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Brosur",
+      "sub": "cepat usang"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "sub": "penawaran tenggelam"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Galeri HP",
+      "sub": "foto sulit dicari"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Calon klien sulit menilai pengalaman Anda, proyek tidak terdokumentasi, dan permintaan penawaran terlewat.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Calon klien ragu",
+    "sorot": "ragu",
+    "item": [
+     "Pengalaman sulit dinilai",
+     "Proyek tak terdokumentasi",
+     "Permintaan terlewat"
+    ]
+   }
+  },
+  {
+   "teks": "Setiap calon klien menanyakan proyek dan pengalaman yang sama.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Pertanyaan yang sama berulang",
+    "sorot": "berulang",
+    "sub": "Waktu Anda habis untuk menjelaskan.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda memilih berbicara dengan software house yang bekerja online dari Jogja.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Bicara dengan software house",
+    "sorot": "software house",
+    "kiri": "Brosur dan galeri HP",
+    "kanan": "Website kontraktor"
+   }
+  },
+  {
+   "teks": "Bukan website pajangan, tapi website custom dengan portofolio proyek, layanan yang jelas, dan formulir permintaan penawaran.",
+   "anim": "banding",
+   "param": {
+    "judul": "Website yang meyakinkan",
+    "sorot": "meyakinkan",
+    "kiri": {
+     "judul": "Website pajangan",
+     "item": [
+      "Foto seadanya",
+      "Layanan tidak jelas",
+      "Kontak tersembunyi"
+     ]
+    },
+    "kanan": {
+     "judul": "Website custom",
+     "item": [
+      "Portofolio proyek",
+      "Layanan jelas",
+      "Formulir penawaran"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Di panel admin, Anda menambah proyek dan melihat permintaan penawaran.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "kantor",
+    "judul": "Proyek dan permintaan di satu panel",
+    "sorot": "satu panel",
+    "sub": "Portofolio dan penawaran.",
+    "label": "Ilustrasi sistem website kontraktor"
+   }
+  },
+  {
+   "teks": "Calon klien melihat proyek dan meminta penawaran dari HP.",
+   "anim": "hp",
+   "param": {
+    "tema": "pesanan",
+    "kicker": "UNTUK CALON KLIEN",
+    "judul": "Minta penawaran dari HP",
+    "sorot": "HP",
+    "notif": "Permintaan penawaran masuk"
+   }
+  },
+  {
+   "teks": "Proyek tampil rapi, calon klien lebih yakin, dan permintaan tercatat jelas.",
+   "anim": "centang",
+   "param": {
+    "judul": "Usaha tampil lebih meyakinkan",
+    "sorot": "meyakinkan",
+    "item": [
+     "Proyek tampil rapi",
+     "Calon klien lebih yakin",
+     "Permintaan tercatat"
+    ],
+    "label": "SETELAH PAKAI WEBSITE"
+   }
+  },
+  {
+   "teks": "Kami sudah membangun website dan aplikasi untuk berbagai bidang, salah satunya DentalCare untuk klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "judul": "DentalCare, sistem klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "inv",
+     "dash"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan website kontraktor Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan website Anda",
+    "mini": [
+     "Online dari Jogja",
+     "Seluruh Indonesia"
+    ]
+   }
+  }
+ ]
+}

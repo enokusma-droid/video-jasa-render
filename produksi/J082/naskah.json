@@ -1,0 +1,210 @@
+{
+ "blok": [
+  {
+   "teks": "Jangan biarkan invoice berantakan sebelum Anda memakai jasa pembuatan sistem invoice.",
+   "anim": "hook",
+   "param": {
+    "kicker": "JANGAN DIBIARKAN",
+    "baris": [
+     "Jasa Pembuatan",
+     "Sistem Invoice"
+    ],
+    "sub": "Rapikan penagihan sejak awal",
+    "sorot_sub": "penagihan",
+    "ikon": [
+     "kertas",
+     "excel",
+     "chat",
+     "kalender"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik usaha jasa yang menagih beberapa klien setiap bulan.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "kantor",
+    "judul": "Anda pemilik usaha jasa",
+    "sorot": "usaha jasa",
+    "sub": "Beberapa klien ditagih tiap bulan.",
+    "chip": [
+     {
+      "ikon": "tim",
+      "teks": "Tim proyek"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Invoice klien"
+     },
+     {
+      "ikon": "kalender",
+      "teks": "Jatuh tempo"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Invoice dibuat di Word, direkap di Excel, lalu dikirim satu per satu lewat chat.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Penagihan masih manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Word",
+      "sub": "invoice satu per satu"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Excel",
+      "sub": "rekap tagihan"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "sub": "dikirim manual"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Akhirnya invoice, bukti bayar, dan jatuh tempo tersebar di banyak tempat.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Data tagihan tersebar",
+    "sorot": "tersebar",
+    "label": [
+     "Invoice",
+     "Bukti bayar",
+     "Jatuh tempo",
+     "Klien",
+     "Rekap",
+     "Nota",
+     "Kontrak",
+     "Status",
+     "Catatan",
+     "Kontak"
+    ]
+   }
+  },
+  {
+   "teks": "Invoice dobel, tagihan terlupa, dan klien bertanya status pembayaran.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Masalah yang berulang",
+    "sorot": "berulang",
+    "item": [
+     "Invoice dobel",
+     "Tagihan terlupa",
+     "Status tidak jelas"
+    ]
+   }
+  },
+  {
+   "teks": "Waktu Anda habis untuk mengecek siapa yang sudah membayar.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis untuk mengecek",
+    "sorot": "mengecek",
+    "sub": "Bukan untuk mengembangkan usaha.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda memutuskan bicara dengan software house.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Anda bicara dengan software house",
+    "sorot": "software house",
+    "kiri": "Invoice manual",
+    "kanan": "Sistem invoice custom"
+   }
+  },
+  {
+   "teks": "Bukan template jadi yang membuat usaha menyesuaikan diri, tapi sistem custom yang mengikuti alur penagihan Anda.",
+   "anim": "banding",
+   "param": {
+    "judul": "Sistem yang mengikuti penagihan Anda",
+    "sorot": "mengikuti",
+    "kiri": {
+     "judul": "Template jadi",
+     "item": [
+      "Usaha harus menyesuaikan",
+      "Kolom tidak cocok",
+      "Sulit diubah"
+     ]
+    },
+    "kanan": {
+     "judul": "Sistem custom",
+     "item": [
+      "Mengikuti alur Anda",
+      "Format sesuai kebutuhan",
+      "Bisa dikembangkan"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Invoice bisa dibuat dan dikirim dari HP, lalu statusnya langsung tercatat.",
+   "anim": "hp",
+   "param": {
+    "tema": "kasir",
+    "kicker": "UNTUK PENAGIHAN",
+    "judul": "Invoice terkirim dari HP",
+    "sorot": "terkirim",
+    "sub": "Status langsung tercatat.",
+    "notif": "Invoice terkirim"
+   }
+  },
+  {
+   "teks": "Di kantor, Anda melihat invoice terbayar, belum terbayar, dan jatuh tempo dalam satu dashboard.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "kantor",
+    "judul": "Semua tagihan di satu dashboard",
+    "sorot": "satu dashboard",
+    "sub": "Terbayar, belum terbayar, jatuh tempo.",
+    "label": "Ilustrasi sistem invoice"
+   }
+  },
+  {
+   "teks": "Penagihan jadi teratur, status jelas, dan laporan siap kapan saja.",
+   "anim": "centang",
+   "param": {
+    "judul": "Penagihan jadi teratur",
+    "sorot": "teratur",
+    "item": [
+     "Satu tempat untuk semua invoice",
+     "Status pembayaran jelas",
+     "Laporan siap kapan saja"
+    ]
+   }
+  },
+  {
+   "teks": "Kami sudah membangun aplikasi seperti ini, salah satunya DentalCare dengan invoice otomatis.",
+   "anim": "portofolio",
+   "param": {
+    "judul": "DentalCare, aplikasi klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "inv",
+     "dash"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur penagihan Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur penagihan Anda"
+   }
+  }
+ ]
+}

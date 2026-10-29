@@ -1,0 +1,223 @@
+{
+ "meta": {
+  "judul": "Rekam Medis Elektronik Rumah Sakit: Yang Jarang Dijelaskan",
+  "ringkas": "pelajari kenapa rekam medis elektronik rumah sakit perlu satu catatan terpadu, dengan contoh aplikasi rekam medis klinik gigi DentalCare.",
+  "tag": [
+   "rekam medis elektronik rumah sakit",
+   "rekam medis elektronik",
+   "sistem informasi rumah sakit",
+   "aplikasi klinik gigi",
+   "dentalcare",
+   "nusawebsite"
+  ]
+ },
+ "hook_pola": "rahasia-di-balik",
+ "blok": [
+  {
+   "teks": "Ini yang jarang dijelaskan tentang rekam medis elektronik rumah sakit sebelum sistemnya dipilih.",
+   "anim": "hook",
+   "param": {
+    "judul": "Yang *jarang dijelaskan* soal rekam medis rumah sakit.",
+    "sub": "Pahami alurnya *sebelum* memilih sistem."
+   }
+  },
+  {
+   "teks": "Poli, rawat inap, dan farmasi mencatat terpisah, lalu data pasien tidak bertemu.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Cara lama",
+    "judul": "Catatan *terpisah* per unit.",
+    "kartu": [
+     {
+      "ikon": "klinik",
+      "judul": "Poli",
+      "ket": "Catatan sendiri"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Rawat inap",
+      "ket": "Catatan sendiri"
+     },
+     {
+      "ikon": "stok",
+      "judul": "Farmasi",
+      "ket": "Catatan sendiri"
+     }
+    ],
+    "coret": "terpisah"
+   }
+  },
+  {
+   "teks": "Akibatnya riwayat pasien terpecah dan petugas menyalin data yang sama berulang kali.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Riwayat *terpecah*.",
+    "masalah": [
+     {
+      "ikon": "alert",
+      "teks": "Riwayat terpecah"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Salin berulang"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Waktu terbuang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Sebagai contoh, ini DentalCare, aplikasi rekam medis klinik gigi buatan kami.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi berbasis web",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare",
+    "ikon": "klinik"
+   }
+  },
+  {
+   "teks": "Ada tiga prinsip yang bisa dipelajari dari contoh ini.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Dari contoh ini",
+    "label": "Prinsip rekam medis"
+   }
+  },
+  {
+   "teks": "Satu, data pasien tercatat terstruktur, dari keluhan sampai pemeriksaan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Catatan terstruktur",
+    "ket": "Keluhan dan pemeriksaan",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Dua, tindakan dan resep tersimpan di rekam yang sama, bukan di kertas lain.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "tindakan",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Tindakan dan resep",
+    "ket": "Satu halaman",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Tiga, antrean membuat alur dari pendaftaran ke pemeriksaan terlihat jelas.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "antrean",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Antrean pasien",
+    "ket": "Alur terlihat jelas",
+    "fokus": [
+     88,
+     47
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Hasilnya data satu pasien bertemu di satu tempat, bukan tersebar di tiap unit.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Tiap unit sendiri",
+     "item": [
+      "Catatan terpisah",
+      "Salin berulang",
+      "Riwayat terpecah"
+     ]
+    },
+    "kanan": {
+     "judul": "Satu rekam terpadu",
+     "item": [
+      "Data bertemu",
+      "Satu catatan",
+      "Riwayat utuh"
+     ]
+    },
+    "pemicu": "bertemu"
+   }
+  },
+  {
+   "teks": "Rumah sakit butuh cakupan lebih luas: rawat jalan, rawat inap, farmasi, dan laporan.",
+   "anim": "chip-niche",
+   "param": {
+    "kicker": "Kebutuhan lebih luas",
+    "judul": "Cakupan *rumah sakit*",
+    "pusat": "Aplikasi",
+    "ikonPusat": "klinik",
+    "chip": [
+     {
+      "ikon": "klinik",
+      "teks": "Rawat jalan"
+     },
+     {
+      "ikon": "rumah",
+      "teks": "Rawat inap"
+     },
+     {
+      "ikon": "stok",
+      "teks": "Farmasi"
+     },
+     {
+      "ikon": "laporan",
+      "teks": "Laporan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Kami bisa membahas sistem sesuai kebutuhan Anda, dengan mockup yang disetujui lebih dulu.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikembangkan.",
+    "jadi": "disetujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan rumah sakit Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Rekam medis elektronik rumah sakit",
+    "judul": "Sistem sesuai *kebutuhan Anda*.",
+    "sub": "Ceritakan kebutuhan Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

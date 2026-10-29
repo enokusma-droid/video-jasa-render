@@ -1,0 +1,226 @@
+{
+ "meta": {
+  "judul": "Jasa Pembuatan Website Yayasan: Kesalahan Paling Sering",
+  "ringkas": "Kesalahan paling sering saat membuat website yayasan adalah laporan kegiatan tidak tertata. Kami bedah DentalCare sebagai contoh alur data yang rapi.",
+  "paragraf": "Website yayasan yang baik memuat profil, program, dan laporan kegiatan yang mudah dibaca. Kami melayani online dari Jogja untuk usaha di kota Anda dan seluruh Indonesia.",
+  "tag": [
+   "jasa website yayasan",
+   "pembuatan website yayasan",
+   "website lembaga sosial",
+   "website organisasi"
+  ],
+  "hook_pola": "4 kesalahan umum"
+ },
+ "blok": [
+  {
+   "teks": "Kesalahan paling sering saat memakai jasa pembuatan website yayasan: program dan laporan kegiatan tidak tertata.",
+   "anim": "hook",
+   "param": {
+    "judul": "Program dan laporan *tidak tertata*.",
+    "sub": "Kepercayaan donatur dimulai dari *kejelasan*."
+   }
+  },
+  {
+   "teks": "Banyak yayasan menyimpan foto di galeri HP, laporan di dokumen lepas, dan kabar di grup chat.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Yang sering terjadi",
+    "judul": "Kabar kegiatan tersebar di *sini*",
+    "kartu": [
+     {
+      "ikon": "hp",
+      "judul": "Galeri HP",
+      "ket": "Foto sulit dicari"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Dokumen lepas",
+      "ket": "Laporan tercecer"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Grup chat",
+      "ket": "Kabar tenggelam"
+     }
+    ],
+    "coret": "grup"
+   }
+  },
+  {
+   "teks": "Akibatnya kegiatan sulit dilihat dan pengurus repot menyusun laporan.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Pengurus *repot* menyusun laporan",
+    "masalah": [
+     {
+      "ikon": "cari",
+      "teks": "Kegiatan sulit dilihat"
+     },
+     {
+      "ikon": "laporan",
+      "teks": "Laporan repot disusun"
+     },
+     {
+      "ikon": "user",
+      "teks": "Pendukung ragu"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Karena itu kami tunjukkan bukti. Ini DentalCare, sistem web klinik gigi buatan kami.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard2",
+    "kicker": "Portofolio Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Sistem web klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     40
+    ],
+    "zoom": 1.08
+   }
+  },
+  {
+   "teks": "Tiga fiturnya punya alur yang mirip kebutuhan yayasan.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Bedah portofolio",
+    "label": "Bagian yang *kita bedah*",
+    "item": [
+     "Data pasien",
+     "Dashboard ringkasan",
+     "Daftar invoice"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, data pasien, mirip data penerima manfaat yang tersimpan rapi.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah DentalCare",
+    "nomor": "01",
+    "judul": "Data pasien",
+    "ket": "Mirip data penerima manfaat",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Kedua, dashboard, mirip ringkasan kegiatan yang terlihat dalam satu layar.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Bedah DentalCare",
+    "nomor": "02",
+    "judul": "Dashboard ringkasan",
+    "ket": "Mirip ringkasan kegiatan",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Ketiga, daftar invoice, mirip catatan keuangan yang mudah ditelusuri.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice",
+    "kicker": "Bedah DentalCare",
+    "nomor": "03",
+    "judul": "Daftar invoice",
+    "ket": "Mirip catatan keuangan",
+    "fokus": [
+     50,
+     40
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Di website yayasan, alurnya menjadi profil jelas, program terbaca, dan laporan mudah dibuka.",
+   "anim": "daftar-centang",
+   "param": {
+    "kicker": "Dari bukti nyata",
+    "judul": "Alur website *yayasan*",
+    "item": [
+     "Profil jelas",
+     "Program terbaca",
+     "Laporan mudah dibuka"
+    ],
+    "gambar": true
+   }
+  },
+  {
+   "teks": "Polanya bisa disesuaikan untuk yayasan sosial, pendidikan, panti, atau komunitas.",
+   "anim": "chip-niche",
+   "param": {
+    "kicker": "Untuk lembaga",
+    "judul": "Pola yang *sama*",
+    "pusat": "Website",
+    "ikonPusat": "web",
+    "chip": [
+     {
+      "ikon": "rumah",
+      "teks": "Yayasan sosial"
+     },
+     {
+      "ikon": "sekolah",
+      "teks": "Pendidikan"
+     },
+     {
+      "ikon": "user",
+      "teks": "Panti"
+     },
+     {
+      "ikon": "layer",
+      "teks": "Komunitas"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Struktur halaman dan alur informasi kami rancang, lalu pengurus setujui dulu.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikoding.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Pendukung membuka kegiatan dari HP, pengurus menambah kabar kapan saja.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Kabar kegiatan di *HP*",
+    "poin": [
+     "Kegiatan terbaru",
+     "Mudah diperbarui"
+    ],
+    "notif": "Kabar baru tayang"
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan website yayasan Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Jasa Pembuatan Website Yayasan",
+    "judul": "Rapikan program dan *laporan*.",
+    "sub": "Ceritakan kebutuhan yayasan Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

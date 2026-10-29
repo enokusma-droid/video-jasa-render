@@ -1,0 +1,226 @@
+{
+ "meta": {
+  "judul": "Jasa Pembuatan Website Umroh: Tanda Bahaya yang Perlu Dicek",
+  "ringkas": "Kalau paket dan jadwal tidak tampil jelas, calon jamaah ragu mendaftar. Di video ini kami bedah DentalCare, sistem web buatan kami, sebagai contoh alur yang rapi.",
+  "paragraf": "Website biro umroh yang baik memuat paket, jadwal, dan pendaftaran yang jelas. Prosesnya dari konsultasi, mockup yang disetujui dulu, sampai rilis dan pendampingan. Kami melayani online dari Jogja untuk usaha di kota Anda dan seluruh Indonesia.",
+  "tag": [
+   "jasa website umroh",
+   "pembuatan website umroh",
+   "website biro umroh",
+   "website travel umroh"
+  ],
+  "hook_pola": "8 tanda bahaya"
+ },
+ "blok": [
+  {
+   "teks": "Kalau jasa pembuatan website umroh tidak menampilkan paket dan jadwal dengan jelas, itu tanda bahaya.",
+   "anim": "hook",
+   "param": {
+    "judul": "Paket dan jadwal harus *jelas*.",
+    "sub": "Calon jamaah butuh *kepastian* informasi."
+   }
+  },
+  {
+   "teks": "Banyak biro umroh masih melayani pendaftaran lewat chat, brosur, dan formulir kertas.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Yang sering terjadi",
+    "judul": "Pendaftaran masih lewat *ini*",
+    "kartu": [
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "ket": "Pertanyaan berulang"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Brosur",
+      "ket": "Jadwal cepat usang"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Formulir kertas",
+      "ket": "Data mudah terselip"
+     }
+    ],
+    "coret": "formulir"
+   }
+  },
+  {
+   "teks": "Akibatnya jadwal keberangkatan simpang siur dan data calon jamaah sulit dilacak.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Jadwal *simpang siur*",
+    "masalah": [
+     {
+      "ikon": "kalender",
+      "teks": "Jadwal simpang siur"
+     },
+     {
+      "ikon": "cari",
+      "teks": "Data sulit dilacak"
+     },
+     {
+      "ikon": "chat",
+      "teks": "Pertanyaan menumpuk"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Karena itu kami tunjukkan bukti. Ini DentalCare, sistem web klinik gigi buatan kami.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard2",
+    "kicker": "Portofolio Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Sistem web klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     40
+    ],
+    "zoom": 1.08
+   }
+  },
+  {
+   "teks": "Tiga fiturnya punya alur yang mirip kebutuhan biro umroh.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Bedah portofolio",
+    "label": "Bagian yang *kita bedah*",
+    "item": [
+     "Data pasien",
+     "Konfirmasi kunjungan",
+     "Daftar invoice"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, data pasien, mirip data calon jamaah yang tersimpan rapi dan mudah dicari.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah DentalCare",
+    "nomor": "01",
+    "judul": "Data pasien",
+    "ket": "Mirip data calon jamaah",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Kedua, konfirmasi kunjungan, mirip konfirmasi keberangkatan sebelum hari H.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "konfirmasi",
+    "kicker": "Bedah DentalCare",
+    "nomor": "02",
+    "judul": "Konfirmasi kunjungan",
+    "ket": "Mirip konfirmasi keberangkatan",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Ketiga, invoice, mirip pencatatan pembayaran setiap calon jamaah.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice",
+    "kicker": "Bedah DentalCare",
+    "nomor": "03",
+    "judul": "Daftar invoice",
+    "ket": "Mirip catatan pembayaran",
+    "fokus": [
+     50,
+     40
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Di website umroh, alurnya menjadi lihat paket, daftar online, dan konfirmasi jadwal.",
+   "anim": "daftar-centang",
+   "param": {
+    "kicker": "Dari bukti nyata",
+    "judul": "Alur website *umroh*",
+    "item": [
+     "Lihat paket",
+     "Daftar online",
+     "Konfirmasi jadwal"
+    ],
+    "gambar": true
+   }
+  },
+  {
+   "teks": "Polanya bisa disesuaikan untuk biro umroh, wisata religi, atau tur halal.",
+   "anim": "chip-niche",
+   "param": {
+    "kicker": "Untuk biro perjalanan",
+    "judul": "Pola yang *sama*",
+    "pusat": "Website",
+    "ikonPusat": "web",
+    "chip": [
+     {
+      "ikon": "web",
+      "teks": "Biro umroh"
+     },
+     {
+      "ikon": "cari",
+      "teks": "Wisata religi"
+     },
+     {
+      "ikon": "user",
+      "teks": "Tur halal"
+     },
+     {
+      "ikon": "truk",
+      "teks": "Travel keluarga"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Halaman paket dan alur pendaftaran kami rancang, lalu Anda setujui dulu.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikoding.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Calon jamaah membuka paket dari HP, Anda memantau pendaftar.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Paket terbuka di *HP*",
+    "poin": [
+     "Paket mudah dibuka",
+     "Pendaftar terpantau"
+    ],
+    "notif": "Pendaftar baru masuk"
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan website biro umroh Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Jasa Pembuatan Website Umroh",
+    "judul": "Mulai dari alur yang *jelas*.",
+    "sub": "Ceritakan kebutuhan biro Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

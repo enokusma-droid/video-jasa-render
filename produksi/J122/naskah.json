@@ -1,0 +1,213 @@
+{
+ "hook_pola": "3 jangan dulu",
+ "judul": "Jasa Pembuatan Website Palembang: Cek Alur Kerjanya Dulu",
+ "deskripsi": "Jasa Pembuatan Website Palembang untuk usaha yang ingin websitenya benar-benar dipakai pelanggan. Cerita pemilik usaha kuliner di Palembang yang pesanannya masuk lewat chat dan catatan, lalu dirapikan dengan website pesanan.\n\nNusawebsite membangun website custom yang mengikuti alur usaha Anda: konsultasi, rancang alur dan isi, mockup disetujui, pengembangan, lalu pendampingan. Kami melayani online dari Jogja ke seluruh Indonesia.\n\nKonsultasi gratis: {{LINK_WA}}\n\n#jasapembuatanwebsitepalembang #jasawebsite #nusawebsite",
+ "tag": [
+  "jasa website palembang",
+  "website palembang",
+  "website usaha kuliner",
+  "website pesanan online",
+  "jasa pembuatan website",
+  "website custom",
+  "software house",
+  "website bisnis",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Jangan pilih jasa pembuatan website Palembang sebelum mengecek bagaimana alur kerjanya.",
+   "anim": "hook",
+   "param": {
+    "kicker": "JANGAN PILIH DULU",
+    "baris": [
+     "Jasa Pembuatan Website",
+     "Palembang"
+    ],
+    "sub": "Cek alur kerjanya dulu",
+    "sorot_sub": "alur kerjanya",
+    "ikon": [
+     "peringatan",
+     "website",
+     "resto",
+     "chat"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik usaha kuliner dan oleh-oleh khas di Palembang yang ingin menerima pesanan lebih rapi.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "restoran",
+    "judul": "Anda pemilik usaha kuliner",
+    "sorot": "kuliner",
+    "sub": "Pesanan harus tercatat rapi.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Pelanggan"
+     },
+     {
+      "ikon": "buku",
+      "teks": "Menu"
+     },
+     {
+      "ikon": "toko",
+      "teks": "Pesanan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pesanan masuk lewat chat, dicatat di buku, dan stok dicek dengan melihat rak.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Pesanan masih manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "sub": "pesanan tenggelam"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Buku catatan",
+      "sub": "rawan salah catat"
+     },
+     {
+      "ikon": "stok",
+      "judul": "Cek rak",
+      "sub": "stok tak pasti"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pesanan salah catat, pelanggan menunggu balasan, dan stok tidak sinkron.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Pesanan jadi tercecer",
+    "sorot": "tercecer",
+    "label": [
+     "Pesanan",
+     "Chat",
+     "Nota",
+     "Stok",
+     "Alamat",
+     "Menu",
+     "Catatan",
+     "Jadwal"
+    ]
+   }
+  },
+  {
+   "teks": "Waktu Anda habis membalas pertanyaan menu dan ketersediaan yang sama.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Pertanyaan menu yang sama",
+    "sorot": "yang sama",
+    "sub": "Waktu Anda terkuras.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda memutuskan bicara dengan software house yang melayani online dari Jogja.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Bicara dengan software house",
+    "sorot": "software house",
+    "kiri": "Chat dan buku catatan",
+    "kanan": "Website pesanan"
+   }
+  },
+  {
+   "teks": "Bukan sekadar daftar menu, tapi website custom yang menerima pesanan dan mencatatnya rapi.",
+   "anim": "banding",
+   "param": {
+    "judul": "Pesanan masuk lebih rapi",
+    "sorot": "rapi",
+    "kiri": {
+     "judul": "Website pajangan",
+     "item": [
+      "Menu saja",
+      "Pesan lewat chat",
+      "Stok tak terlihat"
+     ]
+    },
+    "kanan": {
+     "judul": "Website custom",
+     "item": [
+      "Menu dan pesanan",
+      "Tercatat otomatis",
+      "Stok lebih jelas"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Di panel admin, Anda melihat pesanan masuk dan stok dalam satu layar.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "pesanan",
+    "judul": "Pesanan dan stok di satu layar",
+    "sorot": "satu layar",
+    "sub": "Pesanan hari ini.",
+    "label": "Ilustrasi sistem website pesanan"
+   }
+  },
+  {
+   "teks": "Pelanggan membuka menu dan memesan dari HP.",
+   "anim": "hp",
+   "param": {
+    "tema": "pesanan",
+    "kicker": "UNTUK PELANGGAN",
+    "judul": "Pesan dari HP",
+    "sorot": "HP",
+    "notif": "Pesanan baru masuk"
+   }
+  },
+  {
+   "teks": "Pesanan tercatat jelas, pelanggan cepat dilayani, dan stok lebih terkendali.",
+   "anim": "centang",
+   "param": {
+    "judul": "Usaha jadi lebih tertata",
+    "sorot": "tertata",
+    "item": [
+     "Pesanan tercatat jelas",
+     "Pelanggan cepat dilayani",
+     "Stok lebih terkendali"
+    ],
+    "label": "SETELAH PAKAI WEBSITE"
+   }
+  },
+  {
+   "teks": "Kami sudah membangun sistem berbasis web seperti ini, salah satunya DentalCare untuk klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "judul": "DentalCare, sistem klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "inv"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan website usaha Anda di Palembang. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Melayani online sampai Palembang",
+    "mini": [
+     "Online dari Jogja",
+     "Seluruh Indonesia"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,226 @@
+{
+ "meta": {
+  "judul": "Jasa Pembuatan Website Percetakan: Berhenti Terima Order Manual",
+  "ringkas": "Pesanan cetak yang masuk lewat chat mudah terlewat. Kami bedah DentalCare sebagai contoh alur pesanan yang rapi, lalu kami sesuaikan untuk percetakan.",
+  "paragraf": "Website percetakan yang baik menampilkan layanan cetak, alur pesan, dan status pesanan yang jelas. Kami melayani online dari Jogja untuk usaha di kota Anda dan seluruh Indonesia.",
+  "tag": [
+   "jasa website percetakan",
+   "pembuatan website percetakan",
+   "website digital printing",
+   "order cetak online"
+  ],
+  "hook_pola": "5 berhenti"
+ },
+ "blok": [
+  {
+   "teks": "Berhenti menerima order cetak lewat chat, jasa pembuatan website percetakan bisa merapikannya.",
+   "anim": "hook",
+   "param": {
+    "judul": "Berhenti terima *order manual*.",
+    "sub": "Pesanan cetak masuk *rapi* lewat website."
+   }
+  },
+  {
+   "teks": "Banyak percetakan menerima desain lewat chat, mencatat pesanan di buku, dan menghitung tagihan sendiri.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Yang sering terjadi",
+    "judul": "Pesanan dicatat lewat *ini*",
+    "kartu": [
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "ket": "File desain tenggelam"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Buku pesanan",
+      "ket": "Mudah terlewat"
+     },
+     {
+      "ikon": "printer",
+      "judul": "Hitung manual",
+      "ket": "Rawan salah"
+     }
+    ],
+    "coret": "buku"
+   }
+  },
+  {
+   "teks": "Akibatnya pesanan terlewat, pelanggan bertanya status berulang, dan tagihan sering keliru.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Pesanan *terlewat* dan tagihan keliru",
+    "masalah": [
+     {
+      "ikon": "x",
+      "teks": "Pesanan terlewat"
+     },
+     {
+      "ikon": "chat",
+      "teks": "Tanya status berulang"
+     },
+     {
+      "ikon": "laporan",
+      "teks": "Tagihan keliru"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Karena itu kami tunjukkan bukti. Ini DentalCare, sistem web klinik gigi buatan kami.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard2",
+    "kicker": "Portofolio Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Sistem web klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     40
+    ],
+    "zoom": 1.08
+   }
+  },
+  {
+   "teks": "Tiga fiturnya punya alur yang mirip kebutuhan percetakan.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Bedah portofolio",
+    "label": "Bagian yang *kita bedah*",
+    "item": [
+     "Antrean",
+     "Data pasien",
+     "Daftar invoice"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, antrean, mirip antrean pesanan cetak yang dipanggil sesuai urutan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "antrean",
+    "kicker": "Bedah DentalCare",
+    "nomor": "01",
+    "judul": "Antrean",
+    "ket": "Mirip antrean pesanan cetak",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Kedua, data pasien, mirip data pelanggan langganan yang tersimpan rapi.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah DentalCare",
+    "nomor": "02",
+    "judul": "Data pasien",
+    "ket": "Mirip data pelanggan langganan",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Ketiga, invoice, mirip tagihan otomatis untuk setiap pesanan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice",
+    "kicker": "Bedah DentalCare",
+    "nomor": "03",
+    "judul": "Daftar invoice",
+    "ket": "Mirip tagihan setiap pesanan",
+    "fokus": [
+     50,
+     40
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Di website percetakan, alurnya menjadi pilih layanan, kirim desain, dan pantau status pesanan.",
+   "anim": "daftar-centang",
+   "param": {
+    "kicker": "Dari bukti nyata",
+    "judul": "Alur website *percetakan*",
+    "item": [
+     "Pilih layanan",
+     "Kirim desain",
+     "Pantau status"
+    ],
+    "gambar": true
+   }
+  },
+  {
+   "teks": "Polanya bisa disesuaikan untuk digital printing, undangan, kemasan, atau spanduk.",
+   "anim": "chip-niche",
+   "param": {
+    "kicker": "Untuk usaha cetak",
+    "judul": "Pola yang *sama*",
+    "pusat": "Website",
+    "ikonPusat": "web",
+    "chip": [
+     {
+      "ikon": "printer",
+      "teks": "Digital printing"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Undangan"
+     },
+     {
+      "ikon": "gudang",
+      "teks": "Kemasan"
+     },
+     {
+      "ikon": "layer",
+      "teks": "Spanduk"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Halaman layanan dan formulir pesanan kami rancang, lalu Anda setujui dulu.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikoding.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Pelanggan memesan dari HP, dan Anda memantau pesanan masuk dari mana saja.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Pesan cetak dari *HP*",
+    "poin": [
+     "Pesan dari HP",
+     "Status terpantau"
+    ],
+    "notif": "Pesanan baru masuk"
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan website percetakan Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Jasa Pembuatan Website Percetakan",
+    "judul": "Terima order dengan *rapi*.",
+    "sub": "Ceritakan kebutuhan percetakan Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

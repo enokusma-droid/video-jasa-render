@@ -1,0 +1,221 @@
+{
+ "blok": [
+  {
+   "teks": "Berhenti mengolah nilai dan data siswa secara manual, jasa pembuatan sistem informasi akademik bisa merapikannya.",
+   "anim": "hook",
+   "param": {
+    "judul": "Berhenti olah data *manual*.",
+    "sub": "Sistem informasi akademik *merapikannya*."
+   }
+  },
+  {
+   "teks": "Banyak sekolah masih memakai buku induk, Excel, dan grup chat orang tua.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Cara kerja manual",
+    "judul": "Masih mengandalkan *ini*?",
+    "kartu": [
+     {
+      "ikon": "buku",
+      "judul": "Buku induk",
+      "ket": "Data siswa ditulis tangan"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Excel",
+      "ket": "Nilai beda di tiap guru"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Grup chat",
+      "ket": "Pengumuman tenggelam"
+     }
+    ],
+    "coret": "chat"
+   }
+  },
+  {
+   "teks": "Akibatnya data siswa tercecer, nilai sulit direkap, dan administrasi menumpuk.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Waktu habis untuk *merekap data*.",
+    "masalah": [
+     {
+      "ikon": "user",
+      "teks": "Data siswa tercecer"
+     },
+     {
+      "ikon": "laporan",
+      "teks": "Nilai sulit direkap"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Administrasi menumpuk"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Sebagai contoh polanya, ini DentalCare, aplikasi klinik gigi yang kami bangun dari nol.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Portofolio Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08
+   }
+  },
+  {
+   "teks": "Ada tiga fitur yang polanya dekat dengan kebutuhan sekolah.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Bedah fitur",
+    "label": "Fitur yang *polanya dekat*",
+    "item": [
+     "Data induk",
+     "Catatan individu",
+     "Tagihan"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, data induk. Seluruh data pasien tersusun dalam satu tabel, seperti data siswa.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Data induk",
+    "ket": "Seperti data siswa dalam satu tabel",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Kedua, catatan individu. Riwayat pemeriksaan tersimpan, seperti riwayat nilai dan perkembangan siswa.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Catatan per individu",
+    "ket": "Riwayat tersimpan rapi",
+    "fokus": [
+     40,
+     45
+    ],
+    "zoom": 1.12
+   }
+  },
+  {
+   "teks": "Ketiga, tagihan. Rincian terbentuk otomatis dan siap dicetak.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice-detail",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Tagihan otomatis",
+    "ket": "Terbentuk dari data yang dicatat",
+    "fokus": [
+     55,
+     40
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Rekap nilai yang dulu dikerjakan berulang, kini cukup sekali input.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Cara manual",
+     "item": [
+      "Catat di buku",
+      "Salin ke Excel",
+      "Rekap ulang"
+     ]
+    },
+    "kanan": {
+     "judul": "Sistem custom",
+     "item": [
+      "Sekali input",
+      "Data tersimpan rapi",
+      "Laporan siap"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Alurnya bisa kami sesuaikan untuk sekolah, kampus, kursus, atau lembaga pelatihan.",
+   "anim": "chip-niche",
+   "param": {
+    "judul": "Sekolah hanyalah *satu contoh*.",
+    "sub": "Alurnya bisa kami sesuaikan.",
+    "pusat": "Sistem akademik",
+    "chip": [
+     {
+      "ikon": "sekolah",
+      "teks": "Sekolah"
+     },
+     {
+      "ikon": "buku",
+      "teks": "Kampus"
+     },
+     {
+      "ikon": "pena",
+      "teks": "Kursus"
+     },
+     {
+      "ikon": "user",
+      "teks": "Pelatihan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tampilannya kami rancang, dan Anda setujui dulu sebelum dikoding.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikoding.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Hasilnya bisa dibuka dari komputer tata usaha maupun HP.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Buka dari *komputer* maupun *HP*",
+    "poin": [
+     "Web untuk tata usaha",
+     "Tampilan ramah HP"
+    ],
+    "notif": "Bisa dibuka dari HP"
+   }
+  },
+  {
+   "teks": "Ceritakan alur sekolah Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Sistem informasi akademik",
+    "judul": "Ceritakan alur *sekolah Anda*.",
+    "sub": "Kami bantu rancang sistemnya.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

@@ -1,0 +1,164 @@
+{
+ "hook_pola": "tanda-bahaya",
+ "judul": "Evaluasi Rekam Medis Elektronik: Jangan Hanya Sekali",
+ "tag": [
+  "evaluasi rekam medis elektronik",
+  "rekam medis elektronik",
+  "evaluasi sistem klinik",
+  "aplikasi rekam medis klinik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Kalau evaluasi rekam medis elektronik hanya dilakukan sekali, itu tanda bahaya.",
+   "anim": "hook",
+   "param": {
+    "kicker": "TANDA BAHAYA",
+    "baris": [
+     "Evaluasi Rekam Medis",
+     "Elektronik"
+    ],
+    "sub": "Evaluasi perlu dilakukan berkala",
+    "sorot_sub": "berkala",
+    "ikon": [
+     "peringatan",
+     "laporan",
+     "cek",
+     "klinik"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik klinik yang sudah lama memakai rekam medis elektronik.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda pemilik klinik",
+    "sorot": "klinik",
+    "sub": "Sistem sudah berjalan",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter"
+     },
+     {
+      "ikon": "tim",
+      "teks": "Staf"
+     },
+     {
+      "ikon": "laporan",
+      "teks": "Data"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Kolom sering terlewat, istilah berbeda tiap staf, dan data sulit dibandingkan.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Masalah yang tidak terlihat",
+    "sorot": "tidak terlihat",
+    "item": [
+     "Kolom sering terlewat",
+     "Istilah berbeda tiap staf",
+     "Data sulit dibandingkan"
+    ]
+   }
+  },
+  {
+   "teks": "Catatan evaluasi tercecer di chat, kertas, dan Excel.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Catatan evaluasi tercecer",
+    "sorot": "tercecer",
+    "label": [
+     "Chat",
+     "Kertas",
+     "Excel",
+     "Keluhan",
+     "Masukan",
+     "Temuan",
+     "Laporan",
+     "Catatan"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda berbicara dengan software house tentang sistem yang memudahkan evaluasi.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Evaluasi berbasis data",
+    "sorot": "berbasis data",
+    "kiri": "Evaluasi manual",
+    "kanan": "Evaluasi berbasis data"
+   }
+  },
+  {
+   "teks": "Evaluasi yang baik melihat kelengkapan isian, kecepatan kerja, kemudahan pakai, dan keamanan data.",
+   "anim": "centang",
+   "param": {
+    "judul": "Empat hal yang dievaluasi",
+    "sorot": "dievaluasi",
+    "label": "YANG DIEVALUASI",
+    "item": [
+     "Kelengkapan isian",
+     "Kecepatan kerja",
+     "Kemudahan pakai",
+     "Keamanan data"
+    ]
+   }
+  },
+  {
+   "teks": "Dasbor menampilkan kunjungan dan laporan, jadi pemilik klinik melihat pola dari data.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "klinik",
+    "judul": "Pola terlihat dari data",
+    "sorot": "pola",
+    "label": "Ilustrasi sistem klinik"
+   }
+  },
+  {
+   "teks": "Bukan sistem jadi yang kaku, tapi sistem yang bisa disesuaikan setelah evaluasi.",
+   "anim": "banding",
+   "param": {
+    "judul": "Disesuaikan setelah evaluasi",
+    "sorot": "disesuaikan",
+    "kiri": {
+     "judul": "Sistem jadi",
+     "item": [
+      "Sulit diubah",
+      "Alur menyesuaikan sistem"
+     ]
+    },
+    "kanan": {
+     "judul": "Sistem custom",
+     "item": [
+      "Mudah disesuaikan",
+      "Mengikuti hasil evaluasi"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Kami sudah membangun DentalCare, aplikasi klinik gigi dengan rekam medis SOAP dan dasbor.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "DentalCare, klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "soap"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan evaluasi klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {}
+  }
+ ]
+}

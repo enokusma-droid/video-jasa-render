@@ -1,0 +1,221 @@
+{
+ "blok": [
+  {
+   "teks": "Anggapan jasa pembuatan sistem perusahaan selalu rumit itu keliru. Sistem bisa dibangun bertahap.",
+   "anim": "hook",
+   "param": {
+    "judul": "Selalu rumit? *Keliru.*",
+    "sub": "Sistem dibangun *bertahap*."
+   }
+  },
+  {
+   "teks": "Banyak perusahaan masih mengandalkan Excel, kertas, dan grup chat tiap divisi.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Cara kerja manual",
+    "judul": "Masih mengandalkan *ini*?",
+    "kartu": [
+     {
+      "ikon": "excel",
+      "judul": "Excel",
+      "ket": "File beda di tiap divisi"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Formulir kertas",
+      "ket": "Menumpuk di meja"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Grup chat",
+      "ket": "Keputusan tercecer"
+     }
+    ],
+    "coret": "chat"
+   }
+  },
+  {
+   "teks": "Akibatnya data antar divisi tidak sejalan dan laporan manajemen selalu terlambat.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Data antar divisi *tidak sejalan*.",
+    "masalah": [
+     {
+      "ikon": "sync",
+      "teks": "Data tidak sejalan"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Laporan terlambat"
+     },
+     {
+      "ikon": "cari",
+      "teks": "Sulit dipantau"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ini DentalCare, aplikasi klinik gigi yang kami bangun dari nol, contoh sistem terpadu.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Portofolio Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08
+   }
+  },
+  {
+   "teks": "Sistem dibangun bertahap, dimulai dari tiga modul inti.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Bedah fitur",
+    "label": "Modul inti yang *dibangun dulu*",
+    "item": [
+     "Laporan",
+     "Operasional",
+     "Administrasi"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, laporan manajemen. Pimpinan melihat stok dan kinerja tim dalam satu layar.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard2",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Laporan manajemen",
+    "ket": "Stok dan kinerja dalam satu layar",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Kedua, proses operasional. Tindakan dan resep dicatat langsung saat pekerjaan berlangsung.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "tindakan",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Operasional tercatat",
+    "ket": "Dicatat saat bekerja",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Ketiga, administrasi. Invoice terbentuk dari pekerjaan yang sudah dicatat.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice-detail",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Invoice otomatis",
+    "ket": "Terbentuk dari pekerjaan tercatat",
+    "fokus": [
+     55,
+     40
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Satu sumber data menggantikan banyak file yang saling bertabrakan.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "File terpisah",
+     "item": [
+      "Excel tiap divisi",
+      "Salin manual",
+      "Data bertabrakan"
+     ]
+    },
+    "kanan": {
+     "judul": "Satu sistem",
+     "item": [
+      "Satu sumber data",
+      "Akses sesuai peran",
+      "Laporan siap"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Modulnya bisa disesuaikan untuk pabrik kecil, distributor, kontraktor, atau perusahaan jasa.",
+   "anim": "chip-niche",
+   "param": {
+    "judul": "Klinik hanyalah *satu contoh*.",
+    "sub": "Modulnya bisa kami sesuaikan.",
+    "pusat": "Sistem perusahaan",
+    "chip": [
+     {
+      "ikon": "gear",
+      "teks": "Pabrik kecil"
+     },
+     {
+      "ikon": "gudang",
+      "teks": "Distributor"
+     },
+     {
+      "ikon": "kantor",
+      "teks": "Kontraktor"
+     },
+     {
+      "ikon": "user",
+      "teks": "Perusahaan jasa"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Setiap modul dirancang sebagai mockup dan Anda setujui dulu sebelum dikoding.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikoding.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Manajer bisa memantau dari HP, sementara staf bekerja dari komputer kantor.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Pantau dari *HP*, kerja dari *komputer*",
+    "poin": [
+     "Web untuk staf",
+     "Pantau dari HP"
+    ],
+    "notif": "Bisa dipantau dari HP"
+   }
+  },
+  {
+   "teks": "Ceritakan alur perusahaan Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Jasa pembuatan sistem perusahaan",
+    "judul": "Ceritakan alur *perusahaan Anda*.",
+    "sub": "Kami bantu rancang sistemnya.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

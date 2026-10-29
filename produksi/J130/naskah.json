@@ -1,0 +1,213 @@
+{
+ "hook_pola": "11 biaya tersembunyi",
+ "judul": "Jasa Pembuatan Website Lampung: Cegah Pemborosan Sejak Awal",
+ "deskripsi": "Jasa Pembuatan Website Lampung untuk usaha yang ingin websitenya benar-benar dipakai pelanggan. Cerita pemilik usaha produk lokal di Lampung yang pesanannya lewat chat dan media sosial, lalu dirapikan dengan website toko.\n\nNusawebsite membangun website custom yang mengikuti alur usaha Anda: konsultasi, rancang alur dan isi, mockup disetujui, pengembangan, lalu pendampingan. Kami melayani online dari Jogja ke seluruh Indonesia.\n\nKonsultasi gratis: {{LINK_WA}}\n\n#jasapembuatanwebsitelampung #jasawebsite #nusawebsite",
+ "tag": [
+  "jasa website lampung",
+  "website lampung",
+  "website toko produk lokal",
+  "website umkm",
+  "jasa pembuatan website",
+  "website custom",
+  "software house",
+  "website bisnis",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Jasa pembuatan website Lampung bisa jadi pemborosan kalau alurnya tidak jelas sejak awal.",
+   "anim": "hook",
+   "param": {
+    "kicker": "CEGAH PEMBOROSAN",
+    "baris": [
+     "Jasa Pembuatan Website",
+     "Lampung"
+    ],
+    "sub": "Alur jelas sejak awal",
+    "sorot_sub": "sejak awal",
+    "ikon": [
+     "peringatan",
+     "website",
+     "toko",
+     "chat"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik usaha produk lokal seperti kopi dan keripik pisang di Lampung.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "toko",
+    "judul": "Anda pemilik usaha produk lokal",
+    "sorot": "produk lokal",
+    "sub": "Pelanggan datang dari berbagai kota.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Pembeli"
+     },
+     {
+      "ikon": "stok",
+      "teks": "Produk"
+     },
+     {
+      "ikon": "toko",
+      "teks": "Pesanan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pesanan masuk lewat chat dan media sosial, lalu dicatat di buku dan dihitung sendiri.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Pesanan masih manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "sub": "pesanan tenggelam"
+     },
+     {
+      "ikon": "telepon",
+      "judul": "Media sosial",
+      "sub": "pesan terpisah"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Buku catatan",
+      "sub": "hitung sendiri"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pembeli bingung memesan, pesanan salah catat, dan stok tidak jelas.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Pesanan jadi tercecer",
+    "sorot": "tercecer",
+    "label": [
+     "Pesanan",
+     "Chat",
+     "Nota",
+     "Stok",
+     "Alamat",
+     "Produk",
+     "Catatan",
+     "Ongkir"
+    ]
+   }
+  },
+  {
+   "teks": "Anda menjawab pertanyaan produk dan cara memesan yang sama setiap hari.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Pertanyaan yang sama setiap hari",
+    "sorot": "setiap hari",
+    "sub": "Waktu Anda terkuras.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Akhirnya Anda berdiskusi dengan software house yang melayani online dari Jogja.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Bicara dengan software house",
+    "sorot": "software house",
+    "kiri": "Chat dan buku catatan",
+    "kanan": "Website toko"
+   }
+  },
+  {
+   "teks": "Bukan katalog yang jarang diperbarui, tapi website custom dengan produk, keranjang, dan pesanan yang tercatat rapi.",
+   "anim": "banding",
+   "param": {
+    "judul": "Toko yang bekerja sendiri",
+    "sorot": "bekerja",
+    "kiri": {
+     "judul": "Website pajangan",
+     "item": [
+      "Katalog usang",
+      "Pesan lewat chat",
+      "Stok tak terlihat"
+     ]
+    },
+    "kanan": {
+     "judul": "Website custom",
+     "item": [
+      "Produk lengkap",
+      "Pesanan tercatat",
+      "Stok lebih jelas"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Di panel admin, Anda melihat pesanan masuk dan stok produk dalam satu layar.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "pesanan",
+    "judul": "Pesanan dan stok di satu layar",
+    "sorot": "satu layar",
+    "sub": "Pesanan hari ini.",
+    "label": "Ilustrasi sistem website toko"
+   }
+  },
+  {
+   "teks": "Pembeli memilih produk dan memesan dari HP kapan saja.",
+   "anim": "hp",
+   "param": {
+    "tema": "pesanan",
+    "kicker": "UNTUK PEMBELI",
+    "judul": "Pesan produk dari HP",
+    "sorot": "HP",
+    "notif": "Pesanan baru masuk"
+   }
+  },
+  {
+   "teks": "Pesanan tercatat jelas, pembeli mudah memesan, dan stok lebih terkendali.",
+   "anim": "centang",
+   "param": {
+    "judul": "Toko jadi lebih tertata",
+    "sorot": "tertata",
+    "item": [
+     "Pesanan tercatat jelas",
+     "Pembeli mudah memesan",
+     "Stok terkendali"
+    ],
+    "label": "SETELAH PAKAI WEBSITE"
+   }
+  },
+  {
+   "teks": "Contoh hasil kerja kami adalah DentalCare, sistem web untuk klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "judul": "DentalCare, sistem klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "inv"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan website usaha Anda di Lampung. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Melayani online sampai Lampung",
+    "mini": [
+     "Online dari Jogja",
+     "Seluruh Indonesia"
+    ]
+   }
+  }
+ ]
+}

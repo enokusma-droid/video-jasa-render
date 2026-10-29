@@ -893,13 +893,853 @@
   "keyword": "jasa pembuatan aplikasi klinik",
   "kategori": "dental",
   "format": "F1",
-  "status": "naskah"
+  "status": "selesai"
  },
  {
   "kode": "G049",
   "keyword": "sewa aplikasi klinik",
   "kategori": "dental",
   "format": "F2",
-  "status": "naskah"
+  "status": "selesai"
+ },
+ {
+  "kode": "J080",
+  "keyword": "jasa pembuatan sistem informasi",
+  "kategori": "aplikasi",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "J081",
+  "keyword": "jasa pembuatan sistem informasi akademik",
+  "kategori": "aplikasi",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "J082",
+  "keyword": "jasa pembuatan sistem invoice",
+  "kategori": "aplikasi",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "J083",
+  "keyword": "jasa pembuatan sistem keuangan",
+  "kategori": "aplikasi",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "J084",
+  "keyword": "jasa pembuatan sistem antrian",
+  "kategori": "aplikasi",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "J085",
+  "keyword": "jasa pembuatan sistem perusahaan",
+  "kategori": "aplikasi",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "J086",
+  "keyword": "jasa pembuatan aplikasi absensi",
+  "kategori": "aplikasi",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "J087",
+  "keyword": "jasa pembuatan aplikasi inventory",
+  "kategori": "aplikasi",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "J088",
+  "keyword": "jasa pembuatan aplikasi sekolah",
+  "kategori": "aplikasi",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "J089",
+  "keyword": "jasa pembuatan aplikasi erp",
+  "kategori": "aplikasi",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "J090",
+  "keyword": "jasa pembuatan aplikasi hrd",
+  "kategori": "aplikasi",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "J091",
+  "keyword": "jasa pembuatan aplikasi gudang",
+  "kategori": "aplikasi",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "J092",
+  "keyword": "jasa pembuatan aplikasi ojek online",
+  "kategori": "aplikasi",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "J093",
+  "keyword": "jasa pembuatan aplikasi penjualan",
+  "kategori": "aplikasi",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "J094",
+  "keyword": "jasa pembuatan aplikasi custom",
+  "kategori": "aplikasi",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "J095",
+  "keyword": "software house surabaya",
+  "kategori": "software",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "J096",
+  "keyword": "software house medan",
+  "kategori": "software",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "J097",
+  "keyword": "software house palembang",
+  "kategori": "software",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "J098",
+  "keyword": "software house bekasi",
+  "kategori": "software",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "J099",
+  "keyword": "software house depok",
+  "kategori": "software",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "J100",
+  "keyword": "software house solo",
+  "kategori": "software",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "J101",
+  "keyword": "software house pekanbaru",
+  "kategori": "software",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "J102",
+  "keyword": "software house balikpapan",
+  "kategori": "software",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "J103",
+  "keyword": "software house lampung",
+  "kategori": "software",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "J104",
+  "keyword": "software house denpasar",
+  "kategori": "software",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "J105",
+  "keyword": "software house cirebon",
+  "kategori": "software",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "J106",
+  "keyword": "jasa pembuatan software",
+  "kategori": "software",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "J107",
+  "keyword": "jasa pembuatan software custom",
+  "kategori": "software",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "J108",
+  "keyword": "jasa pembuatan website restoran",
+  "kategori": "website",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "J109",
+  "keyword": "jasa pembuatan website klinik",
+  "kategori": "website",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "J110",
+  "keyword": "jasa pembuatan website rumah sakit",
+  "kategori": "website",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "J111",
+  "keyword": "jasa pembuatan website travel agent",
+  "kategori": "website",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "J112",
+  "keyword": "jasa pembuatan website properti",
+  "kategori": "website",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "J113",
+  "keyword": "jasa pembuatan website umroh",
+  "kategori": "website",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "J114",
+  "keyword": "jasa pembuatan website kontraktor",
+  "kategori": "website",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "J115",
+  "keyword": "jasa pembuatan website kampus",
+  "kategori": "website",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "J116",
+  "keyword": "jasa pembuatan website pesantren",
+  "kategori": "website",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "J117",
+  "keyword": "jasa pembuatan website yayasan",
+  "kategori": "website",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "J118",
+  "keyword": "jasa pembuatan website rental mobil",
+  "kategori": "website",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "J119",
+  "keyword": "jasa pembuatan website wedding",
+  "kategori": "website",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "J120",
+  "keyword": "jasa pembuatan website villa",
+  "kategori": "website",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "J121",
+  "keyword": "jasa pembuatan website percetakan",
+  "kategori": "website",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "J122",
+  "keyword": "jasa pembuatan website palembang",
+  "kategori": "website",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "J123",
+  "keyword": "jasa pembuatan website balikpapan",
+  "kategori": "website",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "J124",
+  "keyword": "jasa pembuatan website pontianak",
+  "kategori": "website",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "J125",
+  "keyword": "jasa pembuatan website banjarmasin",
+  "kategori": "website",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "J126",
+  "keyword": "jasa pembuatan website samarinda",
+  "kategori": "website",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "J127",
+  "keyword": "jasa pembuatan website padang",
+  "kategori": "website",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "J128",
+  "keyword": "jasa pembuatan website manado",
+  "kategori": "website",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "J129",
+  "keyword": "jasa pembuatan website denpasar",
+  "kategori": "website",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "J130",
+  "keyword": "jasa pembuatan website lampung",
+  "kategori": "website",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "J131",
+  "keyword": "jasa pembuatan website cirebon",
+  "kategori": "website",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "J132",
+  "keyword": "jasa pembuatan website sidoarjo",
+  "kategori": "website",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "J133",
+  "keyword": "jasa pembuatan website purwokerto",
+  "kategori": "website",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "J134",
+  "keyword": "jasa pembuatan website jember",
+  "kategori": "website",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "J135",
+  "keyword": "jasa pembuatan website mataram",
+  "kategori": "website",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "J136",
+  "keyword": "jasa pembuatan website tasikmalaya",
+  "kategori": "website",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "J137",
+  "keyword": "jasa pembuatan website cikarang",
+  "kategori": "website",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "J138",
+  "keyword": "jasa pembuatan website lombok",
+  "kategori": "website",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "J139",
+  "keyword": "jasa pembuatan website kudus",
+  "kategori": "website",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "G050",
+  "keyword": "odontogram charting",
+  "kategori": "dental",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "G051",
+  "keyword": "odontogram klinik",
+  "kategori": "dental",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "G052",
+  "keyword": "apa itu odontogram",
+  "kategori": "dental",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "G053",
+  "keyword": "contoh odontogram",
+  "kategori": "dental",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "G054",
+  "keyword": "odontogram gigi anak",
+  "kategori": "dental",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "G055",
+  "keyword": "odontogram gigi puskesmas",
+  "kategori": "dental",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "G056",
+  "keyword": "panduan odontogram",
+  "kategori": "dental",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "G057",
+  "keyword": "pemeriksaan odontogram",
+  "kategori": "dental",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "G058",
+  "keyword": "sop odontogram",
+  "kategori": "dental",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "G059",
+  "keyword": "simbol odontogram",
+  "kategori": "dental",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "G060",
+  "keyword": "cara mengisi odontogram",
+  "kategori": "dental",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "G061",
+  "keyword": "odontogram template",
+  "kategori": "dental",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "G062",
+  "keyword": "contoh rekam medis poli gigi puskesmas",
+  "kategori": "dental",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "G063",
+  "keyword": "panduan rekam medis kedokteran gigi",
+  "kategori": "dental",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "G064",
+  "keyword": "rekam medis odontogram gigi",
+  "kategori": "dental",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "G065",
+  "keyword": "rekam medis kedokteran gigi",
+  "kategori": "dental",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "G066",
+  "keyword": "sistem informasi rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "G067",
+  "keyword": "contoh aplikasi rekam medis",
+  "kategori": "dental",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "G068",
+  "keyword": "sistem informasi rekam medis klinik",
+  "kategori": "dental",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "G069",
+  "keyword": "aplikasi rekam medis puskesmas",
+  "kategori": "dental",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "G070",
+  "keyword": "aplikasi rekam medis rumah sakit",
+  "kategori": "dental",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "G071",
+  "keyword": "aplikasi praktek dokter",
+  "kategori": "dental",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "G072",
+  "keyword": "dental management software",
+  "kategori": "dental",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "G073",
+  "keyword": "contoh rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "G074",
+  "keyword": "alur rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "G075",
+  "keyword": "fitur rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "G076",
+  "keyword": "tantangan rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "G077",
+  "keyword": "implementasi rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "G078",
+  "keyword": "persiapan rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "G079",
+  "keyword": "rekam medis elektronik di puskesmas",
+  "kategori": "dental",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "G080",
+  "keyword": "rekam medis elektronik rumah sakit",
+  "kategori": "dental",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "G081",
+  "keyword": "evaluasi rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "G082",
+  "keyword": "rekam medis elektronik rawat jalan",
+  "kategori": "dental",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "G083",
+  "keyword": "tujuan rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "G084",
+  "keyword": "contoh formulir rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "G085",
+  "keyword": "dasar hukum rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "G086",
+  "keyword": "regulasi rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "G087",
+  "keyword": "keamanan rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "G088",
+  "keyword": "kebijakan rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "G089",
+  "keyword": "aplikasi apotek dan klinik",
+  "kategori": "dental",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "G090",
+  "keyword": "contoh sistem informasi klinik",
+  "kategori": "dental",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "G091",
+  "keyword": "aplikasi klinik bidan",
+  "kategori": "dental",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "G092",
+  "keyword": "aplikasi klinik dokter",
+  "kategori": "dental",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "G093",
+  "keyword": "aplikasi klinik kesehatan",
+  "kategori": "dental",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "G094",
+  "keyword": "aplikasi klinik online",
+  "kategori": "dental",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "G095",
+  "keyword": "aplikasi klinik pratama",
+  "kategori": "dental",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "G096",
+  "keyword": "aplikasi klinik terbaik",
+  "kategori": "dental",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "G097",
+  "keyword": "contoh aplikasi klinik",
+  "kategori": "dental",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "G098",
+  "keyword": "software untuk klinik",
+  "kategori": "dental",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "G099",
+  "keyword": "sistem informasi klinik adalah",
+  "kategori": "dental",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "G100",
+  "keyword": "sistem informasi manajemen klinik",
+  "kategori": "dental",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "G101",
+  "keyword": "sistem informasi pendaftaran pasien klinik",
+  "kategori": "dental",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "G102",
+  "keyword": "dfd sistem informasi klinik",
+  "kategori": "dental",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "G103",
+  "keyword": "analisis kuantitatif rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "G104",
+  "keyword": "peran rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "G105",
+  "keyword": "ruang lingkup rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F2",
+  "status": "antre"
+ },
+ {
+  "kode": "G106",
+  "keyword": "konsep dasar rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F3",
+  "status": "antre"
+ },
+ {
+  "kode": "G107",
+  "keyword": "permasalahan rekam medis elektronik",
+  "kategori": "dental",
+  "format": "F4",
+  "status": "antre"
+ },
+ {
+  "kode": "G108",
+  "keyword": "formulir pemeriksaan odontogram",
+  "kategori": "dental",
+  "format": "F1",
+  "status": "antre"
+ },
+ {
+  "kode": "G109",
+  "keyword": "gambar odontogram",
+  "kategori": "dental",
+  "format": "F2",
+  "status": "antre"
  }
 ]

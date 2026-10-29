@@ -1,0 +1,208 @@
+{
+ "hook_pola": "5 berhenti",
+ "judul": "Jasa Pembuatan Website Rental Mobil: Berhenti Catat Manual",
+ "deskripsi": "Jasa Pembuatan Website Rental Mobil untuk usaha yang ingin websitenya benar-benar dipakai pelanggan. Cerita pemilik rental mobil yang pemesanan dan ketersediaan unitnya masih lewat buku dan chat, lalu dirapikan dengan website.\n\nNusawebsite membangun website custom yang mengikuti alur usaha Anda: konsultasi, rancang alur dan isi, mockup disetujui, pengembangan, lalu pendampingan. Kami melayani online dari Jogja ke seluruh Indonesia.\n\nKonsultasi gratis: {{LINK_WA}}\n\n#jasapembuatanwebsiterentalmobil #jasawebsite #nusawebsite",
+ "tag": [
+  "jasa website rental mobil",
+  "website rental mobil",
+  "website sewa mobil",
+  "booking mobil online",
+  "jasa pembuatan website",
+  "website custom",
+  "software house",
+  "website bisnis",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Berhenti mencatat sewa lewat chat, jasa pembuatan website rental mobil bisa merapikan pemesanan Anda.",
+   "anim": "hook",
+   "param": {
+    "kicker": "BERHENTI CATAT MANUAL",
+    "baris": [
+     "Jasa Pembuatan Website",
+     "Rental Mobil"
+    ],
+    "sub": "Pemesanan lebih rapi",
+    "sorot_sub": "rapi",
+    "ikon": [
+     "x",
+     "website",
+     "bengkel",
+     "chat"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik rental mobil dengan beberapa unit yang disewa setiap pekan.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "bengkel",
+    "judul": "Anda pemilik rental mobil",
+    "sorot": "rental mobil",
+    "sub": "Unit harus selalu terpantau.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Penyewa"
+     },
+     {
+      "ikon": "kalender",
+      "teks": "Jadwal sewa"
+     },
+     {
+      "ikon": "stok",
+      "teks": "Unit"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Jadwal sewa dicatat di buku, penyewa bertanya lewat chat, dan syarat sewa dikirim satu per satu.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Pemesanan masih manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "buku",
+      "judul": "Buku sewa",
+      "sub": "mudah bentrok"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "sub": "balasan berulang"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Syarat sewa",
+      "sub": "dikirim manual"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Jadwal unit bentrok, penyewa menunggu konfirmasi, dan data sewa terselip.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Jadwal sewa jadi kacau",
+    "sorot": "kacau",
+    "item": [
+     "Jadwal unit bentrok",
+     "Penyewa menunggu",
+     "Data sewa terselip"
+    ]
+   }
+  },
+  {
+   "teks": "Setiap hari Anda menjawab ketersediaan unit yang sama berulang kali.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Ketersediaan unit ditanya terus",
+    "sorot": "terus",
+    "sub": "Waktu Anda terpakai untuk membalas.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Akhirnya Anda berdiskusi dengan software house yang melayani online dari Jogja.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Bicara dengan software house",
+    "sorot": "software house",
+    "kiri": "Buku sewa dan chat",
+    "kanan": "Website rental mobil"
+   }
+  },
+  {
+   "teks": "Bukan daftar mobil yang cepat usang, tapi website custom dengan unit, ketersediaan, dan formulir pemesanan.",
+   "anim": "banding",
+   "param": {
+    "judul": "Pemesanan langsung dari website",
+    "sorot": "langsung",
+    "kiri": {
+     "judul": "Website pajangan",
+     "item": [
+      "Daftar mobil usang",
+      "Ketersediaan tak jelas",
+      "Pesan lewat chat"
+     ]
+    },
+    "kanan": {
+     "judul": "Website custom",
+     "item": [
+      "Unit dan ketersediaan",
+      "Pesan dari website",
+      "Konfirmasi lebih cepat"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Di panel admin, Anda melihat jadwal unit dan pesanan sewa dalam satu layar.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "booking",
+    "judul": "Jadwal unit di satu layar",
+    "sorot": "satu layar",
+    "sub": "Unit dan pesanan sewa.",
+    "label": "Ilustrasi sistem website rental mobil"
+   }
+  },
+  {
+   "teks": "Penyewa memilih mobil dan memesan dari HP kapan saja.",
+   "anim": "hp",
+   "param": {
+    "tema": "booking",
+    "kicker": "UNTUK PENYEWA",
+    "judul": "Pesan mobil dari HP",
+    "sorot": "HP",
+    "notif": "Pesanan sewa masuk"
+   }
+  },
+  {
+   "teks": "Jadwal tidak bentrok, penyewa lebih cepat dilayani, dan data tercatat rapi.",
+   "anim": "centang",
+   "param": {
+    "judul": "Operasional jadi lebih rapi",
+    "sorot": "rapi",
+    "item": [
+     "Jadwal tidak bentrok",
+     "Penyewa cepat dilayani",
+     "Data tercatat rapi"
+    ],
+    "label": "SETELAH PAKAI WEBSITE"
+   }
+  },
+  {
+   "teks": "Contoh hasil kerja kami adalah DentalCare, sistem web untuk klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "judul": "DentalCare, sistem klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "inv"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan website rental mobil Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan website Anda",
+    "mini": [
+     "Online dari Jogja",
+     "Seluruh Indonesia"
+    ]
+   }
+  }
+ ]
+}

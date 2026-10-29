@@ -1,0 +1,208 @@
+{
+ "hook_pola": "14 mitos",
+ "judul": "Jasa Pembuatan Website Rumah Sakit: Anggapan yang Keliru",
+ "deskripsi": "Jasa Pembuatan Website Rumah Sakit untuk usaha yang ingin websitenya benar-benar dipakai pelanggan. Cerita pengelola rumah sakit yang jadwal dokter dan informasi layanannya masih lewat papan, telepon, dan chat, lalu dirapikan dengan website.\n\nNusawebsite membangun website custom yang mengikuti alur usaha Anda: konsultasi, rancang alur dan isi, mockup disetujui, pengembangan, lalu pendampingan. Kami melayani online dari Jogja ke seluruh Indonesia.\n\nKonsultasi gratis: {{LINK_WA}}\n\n#jasapembuatanwebsiterumahsakit #jasawebsite #nusawebsite",
+ "tag": [
+  "jasa website rumah sakit",
+  "website rumah sakit",
+  "website jadwal dokter",
+  "website layanan kesehatan",
+  "jasa pembuatan website",
+  "website custom",
+  "software house",
+  "website bisnis",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Anggapan jasa pembuatan website rumah sakit hanya soal tampilan itu keliru.",
+   "anim": "hook",
+   "param": {
+    "kicker": "ANGGAPAN YANG KELIRU",
+    "baris": [
+     "Jasa Pembuatan Website",
+     "Rumah Sakit"
+    ],
+    "sub": "Website bukan sekadar tampilan",
+    "sorot_sub": "tampilan",
+    "ikon": [
+     "x",
+     "website",
+     "klinik",
+     "kertas"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pengelola rumah sakit yang ingin pasien mudah mencari jadwal dokter.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda pengelola rumah sakit",
+    "sorot": "rumah sakit",
+    "sub": "Pasien butuh informasi yang jelas.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Pasien"
+     },
+     {
+      "ikon": "kalender",
+      "teks": "Jadwal dokter"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Layanan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Jadwal ditempel di papan, informasi layanan lewat telepon, dan pertanyaan pasien masuk lewat chat.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Informasi masih manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Papan jadwal",
+      "sub": "cepat berubah"
+     },
+     {
+      "ikon": "telepon",
+      "judul": "Telepon",
+      "sub": "antrean panjang"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "sub": "pertanyaan berulang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pasien sulit menemukan jadwal terbaru, petugas kewalahan menjawab, dan layanan unggulan kurang dikenal.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Informasi jadi berantakan",
+    "sorot": "berantakan",
+    "item": [
+     "Jadwal tidak jelas",
+     "Petugas kewalahan",
+     "Layanan kurang dikenal"
+    ]
+   }
+  },
+  {
+   "teks": "Petugas informasi menjawab pertanyaan yang sama sepanjang hari.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Pertanyaan yang sama setiap hari",
+    "sorot": "setiap hari",
+    "sub": "Waktu petugas terkuras.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda memutuskan bicara dengan software house yang melayani online dari Jogja.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Bicara dengan software house",
+    "sorot": "software house",
+    "kiri": "Papan dan telepon",
+    "kanan": "Website rumah sakit"
+   }
+  },
+  {
+   "teks": "Bukan halaman alamat saja, tapi website custom dengan profil, jadwal dokter, dan informasi layanan yang mudah diperbarui.",
+   "anim": "banding",
+   "param": {
+    "judul": "Website yang dipakai setiap hari",
+    "sorot": "dipakai",
+    "kiri": {
+     "judul": "Website pajangan",
+     "item": [
+      "Hanya alamat",
+      "Jadwal usang",
+      "Sulit dihubungi"
+     ]
+    },
+    "kanan": {
+     "judul": "Website custom",
+     "item": [
+      "Jadwal dokter jelas",
+      "Layanan terpetakan",
+      "Mudah diperbarui"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Admin memperbarui jadwal dokter dan pengumuman dari satu panel.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "website",
+    "judul": "Admin mengelola dari satu panel",
+    "sorot": "satu panel",
+    "sub": "Jadwal dan pengumuman.",
+    "label": "Ilustrasi sistem website rumah sakit"
+   }
+  },
+  {
+   "teks": "Pasien membuka jadwal dan layanan dari HP kapan saja.",
+   "anim": "hp",
+   "param": {
+    "tema": "booking",
+    "kicker": "UNTUK PASIEN",
+    "judul": "Jadwal terbuka di HP",
+    "sorot": "HP",
+    "notif": "Jadwal terbaru tersedia"
+   }
+  },
+  {
+   "teks": "Informasi mudah ditemukan, petugas lebih ringan, dan layanan tampil lebih meyakinkan.",
+   "anim": "centang",
+   "param": {
+    "judul": "Informasi jadi lebih rapi",
+    "sorot": "rapi",
+    "item": [
+     "Informasi mudah ditemukan",
+     "Petugas lebih ringan",
+     "Layanan lebih meyakinkan"
+    ],
+    "label": "SETELAH PAKAI WEBSITE"
+   }
+  },
+  {
+   "teks": "Kami sudah membangun sistem berbasis web seperti ini, salah satunya DentalCare untuk klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "judul": "DentalCare, sistem klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "soap"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan website rumah sakit Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan website Anda",
+    "mini": [
+     "Online dari Jogja",
+     "Seluruh Indonesia"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,208 @@
+{
+ "hook_pola": "13 satu kalimat janji",
+ "judul": "Jasa Pembuatan Website Samarinda: Cara Memilih yang Tepat",
+ "deskripsi": "Jasa Pembuatan Website Samarinda untuk usaha yang ingin websitenya benar-benar dipakai pelanggan. Cerita pemilik usaha jasa di Samarinda yang kontak dan informasinya tersebar, lalu dirapikan dengan website profil usaha.\n\nNusawebsite membangun website custom yang mengikuti alur usaha Anda: konsultasi, rancang alur dan isi, mockup disetujui, pengembangan, lalu pendampingan. Kami melayani online dari Jogja ke seluruh Indonesia.\n\nKonsultasi gratis: {{LINK_WA}}\n\n#jasapembuatanwebsitesamarinda #jasawebsite #nusawebsite",
+ "tag": [
+  "jasa website samarinda",
+  "website samarinda",
+  "website profil usaha",
+  "website jasa",
+  "jasa pembuatan website",
+  "website custom",
+  "software house",
+  "website bisnis",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Dalam satu menit, Anda tahu cara memilih jasa pembuatan website Samarinda yang tepat.",
+   "anim": "hook",
+   "param": {
+    "kicker": "DALAM SATU MENIT",
+    "baris": [
+     "Jasa Pembuatan Website",
+     "Samarinda"
+    ],
+    "sub": "Cara memilih yang tepat",
+    "sorot_sub": "tepat",
+    "ikon": [
+     "cek",
+     "website",
+     "kantor",
+     "kertas"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik usaha jasa di Samarinda yang ingin lebih mudah ditemukan calon pelanggan.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "kantor",
+    "judul": "Anda pemilik usaha jasa",
+    "sorot": "usaha jasa",
+    "sub": "Calon pelanggan mencari di internet.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Calon pelanggan"
+     },
+     {
+      "ikon": "cari",
+      "teks": "Pencarian"
+     },
+     {
+      "ikon": "telepon",
+      "teks": "Kontak"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Informasi usaha ada di kartu nama, brosur, dan grup chat terpisah.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Informasi usaha tersebar",
+    "sorot": "tersebar",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Kartu nama",
+      "sub": "terbatas"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Brosur",
+      "sub": "cepat usang"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Grup chat",
+      "sub": "mudah tenggelam"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Calon pelanggan tidak menemukan usaha Anda, informasi tidak seragam, dan kontak tersebar.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Usaha sulit ditemukan",
+    "sorot": "sulit ditemukan",
+    "item": [
+     "Tidak ditemukan di internet",
+     "Informasi tidak seragam",
+     "Kontak tersebar"
+    ]
+   }
+  },
+  {
+   "teks": "Anda menjelaskan layanan yang sama kepada setiap calon pelanggan.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Menjelaskan satu per satu",
+    "sorot": "satu per satu",
+    "sub": "Waktu Anda terpakai.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda memilih berbicara dengan software house yang bekerja online dari Jogja.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Bicara dengan software house",
+    "sorot": "software house",
+    "kiri": "Kartu nama dan brosur",
+    "kanan": "Website profil usaha"
+   }
+  },
+  {
+   "teks": "Bukan sekadar halaman nama usaha, tapi website custom dengan layanan, profil, dan kontak jelas.",
+   "anim": "banding",
+   "param": {
+    "judul": "Website yang mudah ditemukan",
+    "sorot": "ditemukan",
+    "kiri": {
+     "judul": "Website pajangan",
+     "item": [
+      "Nama usaha saja",
+      "Layanan tidak jelas",
+      "Kontak sulit dicari"
+     ]
+    },
+    "kanan": {
+     "judul": "Website custom",
+     "item": [
+      "Layanan lengkap",
+      "Profil meyakinkan",
+      "Kontak mudah"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Di panel admin, Anda memperbarui layanan dan melihat pesan dari calon pelanggan.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "kantor",
+    "judul": "Layanan dan pesan di satu panel",
+    "sorot": "satu panel",
+    "sub": "Layanan dan pesan masuk.",
+    "label": "Ilustrasi sistem website profil usaha"
+   }
+  },
+  {
+   "teks": "Calon pelanggan membuka layanan dan menghubungi Anda dari HP.",
+   "anim": "hp",
+   "param": {
+    "tema": "website",
+    "kicker": "UNTUK CALON PELANGGAN",
+    "judul": "Hubungi Anda dari HP",
+    "sorot": "HP",
+    "notif": "Pesan baru masuk"
+   }
+  },
+  {
+   "teks": "Usaha lebih mudah ditemukan, informasi seragam, dan calon pelanggan lebih yakin.",
+   "anim": "centang",
+   "param": {
+    "judul": "Usaha tampil lebih meyakinkan",
+    "sorot": "meyakinkan",
+    "item": [
+     "Mudah ditemukan",
+     "Informasi seragam",
+     "Calon pelanggan yakin"
+    ],
+    "label": "SETELAH PAKAI WEBSITE"
+   }
+  },
+  {
+   "teks": "Kami sudah membangun website dan aplikasi untuk berbagai bidang, salah satunya DentalCare untuk klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "judul": "DentalCare, sistem klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "inv",
+     "dash"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan website usaha Anda di Samarinda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Melayani online sampai Samarinda",
+    "mini": [
+     "Online dari Jogja",
+     "Seluruh Indonesia"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,159 @@
+{
+ "hook_pola": "tanda-bahaya",
+ "judul": "Jasa Pembuatan Sistem Antrian: 4 Hal yang Wajib Dicek",
+ "blok": [
+  {
+   "teks": "Kalau jasa pembuatan sistem antrian belum diuji saat ramai, itu tanda bahaya.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Sistem antrian belum diuji saat ramai? Tanda bahaya",
+    "sorot": "tanda bahaya",
+    "ikon": "peringatan"
+   }
+  },
+  {
+   "teks": "Sistem antrian yang macet justru membuat pengunjung makin kesal dan petugas panik.",
+   "anim": "red-flag",
+   "param": {
+    "judul": "Kalau sistem antrian macet",
+    "item": [
+     "Pengunjung kesal",
+     "Petugas panik",
+     "Kembali ke kertas"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, alur layanan dipetakan dulu.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Alur layanan dipetakan dulu",
+    "sorot": "dipetakan"
+   }
+  },
+  {
+   "teks": "Dari ambil nomor, dipanggil, sampai dilayani, setiap langkah harus sesuai alur di tempat Anda sendiri.",
+   "anim": "alur",
+   "param": {
+    "judul": "Alur layanan Anda",
+    "langkah": [
+     "Ambil nomor",
+     "Dipanggil",
+     "Dilayani"
+    ],
+    "ikon": [
+     "dokumen",
+     "orang",
+     "cek"
+    ]
+   }
+  },
+  {
+   "teks": "Kedua, pemanggilan mudah dilihat petugas.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Pemanggilan mudah dilihat petugas",
+    "sorot": "mudah dilihat"
+   }
+  },
+  {
+   "teks": "Contohnya antrean pada aplikasi klinik gigi buatan kami, dengan tombol panggil yang jelas.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": "antrean",
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Ketiga, diuji saat kondisi ramai.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Diuji saat kondisi ramai",
+    "sorot": "ramai"
+   }
+  },
+  {
+   "teks": "Setiap fitur dicoba, dicatat, lalu diperbaiki sebelum sistem dipakai sungguhan.",
+   "anim": "papan-progres",
+   "param": {
+    "judul": "Uji, catat, perbaiki",
+    "kolom": [
+     {
+      "judul": "Lolos uji",
+      "item": [
+       "Ambil nomor",
+       "Panggil"
+      ]
+     },
+     {
+      "judul": "Diperbaiki",
+      "item": [
+       "Layar tunggu"
+      ]
+     },
+     {
+      "judul": "Berikutnya",
+      "item": [
+       "Laporan"
+      ]
+     }
+    ],
+    "persen": 0.7
+   }
+  },
+  {
+   "teks": "Keempat, data dan akses milik Anda.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Data dan akses milik Anda",
+    "sorot": "milik Anda"
+   }
+  },
+  {
+   "teks": "Kode sumber, data antrean, dan akun penting tercatat atas nama usaha Anda sejak awal.",
+   "anim": "kepemilikan",
+   "param": {
+    "judul": "Semua tercatat milik Anda",
+    "item": [
+     {
+      "ikon": "kode",
+      "judul": "Kode sumber",
+      "sub": "repositori proyek"
+     },
+     {
+      "ikon": "data",
+      "judul": "Data bisnis",
+      "sub": "database dan cadangan"
+     },
+     {
+      "ikon": "kunci",
+      "judul": "Akun penting",
+      "sub": "atas nama Anda"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Simpan checklist ini: alur layanan, pemanggilan, uji saat ramai, dan kepemilikan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist sistem antrian Anda",
+    "item": [
+     "Alur layanan dipetakan",
+     "Pemanggilan jelas",
+     "Diuji saat ramai",
+     "Data dan akses milik Anda"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur layanan Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Konsultasi gratis",
+    "sorot": "gratis",
+    "sub": "Ceritakan alur layanan Anda"
+   }
+  }
+ ]
+}
