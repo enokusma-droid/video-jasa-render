@@ -1,0 +1,172 @@
+{
+ "hook_pola": "hati-hati",
+ "tag": [
+  "regulasi rekam medis elektronik",
+  "permenkes rekam medis",
+  "rekam medis elektronik",
+  "aplikasi rekam medis klinik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Hati-hati memahami regulasi rekam medis elektronik hanya dari kabar grup chat. Rujuk sumber resmi Kemenkes.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "HATI-HATI MEMAHAMI",
+    "sorot": "rekam medis elektronik",
+    "sub": "Rujuk sumber resmi, bukan kabar grup",
+    "kata_sub": "resmi",
+    "judul_yt": "Regulasi Rekam Medis Elektronik: 4 Langkah Menyiapkan Klinik"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan kabar yang belum jelas sumbernya. Aturan keliru, langkah salah, dan sistem harus diulang.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Kabar tanpa sumber jelas.",
+    "item": [
+     "Aturan keliru",
+     "Langkah salah",
+     "Sistem diulang"
+    ],
+    "kata": [
+     "keliru",
+     "langkah",
+     "diulang"
+    ]
+   }
+  },
+  {
+   "teks": "Menyiapkan klinik terhadap regulasi ada empat langkah.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "LANGKAH PERSIAPAN",
+    "tahap": [
+     "Cek aturan",
+     "Petakan data",
+     "Atur akses",
+     "Cadangan"
+    ],
+    "rail": "LANGKAH PERSIAPAN"
+   }
+  },
+  {
+   "teks": "Tahap satu, cek aturan. Mulai dari Permenkes 24 Tahun 2022, lalu sumber resmi Kemenkes dan aturan terbaru.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Cek\nAturan",
+    "desk": "Rujuk sumber resmi, bukan ingatan.",
+    "visual": "catatan",
+    "label": "CEK ATURAN",
+    "item": [
+     "Permenkes tentang rekam medis",
+     "Sumber resmi Kemenkes",
+     "Aturan terbaru"
+    ],
+    "kata": [
+     "permenkes",
+     "resmi",
+     "terbaru"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap dua, petakan data. Catat di mana identitas, pemeriksaan, dan resep pasien tersimpan.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Petakan\nData",
+    "desk": "Ketahui letak setiap data.",
+    "visual": "alur",
+    "alur": [
+     "Pasien",
+     "Periksa",
+     "Resep"
+    ],
+    "on": [
+     "Identitas",
+     "Pemeriksaan",
+     "Resep"
+    ],
+    "kata": [
+     "identitas",
+     "pemeriksaan",
+     "resep"
+    ],
+    "off": [
+     "Laporan tambahan",
+     "Integrasi"
+    ],
+    "catatan": "Petakan dulu"
+   }
+  },
+  {
+   "teks": "Tahap tiga, atur akses. Tentukan siapa yang boleh melihat, mengisi, dan mengubah catatan pasien.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Atur\nAkses",
+    "desk": "Hak akses sesuai peran.",
+    "visual": "catatan",
+    "label": "HAK AKSES",
+    "item": [
+     "Boleh melihat",
+     "Boleh mengisi",
+     "Boleh mengubah"
+    ],
+    "kata": [
+     "melihat",
+     "mengisi",
+     "mengubah"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap empat, siapkan cadangan. Data disalin berkala, disimpan terpisah, dan bisa dipulihkan saat perangkat bermasalah.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Siapkan\nCadangan",
+    "desk": "Data aman dari kehilangan.",
+    "visual": "catatan",
+    "label": "CADANGAN",
+    "item": [
+     "Disalin berkala",
+     "Disimpan terpisah",
+     "Bisa dipulihkan"
+    ],
+    "kata": [
+     "disalin",
+     "terpisah",
+     "dipulihkan"
+    ]
+   }
+  },
+  {
+   "teks": "Sebagai contoh, DentalCare, aplikasi klinik gigi buatan kami, menyimpan rekam medis SOAP dan odontogram dalam satu sistem.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "DentalCare, SOAP dan odontogram",
+    "klip": [
+     "soap",
+     "odon"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan klinik Anda",
+    "kata_link": "link",
+    "mini": [
+     "Cek aturan",
+     "Petakan data",
+     "Atur akses",
+     "Cadangan"
+    ]
+   }
+  }
+ ]
+}

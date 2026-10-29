@@ -1,0 +1,214 @@
+{
+ "meta": {
+  "judul": "Kebijakan Rekam Medis Elektronik: Petakan Alurnya Dulu",
+  "ringkas": "petakan alur kerja klinik sebelum menulis kebijakan rekam medis elektronik, dengan contoh aplikasi klinik gigi DentalCare.",
+  "tag": [
+   "kebijakan rekam medis elektronik",
+   "rekam medis elektronik",
+   "kebijakan klinik",
+   "aplikasi rekam medis klinik",
+   "aplikasi klinik gigi",
+   "dentalcare",
+   "nusawebsite"
+  ]
+ },
+ "hook_pola": "jangan-dulu",
+ "blok": [
+  {
+   "teks": "Jangan menulis kebijakan rekam medis elektronik klinik sebelum alur kerjanya dipetakan.",
+   "anim": "hook",
+   "param": {
+    "judul": "Jangan tulis *kebijakan* sebelum alurnya jelas.",
+    "sub": "Petakan alur kerja klinik *dulu*."
+   }
+  },
+  {
+   "teks": "Banyak klinik menyalin kebijakan klinik lain, padahal alur kerjanya berbeda.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Kebiasaan umum",
+    "judul": "Salinan yang *tidak cocok*.",
+    "kartu": [
+     {
+      "ikon": "kertas",
+      "judul": "Salinan kebijakan",
+      "ket": "Dari klinik lain"
+     },
+     {
+      "ikon": "user",
+      "judul": "Peran staf",
+      "ket": "Tidak sama"
+     },
+     {
+      "ikon": "jam",
+      "judul": "Alur kerja",
+      "ket": "Berbeda"
+     }
+    ],
+    "coret": "berbeda"
+   }
+  },
+  {
+   "teks": "Akibatnya aturan sulit dijalankan dan staf kembali ke kebiasaan lama.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Aturan *sulit dijalankan*.",
+    "masalah": [
+     {
+      "ikon": "alert",
+      "teks": "Aturan sulit dijalankan"
+     },
+     {
+      "ikon": "user",
+      "teks": "Staf bingung"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Kembali ke kertas"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Rujuk aturan Kemenkes untuk dasarnya. Untuk alurnya, ini DentalCare, aplikasi klinik gigi buatan kami.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi berbasis web",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare",
+    "ikon": "klinik"
+   }
+  },
+  {
+   "teks": "Ada tiga hal yang biasanya diatur dalam kebijakan.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Isi kebijakan",
+    "label": "Hal yang diatur"
+   }
+  },
+  {
+   "teks": "Satu, siapa yang boleh melihat data pasien.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Data pasien",
+    "ket": "Akses perlu diatur",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Dua, siapa yang mengisi catatan pemeriksaan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Catatan pemeriksaan",
+    "ket": "Pengisi catatan jelas",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Tiga, bagaimana data dipastikan benar sebelum kunjungan disimpan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "konfirmasi",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Konfirmasi kunjungan",
+    "ket": "Data dipastikan dulu",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Tambahkan juga cadangan data dan cara membetulkan kesalahan catatan.",
+   "anim": "daftar-centang",
+   "param": {
+    "kicker": "Lengkapi kebijakan",
+    "judul": "Jangan *terlewat*",
+    "item": [
+     "Siapa boleh melihat",
+     "Siapa mengisi",
+     "Cara memastikan data",
+     "Cadangan data",
+     "Cara membetulkan catatan"
+    ]
+   }
+  },
+  {
+   "teks": "Alur dipetakan dulu: pendaftaran, pemeriksaan, tindakan, lalu pembayaran.",
+   "anim": "diagram-alur",
+   "param": {
+    "kicker": "Petakan alur",
+    "judul": "Alur klinik *dipetakan*",
+    "langkah": [
+     {
+      "ikon": "user",
+      "teks": "Pendaftaran"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Pemeriksaan"
+     },
+     {
+      "ikon": "gear",
+      "teks": "Tindakan"
+     },
+     {
+      "ikon": "laporan",
+      "teks": "Pembayaran"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Setelah alur jelas, kami rancang mockup yang Anda setujui sebelum dikembangkan.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikembangkan.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Kebijakan rekam medis elektronik",
+    "judul": "Mulai dari *alur klinik Anda*.",
+    "sub": "Ceritakan alur klinik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

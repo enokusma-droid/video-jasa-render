@@ -1,0 +1,228 @@
+{
+ "meta": {
+  "judul": "Aplikasi Klinik Dokter: Jangan Sampai Jadi Pemborosan",
+  "ringkas": "aplikasi klinik dokter perlu sesuai cara praktik: antrean, rekam medis, resep, dan invoice, dengan contoh DentalCare dari Nusawebsite.",
+  "tag": [
+   "aplikasi klinik dokter",
+   "aplikasi praktik dokter",
+   "aplikasi klinik",
+   "rekam medis",
+   "aplikasi klinik gigi",
+   "dentalcare",
+   "nusawebsite"
+  ]
+ },
+ "hook_pola": "biaya-tersembunyi",
+ "blok": [
+  {
+   "teks": "Aplikasi klinik dokter bisa jadi pemborosan kalau fiturnya tidak sesuai cara praktik Anda.",
+   "anim": "hook",
+   "param": {
+    "judul": "Bisa jadi *pemborosan* kalau tak sesuai praktik.",
+    "sub": "Pilih aplikasi dari *alur praktik* Anda."
+   }
+  },
+  {
+   "teks": "Banyak dokter mencatat jadwal di buku, resep di kertas, dan tagihan di kalkulator.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Cara lama",
+    "judul": "Semua dicatat *manual*.",
+    "kartu": [
+     {
+      "ikon": "buku",
+      "judul": "Buku jadwal",
+      "ket": "Dicatat tangan"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Resep kertas",
+      "ket": "Mudah hilang"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Kalkulator",
+      "ket": "Hitung manual"
+     }
+    ],
+    "coret": "kalkulator"
+   }
+  },
+  {
+   "teks": "Akibatnya antrean tidak jelas dan riwayat pasien sulit dibuka saat kontrol.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Antrean *tidak jelas*.",
+    "masalah": [
+     {
+      "ikon": "alert",
+      "teks": "Antrean tidak jelas"
+     },
+     {
+      "ikon": "cari",
+      "teks": "Riwayat sulit dibuka"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Waktu terbuang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ini DentalCare, aplikasi klinik gigi buatan kami, sebagai contoh aplikasi klinik.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi berbasis web",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare",
+    "ikon": "klinik"
+   }
+  },
+  {
+   "teks": "Satu, antrean. Staf memanggil pasien sesuai urutan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "antrean",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Antrean pasien",
+    "ket": "Dipanggil sesuai urutan",
+    "fokus": [
+     88,
+     47
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Dua, rekam medis. Keluhan dan pemeriksaan tercatat di layar.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Rekam medis SOAP",
+    "ket": "Keluhan dan pemeriksaan",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Tiga, tindakan dan resep ditulis dalam satu halaman.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "tindakan",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Tindakan dan resep",
+    "ket": "Satu halaman",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Empat, invoice untuk pasien siap dicetak.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice-detail",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "04",
+    "judul": "Invoice pasien",
+    "ket": "Siap dicetak",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Hasilnya dokter fokus ke pasien, bukan ke tumpukan catatan.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Catatan manual",
+     "item": [
+      "Buku dan kertas",
+      "Riwayat dicari manual",
+      "Tagihan dihitung tangan"
+     ]
+    },
+    "kanan": {
+     "judul": "Aplikasi klinik",
+     "item": [
+      "Antrean jelas",
+      "Riwayat satu layar",
+      "Invoice siap cetak"
+     ]
+    },
+    "pemicu": "fokus"
+   }
+  },
+  {
+   "teks": "Alur bisa disesuaikan untuk dokter umum, dokter spesialis, dan klinik gigi.",
+   "anim": "chip-niche",
+   "param": {
+    "kicker": "Bisa disesuaikan",
+    "judul": "Sesuai *praktik Anda*",
+    "pusat": "Aplikasi",
+    "ikonPusat": "klinik",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter umum"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Dokter spesialis"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Klinik gigi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Sebelum dikembangkan, mockup layar Anda setujui lebih dulu.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikembangkan.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Ceritakan cara praktik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Aplikasi klinik dokter",
+    "judul": "Sesuai *cara praktik Anda*.",
+    "sub": "Ceritakan cara praktik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

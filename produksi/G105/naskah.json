@@ -1,0 +1,186 @@
+{
+ "hook_pola": "penyesalan",
+ "judul": "Ruang Lingkup Rekam Medis Elektronik: Pahami dari Awal",
+ "tag": [
+  "ruang lingkup rekam medis elektronik",
+  "rekam medis elektronik",
+  "isi rekam medis",
+  "aplikasi rekam medis klinik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Pemilik klinik sering menyesal karena baru memahami ruang lingkup rekam medis elektronik di tengah jalan.",
+   "anim": "hook",
+   "param": {
+    "kicker": "PAHAMI DARI AWAL",
+    "baris": [
+     "Ruang Lingkup",
+     "Rekam Medis Elektronik"
+    ],
+    "sub": "Tentukan cakupannya sejak awal",
+    "sorot_sub": "cakupannya",
+    "ikon": [
+     "klinik",
+     "laporan",
+     "cek",
+     "kertas"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik klinik gigi yang baru menyiapkan sistem rekam medis.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Menyiapkan rekam medis",
+    "sorot": "rekam medis",
+    "sub": "Klinik gigi",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter"
+     },
+     {
+      "ikon": "tim",
+      "teks": "Staf"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Catatan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Cakupan tidak jelas, ada bagian yang terlewat, dan sebagian catatan masih di kertas.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Cakupan tidak jelas",
+    "sorot": "tidak jelas",
+    "item": [
+     "Cakupan tidak jelas",
+     "Bagian terlewat",
+     "Sebagian masih kertas"
+    ]
+   }
+  },
+  {
+   "teks": "Identitas, pemeriksaan, tindakan, dan resep tersebar di tempat berbeda.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Catatan tersebar",
+    "sorot": "tersebar",
+    "label": [
+     "Identitas",
+     "Pemeriksaan",
+     "Tindakan",
+     "Resep",
+     "Odontogram",
+     "Jadwal",
+     "Tagihan",
+     "Riwayat"
+    ]
+   }
+  },
+  {
+   "teks": "Karena itu Anda memetakan cakupan rekam medis bersama software house.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Petakan cakupan",
+    "sorot": "petakan",
+    "kiri": "Cakupan kabur",
+    "kanan": "Cakupan jelas"
+   }
+  },
+  {
+   "teks": "Cakupan dasarnya identitas pasien, pemeriksaan, diagnosis, tindakan, dan resep.",
+   "anim": "centang",
+   "param": {
+    "judul": "Cakupan dasar",
+    "sorot": "Cakupan",
+    "label": "RUANG LINGKUP",
+    "item": [
+     "Identitas pasien",
+     "Pemeriksaan dan diagnosis",
+     "Tindakan",
+     "Resep"
+    ]
+   }
+  },
+  {
+   "teks": "Semua bagian itu terlihat dalam satu dashboard, lengkap dengan jadwal dan laporan.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "klinik",
+    "judul": "Satu dashboard klinik",
+    "sorot": "satu dashboard",
+    "label": "Ilustrasi sistem klinik"
+   }
+  },
+  {
+   "teks": "Kami sudah membangun DentalCare, aplikasi klinik gigi dengan rekam medis SOAP dan odontogram.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "DentalCare, klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "soap",
+     "odon"
+    ]
+   }
+  },
+  {
+   "teks": "Cakupan bisa dimulai sederhana, lalu berkembang bertahap sesuai kebutuhan klinik.",
+   "anim": "banding",
+   "param": {
+    "judul": "Bertahap sesuai kebutuhan",
+    "sorot": "bertahap",
+    "kiri": {
+     "judul": "Sekaligus lengkap",
+     "item": [
+      "Rumit di awal",
+      "Staf kewalahan"
+     ]
+    },
+    "kanan": {
+     "judul": "Bertahap",
+     "item": [
+      "Mulai dari inti",
+      "Tambah sesuai kebutuhan"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Aturan terbarunya tetap Anda cek di sumber resmi Kemenkes.",
+   "anim": "chip_niche",
+   "param": {
+    "judul": "Rujuk aturan resmi",
+    "sorot": "resmi",
+    "item": [
+     {
+      "ikon": "laporan",
+      "teks": "Aturan Kemenkes"
+     },
+     {
+      "ikon": "cek",
+      "teks": "Cek berkala"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Sesuai klinik"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan rekam medis klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {}
+  }
+ ]
+}

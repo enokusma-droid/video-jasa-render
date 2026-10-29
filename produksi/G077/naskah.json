@@ -1,0 +1,206 @@
+{
+ "hook_pola": "kontras",
+ "judul": "Implementasi Rekam Medis Elektronik: Mulai dari Alur Kerja",
+ "tag": [
+  "implementasi rekam medis elektronik",
+  "rekam medis elektronik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Implementasi rekam medis elektronik berjalan lebih mulus bila dimulai dari alur kerja klinik.",
+   "anim": "hook",
+   "param": {
+    "kicker": "MULAI DARI ALUR",
+    "baris": [
+     "Implementasi Rekam",
+     "Medis Elektronik"
+    ],
+    "sub": "Alur dulu, aplikasi kemudian",
+    "sorot_sub": "alur dulu",
+    "ikon": [
+     "klinik",
+     "aplikasi",
+     "laporan",
+     "cek"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik klinik yang ingin beralih dari kertas ke sistem digital.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda pemilik klinik",
+    "sorot": "pemilik klinik",
+    "chip": [
+     {
+      "ikon": "kertas",
+      "teks": "Kertas"
+     },
+     {
+      "ikon": "panah",
+      "teks": "Beralih"
+     },
+     {
+      "ikon": "aplikasi",
+      "teks": "Digital"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Selama ini pendaftaran di buku, rekam medis di map, dan tagihan di kalkulator.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Semua masih manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "buku",
+      "judul": "Buku pendaftaran",
+      "sub": "pasien"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Map pasien",
+      "sub": "rekam medis"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Kalkulator",
+      "sub": "tagihan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Kalau langsung memasang aplikasi, staf bingung dan alurnya tidak sesuai kebiasaan.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Langsung pasang aplikasi",
+    "sorot": "bingung",
+    "item": [
+     "Staf bingung",
+     "Alur tidak sesuai",
+     "Kembali ke kertas"
+    ]
+   }
+  },
+  {
+   "teks": "Hari-hari awal terasa lama karena staf belajar sambil melayani pasien.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Belajar sambil melayani",
+    "sorot": "belajar",
+    "sub": "Tanpa persiapan alur.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda berbicara dengan software house tentang peralihan bertahap.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Peralihan bertahap",
+    "sorot": "bertahap",
+    "kiri": "Langsung semua",
+    "kanan": "Bertahap"
+   }
+  },
+  {
+   "teks": "Bukan aplikasi yang memaksa alur baru, tapi sistem yang mengikuti alur klinik.",
+   "anim": "banding",
+   "param": {
+    "judul": "Mengikuti alur klinik",
+    "sorot": "alur klinik",
+    "kiri": {
+     "judul": "Aplikasi jadi",
+     "item": [
+      "Alur baru",
+      "Staf menyesuaikan"
+     ]
+    },
+    "kanan": {
+     "judul": "Sistem custom",
+     "item": [
+      "Alur klinik sendiri",
+      "Bertahap dipakai"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Pendaftaran, pemeriksaan, dan tagihan terlihat dalam satu dashboard.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "klinik",
+    "judul": "Semua di satu dashboard",
+    "sorot": "satu dashboard",
+    "label": "Ilustrasi sistem klinik"
+   }
+  },
+  {
+   "teks": "Kami sudah membangun aplikasi serupa, salah satunya DentalCare yang berjalan di klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "DentalCare, klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "soap",
+     "inv"
+    ]
+   }
+  },
+  {
+   "teks": "Hasilnya peralihan lebih tenang, data tertata, dan staf cepat terbiasa.",
+   "anim": "centang",
+   "param": {
+    "judul": "Peralihan lebih tenang",
+    "sorot": "tenang",
+    "label": "SETELAH PAKAI SISTEM",
+    "item": [
+     "Peralihan tenang",
+     "Data tertata",
+     "Staf terbiasa"
+    ]
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk klinik gigi, praktik dokter, dan klinik umum.",
+   "anim": "chip_niche",
+   "param": {
+    "judul": "Bisa disesuaikan",
+    "sorot": "disesuaikan",
+    "item": [
+     {
+      "ikon": "klinik",
+      "teks": "Klinik gigi"
+     },
+     {
+      "ikon": "user",
+      "teks": "Praktik dokter"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Klinik umum"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {}
+  }
+ ]
+}

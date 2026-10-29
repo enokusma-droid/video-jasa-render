@@ -1,0 +1,186 @@
+{
+ "hook_pola": "hati-hati",
+ "judul": "Sistem Informasi Pendaftaran Pasien Klinik: Hati-hati Memilih",
+ "tag": [
+  "sistem informasi pendaftaran pasien klinik",
+  "pendaftaran pasien klinik",
+  "aplikasi klinik",
+  "antrean pasien",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Hati-hati dengan sistem informasi pendaftaran pasien klinik yang hanya mencatat nama.",
+   "anim": "hook",
+   "param": {
+    "kicker": "HATI-HATI",
+    "baris": [
+     "Sistem Pendaftaran",
+     "Pasien Klinik"
+    ],
+    "sub": "Pendaftaran perlu terhubung ke antrean",
+    "sorot_sub": "terhubung",
+    "ikon": [
+     "peringatan",
+     "user",
+     "kalender",
+     "klinik"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda petugas pendaftaran di klinik yang ramai sejak pagi.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Pagi hari di klinik",
+    "sorot": "ramai",
+    "sub": "Petugas pendaftaran",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Pasien baru"
+     },
+     {
+      "ikon": "user",
+      "teks": "Pasien lama"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Antre"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pasien mengisi formulir kertas, dicatat di buku tamu, lalu diketik ulang.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Pendaftaran serba manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Formulir",
+      "sub": "diisi tangan"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Buku tamu",
+      "sub": "dicatat"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Ketik ulang",
+      "sub": "ke komputer"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Antrean tidak jelas, data diketik berulang, dan pasien lama sulit ditemukan.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Masalah di loket",
+    "sorot": "loket",
+    "item": [
+     "Antrean tidak jelas",
+     "Data diketik berulang",
+     "Pasien lama sulit ditemukan"
+    ]
+   }
+  },
+  {
+   "teks": "Waktu petugas habis mencari data, sementara pasien menunggu.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis mencari data",
+    "sorot": "mencari data",
+    "sub": "Pasien menunggu.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda berbicara dengan software house tentang pendaftaran yang terhubung ke antrean.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Pendaftaran terhubung",
+    "sorot": "terhubung",
+    "kiri": "Catatan terpisah",
+    "kanan": "Satu sistem"
+   }
+  },
+  {
+   "teks": "Pasien lama cukup dicari dengan nama, bukan mengisi formulir dari awal.",
+   "anim": "banding",
+   "param": {
+    "judul": "Pasien lama dicari",
+    "sorot": "dicari",
+    "kiri": {
+     "judul": "Cara manual",
+     "item": [
+      "Isi ulang formulir",
+      "Cari di map"
+     ]
+    },
+    "kanan": {
+     "judul": "Sistem pendaftaran",
+     "item": [
+      "Cari dengan nama",
+      "Data sudah tersimpan"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Pendaftaran, antrean, dan jadwal dokter terlihat dalam satu dashboard.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "klinik",
+    "judul": "Satu dashboard pendaftaran",
+    "sorot": "satu dashboard",
+    "label": "Ilustrasi sistem klinik"
+   }
+  },
+  {
+   "teks": "Kami sudah membangun DentalCare, aplikasi klinik gigi dengan data pasien dan rekam medis.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "DentalCare, klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "soap"
+    ]
+   }
+  },
+  {
+   "teks": "Hasilnya antrean jelas, data pasien rapi, dan loket lebih tenang.",
+   "anim": "centang",
+   "param": {
+    "judul": "Loket lebih tertata",
+    "sorot": "tertata",
+    "label": "SETELAH PAKAI SISTEM",
+    "item": [
+     "Antrean jelas",
+     "Data pasien rapi",
+     "Loket lebih tenang"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur pendaftaran klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {}
+  }
+ ]
+}

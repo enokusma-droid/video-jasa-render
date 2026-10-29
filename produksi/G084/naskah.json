@@ -1,0 +1,212 @@
+{
+ "meta": {
+  "judul": "Contoh Formulir Rekam Medis Elektronik: 3 Bagian Utama",
+  "ringkas": "kenali tiga bagian utama contoh formulir rekam medis elektronik: identitas pasien, catatan SOAP, tindakan dan resep, plus odontogram di aplikasi klinik gigi.",
+  "tag": [
+   "contoh formulir rekam medis elektronik",
+   "formulir rekam medis",
+   "rekam medis elektronik",
+   "rekam medis SOAP",
+   "aplikasi klinik gigi",
+   "dentalcare",
+   "nusawebsite"
+  ]
+ },
+ "hook_pola": "angka-spesifik",
+ "blok": [
+  {
+   "teks": "Ini tiga bagian utama contoh formulir rekam medis elektronik yang sebaiknya Anda kenali.",
+   "anim": "hook",
+   "param": {
+    "judul": "Tiga bagian *utama* formulir rekam medis.",
+    "sub": "Kenali sebelum membuat *formulir* digital."
+   }
+  },
+  {
+   "teks": "Formulir kertas ditulis tangan, menumpuk di map, dan tulisannya sulit dibaca.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Formulir kertas",
+    "judul": "Ditulis *tangan*, menumpuk.",
+    "kartu": [
+     {
+      "ikon": "kertas",
+      "judul": "Formulir kertas",
+      "ket": "Ditulis tangan"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Map pasien",
+      "ket": "Menumpuk"
+     },
+     {
+      "ikon": "pena",
+      "judul": "Tulisan",
+      "ket": "Sulit dibaca"
+     }
+    ],
+    "coret": "menumpuk"
+   }
+  },
+  {
+   "teks": "Akibatnya ada kolom terlewat dan riwayat pasien sulit dicari.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Kolom *terlewat*.",
+    "masalah": [
+     {
+      "ikon": "alert",
+      "teks": "Kolom terlewat"
+     },
+     {
+      "ikon": "cari",
+      "teks": "Riwayat sulit dicari"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Waktu terbuang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Sebagai contoh, ini DentalCare, aplikasi klinik gigi buatan kami.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Data pasien dalam satu tabel",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare",
+    "ikon": "klinik"
+   }
+  },
+  {
+   "teks": "Formulir elektronik yang rapi punya tiga bagian utama.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Isi formulir",
+    "label": "Bagian utama"
+   }
+  },
+  {
+   "teks": "Satu, identitas pasien, cukup diisi sekali.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Identitas pasien",
+    "ket": "Data pasien tersimpan",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Dua, catatan SOAP: keluhan, pemeriksaan, diagnosis, dan rencana perawatan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Catatan SOAP",
+    "ket": "Keluhan dan pemeriksaan",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Tiga, tindakan dan resep, lengkap dengan obat yang diberikan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "tindakan",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Tindakan dan resep",
+    "ket": "Tindakan dan obat",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Khusus klinik gigi, odontogram melengkapi formulir dengan peta kondisi gigi.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "odontogram",
+    "kicker": "Khusus klinik gigi",
+    "judul": "Odontogram",
+    "ket": "Peta kondisi gigi",
+    "fokus": [
+     50,
+     50
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Hasilnya formulir seragam, terisi lengkap, dan riwayat dicari dengan nama pasien.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Formulir kertas",
+     "item": [
+      "Beda bentuk",
+      "Sulit dibaca",
+      "Dicari manual"
+     ]
+    },
+    "kanan": {
+     "judul": "Formulir elektronik",
+     "item": [
+      "Bentuk seragam",
+      "Terisi lengkap",
+      "Dicari dengan nama"
+     ]
+    },
+    "pemicu": "seragam"
+   }
+  },
+  {
+   "teks": "Formulir bisa disesuaikan dengan klinik Anda, dan mockup disetujui lebih dulu.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikembangkan.",
+    "jadi": "disetujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Ceritakan formulir yang klinik Anda perlukan. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Contoh formulir rekam medis elektronik",
+    "judul": "Formulir sesuai *klinik Anda*.",
+    "sub": "Ceritakan formulir yang Anda perlukan.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

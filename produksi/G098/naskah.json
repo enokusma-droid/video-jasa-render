@@ -1,0 +1,186 @@
+{
+ "hook_pola": "tanda-bahaya",
+ "tag": [
+  "software untuk klinik",
+  "software klinik",
+  "aplikasi klinik",
+  "pembuatan software klinik",
+  "software house",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Kalau software untuk klinik tidak mengikuti alur kerja Anda, itu tanda bahaya.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "TANDA BAHAYA",
+    "sorot": "software untuk klinik",
+    "sub": "Software harus mengikuti alur klinik",
+    "kata_sub": "alur",
+    "judul_yt": "Software untuk Klinik: 5 Tahap Dari Alur Sampai Serah Terima"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan software jadi yang kaku. Alur harus menyesuaikan sistem, fitur tidak terpakai, dan staf kesulitan.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Software yang kaku.",
+    "item": [
+     "Alur menyesuaikan sistem",
+     "Fitur tidak terpakai",
+     "Staf kesulitan"
+    ],
+    "kata": [
+     "menyesuaikan",
+     "fitur",
+     "kesulitan"
+    ]
+   }
+  },
+  {
+   "teks": "Di Nusawebsite, alurnya lima tahap.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "TAHAP PEMBUATAN",
+    "tahap": [
+     "Konsultasi",
+     "Rancang alur",
+     "Mockup",
+     "Komunikasi",
+     "Serah terima"
+    ],
+    "rail": "TAHAP PEMBUATAN"
+   }
+  },
+  {
+   "teks": "Tahap satu, konsultasi. Kami catat alur klinik, peran staf, dan laporan yang dibutuhkan.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Konsultasi\nKlinik",
+    "desk": "Alur dan peran dicatat dulu.",
+    "visual": "catatan",
+    "label": "KEBUTUHAN KLINIK",
+    "item": [
+     "Alur klinik",
+     "Peran staf",
+     "Laporan"
+    ],
+    "kata": [
+     "alur",
+     "peran",
+     "laporan"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap dua, rancang alur. Pasien, rekam medis, dan kasir dibuat dulu, laporan lanjutan menyusul.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Rancang\nAlur Inti",
+    "desk": "Fitur inti dulu, lainnya menyusul.",
+    "visual": "alur",
+    "alur": [
+     "Pasien",
+     "Rekam",
+     "Kasir"
+    ],
+    "on": [
+     "Data pasien",
+     "Rekam medis",
+     "Kasir"
+    ],
+    "kata": [
+     "pasien",
+     "rekam",
+     "kasir"
+    ],
+    "off": [
+     "Laporan lanjutan",
+     "Integrasi"
+    ],
+    "catatan": "Fitur inti dulu"
+   }
+  },
+  {
+   "teks": "Tahap tiga, mockup. Setiap layar Anda setujui sebelum kode ditulis.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Mockup\nTampilan",
+    "desk": "Setiap layar disetujui sebelum koding.",
+    "visual": "wireframe",
+    "mode": "app",
+    "stempel": "DISETUJUI",
+    "kata_stempel": "setujui"
+   }
+  },
+  {
+   "teks": "Tahap empat, komunikasi. Kami melapor tiap tahap lewat grup chat, jadi Anda selalu tahu progresnya.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Komunikasi\nRutin",
+    "desk": "Progres dilaporkan tiap tahap.",
+    "visual": "chat",
+    "label": "GRUP PROYEK",
+    "item": [
+     "Mockup siap ditinjau",
+     "Disetujui, lanjutkan",
+     "Fitur inti selesai diuji"
+    ],
+    "kata": [
+     "melapor",
+     "grup",
+     "progresnya"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap lima, serah terima. Kode, akun, dan data menjadi milik klinik Anda.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Serah\nTerima",
+    "desk": "Kode, akun, dan data milik klinik.",
+    "visual": "serah",
+    "label": "SERAH TERIMA",
+    "item": [
+     "Kode sumber",
+     "Akun admin",
+     "Data klinik"
+    ],
+    "kata": [
+     "kode",
+     "akun",
+     "data"
+    ]
+   }
+  },
+  {
+   "teks": "Contohnya DentalCare, software klinik gigi buatan kami, dengan rekam medis dan invoice.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "DentalCare, rekam medis dan invoice",
+    "klip": [
+     "soap",
+     "invoice"
+    ]
+   }
+  },
+  {
+   "teks": "Ingin software yang sesuai klinik Anda? Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur klinik Anda",
+    "kata_link": "link",
+    "mini": [
+     "Konsultasi",
+     "Rancang alur",
+     "Mockup",
+     "Komunikasi",
+     "Serah terima"
+    ]
+   }
+  }
+ ]
+}

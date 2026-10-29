@@ -1,0 +1,140 @@
+{
+ "hook_pola": "kesalahan-umum",
+ "judul": "Aplikasi Klinik Bidan: Kesalahan Paling Sering Saat Memilih",
+ "tag": [
+  "aplikasi klinik bidan",
+  "aplikasi bidan",
+  "aplikasi klinik",
+  "sistem klinik bidan",
+  "software house",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Kesalahan paling sering saat memilih aplikasi klinik bidan: dipilih sebelum layanannya dicatat.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Aplikasi klinik bidan: catat layanan dulu",
+    "sorot": "catat layanan dulu",
+    "ikon": "stop",
+    "kicker": "KESALAHAN UMUM"
+   }
+  },
+  {
+   "teks": "Layanan bidan sering berupa kunjungan berulang yang perlu dipantau.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Kunjungan berulang perlu dipantau",
+    "sorot": "dipantau",
+    "ikon": "kalender",
+    "kicker": "KEBUTUHAN KHAS"
+   }
+  },
+  {
+   "teks": "Pertama, jenis layanan dicatat jelas.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Jenis layanan dicatat jelas",
+    "sorot": "layanan"
+   }
+  },
+  {
+   "teks": "Misalnya pemeriksaan kehamilan, imunisasi, dan layanan KB.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Layanan yang dicatat",
+    "item": [
+     {
+      "ikon": "klinik",
+      "label": "Pemeriksaan kehamilan"
+     },
+     {
+      "ikon": "perisai",
+      "label": "Imunisasi"
+     },
+     {
+      "ikon": "kalender",
+      "label": "Layanan KB"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Kedua, riwayat tiap kunjungan mudah dibuka.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Riwayat tiap kunjungan",
+    "sorot": "riwayat"
+   }
+  },
+  {
+   "teks": "Sebagai gambaran cara kerja kami, ini daftar pasien di DentalCare, aplikasi klinik gigi buatan kami.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": "pasien",
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Ketiga, jadwal kontrol dan pengingat.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Jadwal kontrol dan pengingat",
+    "sorot": "pengingat"
+   }
+  },
+  {
+   "teks": "Jadwal kontrol dicatat, lalu pengingat bisa dirancang sebelum pasien datang.",
+   "anim": "alur",
+   "param": {
+    "judul": "Jadwal kontrol terpantau",
+    "langkah": [
+     "Catat jadwal",
+     "Pengingat",
+     "Kunjungan kontrol"
+    ],
+    "ikon": [
+     "kalender",
+     "wa",
+     "klinik"
+    ]
+   }
+  },
+  {
+   "teks": "Keempat, laporan layanan yang rapi.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Laporan layanan rapi",
+    "sorot": "laporan"
+   }
+  },
+  {
+   "teks": "Laporan layanan tersaji dalam dasbor, jadi tidak perlu lagi dihitung manual setiap akhir bulan.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": "dash",
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Layanan jelas, riwayat mudah dibuka, kontrol terjadwal, dan laporan rapi.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Pilih dari kebutuhan layanan",
+    "item": [
+     "Layanan jelas",
+     "Riwayat mudah dibuka",
+     "Kontrol terjadwal",
+     "Laporan rapi"
+    ]
+   }
+  },
+  {
+   "teks": "Untuk klinik bidan, kami rancang sistem sesuai layanan Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Rancang sesuai layanan klinik bidan Anda"
+   }
+  }
+ ]
+}

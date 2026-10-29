@@ -1,0 +1,170 @@
+{
+ "meta": {
+  "judul": "Peran Rekam Medis Elektronik: Bukan Sekadar Ganti Kertas",
+  "ringkas": "pahami tiga peran rekam medis elektronik: mencatat pelayanan, menjaga kesinambungan perawatan, dan bahan evaluasi, dengan contoh DentalCare.",
+  "tag": [
+   "peran rekam medis elektronik",
+   "rekam medis elektronik",
+   "fungsi rekam medis",
+   "aplikasi rekam medis klinik",
+   "aplikasi klinik gigi",
+   "dentalcare",
+   "nusawebsite"
+  ]
+ },
+ "hook_pola": "mitos",
+ "blok": [
+  {
+   "teks": "Anggapan bahwa peran rekam medis elektronik hanya mengganti kertas itu keliru.",
+   "anim": "hook",
+   "param": {
+    "judul": "Peran *rekam medis elektronik* lebih dari ganti kertas.",
+    "sub": "Ada tiga peran *utama*."
+   }
+  },
+  {
+   "teks": "Rekam medis sering dianggap berkas administrasi yang disimpan lalu dilupakan.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Anggapan lama",
+    "judul": "Disimpan, lalu *dilupakan*.",
+    "kartu": [
+     {
+      "ikon": "kertas",
+      "judul": "Berkas arsip",
+      "ket": "Disimpan saja"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Map di lemari",
+      "ket": "Jarang dibuka"
+     },
+     {
+      "ikon": "jam",
+      "judul": "Menumpuk",
+      "ket": "Makin banyak"
+     }
+    ],
+    "coret": "dilupakan"
+   }
+  },
+  {
+   "teks": "Padahal perannya ada tiga yang utama.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Peran utama",
+    "label": "Peran rekam medis"
+   }
+  },
+  {
+   "teks": "Satu, mencatat pelayanan. Di DentalCare, aplikasi klinik gigi buatan kami, keluhan dan pemeriksaan tercatat di layar.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Mencatat pelayanan",
+    "ket": "Keluhan dan pemeriksaan",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Dua, menjaga kesinambungan perawatan, karena riwayat pasien mudah dibuka dokter berikutnya.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Riwayat pasien",
+    "ket": "Data mudah dicari",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Tiga, jadi bahan evaluasi, sebab data yang tercatat bisa dilihat sebagai laporan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Bahan evaluasi",
+    "ket": "Laporan dan tren",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Dengan sistem yang tepat, rekam medis menjadi alat kerja, bukan sekadar arsip.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Sekadar arsip",
+     "item": [
+      "Disimpan saja",
+      "Jarang dibuka",
+      "Sulit dipelajari"
+     ]
+    },
+    "kanan": {
+     "judul": "Alat kerja",
+     "item": [
+      "Dibuka saat perawatan",
+      "Riwayat jelas",
+      "Jadi bahan evaluasi"
+     ]
+    },
+    "pemicu": "alat"
+   }
+  },
+  {
+   "teks": "Agar perannya berjalan, pastikan data lengkap, akses dibatasi, dan cadangan tersedia.",
+   "anim": "daftar-centang",
+   "param": {
+    "kicker": "Agar berjalan",
+    "judul": "Pastikan *tiga hal*",
+    "item": [
+     "Data terisi lengkap",
+     "Akses dibatasi",
+     "Cadangan tersedia"
+    ]
+   }
+  },
+  {
+   "teks": "Kami bisa merancang sistem sesuai alur klinik, lengkap dengan mockup yang Anda setujui.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikembangkan.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Peran rekam medis elektronik",
+    "judul": "Jadikan rekam medis *alat kerja*.",
+    "sub": "Ceritakan alur klinik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

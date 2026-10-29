@@ -1,0 +1,173 @@
+{
+ "hook_pola": "jangan-sebelum",
+ "judul": "Keamanan Rekam Medis Elektronik: Cek 4 Hal Ini Dulu",
+ "tag": [
+  "keamanan rekam medis elektronik",
+  "keamanan data pasien",
+  "rekam medis elektronik",
+  "aplikasi rekam medis klinik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Jangan abaikan keamanan rekam medis elektronik sebelum Anda mengecek empat hal ini.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Keamanan rekam medis elektronik: cek 4 hal ini",
+    "sorot": "cek 4 hal",
+    "ikon": "peringatan",
+    "kicker": "CEK DULU"
+   }
+  },
+  {
+   "teks": "Waspadai tanda bahaya: sandi dipakai bersama, semua staf melihat semua data, dan cadangan tidak ada.",
+   "anim": "red-flag",
+   "param": {
+    "judul": "Tanda bahaya keamanan",
+    "item": [
+     "Sandi dipakai bersama",
+     "Semua melihat semua data",
+     "Cadangan tidak ada"
+    ],
+    "kicker": "WASPADAI"
+   }
+  },
+  {
+   "teks": "Pertama, hak akses sesuai peran.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Hak akses sesuai peran",
+    "sorot": "peran"
+   }
+  },
+  {
+   "teks": "Dokter, petugas pendaftaran, dan kasir hanya membuka bagian yang sesuai tugasnya.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Akses sesuai tugas",
+    "item": [
+     {
+      "ikon": "orang",
+      "label": "Dokter"
+     },
+     {
+      "ikon": "orang",
+      "label": "Pendaftaran"
+     },
+     {
+      "ikon": "orang",
+      "label": "Kasir"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Kedua, akun sendiri untuk tiap petugas.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Akun sendiri tiap petugas",
+    "sorot": "sendiri"
+   }
+  },
+  {
+   "teks": "Satu petugas, satu akun, supaya jelas siapa mengisi apa.",
+   "anim": "centang-besar",
+   "param": {
+    "teks": "Satu petugas, satu akun",
+    "sorot": "satu akun",
+    "sub": "Bukan sandi bersama"
+   }
+  },
+  {
+   "teks": "Ketiga, cadangan data berkala.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Cadangan data berkala",
+    "sorot": "cadangan"
+   }
+  },
+  {
+   "teks": "Data disalin berkala, disimpan terpisah, lalu diuji supaya bisa dipulihkan.",
+   "anim": "alur",
+   "param": {
+    "judul": "Cadangan yang bisa dipulihkan",
+    "langkah": [
+     "Salin berkala",
+     "Simpan terpisah",
+     "Uji pemulihan"
+    ],
+    "ikon": [
+     "data",
+     "kunci",
+     "cek"
+    ]
+   }
+  },
+  {
+   "teks": "Keempat, jejak perubahan tercatat.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Jejak perubahan tercatat",
+    "sorot": "jejak"
+   }
+  },
+  {
+   "teks": "Sistem yang kami rancang bisa mencatat siapa yang mengubah catatan dan kapan.",
+   "anim": "papan-progres",
+   "param": {
+    "judul": "Siapa mengubah, kapan",
+    "kolom": [
+     {
+      "judul": "Perubahan",
+      "item": [
+       "Isi catatan"
+      ]
+     },
+     {
+      "judul": "Pelaku",
+      "item": [
+       "Nama petugas"
+      ]
+     },
+     {
+      "judul": "Waktu",
+      "item": [
+       "Tanggal dan jam"
+      ]
+     }
+    ],
+    "persen": 1
+   }
+  },
+  {
+   "teks": "Contohnya DentalCare, aplikasi klinik gigi buatan kami, yang menyimpan rekam medis dalam satu sistem.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": "soap",
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Akses, akun, cadangan, dan jejak: keempatnya perlu siap sebelum data pasien disimpan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist keamanan",
+    "item": [
+     "Akses sesuai peran",
+     "Akun sendiri",
+     "Cadangan berkala",
+     "Jejak perubahan"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan keamanan klinik Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan keamanan klinik Anda"
+   }
+  }
+ ]
+}

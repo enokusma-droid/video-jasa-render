@@ -1,0 +1,183 @@
+{
+ "tag": [
+  "alur rekam medis elektronik",
+  "rekam medis elektronik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "hook_pola": "kesalahan-umum",
+ "blok": [
+  {
+   "teks": "Alur rekam medis elektronik yang rapi punya lima tahap. Salah urutan, staf kembali ke kertas.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "URUTAN MENENTUKAN",
+    "sorot": "rekam medis elektronik",
+    "sub": "Lima tahap dari daftar sampai tagihan",
+    "kata_sub": "lima",
+    "judul_yt": "Alur Rekam Medis Elektronik: 5 Tahap dari Daftar sampai Tagihan"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan alur yang melompat. Pasien belum terdaftar, catatan terlewat, dan tagihan salah.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Alur yang tidak berurutan.",
+    "item": [
+     "Pasien belum terdaftar",
+     "Catatan terlewat",
+     "Tagihan salah"
+    ],
+    "kata": [
+     "terdaftar",
+     "catatan",
+     "tagihan"
+    ]
+   }
+  },
+  {
+   "teks": "Alur umumnya terdiri dari lima tahap.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "ALUR REKAM MEDIS",
+    "tahap": [
+     "Daftar",
+     "Antrean",
+     "Periksa",
+     "Tindakan",
+     "Tagihan"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap satu, daftar. Pasien baru dicatat, pasien lama dicari, dan datanya dibuat lengkap.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Daftar\nPasien",
+    "desk": "Baru dicatat, lama dicari.",
+    "visual": "catatan",
+    "label": "PENDAFTARAN",
+    "item": [
+     "Pasien baru dicatat",
+     "Pasien lama dicari",
+     "Data lengkap"
+    ],
+    "kata": [
+     "baru",
+     "lama",
+     "lengkap"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap dua, antrean. Pasien dipanggil sesuai urutan sehingga ruang tunggu lebih tertib.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Antrean\nPasien",
+    "desk": "Dipanggil sesuai urutan.",
+    "visual": "ui",
+    "klip": [
+     "antrean"
+    ],
+    "item": [
+     "Sesuai urutan",
+     "Ruang tunggu tertib"
+    ],
+    "kata": [
+     "urutan",
+     "tertib"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap tiga, periksa. Dokter mengisi catatan SOAP dan menandai kondisi gigi di odontogram.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Periksa\nPasien",
+    "desk": "SOAP dan odontogram.",
+    "visual": "ui",
+    "klip": [
+     "soap",
+     "odon"
+    ],
+    "item": [
+     "Catatan SOAP",
+     "Peta gigi"
+    ],
+    "kata": [
+     "soap",
+     "odontogram"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap empat, tindakan. Tindakan dan resep dicatat dari hasil pemeriksaan yang sama.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Tindakan\ndan Resep",
+    "desk": "Dari pemeriksaan yang sama.",
+    "visual": "ui",
+    "klip": [
+     "resep"
+    ],
+    "item": [
+     "Tindakan",
+     "Resep"
+    ],
+    "kata": [
+     "tindakan",
+     "resep"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap lima, tagihan. Invoice terbit dari tindakan yang sudah dicatat, lalu siap dicetak.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Tagihan\nPasien",
+    "desk": "Terbit dari tindakan.",
+    "visual": "ui",
+    "klip": [
+     "invoice"
+    ],
+    "item": [
+     "Invoice terbit",
+     "Siap dicetak"
+    ],
+    "kata": [
+     "invoice",
+     "dicetak"
+    ]
+   }
+  },
+  {
+   "teks": "Semua tahap ini bisa berjalan dalam satu aplikasi, dengan data pasien yang sama dari awal sampai tagihan.",
+   "anim": "footage",
+   "param": {
+    "klip": [
+     "dash",
+     "pasien"
+    ],
+    "label": "DentalCare",
+    "caption": "Contoh aplikasi klinik gigi buatan kami"
+   }
+  },
+  {
+   "teks": "Contohnya DentalCare, aplikasi klinik gigi buatan kami. Ceritakan alur Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur klinik Anda",
+    "kata_link": "link",
+    "mini": [
+     "Daftar",
+     "Antrean",
+     "Periksa",
+     "Tindakan",
+     "Tagihan"
+    ]
+   }
+  }
+ ]
+}

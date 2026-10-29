@@ -1,0 +1,168 @@
+{
+ "hook_pola": "angka-spesifik",
+ "judul": "Fitur Rekam Medis Elektronik: Cek 4 Fitur Ini",
+ "tag": [
+  "fitur rekam medis elektronik",
+  "rekam medis elektronik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Cek empat fitur rekam medis elektronik ini sebelum Anda memilih sistem.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Cek 4 fitur rekam medis elektronik ini",
+    "sorot": "4 fitur",
+    "ikon": "peringatan",
+    "kicker": "CEK DULU"
+   }
+  },
+  {
+   "teks": "Fitur yang banyak belum tentu terpakai, jadi pilih yang sesuai alur klinik Anda.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Pilih fitur sesuai alur klinik",
+    "sorot": "sesuai alur",
+    "ikon": "dokumen",
+    "kicker": "PRIORITASNYA"
+   }
+  },
+  {
+   "teks": "Pertama, data pasien.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Data pasien",
+    "sorot": "pasien"
+   }
+  },
+  {
+   "teks": "Identitas dan riwayat kunjungan tersimpan dalam tabel yang mudah dicari.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "pasien"
+    ],
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Kedua, catatan pemeriksaan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Catatan pemeriksaan",
+    "sorot": "pemeriksaan"
+   }
+  },
+  {
+   "teks": "Dokter mengisi catatan SOAP langsung di sistem, tanpa menyalin dari kertas.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "soap"
+    ],
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Ketiga, peta gigi.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Peta gigi",
+    "sorot": "peta"
+   }
+  },
+  {
+   "teks": "Kondisi gigi ditandai di odontogram digital, seperti di DentalCare buatan kami.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "odon"
+    ],
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Keempat, tagihan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Tagihan",
+    "sorot": "tagihan"
+   }
+  },
+  {
+   "teks": "Invoice terbit dari tindakan yang sudah dicatat dan siap dicetak.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "inv"
+    ],
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk klinik gigi, praktik dokter, dan klinik umum.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Bisa disesuaikan",
+    "item": [
+     {
+      "ikon": "klinik",
+      "label": "Klinik gigi"
+     },
+     {
+      "ikon": "orang",
+      "label": "Praktik dokter"
+     },
+     {
+      "ikon": "klinik",
+      "label": "Klinik umum"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Dengan begitu, pencatatan klinik lebih rapi dan mudah dilacak.",
+   "anim": "centang-besar",
+   "param": {
+    "teks": "Pencatatan lebih rapi",
+    "sorot": "rapi",
+    "sub": "Dan mudah dilacak"
+   }
+  },
+  {
+   "teks": "Cara kerjanya sederhana: konsultasi, mockup disetujui, pengembangan, lalu rilis.",
+   "anim": "alur",
+   "param": {
+    "judul": "Cara kerja Nusawebsite",
+    "langkah": [
+     "Konsultasi",
+     "Mockup",
+     "Develop",
+     "Rilis"
+    ]
+   }
+  },
+  {
+   "teks": "Jadi cek data pasien, catatan pemeriksaan, peta gigi, dan tagihan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist fitur rekam medis",
+    "item": [
+     "Data pasien",
+     "Catatan pemeriksaan",
+     "Peta gigi",
+     "Tagihan"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan klinik Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Pilih fitur yang sesuai klinik Anda"
+   }
+  }
+ ]
+}

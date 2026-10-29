@@ -1,0 +1,119 @@
+{
+ "hook_pola": "definisi",
+ "judul": "Sistem Informasi Klinik Adalah: Pengertian dan 4 Komponennya",
+ "tag": [
+  "sistem informasi klinik adalah",
+  "pengertian sistem informasi klinik",
+  "sistem informasi klinik",
+  "aplikasi klinik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Sistem informasi klinik adalah sistem yang menyatukan data pasien, layanan, dan laporan.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Sistem informasi klinik adalah",
+    "sorot": "menyatukan",
+    "ikon": "bintang",
+    "kicker": "PENGERTIAN"
+   }
+  },
+  {
+   "teks": "Tanpa sistem, data pasien tersebar di buku, map, dan file yang berbeda-beda, sehingga sulit dicari.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Data tersebar di banyak tempat",
+    "sorot": "tersebar",
+    "ikon": "dokumen",
+    "kicker": "KENAPA PERLU"
+   }
+  },
+  {
+   "teks": "Komponen pertama, pendaftaran dan antrean.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Pendaftaran dan antrean",
+    "sorot": "antrean"
+   }
+  },
+  {
+   "teks": "Data pasien dicatat sekali, lalu antrean tersusun, seperti di DentalCare, aplikasi klinik gigi buatan kami.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": "antrean",
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Komponen kedua, rekam medis.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Rekam medis",
+    "sorot": "rekam"
+   }
+  },
+  {
+   "teks": "Keluhan, pemeriksaan, dan diagnosis tersimpan sebagai riwayat pasien yang mudah dibuka kembali.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": "soap",
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Komponen ketiga, pembayaran.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Pembayaran",
+    "sorot": "pembayaran"
+   }
+  },
+  {
+   "teks": "Invoice dibuat untuk setiap pasien dan transaksi tercatat rapi.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": "inv",
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Komponen keempat, laporan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Laporan",
+    "sorot": "laporan"
+   }
+  },
+  {
+   "teks": "Pemilik klinik membaca data kunjungan dan pendapatan lewat dasbor.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": "dash",
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Pendaftaran, rekam medis, pembayaran, dan laporan: itulah isi sistem informasi klinik yang saling terhubung.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Empat komponen",
+    "item": [
+     "Pendaftaran dan antrean",
+     "Rekam medis",
+     "Pembayaran",
+     "Laporan"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan klinik Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan klinik Anda"
+   }
+  }
+ ]
+}

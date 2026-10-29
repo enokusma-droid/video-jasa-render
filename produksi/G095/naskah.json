@@ -1,0 +1,119 @@
+{
+ "hook_pola": "berhenti",
+ "judul": "Aplikasi Klinik Pratama: 4 Bagian yang Perlu Menyatu",
+ "tag": [
+  "aplikasi klinik pratama",
+  "sistem informasi klinik pratama",
+  "aplikasi klinik",
+  "aplikasi klinik gigi",
+  "software house",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Berhenti mengelola klinik dengan catatan terpisah, aplikasi klinik pratama bisa menyatukannya.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Berhenti catat terpisah: aplikasi klinik pratama",
+    "sorot": "catat terpisah",
+    "ikon": "silang",
+    "kicker": "BERHENTI"
+   }
+  },
+  {
+   "teks": "Klinik pratama melayani banyak pasien rawat jalan, jadi catatan yang terpisah cepat merepotkan.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Catatan terpisah cepat merepotkan",
+    "sorot": "merepotkan",
+    "ikon": "klinik",
+    "kicker": "MASALAH UMUM"
+   }
+  },
+  {
+   "teks": "Pertama, pendaftaran dan antrean.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Pendaftaran dan antrean",
+    "sorot": "antrean"
+   }
+  },
+  {
+   "teks": "Pasien terdaftar, lalu staf memanggilnya sesuai urutan, seperti di antrean DentalCare.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": "antrean",
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Kedua, rekam medis pasien.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Rekam medis pasien",
+    "sorot": "rekam medis"
+   }
+  },
+  {
+   "teks": "Keluhan dan pemeriksaan tercatat di layar, jadi dokter berikutnya bisa melihat riwayatnya.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": "soap",
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Ketiga, invoice dan pembayaran.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Invoice dan pembayaran",
+    "sorot": "invoice"
+   }
+  },
+  {
+   "teks": "Invoice dibuat rapi untuk setiap pasien, dan transaksi harian tercatat dengan jelas.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": "inv",
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Keempat, laporan untuk pengelola.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Laporan untuk pengelola",
+    "sorot": "pengelola"
+   }
+  },
+  {
+   "teks": "Dasbor menampilkan kunjungan dan pendapatan, jadi pengelola melihat gambaran klinik.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": "dash",
+    "perangkat": "keduanya"
+   }
+  },
+  {
+   "teks": "Antrean, rekam medis, invoice, dan laporan menyatu dalam satu aplikasi, jadi catatan tidak lagi terpisah.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Satu aplikasi klinik",
+    "item": [
+     "Antrean",
+     "Rekam medis",
+     "Invoice",
+     "Laporan"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik pratama Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur klinik pratama Anda"
+   }
+  }
+ ]
+}

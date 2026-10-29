@@ -1,0 +1,172 @@
+{
+ "hook_pola": "rahasia-di-balik",
+ "tag": [
+  "dfd sistem informasi klinik",
+  "data flow diagram klinik",
+  "diagram alur data",
+  "sistem informasi klinik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Ini langkah yang jarang dijelaskan sebelum menggambar dfd sistem informasi klinik. Diagram yang benar mempermudah pembuatan aplikasi.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "JARANG DIJELASKAN",
+    "sorot": "sistem informasi klinik",
+    "sub": "4 langkah menggambar diagram alur data",
+    "kata_sub": "langkah",
+    "judul_yt": "DFD Sistem Informasi Klinik: 4 Langkah Menggambarnya"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan diagram yang asal gambar. Pihak luar tertukar, alur data hilang, dan pengembang salah paham.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Diagram asal gambar.",
+    "item": [
+     "Pihak luar tertukar",
+     "Alur data hilang",
+     "Pengembang salah paham"
+    ],
+    "kata": [
+     "tertukar",
+     "hilang",
+     "salah"
+    ]
+   }
+  },
+  {
+   "teks": "Langkahnya ada empat.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "EMPAT LANGKAH",
+    "tahap": [
+     "Entitas",
+     "Konteks",
+     "Proses",
+     "Penyimpanan"
+    ],
+    "rail": "EMPAT LANGKAH"
+   }
+  },
+  {
+   "teks": "Tahap satu, entitas. Tentukan pihak di luar sistem: pasien, dokter, dan kasir.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Tentukan\nEntitas",
+    "desk": "Pihak di luar sistem klinik.",
+    "visual": "catatan",
+    "label": "ENTITAS LUAR",
+    "item": [
+     "Pasien",
+     "Dokter",
+     "Kasir"
+    ],
+    "kata": [
+     "pasien",
+     "dokter",
+     "kasir"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap dua, diagram konteks. Sistem klinik digambar sebagai satu proses yang menerima data pendaftaran dan mengirim hasil pemeriksaan.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Diagram\nKonteks",
+    "desk": "Satu proses, semua entitas terhubung.",
+    "visual": "alur",
+    "alur": [
+     "Pasien",
+     "Sistem",
+     "Dokter"
+    ],
+    "on": [
+     "Satu proses",
+     "Data pendaftaran",
+     "Hasil pemeriksaan"
+    ],
+    "kata": [
+     "proses",
+     "pendaftaran",
+     "pemeriksaan"
+    ],
+    "off": [
+     "Detail proses"
+    ],
+    "catatan": "Gambaran besar dulu"
+   }
+  },
+  {
+   "teks": "Tahap tiga, pecah proses. Sistem dipecah menjadi pendaftaran, pemeriksaan, dan pembayaran.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Pecah\nProses",
+    "desk": "Rincian di level berikutnya.",
+    "visual": "catatan",
+    "label": "PROSES UTAMA",
+    "item": [
+     "Pendaftaran",
+     "Pemeriksaan",
+     "Pembayaran"
+    ],
+    "kata": [
+     "pendaftaran",
+     "pemeriksaan",
+     "pembayaran"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap empat, penyimpanan data. Tiap proses menyimpan ke data pasien, rekam medis, dan transaksi.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Penyimpanan\nData",
+    "desk": "Tempat data tersimpan.",
+    "visual": "catatan",
+    "label": "PENYIMPANAN",
+    "item": [
+     "Data pasien",
+     "Rekam medis",
+     "Transaksi"
+    ],
+    "kata": [
+     "pasien",
+     "rekam",
+     "transaksi"
+    ]
+   }
+  },
+  {
+   "teks": "Hasilnya diagram yang bisa jadi dasar aplikasi, seperti DentalCare, aplikasi klinik gigi buatan kami.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "DentalCare, dari antrean sampai invoice",
+    "klip": [
+     "antrean",
+     "soap",
+     "invoice"
+    ]
+   }
+  },
+  {
+   "teks": "Butuh sistem klinik dari diagram Anda? Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan sistem klinik Anda",
+    "kata_link": "link",
+    "mini": [
+     "Entitas",
+     "Konteks",
+     "Proses",
+     "Penyimpanan"
+    ]
+   }
+  }
+ ]
+}

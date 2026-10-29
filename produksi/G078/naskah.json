@@ -1,0 +1,169 @@
+{
+ "tag": [
+  "persiapan rekam medis elektronik",
+  "rekam medis elektronik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "hook_pola": "pelajari-sebelum",
+ "blok": [
+  {
+   "teks": "Pelajari empat persiapan rekam medis elektronik ini sebelum klinik Anda beralih. Persiapan yang rapi membuat peralihan lebih tenang.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "SEBELUM BERALIH",
+    "sorot": "rekam medis elektronik",
+    "sub": "Empat persiapan sebelum beralih",
+    "kata_sub": "empat",
+    "judul_yt": "Persiapan Rekam Medis Elektronik: 4 Hal Sebelum Beralih"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan peralihan mendadak. Staf belum siap, data lama tercecer, dan pasien menunggu lebih lama.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Peralihan tanpa persiapan.",
+    "item": [
+     "Staf belum siap",
+     "Data lama tercecer",
+     "Pasien menunggu lama"
+    ],
+    "kata": [
+     "staf",
+     "data",
+     "pasien"
+    ]
+   }
+  },
+  {
+   "teks": "Persiapannya terdiri dari empat tahap.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "TAHAP PERSIAPAN",
+    "tahap": [
+     "Petakan alur",
+     "Rapikan data",
+     "Latih staf",
+     "Uji coba"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap satu, petakan alur. Catat siapa mengerjakan apa, mulai dari pendaftaran sampai tagihan.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Petakan\nAlur",
+    "desk": "Alur nyata klinik dulu.",
+    "visual": "alur",
+    "alur": [
+     "Daftar",
+     "Periksa",
+     "Tagih"
+    ],
+    "on": [
+     "Pendaftaran",
+     "Pemeriksaan",
+     "Tagihan"
+    ],
+    "kata": [
+     "pendaftaran",
+     "pemeriksaan",
+     "tagihan"
+    ],
+    "off": [
+     "Laporan tambahan"
+    ],
+    "catatan": "Alur nyata dulu"
+   }
+  },
+  {
+   "teks": "Tahap dua, rapikan data. Kumpulkan data pasien lama, periksa kelengkapannya, dan siapkan untuk dipindahkan.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Rapikan\nData",
+    "desk": "Data lama disiapkan.",
+    "visual": "catatan",
+    "label": "DATA LAMA",
+    "item": [
+     "Kumpulkan data pasien",
+     "Periksa kelengkapan",
+     "Siapkan dipindahkan"
+    ],
+    "kata": [
+     "kumpulkan",
+     "periksa",
+     "siapkan"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap tiga, latih staf. Dokter dan admin mencoba sistem bersama dengan data contoh.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Latih\nStaf",
+    "desk": "Dicoba bersama.",
+    "visual": "serah",
+    "label": "LATIHAN STAF",
+    "item": [
+     "Dokter mencoba",
+     "Admin mencoba",
+     "Pakai data contoh"
+    ],
+    "kata": [
+     "dokter",
+     "admin",
+     "contoh"
+    ]
+   }
+  },
+  {
+   "teks": "Tahap empat, uji coba. Jalankan di beberapa pasien lebih dulu, lalu perbaiki yang kurang pas.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Uji\nCoba",
+    "desk": "Beberapa pasien dulu.",
+    "visual": "ui",
+    "klip": [
+     "pasien"
+    ],
+    "item": [
+     "Dicoba beberapa pasien",
+     "Diperbaiki bertahap"
+    ],
+    "kata": [
+     "jalankan",
+     "perbaiki"
+    ]
+   }
+  },
+  {
+   "teks": "Contohnya DentalCare, aplikasi klinik gigi buatan kami dengan alur dari pendaftaran sampai tagihan. Datanya tersimpan di satu sistem, sehingga mudah dicari dan dibandingkan.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "DentalCare, alur klinik gigi",
+    "klip": [
+     "antrean",
+     "soap"
+    ]
+   }
+  },
+  {
+   "teks": "Butuh pendampingan menyiapkan sistem klinik Anda? Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur klinik Anda",
+    "kata_link": "link",
+    "mini": [
+     "Petakan alur",
+     "Rapikan data",
+     "Latih staf",
+     "Uji coba"
+    ]
+   }
+  }
+ ],
+ "tema": "brutal"
+}

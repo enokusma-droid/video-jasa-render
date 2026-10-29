@@ -1,0 +1,163 @@
+{
+ "hook_pola": "rahasia-di-balik",
+ "judul": "Gambar Odontogram: Yang Jarang Dijelaskan Sebelum Mengisi",
+ "tag": [
+  "gambar odontogram",
+  "odontogram",
+  "odontogram digital",
+  "rekam medis gigi",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Ini yang jarang dijelaskan tentang gambar odontogram sebelum Anda mulai mengisinya.",
+   "anim": "hook",
+   "param": {
+    "kicker": "JARANG DIJELASKAN",
+    "baris": [
+     "Gambar",
+     "Odontogram"
+    ],
+    "sub": "Bagan kondisi gigi pasien",
+    "sorot_sub": "kondisi gigi",
+    "ikon": [
+     "klinik",
+     "kertas",
+     "cek",
+     "laporan"
+    ]
+   }
+  },
+  {
+   "teks": "Odontogram adalah bagan gigi pasien, tempat dokter menandai kondisi tiap gigi, baik gigi dewasa maupun gigi anak.",
+   "anim": "kutipan",
+   "param": {
+    "teks": "Odontogram: bagan gigi pasien untuk menandai kondisi tiap gigi.",
+    "sorot": "bagan gigi"
+   }
+  },
+  {
+   "teks": "Bayangkan Anda dokter gigi yang mengisi odontogram di sela pasien yang antre.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Dokter gigi mengisi odontogram",
+    "sorot": "odontogram",
+    "sub": "Di sela pasien yang antre",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter gigi"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Waktu terbatas"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Odontogram digambar tangan di formulir cetak yang lama-lama menumpuk.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Digambar tangan",
+    "sorot": "tangan",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Formulir cetak",
+      "sub": "odontogram"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Arsip",
+      "sub": "menumpuk"
+     },
+     {
+      "ikon": "cari",
+      "judul": "Dicari manual",
+      "sub": "lama"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Coretan bisa kabur, penandaan tidak seragam, dan sulit dibandingkan antar kunjungan.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Masalah odontogram kertas",
+    "sorot": "kertas",
+    "item": [
+     "Coretan kabur",
+     "Penandaan tidak seragam",
+     "Sulit dibandingkan"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda berbicara dengan software house tentang odontogram digital.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Odontogram digital",
+    "sorot": "odontogram digital",
+    "kiri": "Gambar tangan",
+    "kanan": "Odontogram digital"
+   }
+  },
+  {
+   "teks": "Di DentalCare, aplikasi klinik gigi buatan kami, kondisi tiap gigi ditandai langsung di layar.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "Odontogram di DentalCare",
+    "sorot": "DentalCare",
+    "klip": [
+     "odon"
+    ]
+   }
+  },
+  {
+   "teks": "Hasilnya penandaan seragam, riwayat tersimpan, dan perubahan mudah dibandingkan.",
+   "anim": "banding",
+   "param": {
+    "judul": "Digital lebih rapi",
+    "sorot": "rapi",
+    "kiri": {
+     "judul": "Gambar tangan",
+     "item": [
+      "Coretan kabur",
+      "Sulit dibandingkan"
+     ]
+    },
+    "kanan": {
+     "judul": "Odontogram digital",
+     "item": [
+      "Penandaan seragam",
+      "Mudah dibandingkan"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Ingat, isi odontogram dengan konsisten: identitas pasien, kondisi tiap gigi, dan tanggal pemeriksaan.",
+   "anim": "centang",
+   "param": {
+    "judul": "Isi dengan konsisten",
+    "sorot": "konsisten",
+    "label": "YANG DICATAT",
+    "item": [
+     "Identitas pasien",
+     "Kondisi tiap gigi",
+     "Tanggal pemeriksaan"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan odontogram klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {}
+  }
+ ]
+}

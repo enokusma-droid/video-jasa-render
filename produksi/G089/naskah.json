@@ -1,0 +1,197 @@
+{
+ "hook_pola": "berhenti",
+ "judul": "Aplikasi Apotek dan Klinik: Stok Obat dan Pasien Menyatu",
+ "tag": [
+  "aplikasi apotek dan klinik",
+  "aplikasi apotek",
+  "aplikasi klinik",
+  "stok obat",
+  "software house",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Berhenti memisah catatan, aplikasi apotek dan klinik bisa menyatukan stok obat dan data pasien.",
+   "anim": "hook",
+   "param": {
+    "kicker": "BERHENTI MEMISAH",
+    "baris": [
+     "Aplikasi Apotek",
+     "dan Klinik"
+    ],
+    "sub": "Stok obat dan data pasien menyatu",
+    "sorot_sub": "menyatu",
+    "ikon": [
+     "stok",
+     "klinik",
+     "kertas",
+     "user"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda punya klinik dengan apotek kecil di bagian depan.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Klinik dengan apotek",
+    "sorot": "apotek",
+    "sub": "Satu tempat, dua catatan",
+    "chip": [
+     {
+      "ikon": "stok",
+      "teks": "Apotek"
+     },
+     {
+      "ikon": "user",
+      "teks": "Pasien"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Stok obat dicatat di buku, resep di kertas, dan data pasien di map.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Semua dicatat manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "buku",
+      "judul": "Buku stok",
+      "sub": "obat"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Resep",
+      "sub": "kertas"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Map pasien",
+      "sub": "data pasien"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Obat menipis tanpa disadari, resep tercecer, dan riwayat pasien sulit dicari.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Resep dan data tercecer",
+    "sorot": "tercecer",
+    "label": [
+     "Stok obat",
+     "Resep",
+     "Riwayat",
+     "Pasien",
+     "Tagihan",
+     "Jadwal",
+     "Catatan",
+     "Laporan"
+    ]
+   }
+  },
+  {
+   "teks": "Staf menghabiskan waktu menghitung stok, bukan melayani pasien.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis menghitung stok",
+    "sorot": "menghitung stok",
+    "sub": "Bukan melayani pasien.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda berbicara dengan software house tentang satu sistem untuk klinik dan apotek.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Satu sistem",
+    "sorot": "satu sistem",
+    "kiri": "Catatan terpisah",
+    "kanan": "Satu sistem"
+   }
+  },
+  {
+   "teks": "Bukan aplikasi jadi yang kaku, tapi sistem yang mengikuti alur klinik dan apotek Anda.",
+   "anim": "banding",
+   "param": {
+    "judul": "Mengikuti alur Anda",
+    "sorot": "mengikuti alur",
+    "kiri": {
+     "judul": "Aplikasi jadi",
+     "item": [
+      "Alur kaku",
+      "Fitur tidak terpakai"
+     ]
+    },
+    "kanan": {
+     "judul": "Sistem custom",
+     "item": [
+      "Mengikuti alur",
+      "Fitur sesuai kebutuhan"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Stok obat, kunjungan pasien, dan transaksi terlihat dalam satu dashboard.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "stok",
+    "judul": "Semua terlihat bersama",
+    "sorot": "satu dashboard",
+    "label": "Ilustrasi apotek dan klinik"
+   }
+  },
+  {
+   "teks": "Pemilik memantau stok yang menipis dari HP lewat browser.",
+   "anim": "hp",
+   "param": {
+    "tema": "stok",
+    "kicker": "DARI MANA SAJA",
+    "judul": "Pantau stok dari HP",
+    "sorot": "dari HP",
+    "notif": "Stok obat hampir habis"
+   }
+  },
+  {
+   "teks": "Sebagai contoh cara kami bekerja, ini DentalCare, aplikasi klinik gigi buatan kami.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "DentalCare, klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "inv"
+    ]
+   }
+  },
+  {
+   "teks": "Hasilnya stok terpantau, resep tercatat, dan data pasien rapi.",
+   "anim": "centang",
+   "param": {
+    "judul": "Lebih tertata",
+    "sorot": "tertata",
+    "label": "SETELAH PAKAI SISTEM",
+    "item": [
+     "Stok terpantau",
+     "Resep tercatat",
+     "Data pasien rapi"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan apotek dan klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {}
+  }
+ ]
+}

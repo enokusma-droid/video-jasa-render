@@ -1,0 +1,184 @@
+{
+ "hook_pola": "hati-hati",
+ "judul": "Rekam Medis Elektronik di Puskesmas: Persiapkan 4 Hal",
+ "tag": [
+  "rekam medis elektronik di puskesmas",
+  "rekam medis puskesmas",
+  "sistem informasi puskesmas",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Hati-hati menyiapkan rekam medis elektronik di puskesmas sebelum alur pelayanannya dipetakan.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Rekam medis elektronik di puskesmas: petakan dulu",
+    "sorot": "petakan dulu",
+    "ikon": "peringatan",
+    "kicker": "HATI-HATI"
+   }
+  },
+  {
+   "teks": "Alur tiap poli berbeda, jadi satu sistem yang kaku sulit dipakai semua petugas.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Alur tiap poli berbeda",
+    "sorot": "berbeda",
+    "ikon": "dokumen",
+    "kicker": "TANTANGANNYA"
+   }
+  },
+  {
+   "teks": "Pertama, petakan alur pelayanan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Petakan alur pelayanan",
+    "sorot": "alur"
+   }
+  },
+  {
+   "teks": "Pendaftaran, poli, dan farmasi perlu terhubung dalam satu alur.",
+   "anim": "alur",
+   "param": {
+    "judul": "Satu alur antar bagian",
+    "langkah": [
+     "Daftar",
+     "Poli",
+     "Farmasi"
+    ]
+   }
+  },
+  {
+   "teks": "Kedua, kenali penggunanya.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Kenali penggunanya",
+    "sorot": "penggunanya"
+   }
+  },
+  {
+   "teks": "Petugas pendaftaran, dokter, perawat, dan apoteker punya kebutuhan yang berbeda.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Kebutuhan tiap pengguna",
+    "item": [
+     {
+      "ikon": "orang",
+      "label": "Pendaftaran"
+     },
+     {
+      "ikon": "klinik",
+      "label": "Dokter"
+     },
+     {
+      "ikon": "tangan",
+      "label": "Perawat"
+     },
+     {
+      "ikon": "dokumen",
+      "label": "Apoteker"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ketiga, siapkan data lama.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Siapkan data lama",
+    "sorot": "data lama"
+   }
+  },
+  {
+   "teks": "Data lama dikumpulkan dan diperiksa dulu sebelum dipindahkan ke sistem baru.",
+   "anim": "centang-besar",
+   "param": {
+    "teks": "Periksa data lama dulu",
+    "sorot": "dulu",
+    "sub": "Sebelum dipindahkan"
+   }
+  },
+  {
+   "teks": "Keempat, uji bertahap.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Uji bertahap",
+    "sorot": "bertahap"
+   }
+  },
+  {
+   "teks": "Mulai dari satu poli, seperti DentalCare yang kami bangun untuk klinik gigi, lalu diperluas.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "antrean",
+     "soap"
+    ],
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk puskesmas, klinik pratama, dan praktik dokter.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Bisa disesuaikan",
+    "item": [
+     {
+      "ikon": "klinik",
+      "label": "Puskesmas"
+     },
+     {
+      "ikon": "klinik",
+      "label": "Klinik pratama"
+     },
+     {
+      "ikon": "orang",
+      "label": "Praktik dokter"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Dengan begitu, pencatatan klinik lebih rapi dan mudah dilacak.",
+   "anim": "centang-besar",
+   "param": {
+    "teks": "Pencatatan lebih rapi",
+    "sorot": "rapi",
+    "sub": "Dan mudah dilacak"
+   }
+  },
+  {
+   "teks": "Cara kerjanya sederhana: konsultasi, mockup disetujui, pengembangan, lalu rilis.",
+   "anim": "alur",
+   "param": {
+    "judul": "Cara kerja Nusawebsite",
+    "langkah": [
+     "Konsultasi",
+     "Mockup",
+     "Develop",
+     "Rilis"
+    ]
+   }
+  },
+  {
+   "teks": "Jadi petakan alur, kenali pengguna, siapkan data, dan uji bertahap.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist persiapan puskesmas",
+    "item": [
+     "Petakan alur",
+     "Kenali pengguna",
+     "Siapkan data lama",
+     "Uji bertahap"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur puskesmas Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Sistem sesuai kebutuhan puskesmas"
+   }
+  }
+ ]
+}

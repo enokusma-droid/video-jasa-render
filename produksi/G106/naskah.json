@@ -1,0 +1,154 @@
+{
+ "hook_pola": "kesalahan-umum",
+ "tag": [
+  "konsep dasar rekam medis elektronik",
+  "rekam medis elektronik",
+  "pengertian rekam medis elektronik",
+  "aplikasi rekam medis klinik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Kesalahan paling sering soal konsep dasar rekam medis elektronik: dianggap hanya kertas yang dipindai.",
+   "anim": "judul-keyword",
+   "param": {
+    "kicker": "KESALAHAN UMUM",
+    "sorot": "rekam medis elektronik",
+    "sub": "4 konsep dasar yang perlu dipahami",
+    "kata_sub": "konsep",
+    "judul_yt": "Konsep Dasar Rekam Medis Elektronik: 4 Hal yang Perlu Dipahami"
+   }
+  },
+  {
+   "teks": "Hati-hati dengan sistem yang hanya memindahkan kertas ke layar. Data tidak tertata, sulit dicari, dan sulit dilaporkan.",
+   "anim": "peringatan",
+   "param": {
+    "judul": "Hati-hati",
+    "desk": "Sekadar pindah kertas.",
+    "item": [
+     "Data tidak tertata",
+     "Sulit dicari",
+     "Sulit dilaporkan"
+    ],
+    "kata": [
+     "tertata",
+     "dicari",
+     "dilaporkan"
+    ]
+   }
+  },
+  {
+   "teks": "Konsep dasarnya ada empat.",
+   "anim": "stepper-overview",
+   "param": {
+    "kicker": "EMPAT KONSEP",
+    "tahap": [
+     "Data tertata",
+     "Riwayat utuh",
+     "Akses terjaga",
+     "Cadangan"
+    ],
+    "rail": "EMPAT KONSEP"
+   }
+  },
+  {
+   "teks": "Konsep satu, data tertata. Keluhan, diagnosis, dan tindakan diisi di kolom yang jelas.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Data\nTertata",
+    "desk": "Setiap data punya kolomnya.",
+    "visual": "ui",
+    "klip": [
+     "soap"
+    ],
+    "item": [
+     "Keluhan",
+     "Diagnosis",
+     "Tindakan"
+    ],
+    "kata": [
+     "keluhan",
+     "diagnosis",
+     "tindakan"
+    ]
+   }
+  },
+  {
+   "teks": "Konsep dua, riwayat utuh. Kunjungan lama dan baru terkumpul dalam satu catatan pasien.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Riwayat\nUtuh",
+    "desk": "Satu catatan untuk tiap pasien.",
+    "visual": "ui",
+    "klip": [
+     "pasien"
+    ],
+    "item": [
+     "Kunjungan lama",
+     "Kunjungan baru"
+    ],
+    "kata": [
+     "lama",
+     "baru"
+    ]
+   }
+  },
+  {
+   "teks": "Konsep tiga, akses terjaga. Setiap petugas hanya membuka bagian sesuai perannya.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Akses\nTerjaga",
+    "desk": "Hak akses sesuai peran.",
+    "visual": "catatan",
+    "label": "HAK AKSES",
+    "item": [
+     "Dokter",
+     "Staf pendaftaran",
+     "Pemilik klinik"
+    ]
+   }
+  },
+  {
+   "teks": "Konsep empat, cadangan. Data disalin berkala supaya bisa dipulihkan saat perangkat bermasalah.",
+   "anim": "tahap",
+   "param": {
+    "judul": "Cadangan\nData",
+    "desk": "Data aman dari kehilangan.",
+    "visual": "catatan",
+    "label": "CADANGAN",
+    "item": [
+     "Salinan berkala",
+     "Bisa dipulihkan"
+    ]
+   }
+  },
+  {
+   "teks": "Contohnya DentalCare, aplikasi klinik gigi buatan kami, dengan rekam medis SOAP dan odontogram.",
+   "anim": "contoh-hasil",
+   "param": {
+    "kicker": "CONTOH NYATA",
+    "judul": "DentalCare, SOAP dan odontogram",
+    "klip": [
+     "soap",
+     "odon"
+    ]
+   }
+  },
+  {
+   "teks": "Ingin menerapkan konsep ini di klinik Anda? Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur klinik Anda",
+    "kata_link": "link",
+    "mini": [
+     "Data tertata",
+     "Riwayat utuh",
+     "Akses terjaga",
+     "Cadangan"
+    ]
+   }
+  }
+ ]
+}

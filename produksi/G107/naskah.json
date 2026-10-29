@@ -1,0 +1,138 @@
+{
+ "hook_pola": "angka-spesifik",
+ "judul": "Permasalahan Rekam Medis Elektronik: 4 yang Perlu Diantisipasi",
+ "tag": [
+  "permasalahan rekam medis elektronik",
+  "masalah rekam medis elektronik",
+  "kendala rekam medis elektronik",
+  "aplikasi rekam medis klinik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Ini empat permasalahan rekam medis elektronik yang perlu diantisipasi setiap klinik.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Empat permasalahan rekam medis elektronik",
+    "sorot": "empat permasalahan",
+    "ikon": "peringatan",
+    "kicker": "ANTISIPASI"
+   }
+  },
+  {
+   "teks": "Tandanya data tidak lengkap, staf enggan memakai, akses tidak dibatasi, dan alur tidak cocok.",
+   "anim": "red-flag",
+   "param": {
+    "judul": "Tanda masalah",
+    "item": [
+     "Data tidak lengkap",
+     "Staf enggan memakai",
+     "Akses tidak dibatasi",
+     "Alur tidak cocok"
+    ],
+    "kicker": "WASPADAI"
+   }
+  },
+  {
+   "teks": "Pertama, data tidak lengkap.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Data tidak lengkap",
+    "sorot": "lengkap"
+   }
+  },
+  {
+   "teks": "Kolom penting bisa dirancang wajib diisi, seperti catatan SOAP di DentalCare, aplikasi klinik gigi buatan kami.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": "soap",
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Kedua, staf belum terbiasa.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Staf belum terbiasa",
+    "sorot": "terbiasa"
+   }
+  },
+  {
+   "teks": "Tampilan yang sederhana dan alur yang sesuai kerja staf membuat sistem cepat dipelajari.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": "antrean",
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Ketiga, keamanan dan akses.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Keamanan dan akses",
+    "sorot": "keamanan"
+   }
+  },
+  {
+   "teks": "Akses dibatasi sesuai peran, dan data penting dicadangkan.",
+   "anim": "kepemilikan",
+   "param": {
+    "judul": "Akses dan cadangan",
+    "item": [
+     {
+      "ikon": "kunci",
+      "judul": "Hak akses",
+      "sub": "Sesuai peran"
+     },
+     {
+      "ikon": "data",
+      "judul": "Cadangan",
+      "sub": "Berkala"
+     },
+     {
+      "ikon": "perisai",
+      "judul": "Data terlindungi",
+      "sub": "Akun petugas"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Keempat, sistem tidak sesuai alur.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Sistem tidak sesuai alur",
+    "sorot": "alur"
+   }
+  },
+  {
+   "teks": "Karena itu mockup layar disetujui lebih dulu, sebelum sistem dikembangkan.",
+   "anim": "wireframe-disetujui",
+   "param": {
+    "judul": "Mockup disetujui dulu"
+   }
+  },
+  {
+   "teks": "Data lengkap, staf terbiasa, akses terjaga, dan alur sesuai: empat masalah teratasi.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Empat masalah, empat solusi",
+    "item": [
+     "Kolom wajib terisi",
+     "Tampilan sederhana",
+     "Akses dan cadangan",
+     "Alur sesuai klinik"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kendala klinik Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kendala klinik Anda"
+   }
+  }
+ ]
+}

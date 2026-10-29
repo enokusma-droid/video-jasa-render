@@ -1,0 +1,220 @@
+{
+ "meta": {
+  "judul": "Sistem Informasi Manajemen Klinik: Isi dan Alurnya",
+  "ringkas": "kenali isi sistem informasi manajemen klinik: pendaftaran, rekam medis, pembayaran, dan dasbor pemilik, dengan contoh DentalCare dari Nusawebsite.",
+  "tag": [
+   "sistem informasi manajemen klinik",
+   "sistem informasi klinik",
+   "manajemen klinik",
+   "aplikasi klinik",
+   "aplikasi klinik gigi",
+   "dentalcare",
+   "nusawebsite"
+  ]
+ },
+ "hook_pola": "satu-kalimat-janji",
+ "blok": [
+  {
+   "teks": "Dalam satu menit, Anda akan tahu isi sistem informasi manajemen klinik.",
+   "anim": "hook",
+   "param": {
+    "judul": "Isi *sistem informasi* manajemen klinik.",
+    "sub": "Kenali bagian-bagiannya *sekarang*."
+   }
+  },
+  {
+   "teks": "Tanpa sistem, pendaftaran, pemeriksaan, dan kasir mencatat di tempat berbeda.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Tanpa sistem",
+    "judul": "Catatan di *tempat berbeda*.",
+    "kartu": [
+     {
+      "ikon": "buku",
+      "judul": "Pendaftaran",
+      "ket": "Buku sendiri"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Pemeriksaan",
+      "ket": "Map sendiri"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Kasir",
+      "ket": "Hitung sendiri"
+     }
+    ],
+    "coret": "berbeda"
+   }
+  },
+  {
+   "teks": "Pemilik klinik pun sulit melihat gambaran kunjungan dan pendapatan.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Gambaran *tidak utuh*.",
+    "masalah": [
+     {
+      "ikon": "alert",
+      "teks": "Gambaran tidak utuh"
+     },
+     {
+      "ikon": "grafik",
+      "teks": "Pendapatan sulit dilihat"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Laporan lambat"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ini DentalCare, aplikasi klinik gigi buatan kami, dengan dasbor untuk pemilik klinik.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Dasbor pendapatan dan tren",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare",
+    "ikon": "klinik"
+   }
+  },
+  {
+   "teks": "Sistem menghubungkan pendaftaran, pemeriksaan, tindakan, dan pembayaran dalam satu alur.",
+   "anim": "diagram-alur",
+   "param": {
+    "kicker": "Satu alur",
+    "judul": "Semua *terhubung*",
+    "langkah": [
+     {
+      "ikon": "user",
+      "teks": "Pendaftaran"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Pemeriksaan"
+     },
+     {
+      "ikon": "gear",
+      "teks": "Tindakan"
+     },
+     {
+      "ikon": "laporan",
+      "teks": "Pembayaran"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pendaftaran dan antrean tampil jelas bagi staf.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "antrean",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Antrean pasien",
+    "ket": "Tampil jelas",
+    "fokus": [
+     88,
+     47
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Tindakan dan resep tercatat bersama rekam medis.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "tindakan",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Tindakan dan resep",
+    "ket": "Satu halaman",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Pembayaran dicatat sebagai invoice yang rapi.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Daftar invoice",
+    "ket": "Pembayaran tercatat",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Pemilik memantau stok yang menipis dan peringkat dokter lewat dasbor.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard2",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "04",
+    "judul": "Dasbor pemilik",
+    "ket": "Stok rendah dan peringkat dokter",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Hasilnya data satu pintu, laporan siap dibaca, dan keputusan berdasarkan data.",
+   "anim": "daftar-centang",
+   "param": {
+    "kicker": "Hasilnya",
+    "judul": "Klinik *lebih tertata*",
+    "item": [
+     "Data satu pintu",
+     "Laporan siap dibaca",
+     "Keputusan berdasar data"
+    ]
+   }
+  },
+  {
+   "teks": "Modul dipilih sesuai kebutuhan, dan mockup Anda setujui dulu.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikembangkan.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Sistem informasi manajemen klinik",
+    "judul": "Sesuai *kebutuhan klinik Anda*.",
+    "sub": "Ceritakan kebutuhan klinik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

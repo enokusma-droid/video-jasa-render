@@ -1,0 +1,203 @@
+{
+ "meta": {
+  "judul": "Formulir Pemeriksaan Odontogram: Versi Digital di DentalCare",
+  "ringkas": "formulir pemeriksaan odontogram versi digital: identitas pasien, peta gigi, dan catatan pemeriksaan di aplikasi klinik gigi DentalCare.",
+  "tag": [
+   "formulir pemeriksaan odontogram",
+   "odontogram",
+   "odontogram digital",
+   "rekam medis gigi",
+   "aplikasi klinik gigi",
+   "dentalcare",
+   "nusawebsite"
+  ]
+ },
+ "hook_pola": "hasil-dulu",
+ "blok": [
+  {
+   "teks": "Ini formulir pemeriksaan odontogram versi digital, dari DentalCare, aplikasi klinik gigi buatan kami.",
+   "anim": "hook",
+   "param": {
+    "judul": "Formulir pemeriksaan *odontogram* versi digital.",
+    "sub": "Dari aplikasi klinik gigi *DentalCare*."
+   }
+  },
+  {
+   "teks": "Odontogram kertas diisi dengan menggambar tangan di bagan gigi.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Formulir kertas",
+    "judul": "Digambar *tangan*.",
+    "kartu": [
+     {
+      "ikon": "pena",
+      "judul": "Gambar tangan",
+      "ket": "Di bagan gigi"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Formulir cetak",
+      "ket": "Mudah rusak"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Arsip",
+      "ket": "Menumpuk"
+     }
+    ],
+    "coret": "tangan"
+   }
+  },
+  {
+   "teks": "Coretan bisa kabur, sulit dibandingkan antar kunjungan, dan mudah hilang.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Coretan *kabur*.",
+    "masalah": [
+     {
+      "ikon": "alert",
+      "teks": "Coretan kabur"
+     },
+     {
+      "ikon": "cari",
+      "teks": "Sulit dibandingkan"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Mudah hilang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Formulir ini memuat tiga bagian: identitas pasien, peta gigi, dan catatan pemeriksaan.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Isi formulir",
+    "label": "Bagian formulir"
+   }
+  },
+  {
+   "teks": "Satu, identitas pasien, tersimpan di data pasien.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Identitas pasien",
+    "ket": "Tersimpan di data pasien",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Dua, peta gigi. Kondisi tiap gigi ditandai langsung di bagan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "odontogram",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Peta gigi pasien",
+    "ket": "Kondisi tiap gigi ditandai",
+    "fokus": [
+     50,
+     50
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Tiga, catatan pemeriksaan yang menjelaskan temuan dan rencana perawatan.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Catatan pemeriksaan",
+    "ket": "Temuan dan rencana",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Hasilnya odontogram rapi, mudah dibandingkan antar kunjungan, dan tersimpan aman.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Formulir kertas",
+     "item": [
+      "Coretan kabur",
+      "Sulit dibandingkan",
+      "Mudah hilang"
+     ]
+    },
+    "kanan": {
+     "judul": "Formulir digital",
+     "item": [
+      "Tampil rapi",
+      "Mudah dibandingkan",
+      "Tersimpan aman"
+     ]
+    },
+    "pemicu": "rapi"
+   }
+  },
+  {
+   "teks": "Formulir bisa disesuaikan untuk dokter gigi umum, klinik gigi anak, dan klinik gigi keluarga.",
+   "anim": "chip-niche",
+   "param": {
+    "kicker": "Bisa disesuaikan",
+    "judul": "Sesuai *jenis klinik*",
+    "pusat": "Aplikasi",
+    "ikonPusat": "klinik",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter gigi umum"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Gigi anak"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Gigi keluarga"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tampilan formulir dirancang dulu sebagai mockup dan Anda setujui.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikembangkan.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Ceritakan formulir yang klinik Anda perlukan. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Formulir pemeriksaan odontogram",
+    "judul": "Formulir sesuai *klinik Anda*.",
+    "sub": "Ceritakan formulir yang Anda perlukan.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

@@ -1,0 +1,223 @@
+{
+ "meta": {
+  "judul": "Aplikasi Klinik Terbaik: Bukan yang Fiturnya Terbanyak",
+  "ringkas": "aplikasi klinik terbaik adalah yang paling cocok dengan alur klinik Anda. Pelajari cara memilihnya, dengan contoh DentalCare dari Nusawebsite.",
+  "tag": [
+   "aplikasi klinik terbaik",
+   "memilih aplikasi klinik",
+   "aplikasi klinik",
+   "aplikasi rekam medis",
+   "aplikasi klinik gigi",
+   "dentalcare",
+   "nusawebsite"
+  ]
+ },
+ "hook_pola": "kontras",
+ "blok": [
+  {
+   "teks": "Aplikasi klinik terbaik bukan yang fiturnya paling banyak, tapi yang paling cocok dengan alur klinik Anda.",
+   "anim": "hook",
+   "param": {
+    "judul": "Bukan fitur *terbanyak*, tapi *paling cocok*.",
+    "sub": "Pilih dari *alur klinik* Anda."
+   }
+  },
+  {
+   "teks": "Aplikasi berfitur melimpah sering membuat staf bingung dan akhirnya jarang dipakai.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Jebakan umum",
+    "judul": "Fitur *melimpah*, jarang dipakai.",
+    "kartu": [
+     {
+      "ikon": "layer",
+      "judul": "Fitur melimpah",
+      "ket": "Menu banyak"
+     },
+     {
+      "ikon": "user",
+      "judul": "Staf bingung",
+      "ket": "Sulit dipelajari"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Kembali ke kertas",
+      "ket": "Jarang dipakai"
+     }
+    ],
+    "coret": "jarang"
+   }
+  },
+  {
+   "teks": "Akibatnya sebagian besar menu tidak pernah dibuka sama sekali.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Menu *tidak terpakai*.",
+    "masalah": [
+     {
+      "ikon": "alert",
+      "teks": "Menu tidak terpakai"
+     },
+     {
+      "ikon": "user",
+      "teks": "Staf enggan"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Waktu terbuang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ukurannya dimulai dari alur. Ini DentalCare, aplikasi klinik gigi buatan kami, sebagai contoh.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Produk Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi berbasis web",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08,
+    "url": "DentalCare",
+    "ikon": "klinik"
+   }
+  },
+  {
+   "teks": "Pertama, data pasien rapi dan mudah dicari.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "pasien",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Data pasien",
+    "ket": "Rapi dan mudah dicari",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Kedua, antrean yang jelas bagi staf pendaftaran.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "antrean",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Antrean pasien",
+    "ket": "Jelas bagi staf",
+    "fokus": [
+     88,
+     47
+    ],
+    "zoom": 1.12,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Ketiga, catatan pemeriksaan yang cepat diisi dokter.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "soap",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Catatan pemeriksaan",
+    "ket": "Diisi langsung di layar",
+    "fokus": [
+     45,
+     45
+    ],
+    "zoom": 1.1,
+    "url": "DentalCare"
+   }
+  },
+  {
+   "teks": "Cek juga data milik klinik, dukungan setelah rilis, dan kemudahan dipakai staf.",
+   "anim": "daftar-centang",
+   "param": {
+    "kicker": "Cek juga",
+    "judul": "Pertimbangan *tambahan*",
+    "item": [
+     "Data milik klinik",
+     "Dukungan setelah rilis",
+     "Mudah dipakai staf",
+     "Sesuai alur klinik"
+    ]
+   }
+  },
+  {
+   "teks": "Pilih yang sesuai alur, bukan yang menunya paling panjang.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Menu terpanjang",
+     "item": [
+      "Fitur tidak terpakai",
+      "Staf bingung",
+      "Alur menyesuaikan sistem"
+     ]
+    },
+    "kanan": {
+     "judul": "Sesuai alur",
+     "item": [
+      "Fitur seperlunya",
+      "Staf cepat paham",
+      "Sistem menyesuaikan alur"
+     ]
+    },
+    "pemicu": "sesuai"
+   }
+  },
+  {
+   "teks": "Karena itu kami membuat sistem khusus: fitur, laporan, dan tampilan mengikuti klinik Anda.",
+   "anim": "fitur-grid",
+   "param": {
+    "kicker": "Sistem khusus",
+    "judul": "Mengikuti *klinik Anda*",
+    "fitur": [
+     {
+      "ikon": "gear",
+      "teks": "Fitur"
+     },
+     {
+      "ikon": "laporan",
+      "teks": "Laporan"
+     },
+     {
+      "ikon": "layar",
+      "teks": "Tampilan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Mockup layar Anda setujui lebih dulu sebelum sistem dikembangkan.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikembangkan.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Aplikasi klinik terbaik",
+    "judul": "Yang *cocok* untuk klinik Anda.",
+    "sub": "Ceritakan alur klinik Anda.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

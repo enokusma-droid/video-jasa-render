@@ -1,0 +1,205 @@
+{
+ "hook_pola": "kesalahan-umum",
+ "judul": "Contoh Rekam Medis Elektronik: Sesuaikan dengan Alur Klinik",
+ "tag": [
+  "contoh rekam medis elektronik",
+  "rekam medis elektronik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Contoh rekam medis elektronik dari internet sering tidak cocok dengan alur klinik Anda.",
+   "anim": "hook",
+   "param": {
+    "kicker": "SERING TIDAK COCOK",
+    "baris": [
+     "Contoh Rekam Medis",
+     "Elektronik"
+    ],
+    "sub": "Sesuaikan dengan alur klinik",
+    "sorot_sub": "alur klinik",
+    "ikon": [
+     "klinik",
+     "web",
+     "aplikasi",
+     "peringatan"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda mengelola klinik gigi dan mengunduh formulir contoh dari internet.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda mengelola klinik gigi",
+    "sorot": "klinik gigi",
+    "chip": [
+     {
+      "ikon": "online",
+      "teks": "Formulir contoh"
+     },
+     {
+      "ikon": "user",
+      "teks": "Dokter"
+     },
+     {
+      "ikon": "tim",
+      "teks": "Staf"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Formulir dicetak, diisi tangan, lalu difoto untuk arsip.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Cetak, isi, foto",
+    "sorot": "foto",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Cetak formulir",
+      "sub": "contoh"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Isi tangan",
+      "sub": "pemeriksaan"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Foto arsip",
+      "sub": "di ponsel"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Alur formulir tidak sama dengan alur klinik, jadi staf mengisi dua kali.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Staf mengisi dua kali",
+    "sorot": "dua kali",
+    "item": [
+     "Alur tidak sama",
+     "Data ditulis ganda",
+     "Arsip tercecer"
+    ]
+   }
+  },
+  {
+   "teks": "Staf kehabisan waktu menyalin data yang sama, bukan melayani pasien.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis menyalin",
+    "sorot": "menyalin",
+    "sub": "Bukan melayani pasien.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda berbicara dengan software house tentang rekam medis yang sesuai alur.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Sesuai alur klinik",
+    "sorot": "sesuai alur",
+    "kiri": "Formulir contoh",
+    "kanan": "Sistem sesuai alur"
+   }
+  },
+  {
+   "teks": "Bukan formulir yang kaku, tapi sistem yang mengikuti cara klinik bekerja.",
+   "anim": "banding",
+   "param": {
+    "judul": "Mengikuti cara klinik",
+    "sorot": "cara klinik",
+    "kiri": {
+     "judul": "Formulir contoh",
+     "item": [
+      "Alur kaku",
+      "Ditulis dua kali"
+     ]
+    },
+    "kanan": {
+     "judul": "Sistem custom",
+     "item": [
+      "Mengikuti alur klinik",
+      "Catat sekali"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Pasien, jadwal, dan catatan pemeriksaan terlihat dalam satu dashboard.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "klinik",
+    "judul": "Semua di satu dashboard",
+    "sorot": "satu dashboard",
+    "label": "Ilustrasi sistem klinik"
+   }
+  },
+  {
+   "teks": "Kami sudah membangun aplikasi serupa, salah satunya DentalCare dengan rekam medis SOAP.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "DentalCare, rekam medis SOAP",
+    "sorot": "DentalCare",
+    "klip": [
+     "soap",
+     "odon"
+    ]
+   }
+  },
+  {
+   "teks": "Hasilnya catatan rapi, riwayat mudah dibuka, dan staf tidak menulis dua kali.",
+   "anim": "centang",
+   "param": {
+    "judul": "Pencatatan lebih rapi",
+    "sorot": "rapi",
+    "label": "SETELAH PAKAI SISTEM",
+    "item": [
+     "Catatan rapi",
+     "Riwayat mudah dibuka",
+     "Tidak menulis dua kali"
+    ]
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk klinik gigi, praktik dokter, dan klinik umum.",
+   "anim": "chip_niche",
+   "param": {
+    "judul": "Bisa disesuaikan",
+    "sorot": "disesuaikan",
+    "item": [
+     {
+      "ikon": "klinik",
+      "teks": "Klinik gigi"
+     },
+     {
+      "ikon": "user",
+      "teks": "Praktik dokter"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Klinik umum"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {}
+  }
+ ]
+}

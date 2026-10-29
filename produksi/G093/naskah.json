@@ -1,0 +1,193 @@
+{
+ "hook_pola": "kesalahan-umum",
+ "judul": "Aplikasi Klinik Kesehatan: Kesalahan Paling Sering Saat Memilih",
+ "tag": [
+  "aplikasi klinik kesehatan",
+  "aplikasi klinik",
+  "sistem klinik",
+  "aplikasi klinik gigi",
+  "software house",
+  "dentalcare",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Kesalahan paling sering saat memilih aplikasi klinik kesehatan: fitur dibuat sebelum alurnya jelas.",
+   "anim": "hook",
+   "param": {
+    "kicker": "KESALAHAN UMUM",
+    "baris": [
+     "Aplikasi Klinik",
+     "Kesehatan"
+    ],
+    "sub": "Jelaskan alurnya dulu, baru fiturnya",
+    "sorot_sub": "alurnya",
+    "ikon": [
+     "klinik",
+     "aplikasi",
+     "peringatan",
+     "laporan"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda mengelola klinik kesehatan dengan beberapa dokter dan staf.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda mengelola klinik",
+    "sorot": "klinik",
+    "sub": "Beberapa dokter dan staf",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter"
+     },
+     {
+      "ikon": "tim",
+      "teks": "Staf"
+     },
+     {
+      "ikon": "kalender",
+      "teks": "Jadwal"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Jadwal dicatat di buku, riwayat pasien di map, dan tagihan di kalkulator.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Semua dicatat manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "buku",
+      "judul": "Buku jadwal",
+      "sub": "dokter"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Map pasien",
+      "sub": "riwayat"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Kalkulator",
+      "sub": "tagihan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Jadwal bentrok, riwayat sulit dicari, dan laporan selalu terlambat.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Masalah harian",
+    "sorot": "harian",
+    "item": [
+     "Jadwal bentrok",
+     "Riwayat sulit dicari",
+     "Laporan terlambat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda berbicara dengan software house, dimulai dari alur kerja, bukan daftar fitur.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Mulai dari alur kerja",
+    "sorot": "alur kerja",
+    "kiri": "Daftar fitur",
+    "kanan": "Alur kerja"
+   }
+  },
+  {
+   "teks": "Aplikasi jadi sering kaku, sedangkan sistem custom mengikuti alur klinik Anda.",
+   "anim": "banding",
+   "param": {
+    "judul": "Mengikuti alur klinik",
+    "sorot": "alur klinik",
+    "kiri": {
+     "judul": "Aplikasi jadi",
+     "item": [
+      "Alur kaku",
+      "Fitur tidak terpakai"
+     ]
+    },
+    "kanan": {
+     "judul": "Sistem custom",
+     "item": [
+      "Mengikuti alur klinik",
+      "Fitur sesuai kebutuhan"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Jadwal dokter, kunjungan, dan laporan terlihat dalam satu dashboard.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "klinik",
+    "judul": "Satu dashboard klinik",
+    "sorot": "satu dashboard",
+    "label": "Ilustrasi sistem klinik"
+   }
+  },
+  {
+   "teks": "Kami sudah membangun DentalCare, aplikasi klinik gigi dengan antrean dan rekam medis.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "DentalCare, klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "soap",
+     "inv"
+    ]
+   }
+  },
+  {
+   "teks": "Hasilnya jadwal rapi, riwayat mudah dicari, dan laporan siap dibaca.",
+   "anim": "centang",
+   "param": {
+    "judul": "Klinik lebih tertata",
+    "sorot": "tertata",
+    "label": "SETELAH PAKAI SISTEM",
+    "item": [
+     "Jadwal rapi",
+     "Riwayat mudah dicari",
+     "Laporan siap dibaca"
+    ]
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk klinik umum, klinik pratama, dan klinik gigi.",
+   "anim": "chip_niche",
+   "param": {
+    "judul": "Bisa disesuaikan",
+    "sorot": "disesuaikan",
+    "item": [
+     {
+      "ikon": "klinik",
+      "teks": "Klinik umum"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Klinik pratama"
+     },
+     {
+      "ikon": "klinik",
+      "teks": "Klinik gigi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {}
+  }
+ ]
+}

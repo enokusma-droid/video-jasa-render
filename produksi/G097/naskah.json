@@ -1,0 +1,182 @@
+{
+ "hook_pola": "hasil-dulu",
+ "judul": "Contoh Aplikasi Klinik: DentalCare dari Antrean sampai Invoice",
+ "tag": [
+  "contoh aplikasi klinik",
+  "aplikasi klinik",
+  "aplikasi klinik gigi",
+  "dentalcare",
+  "sistem klinik",
+  "software house",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Ini contoh aplikasi klinik yang kami bangun, DentalCare, untuk klinik gigi.",
+   "anim": "hook",
+   "param": {
+    "kicker": "HASIL DULU",
+    "baris": [
+     "Contoh Aplikasi",
+     "Klinik"
+    ],
+    "sub": "DentalCare, buatan Nusawebsite",
+    "sorot_sub": "DentalCare",
+    "ikon": [
+     "klinik",
+     "aplikasi",
+     "laporan",
+     "user"
+    ]
+   }
+  },
+  {
+   "teks": "Antrean, rekam medis, dan invoice ada dalam satu aplikasi berbasis web.",
+   "anim": "portofolio",
+   "param": {
+    "kicker": "PRODUK NUSAWEBSITE",
+    "judul": "DentalCare, klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "soap",
+     "inv"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik klinik yang ingin hasil serupa untuk praktik Anda.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "klinik",
+    "judul": "Anda pemilik klinik",
+    "sorot": "klinik",
+    "sub": "Ingin hasil serupa",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Dokter"
+     },
+     {
+      "ikon": "tim",
+      "teks": "Staf"
+     },
+     {
+      "ikon": "laporan",
+      "teks": "Laporan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Sekarang jadwal ada di buku, resep di kertas, dan tagihan di kalkulator.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Masih serba manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "buku",
+      "judul": "Buku jadwal",
+      "sub": "dokter"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Resep",
+      "sub": "kertas"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Kalkulator",
+      "sub": "tagihan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Akibatnya antrean tidak jelas, riwayat sulit dicari, dan laporan selalu terlambat.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Akibatnya",
+    "sorot": "Akibatnya",
+    "item": [
+     "Antrean tidak jelas",
+     "Riwayat sulit dicari",
+     "Laporan terlambat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda berbicara dengan software house tentang aplikasi yang sesuai alur klinik.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Sesuai alur klinik",
+    "sorot": "sesuai alur klinik",
+    "kiri": "Cara manual",
+    "kanan": "Aplikasi custom"
+   }
+  },
+  {
+   "teks": "Contoh ini bisa disesuaikan dengan alur klinik Anda, bukan aplikasi jadi yang harus Anda ikuti.",
+   "anim": "banding",
+   "param": {
+    "judul": "Disesuaikan untuk Anda",
+    "sorot": "disesuaikan",
+    "kiri": {
+     "judul": "Aplikasi jadi",
+     "item": [
+      "Alur kaku",
+      "Fitur tidak terpakai"
+     ]
+    },
+    "kanan": {
+     "judul": "Aplikasi custom",
+     "item": [
+      "Mengikuti alur Anda",
+      "Fitur sesuai kebutuhan"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Kunjungan, jadwal dokter, dan laporan terlihat dalam satu dashboard.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "klinik",
+    "judul": "Satu dashboard klinik",
+    "sorot": "satu dashboard",
+    "label": "Ilustrasi sistem klinik"
+   }
+  },
+  {
+   "teks": "Pemilik juga bisa memantau kunjungan dari HP lewat browser.",
+   "anim": "hp",
+   "param": {
+    "tema": "klinik",
+    "kicker": "DARI MANA SAJA",
+    "judul": "Pantau kunjungan dari HP",
+    "sorot": "dari HP",
+    "notif": "Kunjungan hari ini tercatat"
+   }
+  },
+  {
+   "teks": "Hasilnya antrean jelas, data pasien rapi, laporan siap dibaca, dan staf bekerja lebih tenang.",
+   "anim": "centang",
+   "param": {
+    "judul": "Klinik lebih tertata",
+    "sorot": "tertata",
+    "label": "SETELAH PAKAI SISTEM",
+    "item": [
+     "Antrean jelas",
+     "Data rapi",
+     "Laporan siap dibaca"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur klinik Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {}
+  }
+ ]
+}
