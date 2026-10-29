@@ -131,7 +131,7 @@ naskah.forEach((b, i) => {
     const iSor = kw.toLowerCase().lastIndexOf(sor.toLowerCase());
     const l1 = kw.slice(0, iSor).trim(), l2 = kw.slice(iSor).trim();
     const fs1 = Math.min(BR ? 118 : 120, Math.floor(1640 / (Math.max(l1.length, l2.length) * (BR ? 0.8 : 0.56))));
-    const cap = (x) => x.replace(/\b\w/g, (c) => c.toUpperCase()).replace(/\bIos\b/g, "iOS").replace(/\bPt\b/g, "PT").replace(/\bPos\b/g, "POS").replace(/\bDi\b/g, "di");
+    const cap = (x) => x.replace(/\b\w/g, (c) => c.toUpperCase()).replace(/\bIos\b/g, "iOS").replace(/\bPt\b/g, "PT").replace(/\bPos\b/g, "POS").replace(/\b(Sop|Dfd|Rme|Erp|Hrd|Crm|Umkm|Api|Seo|Cms|Ppob|Bpjs|Pdf|Lms|Gps|Hr|It|Rs)\b/g, (m) => m.toUpperCase()).replace(/\bDi\b/g, "di"); // 29 Okt: singkatan (G058 "Sop", G102 "Dfd")
     h = `<div class="center"><div class="kick" id="${id}k">${esc(KK(i, p.kicker || "SEBELUM MEMILIH"))}</div>
       ${l1 ? `<div class="t1 H" style="font-size:${fs1}px"><span class="mk"><span id="${id}w1">${esc(cap(l1))}</span></span></div>` : ""}
       <div class="t1 H or" style="font-size:${fs1}px"><span class="mk"><span id="${id}w2">${esc(cap(l2))}</span></span></div>
@@ -360,7 +360,7 @@ fs.writeFileSync(path.join(PR, "hyperframes.json"), JSON.stringify({ $schema: "h
 console.log("proyek", PR, TOTAL, "dtk,", naskah.length, "scene, waktu:", W.metode, "tema:", TEMA);
 
 // ---------- 5. meta.json ----------
-const cap = (x) => x.replace(/\b\w/g, (c) => c.toUpperCase()).replace(/\bIos\b/g, "iOS").replace(/\bPt\b/g, "PT").replace(/\bPos\b/g, "POS").replace(/\bDi\b/g, "di");
+const cap = (x) => x.replace(/\b\w/g, (c) => c.toUpperCase()).replace(/\bIos\b/g, "iOS").replace(/\bPt\b/g, "PT").replace(/\bPos\b/g, "POS").replace(/\b(Sop|Dfd|Rme|Erp|Hrd|Crm|Umkm|Api|Seo|Cms|Ppob|Bpjs|Pdf|Lms|Gps|Hr|It|Rs)\b/g, (m) => m.toUpperCase()).replace(/\bDi\b/g, "di"); // 29 Okt: singkatan (G058 "Sop", G102 "Dfd")
 const nT = tahapIdx.length;
 let judul = naskah[0].param?.judul_yt || `${cap(KW)}: ${nT} Tahap Kerja dari Konsultasi sampai Rilis`;
 if (judul.length > 70) judul = `${cap(KW)}: ${nT} Tahap Kerjanya`;
