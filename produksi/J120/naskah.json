@@ -1,0 +1,182 @@
+{
+ "hook_pola": "12 penyesalan",
+ "judul": "Jasa Pembuatan Website Villa: Jangan Sampai Menyesal",
+ "deskripsi": "Jasa pembuatan website villa sebaiknya dipilih setelah melihat contoh nyata dan alur pemesanan yang jelas. Video ini membahas lima hal yang perlu dicek. Nusawebsite berbasis di Jogja dan melayani klien secara online ke seluruh Indonesia.\n\nKonsultasi gratis kebutuhan website bisnis Anda: {{LINK_WA}}",
+ "tag": [
+  "jasa pembuatan website villa",
+  "website villa",
+  "website penginapan",
+  "pemesanan villa online",
+  "nusawebsite",
+  "jasa pembuatan website",
+  "website bisnis",
+  "desain website",
+  "software house"
+ ],
+ "blok": [
+  {
+   "teks": "Banyak pemilik usaha menyesal memilih jasa pembuatan website villa tanpa melihat contoh nyata.",
+   "anim": "hook-peringatan",
+   "param": {
+    "kicker": "Jasa Pembuatan Website Villa",
+    "judul": "Jangan sampai menyesal memilih website villa",
+    "sorot": "menyesal",
+    "ikon": "stop"
+   }
+  },
+  {
+   "teks": "Tamu memutuskan memesan setelah melihat foto dan alur pemesanan yang jelas.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Foto bagus, alur pesan jelas",
+    "sorot": "jelas",
+    "ikon": "hotel",
+    "sub": "Tamu cepat memutuskan"
+   }
+  },
+  {
+   "teks": "Pertama, foto dan fasilitas jelas.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Foto dan fasilitas jelas",
+    "sorot": "jelas"
+   }
+  },
+  {
+   "teks": "Kamar, foto, dan fasilitas villa ditampilkan lengkap dan mudah dibandingkan.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Info villa lengkap",
+    "item": [
+     {
+      "ikon": "hotel",
+      "label": "Kamar"
+     },
+     {
+      "ikon": "palet",
+      "label": "Foto"
+     },
+     {
+      "ikon": "cek",
+      "label": "Fasilitas"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Kedua, hasil kerja nyata.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Hasil kerja yang nyata",
+    "sorot": "nyata"
+   }
+  },
+  {
+   "teks": "Minta contoh sistem web yang benar-benar jalan, seperti sistem klinik gigi buatan kami ini.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "dash",
+     "soap"
+    ],
+    "perangkat": "keduanya"
+   }
+  },
+  {
+   "teks": "Ketiga, alur pemesanan sederhana.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Alur pemesanan sederhana",
+    "sorot": "sederhana"
+   }
+  },
+  {
+   "teks": "Tamu memilih tanggal, mengisi data, lalu menerima konfirmasi dari pengelola.",
+   "anim": "alur",
+   "param": {
+    "judul": "Pesan dalam tiga langkah",
+    "langkah": [
+     "Pilih tanggal",
+     "Isi data",
+     "Konfirmasi"
+    ],
+    "ikon": [
+     "kalender",
+     "dokumen",
+     "cek"
+    ]
+   }
+  },
+  {
+   "teks": "Keempat, nyaman di HP.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Nyaman di HP",
+    "sorot": "HP"
+   }
+  },
+  {
+   "teks": "Tamu banyak mencari penginapan lewat ponsel, jadi tampilan harus rapi di layar kecil.",
+   "anim": "benar-salah",
+   "param": {
+    "judul": "Dibuka dari ponsel",
+    "salah": "Foto terpotong",
+    "benar": "Tampilan pas di layar HP"
+   }
+  },
+  {
+   "teks": "Kelima, domain dan akses milik Anda.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Domain dan akses milik Anda",
+    "sorot": "milik"
+   }
+  },
+  {
+   "teks": "Domain dan akses admin diserahkan, jadi website sepenuhnya milik Anda.",
+   "anim": "kepemilikan",
+   "param": {
+    "judul": "Semua diserahkan",
+    "item": [
+     {
+      "ikon": "globe",
+      "judul": "Domain",
+      "sub": "milik Anda"
+     },
+     {
+      "ikon": "kunci",
+      "judul": "Akses admin",
+      "sub": "diserahkan"
+     },
+     {
+      "ikon": "dokumen",
+      "judul": "Panduan",
+      "sub": "disertakan"
+     }
+    ],
+    "badge": "MILIK ANDA"
+   }
+  },
+  {
+   "teks": "Simpan lima hal ini: info lengkap, hasil nyata, alur sederhana, nyaman di HP, dan akses milik Anda.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist website villa",
+    "item": [
+     "Info lengkap",
+     "Hasil nyata",
+     "Alur sederhana",
+     "Nyaman di HP",
+     "Akses milik Anda"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan website villa Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan website villa Anda"
+   }
+  }
+ ]
+}

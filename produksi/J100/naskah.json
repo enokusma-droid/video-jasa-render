@@ -1,0 +1,159 @@
+{
+ "hook_pola": "rahasia-di-balik",
+ "judul": "Software House Solo: 4 Hal yang Jarang Dijelaskan",
+ "blok": [
+  {
+   "teks": "Ini yang jarang dijelaskan sebelum Anda memilih software house Solo.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Yang jarang dijelaskan sebelum memilih software house Solo",
+    "sorot": "jarang dijelaskan",
+    "ikon": "kacamata"
+   }
+  },
+  {
+   "teks": "Empat hal ini sering baru terasa setelah proyek berjalan, saat mengubahnya sudah sulit dan memakan waktu.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Baru terasa setelah proyek berjalan",
+    "sorot": "setelah proyek berjalan",
+    "ikon": "jam"
+   }
+  },
+  {
+   "teks": "Pertama, siapa pemilik kode sumber.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Siapa pemilik kode sumber",
+    "sorot": "pemilik"
+   }
+  },
+  {
+   "teks": "Pastikan kode sumber, database, dan akun penting tercatat atas nama usaha Anda.",
+   "anim": "kepemilikan",
+   "param": {
+    "judul": "Semua tercatat milik Anda",
+    "item": [
+     {
+      "ikon": "kode",
+      "judul": "Kode sumber",
+      "sub": "repositori proyek"
+     },
+     {
+      "ikon": "data",
+      "judul": "Data bisnis",
+      "sub": "database dan cadangan"
+     },
+     {
+      "ikon": "kunci",
+      "judul": "Akun penting",
+      "sub": "atas nama Anda"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Kedua, bagaimana progres dikabarkan.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Bagaimana progres dikabarkan",
+    "sorot": "dikabarkan"
+   }
+  },
+  {
+   "teks": "Nusawebsite berbasis di Jogja dan melayani Solo online, dengan laporan progres yang rutin.",
+   "anim": "papan-progres",
+   "param": {
+    "judul": "Progres rutin dilaporkan",
+    "kolom": [
+     {
+      "judul": "Selesai",
+      "item": [
+       "Mockup"
+      ]
+     },
+     {
+      "judul": "Dikerjakan",
+      "item": [
+       "Fitur inti"
+      ]
+     },
+     {
+      "judul": "Berikutnya",
+      "item": [
+       "Uji",
+       "Rilis"
+      ]
+     }
+    ],
+    "persen": 0.45
+   }
+  },
+  {
+   "teks": "Ketiga, apa yang terjadi setelah rilis.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Apa yang terjadi setelah rilis",
+    "sorot": "setelah rilis"
+   }
+  },
+  {
+   "teks": "Perbaikan, pelatihan tim, dan pembaruan fitur perlu dibahas dengan jelas sebelum proyek dimulai.",
+   "anim": "alur",
+   "param": {
+    "judul": "Dukungan setelah rilis",
+    "langkah": [
+     "Perbaikan",
+     "Pelatihan tim",
+     "Pembaruan"
+    ],
+    "ikon": [
+     "gear",
+     "orang",
+     "roket"
+    ]
+   }
+  },
+  {
+   "teks": "Keempat, seperti apa hasil nyatanya.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Seperti apa hasil nyatanya",
+    "sorot": "hasil nyata"
+   }
+  },
+  {
+   "teks": "Minta contoh yang berjalan, seperti sistem klinik gigi buatan kami ini.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "dash",
+     "odon"
+    ],
+    "perangkat": "browser"
+   }
+  },
+  {
+   "teks": "Simpan checklist ini: kepemilikan kode, laporan progres, dukungan rilis, dan hasil nyata.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist software house Solo",
+    "item": [
+     "Kepemilikan kode jelas",
+     "Progres dikabarkan",
+     "Dukungan setelah rilis",
+     "Contoh hasil nyata"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan usaha Anda di Solo. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Konsultasi gratis",
+    "sorot": "gratis",
+    "sub": "Ceritakan kebutuhan usaha Anda"
+   }
+  }
+ ]
+}

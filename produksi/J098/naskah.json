@@ -1,0 +1,210 @@
+{
+ "blok": [
+  {
+   "teks": "Banyak pemilik usaha menyesal karena asal memilih software house Bekasi.",
+   "anim": "hook",
+   "param": {
+    "kicker": "BANYAK YANG MENYESAL",
+    "baris": [
+     "Software House",
+     "Bekasi"
+    ],
+    "sub": "Pilih dengan alur yang jelas",
+    "sorot_sub": "alur yang jelas",
+    "ikon": [
+     "peringatan",
+     "aplikasi",
+     "chat",
+     "sinkron"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik bengkel dengan banyak pelanggan langganan.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "bengkel",
+    "judul": "Anda pemilik bengkel",
+    "sorot": "bengkel",
+    "sub": "Banyak pelanggan langganan.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Pelanggan"
+     },
+     {
+      "ikon": "stok",
+      "teks": "Suku cadang"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Servis"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Servis dicatat di nota, suku cadang di buku, dan pengingat jadwal lewat chat.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Semua masih dicatat manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Nota",
+      "sub": "riwayat servis"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Buku",
+      "sub": "suku cadang"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "sub": "pengingat jadwal"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Akhirnya riwayat servis dan stok suku cadang tersebar di banyak catatan.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Catatan tersebar",
+    "sorot": "tersebar",
+    "label": [
+     "Servis",
+     "Pelanggan",
+     "Plat",
+     "Suku cadang",
+     "Nota",
+     "Jadwal",
+     "Rekap",
+     "Stok",
+     "Catatan",
+     "Kontak"
+    ]
+   }
+  },
+  {
+   "teks": "Riwayat servis hilang, suku cadang tidak terlacak, dan pelanggan lupa jadwal.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Masalah yang berulang",
+    "sorot": "berulang",
+    "item": [
+     "Riwayat servis hilang",
+     "Suku cadang tak terlacak",
+     "Jadwal terlupa"
+    ]
+   }
+  },
+  {
+   "teks": "Waktu Anda habis untuk mencari nota lama, bukan untuk melayani pelanggan.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis untuk mencari nota",
+    "sorot": "mencari",
+    "sub": "Bukan untuk melayani pelanggan.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda bicara dengan software house yang melayani online dari Jogja ke Bekasi.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Software house online dari Jogja",
+    "sorot": "online",
+    "kiri": "Catatan manual",
+    "kanan": "Aplikasi bengkel custom"
+   }
+  },
+  {
+   "teks": "Bukan aplikasi jadi yang membuat bengkel menyesuaikan diri, tapi aplikasi custom yang mengikuti alur servis Anda.",
+   "anim": "banding",
+   "param": {
+    "judul": "Aplikasi yang mengikuti alur servis",
+    "sorot": "mengikuti",
+    "kiri": {
+     "judul": "Aplikasi jadi",
+     "item": [
+      "Alur servis disesuaikan",
+      "Fitur tak terpakai",
+      "Sulit diubah"
+     ]
+    },
+    "kanan": {
+     "judul": "Aplikasi custom",
+     "item": [
+      "Mengikuti alur servis",
+      "Fitur sesuai kebutuhan",
+      "Bisa dikembangkan"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Pelanggan memesan jadwal servis dari HP, lalu jadwal langsung tercatat.",
+   "anim": "hp",
+   "param": {
+    "tema": "booking",
+    "kicker": "UNTUK PELANGGAN",
+    "judul": "Jadwal servis dari HP",
+    "sorot": "jadwal servis",
+    "sub": "Langsung tercatat.",
+    "notif": "Booking servis masuk"
+   }
+  },
+  {
+   "teks": "Di bengkel, Anda melihat jadwal, riwayat servis, dan stok dalam satu dashboard.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "booking",
+    "judul": "Semua terlihat di satu dashboard",
+    "sorot": "satu dashboard",
+    "sub": "Jadwal, riwayat servis, dan stok.",
+    "label": "Ilustrasi aplikasi bengkel"
+   }
+  },
+  {
+   "teks": "Riwayat servis tersimpan, stok terpantau, dan pelanggan tidak lagi lupa jadwal.",
+   "anim": "centang",
+   "param": {
+    "judul": "Bengkel jadi lebih rapi",
+    "sorot": "rapi",
+    "item": [
+     "Riwayat servis tersimpan",
+     "Stok terpantau",
+     "Jadwal tidak terlupa"
+    ]
+   }
+  },
+  {
+   "teks": "Kami sudah membangun aplikasi seperti ini, salah satunya DentalCare untuk klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "judul": "DentalCare, aplikasi klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "inv"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur bengkel Anda di Bekasi. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur usaha Anda"
+   }
+  }
+ ]
+}

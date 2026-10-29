@@ -1,0 +1,145 @@
+[
+ {
+  "teks": "Jasa pembuatan sistem keuangan yang baik bukan yang paling lengkap, tapi yang paling sesuai alur uang di bisnis Anda. Urutan kerjanya menentukan hasilnya.",
+  "anim": "judul-keyword",
+  "param": {
+   "kicker": "BUKAN YANG PALING LENGKAP",
+   "sorot": "sistem keuangan",
+   "sub": "Sesuaikan dengan alur uang bisnis Anda",
+   "kata_sub": "alur",
+   "judul_yt": "Jasa Pembuatan Sistem Keuangan: 4 Tahap Kerja yang Tepat"
+  }
+ },
+ {
+  "teks": "Hati-hati dengan sistem yang langsung koding. Pencatatan ganda, laporan tidak cocok, dan data sulit dilacak.",
+  "anim": "peringatan",
+  "param": {
+   "judul": "Hati-hati",
+   "desk": "Sistem keuangan yang dibuat tanpa memahami alurnya.",
+   "item": [
+    "Langsung koding",
+    "Pencatatan ganda",
+    "Laporan tidak cocok",
+    "Data sulit dilacak"
+   ],
+   "kata": [
+    "langsung",
+    "pencatatan",
+    "laporan",
+    "data"
+   ]
+  }
+ },
+ {
+  "teks": "Di Nusawebsite, alurnya empat tahap.",
+  "anim": "stepper-overview",
+  "param": {
+   "kicker": "CARA KERJA KAMI",
+   "tahap": [
+    "Konsultasi",
+    "Rancang alur",
+    "Mockup",
+    "Uji & Serah"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap satu, konsultasi. Kami petakan uang masuk, uang keluar, dan laporan yang Anda butuhkan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Konsultasi\nAlur Uang",
+   "desk": "Kami petakan alur uang di bisnis Anda.",
+   "visual": "catatan",
+   "item": [
+    "Uang masuk",
+    "Uang keluar",
+    "Laporan"
+   ],
+   "kata": [
+    "masuk",
+    "keluar",
+    "laporan"
+   ],
+   "bubble": "Ceritakan alur uang Anda"
+  }
+ },
+ {
+  "teks": "Tahap dua, rancang alur. Pencatatan transaksi, rekap, dan laporan disusun dari bagian yang paling inti.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Rancang Alur\n& MVP",
+   "desk": "Bagian paling inti dibuat lebih dulu.",
+   "visual": "alur",
+   "alur": [
+    "Catat",
+    "Rekap",
+    "Laporan"
+   ],
+   "on": [
+    "Transaksi",
+    "Rekap",
+    "Laporan"
+   ],
+   "kata": [
+    "pencatatan",
+    "rekap",
+    "laporan"
+   ],
+   "off": [
+    "Fitur lanjutan",
+    "Integrasi"
+   ],
+   "catatan": "Fitur inti dulu, lalu berkembang"
+  }
+ },
+ {
+  "teks": "Tahap tiga, mockup. Anda menyetujui setiap layar sebelum kode ditulis.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Mockup\nTampilan",
+   "desk": "Setiap layar disetujui sebelum kode ditulis.",
+   "visual": "wireframe",
+   "kata_stempel": "menyetujui"
+  }
+ },
+ {
+  "teks": "Tahap empat, uji dan serah terima. Setelah dicoba, kode sumber, akses sistem, dan dokumentasi menjadi milik Anda.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Uji &\nSerah Terima",
+   "desk": "Kode dan akses milik bisnis Anda.",
+   "visual": "serah",
+   "label": "SERAH TERIMA",
+   "item": [
+    "Kode sumber",
+    "Akses sistem",
+    "Dokumentasi"
+   ],
+   "kata": [
+    "kode",
+    "akses",
+    "dokumentasi"
+   ]
+  }
+ },
+ {
+  "teks": "Sebagai contoh, aplikasi klinik gigi buatan kami mencatat tindakan sampai invoice dalam satu sistem.",
+  "anim": "contoh-hasil",
+  "param": {
+   "kicker": "CONTOH HASIL",
+   "judul": "Contoh: aplikasi klinik gigi buatan Nusawebsite",
+   "klip": [
+    "resep",
+    "invoice"
+   ]
+  }
+ },
+ {
+  "teks": "Ceritakan alur keuangan bisnis Anda. Konsultasi gratis, link ada di deskripsi.",
+  "anim": "cta",
+  "param": {
+   "sub": "Ceritakan alur keuangan bisnis Anda",
+   "kata_link": "link"
+  }
+ }
+]

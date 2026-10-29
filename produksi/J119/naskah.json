@@ -1,0 +1,164 @@
+[
+ {
+  "teks": "Anggapan jasa pembuatan website wedding hanya soal galeri foto itu keliru. Calon pengantin juga mencari paket, jadwal, dan kontak yang jelas.",
+  "anim": "judul-keyword",
+  "param": {
+   "kicker": "ANGGAPAN YANG KELIRU",
+   "sorot": "website wedding",
+   "sub": "Lebih dari sekadar galeri foto",
+   "kata_sub": "paket",
+   "judul_yt": "Jasa Pembuatan Website Wedding: Bukan Sekadar Galeri Foto",
+   "hook_pola": "14 mitos"
+  }
+ },
+ {
+  "teks": "Hati-hati dengan website wedding yang sekadar galeri. Paket tidak jelas, jadwal tidak terlihat, dan calon klien beralih.",
+  "anim": "peringatan",
+  "param": {
+   "judul": "Hati-hati",
+   "desk": "Galeri indah belum cukup meyakinkan.",
+   "item": [
+    "Hanya galeri",
+    "Paket tidak jelas",
+    "Jadwal tidak terlihat",
+    "Klien beralih"
+   ],
+   "kata": [
+    "galeri",
+    "paket",
+    "jadwal",
+    "klien"
+   ]
+  }
+ },
+ {
+  "teks": "Nusawebsite melayani vendor pernikahan secara online dari Jogja. Alurnya lima tahap.",
+  "anim": "stepper-overview",
+  "param": {
+   "kicker": "ALUR KERJA",
+   "tahap": [
+    "Konsultasi",
+    "Struktur",
+    "Mockup",
+    "SEO Dasar",
+    "Online"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap satu, konsultasi. Kami catat jenis layanan, gaya acara, dan cara klien menghubungi Anda.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Konsultasi\nKebutuhan",
+   "desk": "Kami pahami gaya layanan Anda.",
+   "visual": "catatan",
+   "bubble": "Ceritakan usaha Anda",
+   "item": [
+    "Jenis layanan",
+    "Gaya acara",
+    "Cara dihubungi"
+   ],
+   "kata": [
+    "layanan",
+    "gaya",
+    "cara"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap dua, struktur halaman. Beranda, paket, galeri acara, dan kontak disusun rapi.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Struktur\nHalaman",
+   "desk": "Calon klien cepat menemukan paket.",
+   "visual": "halaman",
+   "item": [
+    "Beranda",
+    "Paket",
+    "Galeri acara",
+    "Kontak"
+   ],
+   "kata": [
+    "beranda",
+    "paket",
+    "galeri",
+    "kontak"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap tiga, mockup. Rancangan tampilan Anda setujui dulu sebelum website dibangun.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Mockup\nTampilan",
+   "desk": "Tampilan disetujui sebelum dibangun.",
+   "visual": "wireframe",
+   "mode": "web",
+   "kata_stempel": "setujui"
+  }
+ },
+ {
+  "teks": "Tahap empat, SEO dasar. Judul halaman, deskripsi layanan, dan kecepatan di ponsel disiapkan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "SEO\nDasar",
+   "desk": "Disiapkan agar mudah ditemukan calon pengantin.",
+   "visual": "seo",
+   "cari": "wedding organizer",
+   "domain": "usahaanda.co.id",
+   "judul_hasil": "Wedding Organizer | Usaha Anda",
+   "item": [
+    "Judul halaman",
+    "Deskripsi layanan",
+    "Cepat di ponsel"
+   ],
+   "kata": [
+    "judul",
+    "deskripsi",
+    "kecepatan"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap lima, serah terima. Website tayang, lalu akses admin, domain, dan panduan kami serahkan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Online &\nSerah Terima",
+   "desk": "Akses website sepenuhnya milik Anda.",
+   "visual": "serah",
+   "item": [
+    "Website tayang",
+    "Akses admin",
+    "Domain",
+    "Panduan"
+   ],
+   "kata": [
+    "website",
+    "akses",
+    "domain",
+    "panduan"
+   ]
+  }
+ },
+ {
+  "teks": "Untuk gambaran hasil kerja kami, ini contoh aplikasi klinik gigi berbasis web buatan Nusawebsite.",
+  "anim": "contoh-hasil",
+  "param": {
+   "kicker": "CONTOH HASIL",
+   "judul": "Aplikasi klinik gigi berbasis web buatan kami",
+   "klip": [
+    "antrean",
+    "odon",
+    "dash2"
+   ]
+  }
+ },
+ {
+  "teks": "Siap membuat website wedding Anda? Konsultasi gratis, link ada di deskripsi.",
+  "anim": "cta",
+  "param": {
+   "sub": "Ceritakan kebutuhan website wedding Anda",
+   "kata_link": "link"
+  }
+ }
+]

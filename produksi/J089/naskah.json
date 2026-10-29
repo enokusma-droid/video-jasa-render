@@ -1,0 +1,221 @@
+{
+ "blok": [
+  {
+   "teks": "Banyak pemilik usaha menyesal karena memilih jasa pembuatan aplikasi erp yang menumpuk semua modul sekaligus.",
+   "anim": "hook",
+   "param": {
+    "judul": "Semua modul sekaligus? *Hati-hati.*",
+    "sub": "Mulai dari modul yang *paling dibutuhkan*."
+   }
+  },
+  {
+   "teks": "Banyak bisnis memisahkan stok, penjualan, dan keuangan di catatan berbeda.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Cara kerja terpisah",
+    "judul": "Masih dicatat *terpisah*?",
+    "kartu": [
+     {
+      "ikon": "stok",
+      "judul": "Stok",
+      "ket": "Dicatat di gudang"
+     },
+     {
+      "ikon": "laporan",
+      "judul": "Penjualan",
+      "ket": "Direkap di Excel"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Keuangan",
+      "ket": "Nota kertas"
+     }
+    ],
+    "coret": "kertas"
+   }
+  },
+  {
+   "teks": "Akibatnya angka stok, penjualan, dan keuangan sering tidak cocok.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Angka sering *tidak cocok*.",
+    "masalah": [
+     {
+      "ikon": "stok",
+      "teks": "Stok tidak cocok"
+     },
+     {
+      "ikon": "sync",
+      "teks": "Data diinput ulang"
+     },
+     {
+      "ikon": "alert",
+      "teks": "Laporan meragukan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ini DentalCare, sistem klinik gigi buatan kami yang menyatukan beberapa modul.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Portofolio Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08
+   }
+  },
+  {
+   "teks": "Tiga modul di dalamnya menunjukkan cara kerja ERP.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Bedah fitur",
+    "label": "Modul yang *saling terhubung*",
+    "item": [
+     "Stok",
+     "Layanan",
+     "Keuangan"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, stok. Peringatan stok rendah muncul sebelum barang habis.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard2",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Modul stok",
+    "ket": "Peringatan stok rendah",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Kedua, layanan. Tindakan yang dicatat langsung terhubung ke data lainnya.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "tindakan",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Modul layanan",
+    "ket": "Terhubung ke data lain",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Ketiga, keuangan. Invoice terbentuk otomatis dari data layanan tadi.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice-detail",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Modul keuangan",
+    "ket": "Invoice dari data layanan",
+    "fokus": [
+     55,
+     40
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Modul yang saling terhubung membuat data cukup diinput sekali.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Aplikasi terpisah",
+     "item": [
+      "Stok sendiri",
+      "Keuangan sendiri",
+      "Input berulang"
+     ]
+    },
+    "kanan": {
+     "judul": "Satu sistem",
+     "item": [
+      "Modul saling terhubung",
+      "Sekali input",
+      "Laporan siap"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Modul ERP dipilih sesuai bisnis Anda, untuk toko, distributor, pabrik, atau jasa.",
+   "anim": "chip-niche",
+   "param": {
+    "judul": "Modul dipilih *sesuai bisnis*.",
+    "sub": "Tidak semua modul perlu dibuat.",
+    "pusat": "ERP custom",
+    "chip": [
+     {
+      "ikon": "toko",
+      "teks": "Toko"
+     },
+     {
+      "ikon": "gudang",
+      "teks": "Distributor"
+     },
+     {
+      "ikon": "gear",
+      "teks": "Pabrik"
+     },
+     {
+      "ikon": "user",
+      "teks": "Usaha jasa"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Kami mulai dari modul inti, dan mockupnya Anda setujui sebelum dikoding.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Modul inti lebih dulu.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Hasilnya bisa dibuka dari komputer kantor maupun HP.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Buka dari *komputer* maupun *HP*",
+    "poin": [
+     "Web untuk kantor",
+     "Tampilan ramah HP"
+    ],
+    "notif": "Bisa dibuka dari HP"
+   }
+  },
+  {
+   "teks": "Ceritakan alur bisnis Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Jasa pembuatan aplikasi ERP",
+    "judul": "Ceritakan alur *bisnis Anda*.",
+    "sub": "Kami bantu pilih modulnya.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

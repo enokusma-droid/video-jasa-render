@@ -1,0 +1,162 @@
+[
+ {
+  "teks": "Hati-hati memilih jasa pembuatan website Balikpapan sebelum alurnya jelas. Website tanpa alur kerja hanya berakhir jadi pajangan.",
+  "anim": "judul-keyword",
+  "param": {
+   "kicker": "HATI-HATI MEMILIH",
+   "sorot": "website balikpapan",
+   "sub": "Alur jelas, hasil terarah",
+   "kata_sub": "alur",
+   "judul_yt": "Jasa Pembuatan Website Balikpapan: Alur 5 Tahap yang Rapi",
+   "hook_pola": "2 hati-hati"
+  }
+ },
+ {
+  "teks": "Hati-hati dengan proyek yang langsung dikerjakan. Struktur berantakan, tampilan tidak sesuai, dan revisi menumpuk.",
+  "anim": "peringatan",
+  "param": {
+   "judul": "Hati-hati",
+   "desk": "Tahap yang dilewati selalu terlihat hasilnya.",
+   "item": [
+    "Struktur berantakan",
+    "Tampilan tidak sesuai",
+    "Revisi menumpuk"
+   ],
+   "kata": [
+    "struktur",
+    "tampilan",
+    "revisi"
+   ]
+  }
+ },
+ {
+  "teks": "Nusawebsite melayani usaha di Balikpapan secara online dari Jogja. Alurnya lima tahap.",
+  "anim": "stepper-overview",
+  "param": {
+   "kicker": "ALUR KERJA",
+   "tahap": [
+    "Konsultasi",
+    "Struktur",
+    "Mockup",
+    "SEO Dasar",
+    "Online"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap satu, konsultasi. Kami pahami bidang usaha, target pelanggan, dan tujuan website.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Konsultasi\nKebutuhan",
+   "desk": "Kami pahami usaha dan tujuan Anda.",
+   "visual": "catatan",
+   "bubble": "Ceritakan usaha Anda",
+   "item": [
+    "Bidang usaha",
+    "Target pelanggan",
+    "Tujuan website"
+   ],
+   "kata": [
+    "bidang",
+    "target",
+    "tujuan"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap dua, struktur halaman. Beranda, layanan, artikel, dan kontak disusun agar mudah dijelajahi.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Struktur\nHalaman",
+   "desk": "Setiap halaman punya tujuan yang jelas.",
+   "visual": "halaman",
+   "item": [
+    "Beranda",
+    "Layanan",
+    "Artikel",
+    "Kontak"
+   ],
+   "kata": [
+    "beranda",
+    "layanan",
+    "artikel",
+    "kontak"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap tiga, mockup. Rancangan tampilan Anda setujui dulu supaya hasilnya sesuai harapan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Mockup\nTampilan",
+   "desk": "Tampilan disetujui sebelum website dibangun.",
+   "visual": "wireframe",
+   "mode": "web",
+   "kata_stempel": "setujui"
+  }
+ },
+ {
+  "teks": "Tahap empat, SEO dasar. Judul halaman, deskripsi, dan kecepatan di ponsel disiapkan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "SEO\nDasar",
+   "desk": "Disiapkan agar mudah ditemukan di Google.",
+   "visual": "seo",
+   "cari": "restoran balikpapan",
+   "domain": "usahaanda.co.id",
+   "judul_hasil": "Restoran Balikpapan | Usaha Anda",
+   "item": [
+    "Judul halaman",
+    "Deskripsi",
+    "Cepat di ponsel"
+   ],
+   "kata": [
+    "judul",
+    "deskripsi",
+    "kecepatan"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap lima, serah terima. Website tayang, lalu akses admin, domain, dan panduan kami serahkan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Online &\nSerah Terima",
+   "desk": "Akses website sepenuhnya milik Anda.",
+   "visual": "serah",
+   "item": [
+    "Website tayang",
+    "Akses admin",
+    "Domain",
+    "Panduan"
+   ],
+   "kata": [
+    "website",
+    "akses",
+    "domain",
+    "panduan"
+   ]
+  }
+ },
+ {
+  "teks": "Sebagai contoh hasil kerja tim kami, ini aplikasi klinik gigi berbasis web buatan Nusawebsite.",
+  "anim": "contoh-hasil",
+  "param": {
+   "kicker": "CONTOH HASIL",
+   "judul": "Aplikasi klinik gigi berbasis web buatan kami",
+   "klip": [
+    "pasien",
+    "odon",
+    "invoice"
+   ]
+  }
+ },
+ {
+  "teks": "Siap memulai website usaha Anda di Balikpapan? Konsultasi gratis, link ada di deskripsi.",
+  "anim": "cta",
+  "param": {
+   "sub": "Ceritakan kebutuhan website usaha Anda di Balikpapan",
+   "kata_link": "link"
+  }
+ }
+]

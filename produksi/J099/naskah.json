@@ -1,0 +1,169 @@
+[
+ {
+  "teks": "Empat tahap ini menentukan proyek dengan software house Depok. Lewatkan satu saja, hasilnya bisa berantakan.",
+  "anim": "judul-keyword",
+  "param": {
+   "kicker": "EMPAT TAHAP",
+   "sorot": "depok",
+   "sub": "Satu tahap terlewat, hasil berantakan",
+   "kata_sub": "lewatkan",
+   "judul_yt": "Software House Depok: Tahap Kerja yang Menentukan Hasil"
+  }
+ },
+ {
+  "teks": "Hati-hati dengan proyek yang langsung koding. Fitur menumpuk, tampilan membingungkan, dan jadwal mundur.",
+  "anim": "peringatan",
+  "param": {
+   "judul": "Hati-hati",
+   "desk": "Proyek software yang langsung koding.",
+   "item": [
+    "Langsung koding",
+    "Fitur menumpuk",
+    "Tampilan membingungkan",
+    "Jadwal mundur"
+   ],
+   "kata": [
+    "langsung",
+    "fitur",
+    "tampilan",
+    "jadwal"
+   ]
+  }
+ },
+ {
+  "teks": "Kami melayani Depok secara online dari Jogja, lewat lima tahap.",
+  "anim": "stepper-overview",
+  "param": {
+   "kicker": "CARA KERJA KAMI",
+   "tahap": [
+    "Konsultasi",
+    "Rancang Alur",
+    "Mockup",
+    "Komunikasi",
+    "Serah Terima"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap satu, konsultasi. Lewat rapat online, kami pahami masalah, alur kerja, dan pengguna.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Konsultasi\nKebutuhan",
+   "desk": "Masalah bisnis dan alur kerja dipahami dulu.",
+   "visual": "catatan",
+   "item": [
+    "Masalah bisnis",
+    "Alur kerja",
+    "Pengguna"
+   ],
+   "kata": [
+    "masalah",
+    "alur",
+    "pengguna"
+   ],
+   "bubble": "Rapat online"
+  }
+ },
+ {
+  "teks": "Tahap dua, rancang alur. Fitur inti dibuat lebih dulu, diuji awal, lalu perluasan menyusul.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Rancang\nAlur Kerja",
+   "desk": "Fitur inti dibuat dan diuji lebih dulu.",
+   "visual": "alur",
+   "alur": [
+    "Inti",
+    "Uji",
+    "Lanjut"
+   ],
+   "on": [
+    "Fitur inti",
+    "Uji awal",
+    "Perluasan"
+   ],
+   "kata": [
+    "fitur",
+    "uji",
+    "perluasan"
+   ],
+   "off": [
+    "Integrasi",
+    "Fitur tambahan"
+   ],
+   "catatan": "Dibangun bertahap"
+  }
+ },
+ {
+  "teks": "Tahap tiga, mockup. Anda menyetujui setiap layar sebelum dikoding.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Mockup\nTampilan",
+   "desk": "Setiap layar disetujui sebelum kode ditulis.",
+   "visual": "wireframe",
+   "kata_stempel": "menyetujui"
+  }
+ },
+ {
+  "teks": "Tahap empat, komunikasi rutin. Progres dikabarkan, demo bisa dicoba, dan masukan ditindaklanjuti.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Komunikasi\nTiap Tahap",
+   "desk": "Progres, demo, dan masukan dibahas rutin.",
+   "visual": "chat",
+   "label": "Grup Proyek",
+   "item": [
+    "Progres: modul utama selesai",
+    "Link demo bisa dicoba",
+    "Masukan: ubah urutan menu",
+    "Siap, langsung kami kerjakan"
+   ],
+   "kata": [
+    "progres",
+    "demo",
+    "masukan",
+    "ditindaklanjuti"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap lima, serah terima. Kode sumber, akses server, dan dokumentasi menjadi milik Anda.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Serah\nTerima",
+   "desk": "Kode dan akses milik perusahaan Anda.",
+   "visual": "serah",
+   "label": "SERAH TERIMA",
+   "item": [
+    "Kode sumber",
+    "Akses server",
+    "Dokumentasi"
+   ],
+   "kata": [
+    "kode",
+    "akses",
+    "dokumentasi"
+   ]
+  }
+ },
+ {
+  "teks": "Sebagai contoh, aplikasi klinik gigi buatan kami, dari antrean, rekam medis, sampai invoice.",
+  "anim": "contoh-hasil",
+  "param": {
+   "kicker": "CONTOH HASIL",
+   "judul": "Contoh: aplikasi klinik gigi buatan Nusawebsite",
+   "klip": [
+    "antrean",
+    "soap",
+    "invoice"
+   ]
+  }
+ },
+ {
+  "teks": "Konsultasi gratis untuk tim Anda di Depok, link ada di deskripsi.",
+  "anim": "cta",
+  "param": {
+   "sub": "Ceritakan kebutuhan software perusahaan Anda",
+   "kata_link": "link"
+  }
+ }
+]

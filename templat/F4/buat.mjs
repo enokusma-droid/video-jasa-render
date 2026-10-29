@@ -25,7 +25,7 @@ const blok = N.blok;
 const log = (...a) => console.log(`[${KODE}]`, ...a);
 
 // ---------- GERBANG naskah ----------
-const LARANG = [/tanpa\s+(maksa|paksa)/i, /tidak\s+(maksa|paksa)/i, /[—–]/, /\brp\.?\s?\d/i, /\bharga\b/i, /\bbiaya\b/i, /\bmurah\b/i, /cicilan|kredit|pinjam|riba|gadai|koperasi/i, /https?:|www\.|\.com\b/i, /\b0\d{8,}\b|\+62/];
+const LARANG = [/tanpa\s+(maksa|paksa)/i, /tidak\s+(maksa|paksa)/i, /[—–]/, /\brp\.?\s?\d/i, /\bharga\b/i, /\bbiaya\b/i, /\bmurah\b/i, /\b(cicilan|kredit|pinjam\w*|riba|gadai|koperasi)\b/i, /https?:|www\.|\.com\b/i, /\b0\d{8,}\b|\+62/];
 const semuaTeks = JSON.stringify(N);
 const kwBoleh = entri.keyword.toLowerCase();           // keyword boleh memuat "murah"
 const salah = [];
@@ -136,7 +136,7 @@ log("proyek ditulis,", blok.length, "scene, durasi", TOTAL, "dtk, timing", T.met
 
 // ---------- check ----------
 let chk = "";
-try { chk = execSync(`hyperframes check "${PJ}"`, { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"] }); }
+try { chk = (process.argv.includes("--tanpa-render") && !process.env.CI) ? "check dilewati di PC (--tanpa-render); dijalankan di CI" : execSync(`hyperframes check "${PJ}"`, { encoding: "utf8", stdio: ["ignore", "pipe", "pipe"], windowsHide: true }); }
 catch (e) { chk = (e.stdout || "") + (e.stderr || ""); }
 fs.writeFileSync(path.join(PD, "check.log"), chk);
 const err = (chk.match(/(\d+)\s+error/i) || [])[1];

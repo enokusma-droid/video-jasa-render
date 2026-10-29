@@ -1,0 +1,221 @@
+{
+ "blok": [
+  {
+   "teks": "Lihat dulu contoh hasilnya, baru pahami cara jasa pembuatan aplikasi penjualan bekerja.",
+   "anim": "hook",
+   "param": {
+    "judul": "Lihat *hasilnya* dulu.",
+    "sub": "Baru pahami *cara kerjanya*."
+   }
+  },
+  {
+   "teks": "Banyak toko mencatat penjualan di nota kertas, Excel, dan chat pelanggan.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Cara kerja manual",
+    "judul": "Masih mencatat di *sini*?",
+    "kartu": [
+     {
+      "ikon": "kertas",
+      "judul": "Nota kertas",
+      "ket": "Ditulis tangan"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Excel",
+      "ket": "Rekap harian"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Chat pelanggan",
+      "ket": "Pesanan tenggelam"
+     }
+    ],
+    "coret": "chat"
+   }
+  },
+  {
+   "teks": "Akibatnya omzet harian sulit dihitung dan barang laris tidak terpantau.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Penjualan sulit *dipantau*.",
+    "masalah": [
+     {
+      "ikon": "laporan",
+      "teks": "Omzet sulit dihitung"
+     },
+     {
+      "ikon": "stok",
+      "teks": "Barang laris tak terpantau"
+     },
+     {
+      "ikon": "kertas",
+      "teks": "Nota hilang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Contohnya DentalCare, aplikasi klinik gigi yang kami bangun dari nol.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Portofolio Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08
+   }
+  },
+  {
+   "teks": "Ada tiga fitur yang polanya sama dengan aplikasi penjualan.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Bedah fitur",
+    "label": "Fitur yang *polanya sama*",
+    "item": [
+     "Dashboard",
+     "Stok",
+     "Invoice"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, dashboard. Pendapatan dan tren terlihat dalam satu layar.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Dashboard usaha",
+    "ket": "Pendapatan dan tren",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08
+   }
+  },
+  {
+   "teks": "Kedua, stok. Barang yang hampir habis diberi tanda.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard2",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Stok rendah",
+    "ket": "Barang hampir habis diberi tanda",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Ketiga, invoice. Nota terbentuk otomatis dan siap dicetak.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice-detail",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Nota otomatis",
+    "ket": "Siap dicetak",
+    "fokus": [
+     55,
+     40
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Nota tulis tangan diganti nota otomatis yang rapi.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Nota manual",
+     "item": [
+      "Tulis tangan",
+      "Hitung ulang",
+      "Rekap Excel"
+     ]
+    },
+    "kanan": {
+     "judul": "Aplikasi penjualan",
+     "item": [
+      "Nota otomatis",
+      "Stok ikut berkurang",
+      "Laporan harian siap"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Bisa disesuaikan untuk toko, grosir, kafe, atau usaha jasa Anda.",
+   "anim": "chip-niche",
+   "param": {
+    "judul": "Toko hanyalah *satu contoh*.",
+    "sub": "Alurnya bisa kami sesuaikan.",
+    "pusat": "Aplikasi penjualan",
+    "chip": [
+     {
+      "ikon": "toko",
+      "teks": "Toko"
+     },
+     {
+      "ikon": "gudang",
+      "teks": "Grosir"
+     },
+     {
+      "ikon": "resto",
+      "teks": "Kafe"
+     },
+     {
+      "ikon": "user",
+      "teks": "Usaha jasa"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tampilannya kami rancang dan Anda setujui dulu, sebelum mulai dikoding.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikoding.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Kasir dan pemilik bisa membukanya dari HP maupun komputer.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Buka dari *HP* maupun *komputer*",
+    "poin": [
+     "Kasir di komputer",
+     "Pemilik pantau dari HP"
+    ],
+    "notif": "Penjualan bisa dipantau"
+   }
+  },
+  {
+   "teks": "Ceritakan cara jualan Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Jasa pembuatan aplikasi penjualan",
+    "judul": "Ceritakan cara *jualan Anda*.",
+    "sub": "Kami bantu rancang aplikasinya.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "blok": [
+  {
+   "teks": "Ini yang jarang dijelaskan sebelum memakai jasa pembuatan aplikasi absensi: aturan kerja Anda.",
+   "anim": "hook",
+   "param": {
+    "kicker": "JARANG DIJELASKAN",
+    "baris": [
+     "Jasa Pembuatan",
+     "Aplikasi Absensi"
+    ],
+    "sub": "Aturan kerja Anda dulu, baru aplikasinya",
+    "sorot_sub": "aturan kerja",
+    "ikon": [
+     "jam",
+     "user",
+     "hp",
+     "kalender"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik usaha dengan karyawan di beberapa cabang.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "toko",
+    "judul": "Anda pemilik usaha bercabang",
+    "sorot": "bercabang",
+    "sub": "Karyawan bekerja bergantian.",
+    "chip": [
+     {
+      "ikon": "tim",
+      "teks": "Karyawan"
+     },
+     {
+      "ikon": "toko",
+      "teks": "Cabang"
+     },
+     {
+      "ikon": "jam",
+      "teks": "Shift"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Karyawan absen di buku, tanda tangan di kertas, atau kirim foto lewat chat.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Absensi masih manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "buku",
+      "judul": "Buku",
+      "sub": "tanda tangan harian"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Kertas",
+      "sub": "lembar kehadiran"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Foto di chat",
+      "sub": "dikirim ke admin"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Data kehadiran tersebar dan sulit direkap saat akhir bulan.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Data kehadiran tersebar",
+    "sorot": "tersebar",
+    "label": [
+     "Hadir",
+     "Izin",
+     "Cuti",
+     "Lembur",
+     "Shift",
+     "Telat",
+     "Cabang",
+     "Sakit",
+     "Rekap",
+     "Catatan"
+    ]
+   }
+  },
+  {
+   "teks": "Absen titipan, rekap terlambat, dan data kehadiran sering diperdebatkan.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Masalah yang berulang",
+    "sorot": "berulang",
+    "item": [
+     "Absen titipan",
+     "Rekap terlambat",
+     "Data diperdebatkan"
+    ]
+   }
+  },
+  {
+   "teks": "Waktu bagian administrasi habis untuk merekap kehadiran satu per satu.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis untuk merekap",
+    "sorot": "merekap",
+    "sub": "Bukan untuk pekerjaan yang lebih penting.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda memutuskan bicara dengan software house.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Anda bicara dengan software house",
+    "sorot": "software house",
+    "kiri": "Absen manual",
+    "kanan": "Aplikasi absensi custom"
+   }
+  },
+  {
+   "teks": "Bukan aplikasi jadi yang membuat usaha menyesuaikan diri, tapi aplikasi custom yang mengikuti aturan shift dan cabang Anda.",
+   "anim": "banding",
+   "param": {
+    "judul": "Aplikasi yang mengikuti aturan Anda",
+    "sorot": "mengikuti",
+    "kiri": {
+     "judul": "Aplikasi jadi",
+     "item": [
+      "Aturan kerja disesuaikan",
+      "Fitur tak terpakai",
+      "Sulit diubah"
+     ]
+    },
+    "kanan": {
+     "judul": "Aplikasi custom",
+     "item": [
+      "Mengikuti aturan shift",
+      "Fitur sesuai kebutuhan",
+      "Bisa dikembangkan"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Karyawan cukup membuka aplikasi di HP, lalu kehadirannya langsung tercatat.",
+   "anim": "hp",
+   "param": {
+    "tema": "kantor",
+    "kicker": "UNTUK KARYAWAN",
+    "judul": "Hadir cukup dari HP",
+    "sorot": "langsung tercatat",
+    "sub": "Kehadiran langsung tercatat.",
+    "notif": "Kehadiran tercatat"
+   }
+  },
+  {
+   "teks": "Di kantor, Anda melihat hadir, izin, dan rekap per cabang dalam satu dashboard.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "kantor",
+    "judul": "Kehadiran semua cabang satu dashboard",
+    "sorot": "satu dashboard",
+    "sub": "Hadir, izin, dan rekap per cabang.",
+    "label": "Ilustrasi aplikasi absensi"
+   }
+  },
+  {
+   "teks": "Rekap tidak lagi menumpuk, data jelas, dan aturan kerja diterapkan sistem.",
+   "anim": "centang",
+   "param": {
+    "judul": "Administrasi jadi ringan",
+    "sorot": "ringan",
+    "item": [
+     "Rekap siap tanpa menumpuk",
+     "Data kehadiran jelas",
+     "Aturan kerja diterapkan sistem"
+    ]
+   }
+  },
+  {
+   "teks": "Kami sudah membangun aplikasi seperti ini, salah satunya DentalCare untuk klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "judul": "DentalCare, aplikasi klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "soap"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan aturan kerja usaha Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan aturan kerja usaha Anda"
+   }
+  }
+ ]
+}

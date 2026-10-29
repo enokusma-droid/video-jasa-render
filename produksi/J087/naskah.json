@@ -1,0 +1,167 @@
+[
+ {
+  "teks": "Kesalahan paling sering saat memakai jasa pembuatan aplikasi inventory adalah memulai tanpa memetakan alur barang. Akibatnya stok tetap kacau.",
+  "anim": "judul-keyword",
+  "param": {
+   "kicker": "KESALAHAN UMUM",
+   "sorot": "aplikasi inventory",
+   "sub": "Petakan alur barang sebelum koding",
+   "kata_sub": "alur",
+   "judul_yt": "Jasa Pembuatan Aplikasi Inventory: 5 Tahap yang Benar"
+  }
+ },
+ {
+  "teks": "Hati-hati dengan aplikasi yang hanya mencatat jumlah. Stok selisih, barang hilang tak terlacak, dan laporan diragukan.",
+  "anim": "peringatan",
+  "param": {
+   "judul": "Hati-hati",
+   "desk": "Aplikasi stok yang hanya menghitung angka.",
+   "item": [
+    "Hanya mencatat jumlah",
+    "Stok selisih",
+    "Barang tak terlacak",
+    "Laporan diragukan"
+   ],
+   "kata": [
+    "hanya",
+    "stok",
+    "barang",
+    "laporan"
+   ]
+  }
+ },
+ {
+  "teks": "Di Nusawebsite, alurnya lima tahap.",
+  "anim": "stepper-overview",
+  "param": {
+   "kicker": "CARA KERJA KAMI",
+   "tahap": [
+    "Konsultasi",
+    "Rancang MVP",
+    "Mockup",
+    "Uji Fitur",
+    "Serah Terima"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap satu, konsultasi. Kami petakan jenis barang, lokasi simpan, dan siapa yang mengambil.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Konsultasi\nAlur Barang",
+   "desk": "Jenis barang dan lokasi simpan dipetakan.",
+   "visual": "catatan",
+   "item": [
+    "Jenis barang",
+    "Lokasi simpan",
+    "Siapa mengambil"
+   ],
+   "kata": [
+    "jenis",
+    "lokasi",
+    "siapa"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap dua, rancang MVP. Barang masuk, barang keluar, dan stok minimum dibuat lebih dulu.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Rancang Alur\n& MVP",
+   "desk": "Fitur inti stok dibuat lebih dulu.",
+   "visual": "alur",
+   "alur": [
+    "Masuk",
+    "Keluar",
+    "Stok"
+   ],
+   "on": [
+    "Barang masuk",
+    "Barang keluar",
+    "Stok minimum"
+   ],
+   "kata": [
+    "masuk",
+    "keluar",
+    "stok"
+   ],
+   "off": [
+    "Barcode",
+    "Integrasi toko"
+   ],
+   "catatan": "Inti dulu, tambahan menyusul"
+  }
+ },
+ {
+  "teks": "Tahap tiga, mockup. Setiap layar Anda setujui dulu.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Mockup\nTampilan",
+   "desk": "Setiap layar disetujui dulu.",
+   "visual": "wireframe",
+   "kata_stempel": "setujui"
+  }
+ },
+ {
+  "teks": "Tahap empat, uji. Input barang, mutasi, laporan, dan peringatan stok dicoba lebih dulu.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Uji\nFitur",
+   "desk": "Setiap fitur dicoba sebelum dipakai.",
+   "visual": "kode",
+   "item": [
+    "Input barang",
+    "Mutasi stok",
+    "Laporan stok",
+    "Peringatan stok"
+   ],
+   "kata": [
+    "input",
+    "mutasi",
+    "laporan",
+    "peringatan"
+   ],
+   "label": "UJI FITUR"
+  }
+ },
+ {
+  "teks": "Tahap lima, serah terima. Kode, akses, dan panduan pemakaian menjadi milik Anda.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Serah\nTerima",
+   "desk": "Kode dan akses milik bisnis Anda.",
+   "visual": "serah",
+   "label": "SERAH TERIMA",
+   "item": [
+    "Kode sumber",
+    "Akses sistem",
+    "Panduan pakai"
+   ],
+   "kata": [
+    "kode",
+    "akses",
+    "panduan"
+   ]
+  }
+ },
+ {
+  "teks": "Sebagai contoh, aplikasi klinik gigi kami memantau stok rendah dan kinerja dokter.",
+  "anim": "contoh-hasil",
+  "param": {
+   "kicker": "CONTOH HASIL",
+   "judul": "Contoh: aplikasi klinik gigi buatan Nusawebsite",
+   "klip": [
+    "dash2",
+    "invoice"
+   ]
+  }
+ },
+ {
+  "teks": "Ceritakan alur barang di usaha Anda. Konsultasi gratis, link ada di deskripsi.",
+  "anim": "cta",
+  "param": {
+   "sub": "Ceritakan alur barang di usaha Anda",
+   "kata_link": "link"
+  }
+ }
+]

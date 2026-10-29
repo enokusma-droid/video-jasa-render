@@ -1,0 +1,208 @@
+{
+ "hook_pola": "4 kesalahan umum",
+ "judul": "Jasa Pembuatan Website Lombok: Kesalahan yang Sering Terjadi",
+ "deskripsi": "Jasa Pembuatan Website Lombok untuk usaha yang ingin websitenya benar-benar dipakai pelanggan. Cerita pemilik penginapan di Lombok yang paket dan jadwalnya masih lewat chat, lalu dirapikan dengan website pemesanan.\n\nNusawebsite membangun website custom yang mengikuti alur usaha Anda: konsultasi, rancang alur dan isi, mockup disetujui, pengembangan, lalu pendampingan. Kami melayani online dari Jogja ke seluruh Indonesia.\n\nKonsultasi gratis: {{LINK_WA}}\n\n#jasapembuatanwebsitelombok #jasawebsite #nusawebsite",
+ "tag": [
+  "jasa website lombok",
+  "website lombok",
+  "website penginapan",
+  "website jasa wisata",
+  "jasa pembuatan website",
+  "website custom",
+  "software house",
+  "website bisnis",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Kesalahan paling sering saat memakai jasa pembuatan website Lombok: informasi layanan tidak diperbarui.",
+   "anim": "hook",
+   "param": {
+    "kicker": "KESALAHAN PALING SERING",
+    "baris": [
+     "Jasa Pembuatan Website",
+     "Lombok"
+    ],
+    "sub": "Informasi layanan harus terbaru",
+    "sorot_sub": "terbaru",
+    "ikon": [
+     "x",
+     "website",
+     "hotel",
+     "kalender"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik penginapan dan jasa wisata di Lombok yang menerima tamu dari banyak tempat.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "hotel",
+    "judul": "Anda pemilik penginapan wisata",
+    "sorot": "penginapan",
+    "sub": "Tamu memesan dari jauh.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Tamu"
+     },
+     {
+      "ikon": "kalender",
+      "teks": "Jadwal"
+     },
+     {
+      "ikon": "hotel",
+      "teks": "Kamar dan paket"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Paket dikirim lewat chat, jadwal dicatat di buku, dan kamar dicek lewat telepon.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Pemesanan masih manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "sub": "paket berulang dikirim"
+     },
+     {
+      "ikon": "buku",
+      "judul": "Buku jadwal",
+      "sub": "mudah bentrok"
+     },
+     {
+      "ikon": "telepon",
+      "judul": "Telepon",
+      "sub": "cek kamar manual"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Tamu bingung memilih paket, jadwal bentrok, dan informasi usang.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Pemesanan jadi membingungkan",
+    "sorot": "membingungkan",
+    "item": [
+     "Paket membingungkan",
+     "Jadwal bentrok",
+     "Informasi usang"
+    ]
+   }
+  },
+  {
+   "teks": "Anda mengirim paket dan jadwal yang sama kepada setiap calon tamu.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Mengirim info yang sama",
+    "sorot": "yang sama",
+    "sub": "Waktu Anda terkuras.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda memilih berbicara dengan software house yang bekerja online dari Jogja.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Bicara dengan software house",
+    "sorot": "software house",
+    "kiri": "Chat dan buku jadwal",
+    "kanan": "Website pemesanan"
+   }
+  },
+  {
+   "teks": "Bukan sekadar halaman foto, tapi website custom dengan paket, kamar, jadwal, dan formulir pemesanan.",
+   "anim": "banding",
+   "param": {
+    "judul": "Pemesanan langsung dari website",
+    "sorot": "langsung",
+    "kiri": {
+     "judul": "Website pajangan",
+     "item": [
+      "Foto saja",
+      "Paket tak jelas",
+      "Pesan lewat chat"
+     ]
+    },
+    "kanan": {
+     "judul": "Website custom",
+     "item": [
+      "Paket dan kamar",
+      "Jadwal jelas",
+      "Formulir pemesanan"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Di panel admin, Anda melihat jadwal dan pemesanan dalam satu layar.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "booking",
+    "judul": "Jadwal dan pemesanan di satu layar",
+    "sorot": "satu layar",
+    "sub": "Paket dan pemesanan.",
+    "label": "Ilustrasi sistem website penginapan"
+   }
+  },
+  {
+   "teks": "Tamu memilih paket dan memesan dari HP kapan saja.",
+   "anim": "hp",
+   "param": {
+    "tema": "booking",
+    "kicker": "UNTUK TAMU",
+    "judul": "Pesan paket dari HP",
+    "sorot": "HP",
+    "notif": "Pemesanan baru masuk"
+   }
+  },
+  {
+   "teks": "Jadwal tidak bentrok, tamu mudah memesan, dan informasi selalu terbaru.",
+   "anim": "centang",
+   "param": {
+    "judul": "Pemesanan jadi lebih rapi",
+    "sorot": "rapi",
+    "item": [
+     "Jadwal tidak bentrok",
+     "Tamu mudah memesan",
+     "Informasi terbaru"
+    ],
+    "label": "SETELAH PAKAI WEBSITE"
+   }
+  },
+  {
+   "teks": "Kami sudah membangun website dan aplikasi untuk berbagai bidang, salah satunya DentalCare untuk klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "judul": "DentalCare, sistem klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "inv"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan website usaha Anda di Lombok. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Melayani online sampai Lombok",
+    "mini": [
+     "Online dari Jogja",
+     "Seluruh Indonesia"
+    ]
+   }
+  }
+ ]
+}

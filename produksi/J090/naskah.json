@@ -1,0 +1,210 @@
+{
+ "blok": [
+  {
+   "teks": "Pelajari satu hal ini sebelum memakai jasa pembuatan aplikasi hrd untuk perusahaan Anda.",
+   "anim": "hook",
+   "param": {
+    "kicker": "PELAJARI DULU",
+    "baris": [
+     "Jasa Pembuatan",
+     "Aplikasi HRD"
+    ],
+    "sub": "Satu hal yang menentukan hasilnya",
+    "sorot_sub": "menentukan",
+    "ikon": [
+     "user",
+     "kalender",
+     "laporan",
+     "kertas"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik perusahaan dengan banyak karyawan di berbagai divisi.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "kantor",
+    "judul": "Anda pemilik perusahaan",
+    "sorot": "perusahaan",
+    "sub": "Banyak karyawan di berbagai divisi.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Data karyawan"
+     },
+     {
+      "ikon": "kalender",
+      "teks": "Cuti"
+     },
+     {
+      "ikon": "laporan",
+      "teks": "Evaluasi"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Data karyawan ada di Excel, pengajuan cuti lewat chat, dan berkas di lemari.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Data karyawan masih manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "excel",
+      "judul": "Excel",
+      "sub": "data karyawan"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "sub": "pengajuan cuti"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Lemari berkas",
+      "sub": "kontrak dan surat"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Akhirnya kontrak, cuti, dan absensi tersebar di banyak berkas.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Berkas karyawan tersebar",
+    "sorot": "tersebar",
+    "label": [
+     "Kontrak",
+     "Cuti",
+     "Absensi",
+     "Lembur",
+     "Evaluasi",
+     "Jabatan",
+     "Izin",
+     "Data diri",
+     "Surat",
+     "Catatan"
+    ]
+   }
+  },
+  {
+   "teks": "Sisa cuti salah hitung, berkas lama sulit dicari, dan data tidak seragam.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Masalah yang berulang",
+    "sorot": "berulang",
+    "item": [
+     "Sisa cuti salah hitung",
+     "Berkas sulit dicari",
+     "Data tidak seragam"
+    ]
+   }
+  },
+  {
+   "teks": "Waktu tim HR habis untuk mencari dan menghitung ulang data.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis untuk menghitung ulang",
+    "sorot": "menghitung ulang",
+    "sub": "Bukan untuk mengembangkan tim.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda memutuskan bicara dengan software house.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Anda bicara dengan software house",
+    "sorot": "software house",
+    "kiri": "Data manual",
+    "kanan": "Aplikasi HRD custom"
+   }
+  },
+  {
+   "teks": "Bukan aplikasi jadi yang membuat perusahaan menyesuaikan diri, tapi aplikasi custom yang mengikuti aturan HR Anda.",
+   "anim": "banding",
+   "param": {
+    "judul": "Aplikasi yang mengikuti aturan HR",
+    "sorot": "mengikuti",
+    "kiri": {
+     "judul": "Aplikasi jadi",
+     "item": [
+      "Aturan cuti disesuaikan",
+      "Menu tak terpakai",
+      "Sulit diubah"
+     ]
+    },
+    "kanan": {
+     "judul": "Aplikasi custom",
+     "item": [
+      "Mengikuti aturan cuti Anda",
+      "Fitur sesuai kebutuhan",
+      "Bisa dikembangkan"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Karyawan mengajukan cuti dari HP, lalu atasan menyetujuinya langsung.",
+   "anim": "hp",
+   "param": {
+    "tema": "kantor",
+    "kicker": "UNTUK KARYAWAN",
+    "judul": "Cuti diajukan dari HP",
+    "sorot": "diajukan",
+    "sub": "Atasan menyetujui langsung.",
+    "notif": "Pengajuan cuti masuk"
+   }
+  },
+  {
+   "teks": "Tim HR melihat data karyawan, cuti, dan kehadiran dalam satu dashboard.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "kantor",
+    "judul": "Data HR di satu dashboard",
+    "sorot": "satu dashboard",
+    "sub": "Karyawan, cuti, dan kehadiran.",
+    "label": "Ilustrasi aplikasi HRD"
+   }
+  },
+  {
+   "teks": "Data karyawan rapi, cuti terhitung benar, dan pekerjaan HR jadi lebih ringan.",
+   "anim": "centang",
+   "param": {
+    "judul": "Pekerjaan HR jadi ringan",
+    "sorot": "ringan",
+    "item": [
+     "Data karyawan rapi",
+     "Cuti terhitung benar",
+     "Laporan siap kapan saja"
+    ]
+   }
+  },
+  {
+   "teks": "Kami sudah membangun aplikasi seperti ini, salah satunya DentalCare untuk klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "judul": "DentalCare, aplikasi klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "pasien",
+     "dash"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur HR perusahaan Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur HR perusahaan Anda"
+   }
+  }
+ ]
+}

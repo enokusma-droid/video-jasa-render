@@ -1,0 +1,162 @@
+[
+ {
+  "teks": "Lima tahap ini menentukan hasil jasa pembuatan website Padang yang Anda pakai. Satu tahap terlewat, hasilnya terasa.",
+  "anim": "judul-keyword",
+  "param": {
+   "kicker": "5 TAHAP PENENTU",
+   "sorot": "website padang",
+   "sub": "Urutan yang menentukan hasil",
+   "kata_sub": "urutan",
+   "judul_yt": "Jasa Pembuatan Website Padang: 5 Tahap yang Menentukan Hasil",
+   "hook_pola": "7 angka spesifik"
+  }
+ },
+ {
+  "teks": "Nusawebsite melayani usaha di Padang secara online dari Jogja. Alurnya lima tahap.",
+  "anim": "stepper-overview",
+  "param": {
+   "kicker": "ALUR KERJA",
+   "tahap": [
+    "Konsultasi",
+    "Struktur",
+    "Mockup",
+    "SEO Dasar",
+    "Online"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap satu, konsultasi. Kami catat usaha Anda, pelanggan yang dituju, dan fitur yang dibutuhkan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Konsultasi\nKebutuhan",
+   "desk": "Kami pahami usaha dan tujuan Anda.",
+   "visual": "catatan",
+   "bubble": "Ceritakan usaha Anda",
+   "item": [
+    "Usaha Anda",
+    "Pelanggan dituju",
+    "Fitur dibutuhkan"
+   ],
+   "kata": [
+    "usaha",
+    "pelanggan",
+    "fitur"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap dua, struktur halaman. Beranda, produk, tentang kami, dan kontak disusun jelas.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Struktur\nHalaman",
+   "desk": "Setiap halaman punya tujuan yang jelas.",
+   "visual": "halaman",
+   "item": [
+    "Beranda",
+    "Produk",
+    "Tentang kami",
+    "Kontak"
+   ],
+   "kata": [
+    "beranda",
+    "produk",
+    "tentang",
+    "kontak"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap tiga, mockup. Tampilan website Anda setujui dulu, supaya hasil akhirnya sesuai harapan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Mockup\nTampilan",
+   "desk": "Tampilan disetujui sebelum dibangun.",
+   "visual": "wireframe",
+   "mode": "web",
+   "kata_stempel": "setujui"
+  }
+ },
+ {
+  "teks": "Tahap empat, SEO dasar. Judul halaman, deskripsi, dan kecepatan di ponsel disiapkan agar mudah dicari.",
+  "anim": "tahap",
+  "param": {
+   "judul": "SEO\nDasar",
+   "desk": "Disiapkan agar mudah ditemukan di Google.",
+   "visual": "seo",
+   "cari": "kuliner padang",
+   "domain": "usahaanda.co.id",
+   "judul_hasil": "Kuliner Padang | Usaha Anda",
+   "item": [
+    "Judul halaman",
+    "Deskripsi",
+    "Cepat di ponsel"
+   ],
+   "kata": [
+    "judul",
+    "deskripsi",
+    "kecepatan"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap lima, serah terima. Website tayang, lalu akses admin, domain, dan panduan kami serahkan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Online &\nSerah Terima",
+   "desk": "Akses website sepenuhnya milik Anda.",
+   "visual": "serah",
+   "item": [
+    "Website tayang",
+    "Akses admin",
+    "Domain",
+    "Panduan"
+   ],
+   "kata": [
+    "website",
+    "akses",
+    "domain",
+    "panduan"
+   ]
+  }
+ },
+ {
+  "teks": "Hati-hati jika satu tahap dilewati. Tampilan seadanya, sulit dikelola, dan pengunjung cepat pergi.",
+  "anim": "peringatan",
+  "param": {
+   "judul": "Hati-hati",
+   "desk": "Tahap yang dilewati selalu terlihat hasilnya.",
+   "item": [
+    "Tampil seadanya",
+    "Sulit dikelola",
+    "Pengunjung pergi"
+   ],
+   "kata": [
+    "tampilan",
+    "sulit",
+    "pengunjung"
+   ]
+  }
+ },
+ {
+  "teks": "Sebagai contoh, ini sistem klinik gigi berbasis web yang dibangun tim Nusawebsite.",
+  "anim": "contoh-hasil",
+  "param": {
+   "kicker": "CONTOH HASIL",
+   "judul": "Aplikasi klinik gigi berbasis web buatan kami",
+   "klip": [
+    "dash",
+    "soap",
+    "invoice"
+   ]
+  }
+ },
+ {
+  "teks": "Siap memulai website usaha Anda di Padang? Konsultasi gratis, link ada di deskripsi.",
+  "anim": "cta",
+  "param": {
+   "sub": "Ceritakan kebutuhan website usaha Anda di Padang",
+   "kata_link": "link"
+  }
+ }
+]

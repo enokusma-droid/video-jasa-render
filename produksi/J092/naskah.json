@@ -1,0 +1,169 @@
+{
+ "hook_pola": "hati-hati",
+ "judul": "Jasa Pembuatan Aplikasi Ojek Online: 4 Hal Sebelum Mulai",
+ "blok": [
+  {
+   "teks": "Hati-hati dengan fitur yang dibuat sekaligus sebelum memakai jasa pembuatan aplikasi ojek online.",
+   "anim": "hook-peringatan",
+   "param": {
+    "judul": "Hati-hati fitur sekaligus sebelum buat aplikasi ojek online",
+    "sorot": "fitur sekaligus",
+    "ikon": "peringatan"
+   }
+  },
+  {
+   "teks": "Aplikasi layanan antar butuh beberapa sisi, jadi mulai dari yang paling inti agar tidak melebar.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Mulai dari yang paling inti",
+    "sorot": "paling inti",
+    "ikon": "bendera"
+   }
+  },
+  {
+   "teks": "Pertama, alur pesanan dibuat inti dulu.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Alur pesanan dibuat inti dulu",
+    "sorot": "inti dulu"
+   }
+  },
+  {
+   "teks": "Pelanggan memesan, pengemudi menerima, lalu perjalanan selesai. Alur ini yang diutamakan.",
+   "anim": "alur",
+   "param": {
+    "judul": "Alur inti pesanan",
+    "langkah": [
+     "Pelanggan pesan",
+     "Pengemudi terima",
+     "Selesai"
+    ],
+    "ikon": [
+     "hp",
+     "orang",
+     "cek"
+    ]
+   }
+  },
+  {
+   "teks": "Kedua, tiga sisi aplikasi dirancang jelas.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Tiga sisi aplikasi dirancang jelas",
+    "sorot": "tiga sisi"
+   }
+  },
+  {
+   "teks": "Sisi pelanggan, sisi pengemudi, dan panel admin masing-masing punya kebutuhan sendiri.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Tiga sisi aplikasi",
+    "item": [
+     {
+      "ikon": "hp",
+      "label": "Pelanggan"
+     },
+     {
+      "ikon": "orang",
+      "label": "Pengemudi"
+     },
+     {
+      "ikon": "laptop",
+      "label": "Admin"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Ketiga, uji di perangkat dan lapangan nyata.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Uji di perangkat dan lapangan nyata",
+    "sorot": "lapangan nyata"
+   }
+  },
+  {
+   "teks": "Setiap fitur dicoba, dicatat, lalu diperbaiki sebelum aplikasi dirilis ke pengguna.",
+   "anim": "papan-progres",
+   "param": {
+    "judul": "Uji, catat, perbaiki",
+    "kolom": [
+     {
+      "judul": "Lolos uji",
+      "item": [
+       "Pesan",
+       "Terima"
+      ]
+     },
+     {
+      "judul": "Diperbaiki",
+      "item": [
+       "Status perjalanan"
+      ]
+     },
+     {
+      "judul": "Berikutnya",
+      "item": [
+       "Rilis"
+      ]
+     }
+    ],
+    "persen": 0.6
+   }
+  },
+  {
+   "teks": "Keempat, kode dan akun milik Anda.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Kode dan akun milik Anda",
+    "sorot": "milik Anda"
+   }
+  },
+  {
+   "teks": "Kode sumber, data, dan akun toko aplikasi tercatat atas nama Anda sejak awal.",
+   "anim": "kepemilikan",
+   "param": {
+    "judul": "Semua tercatat milik Anda",
+    "item": [
+     {
+      "ikon": "kode",
+      "judul": "Kode sumber",
+      "sub": "repositori proyek"
+     },
+     {
+      "ikon": "data",
+      "judul": "Data pengguna",
+      "sub": "database dan cadangan"
+     },
+     {
+      "ikon": "hp",
+      "judul": "Akun toko aplikasi",
+      "sub": "atas nama Anda"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Simpan checklist ini: alur inti, tiga sisi aplikasi, uji lapangan, dan kepemilikan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist aplikasi ojek online Anda",
+    "item": [
+     "Alur pesanan inti dulu",
+     "Tiga sisi dirancang jelas",
+     "Diuji di lapangan",
+     "Kode dan akun milik Anda"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan rencana aplikasi layanan antar Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "judul": "Konsultasi gratis",
+    "sorot": "gratis",
+    "sub": "Ceritakan rencana aplikasi Anda"
+   }
+  }
+ ]
+}

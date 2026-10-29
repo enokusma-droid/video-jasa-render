@@ -1,0 +1,164 @@
+[
+ {
+  "teks": "Pelajari lima tahap ini sebelum memesan jasa pembuatan website travel agent. Urutannya menentukan website Anda dipercaya calon pelanggan.",
+  "anim": "judul-keyword",
+  "param": {
+   "kicker": "SEBELUM MEMESAN",
+   "sorot": "website travel agent",
+   "sub": "5 tahap yang menentukan hasilnya",
+   "kata_sub": "urutannya",
+   "judul_yt": "Jasa Pembuatan Website Travel Agent: 5 Tahap Sebelum Memesan",
+   "hook_pola": "1 pelajari sebelum"
+  }
+ },
+ {
+  "teks": "Hati-hati dengan website yang hanya memajang foto destinasi. Paket tidak jelas, kontak tersembunyi, dan calon pelanggan ragu.",
+  "anim": "peringatan",
+  "param": {
+   "judul": "Hati-hati",
+   "desk": "Foto cantik saja tidak cukup meyakinkan.",
+   "item": [
+    "Hanya foto destinasi",
+    "Paket tidak jelas",
+    "Kontak tersembunyi",
+    "Pelanggan ragu"
+   ],
+   "kata": [
+    "foto",
+    "paket",
+    "kontak",
+    "pelanggan"
+   ]
+  }
+ },
+ {
+  "teks": "Nusawebsite melayani travel agent secara online dari Jogja. Alurnya lima tahap.",
+  "anim": "stepper-overview",
+  "param": {
+   "kicker": "ALUR KERJA",
+   "tahap": [
+    "Konsultasi",
+    "Struktur",
+    "Mockup",
+    "SEO Dasar",
+    "Online"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap satu, konsultasi. Kami catat jenis paket, tujuan populer, dan cara pelanggan memesan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Konsultasi\nKebutuhan",
+   "desk": "Kami pahami usaha perjalanan Anda.",
+   "visual": "catatan",
+   "bubble": "Ceritakan usaha Anda",
+   "item": [
+    "Jenis paket",
+    "Tujuan populer",
+    "Cara memesan"
+   ],
+   "kata": [
+    "paket",
+    "tujuan",
+    "cara"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap dua, struktur halaman. Beranda, paket wisata, galeri, dan kontak disusun rapi.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Struktur\nHalaman",
+   "desk": "Calon pelanggan cepat menemukan paket.",
+   "visual": "halaman",
+   "item": [
+    "Beranda",
+    "Paket wisata",
+    "Galeri",
+    "Kontak"
+   ],
+   "kata": [
+    "beranda",
+    "paket",
+    "galeri",
+    "kontak"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap tiga, mockup. Rancangan halaman paket Anda setujui dulu sebelum dibangun.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Mockup\nTampilan",
+   "desk": "Tampilan disetujui sebelum website dibangun.",
+   "visual": "wireframe",
+   "mode": "web",
+   "kata_stempel": "setujui"
+  }
+ },
+ {
+  "teks": "Tahap empat, SEO dasar. Judul halaman, deskripsi paket, dan kecepatan di ponsel disiapkan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "SEO\nDasar",
+   "desk": "Disiapkan agar mudah ditemukan di Google.",
+   "visual": "seo",
+   "cari": "paket wisata keluarga",
+   "domain": "usahaanda.co.id",
+   "judul_hasil": "Paket Wisata | Travel Anda",
+   "item": [
+    "Judul halaman",
+    "Deskripsi paket",
+    "Cepat di ponsel"
+   ],
+   "kata": [
+    "judul",
+    "deskripsi",
+    "kecepatan"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap lima, serah terima. Website tayang, lalu akses admin, domain, dan panduan kami serahkan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Online &\nSerah Terima",
+   "desk": "Akses website sepenuhnya milik Anda.",
+   "visual": "serah",
+   "item": [
+    "Website tayang",
+    "Akses admin",
+    "Domain",
+    "Panduan"
+   ],
+   "kata": [
+    "website",
+    "akses",
+    "domain",
+    "panduan"
+   ]
+  }
+ },
+ {
+  "teks": "Sebagai contoh hasil kerja tim kami, ini aplikasi klinik gigi berbasis web buatan Nusawebsite.",
+  "anim": "contoh-hasil",
+  "param": {
+   "kicker": "CONTOH HASIL",
+   "judul": "Aplikasi klinik gigi berbasis web buatan kami",
+   "klip": [
+    "pasien",
+    "odon",
+    "invoice"
+   ]
+  }
+ },
+ {
+  "teks": "Siap membuat website travel Anda? Konsultasi gratis, link ada di deskripsi.",
+  "anim": "cta",
+  "param": {
+   "sub": "Ceritakan kebutuhan website travel Anda",
+   "kata_link": "link"
+  }
+ }
+]

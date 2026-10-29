@@ -1,0 +1,145 @@
+[
+ {
+  "teks": "Jangan mulai jasa pembuatan aplikasi gudang sebelum alur barang masuk dan keluar jelas. Urutan kerja menentukan hasilnya.",
+  "anim": "judul-keyword",
+  "param": {
+   "kicker": "JANGAN DULU",
+   "sorot": "aplikasi gudang",
+   "sub": "Alur barang jelas dulu, baru koding",
+   "kata_sub": "alur",
+   "judul_yt": "Jasa Pembuatan Aplikasi Gudang: 4 Tahap Sebelum Mulai"
+  }
+ },
+ {
+  "teks": "Hati-hati dengan proyek yang langsung koding. Lokasi rak membingungkan, stok tidak cocok, dan petugas kembali mencatat manual.",
+  "anim": "peringatan",
+  "param": {
+   "judul": "Hati-hati",
+   "desk": "Aplikasi gudang tanpa alur yang jelas.",
+   "item": [
+    "Langsung koding",
+    "Rak membingungkan",
+    "Stok tidak cocok",
+    "Kembali manual"
+   ],
+   "kata": [
+    "langsung",
+    "lokasi",
+    "stok",
+    "kembali"
+   ]
+  }
+ },
+ {
+  "teks": "Di Nusawebsite, alurnya empat tahap.",
+  "anim": "stepper-overview",
+  "param": {
+   "kicker": "CARA KERJA KAMI",
+   "tahap": [
+    "Konsultasi",
+    "Rancang alur",
+    "Mockup",
+    "Uji & Serah"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap satu, konsultasi. Kami pelajari jalur barang, lokasi rak, dan peran petugas gudang.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Konsultasi\nAlur Gudang",
+   "desk": "Jalur barang dan peran petugas dipelajari.",
+   "visual": "catatan",
+   "item": [
+    "Jalur barang",
+    "Lokasi rak",
+    "Peran petugas"
+   ],
+   "kata": [
+    "jalur",
+    "lokasi",
+    "peran"
+   ],
+   "bubble": "Ceritakan alur gudang Anda"
+  }
+ },
+ {
+  "teks": "Tahap dua, rancang alur. Penerimaan, penyimpanan, dan pengeluaran barang dibuat paling dulu.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Rancang\nAlur Barang",
+   "desk": "Tiga alur utama gudang dibuat paling dulu.",
+   "visual": "alur",
+   "alur": [
+    "Terima",
+    "Simpan",
+    "Keluar"
+   ],
+   "on": [
+    "Penerimaan",
+    "Penyimpanan",
+    "Pengeluaran"
+   ],
+   "kata": [
+    "penerimaan",
+    "penyimpanan",
+    "pengeluaran"
+   ],
+   "off": [
+    "Laporan lanjutan",
+    "Integrasi"
+   ],
+   "catatan": "Alur inti gudang dulu"
+  }
+ },
+ {
+  "teks": "Tahap tiga, mockup. Anda menyetujui setiap layar, termasuk layar untuk petugas gudang.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Mockup\nTampilan",
+   "desk": "Termasuk layar untuk petugas gudang.",
+   "visual": "wireframe",
+   "kata_stempel": "menyetujui"
+  }
+ },
+ {
+  "teks": "Tahap empat, uji dan serah terima. Alur dicoba bersama petugas, lalu kode, akses, dan panduan diserahkan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Uji &\nSerah Terima",
+   "desk": "Dicoba bersama petugas, lalu diserahkan.",
+   "visual": "serah",
+   "label": "SERAH TERIMA",
+   "item": [
+    "Kode sumber",
+    "Akses sistem",
+    "Panduan pakai"
+   ],
+   "kata": [
+    "kode",
+    "akses",
+    "panduan"
+   ]
+  }
+ },
+ {
+  "teks": "Sebagai contoh, aplikasi klinik gigi buatan kami sudah memantau stok sampai laporan.",
+  "anim": "contoh-hasil",
+  "param": {
+   "kicker": "CONTOH HASIL",
+   "judul": "Contoh: aplikasi klinik gigi buatan Nusawebsite",
+   "klip": [
+    "dash2",
+    "dash"
+   ]
+  }
+ },
+ {
+  "teks": "Ceritakan alur gudang Anda. Konsultasi gratis, link ada di deskripsi.",
+  "anim": "cta",
+  "param": {
+   "sub": "Ceritakan alur gudang Anda",
+   "kata_link": "link"
+  }
+ }
+]

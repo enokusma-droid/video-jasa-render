@@ -164,7 +164,7 @@ console.log(`proyek ${P} (${blok.length} blok, ${total} dtk, waktu: ${W.sumber.s
 
 // ---------- (d) check ----------
 const npx = process.platform === "win32" ? "npx.cmd" : "npx";
-const ck = spawnSync(npx, [...HF, "check"], { cwd: P, encoding: "utf8", shell: true });
+const ck = (process.argv.includes("--tanpa-render") && !process.env.CI) ? { stdout: "check dilewati di PC (--tanpa-render); dijalankan di CI", stderr: "", status: 0 } : spawnSync(npx, [...HF, "check"], { cwd: P, encoding: "utf8", shell: true, windowsHide: true });
 const ckOut = (ck.stdout || "") + (ck.stderr || "");
 fs.writeFileSync(path.join(D, "check.log"), ckOut);
 const err = (ckOut.match(/(\d+)\s+error/i) || [])[1];

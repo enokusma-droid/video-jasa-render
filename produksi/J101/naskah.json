@@ -1,0 +1,228 @@
+{
+ "blok": [
+  {
+   "teks": "Jangan percaya janji software house Pekanbaru sebelum melihat hasil nyatanya.",
+   "anim": "hook",
+   "param": {
+    "judul": "Jangan percaya janji *sebelum melihat*.",
+    "sub": "Lihat *hasil nyatanya* dulu."
+   }
+  },
+  {
+   "teks": "Tanda bahayanya jelas: jadwal molor, komunikasi putus, dan kode ditahan.",
+   "anim": "kartu-coret",
+   "param": {
+    "kicker": "Tanda bahaya",
+    "judul": "Yang *sering terjadi*.",
+    "kartu": [
+     {
+      "ikon": "jam",
+      "judul": "Jadwal molor",
+      "ket": "Tanpa kabar"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Komunikasi putus",
+      "ket": "Sulit dihubungi"
+     },
+     {
+      "ikon": "kode",
+      "judul": "Kode ditahan",
+      "ket": "Anda tak punya akses"
+     }
+    ],
+    "coret": "kode"
+   }
+  },
+  {
+   "teks": "Akibatnya usaha Anda menunggu lama dan harus mengulang dari awal.",
+   "anim": "ikon-masalah",
+   "param": {
+    "kicker": "Akibatnya",
+    "judul": "Proyek *harus diulang*.",
+    "masalah": [
+     {
+      "ikon": "jam",
+      "teks": "Menunggu lama"
+     },
+     {
+      "ikon": "sync",
+      "teks": "Mengulang dari awal"
+     },
+     {
+      "ikon": "alert",
+      "teks": "Usaha terhambat"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Sebagai bukti, ini DentalCare, aplikasi klinik gigi yang kami bangun dari nol.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "dashboard",
+    "kicker": "Portofolio Nusawebsite",
+    "judul": "DentalCare",
+    "ket": "Aplikasi klinik gigi buatan kami",
+    "ikon": "klinik",
+    "fokus": [
+     45,
+     35
+    ],
+    "zoom": 1.08
+   }
+  },
+  {
+   "teks": "Tiga hal ini bisa Anda nilai dari hasil kerja yang nyata.",
+   "anim": "angka-besar",
+   "param": {
+    "angka": 3,
+    "kicker": "Bedah fitur",
+    "label": "Hal yang bisa *dinilai nyata*",
+    "item": [
+     "Alur",
+     "Komunikasi",
+     "Hasil"
+    ]
+   }
+  },
+  {
+   "teks": "Pertama, alur yang jelas. Antrean berjalan sesuai urutan dan mudah dipantau.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "antrean",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "01",
+    "judul": "Antrean jelas",
+    "ket": "Dipanggil sesuai urutan",
+    "fokus": [
+     90,
+     47
+    ],
+    "zoom": 1.12,
+    "sorot": {
+     "x": 85.5,
+     "y": 40,
+     "w": 9,
+     "h": 13,
+     "label": "Panggil sesuai urutan"
+    }
+   }
+  },
+  {
+   "teks": "Kedua, komunikasi yang rapi. Konfirmasi kunjungan tercatat sebelum pasien datang.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "konfirmasi",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "02",
+    "judul": "Konfirmasi tercatat",
+    "ket": "Dicatat sebelum datang",
+    "fokus": [
+     50,
+     45
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Ketiga, hasil yang bisa dipakai. Invoice siap cetak tanpa input ulang.",
+   "anim": "footage-browser",
+   "param": {
+    "klip": "invoice-detail",
+    "kicker": "Bedah fitur DentalCare",
+    "nomor": "03",
+    "judul": "Invoice siap cetak",
+    "ket": "Tanpa input ulang",
+    "fokus": [
+     55,
+     40
+    ],
+    "zoom": 1.1
+   }
+  },
+  {
+   "teks": "Proyek yang terarah terasa sangat berbeda dari proyek asal jalan.",
+   "anim": "perbandingan",
+   "param": {
+    "kiri": {
+     "judul": "Proyek asal jalan",
+     "item": [
+      "Jadwal molor",
+      "Komunikasi putus",
+      "Kode ditahan"
+     ]
+    },
+    "kanan": {
+     "judul": "Proyek terarah",
+     "item": [
+      "Mockup disetujui",
+      "Progres dikabarkan",
+      "Kode diserahkan"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Alurnya bisa disesuaikan untuk toko, bengkel, sekolah, atau usaha jasa di Pekanbaru.",
+   "anim": "chip-niche",
+   "param": {
+    "judul": "Klinik hanyalah *satu contoh*.",
+    "sub": "Alurnya bisa kami sesuaikan.",
+    "pusat": "Aplikasi custom",
+    "chip": [
+     {
+      "ikon": "toko",
+      "teks": "Toko"
+     },
+     {
+      "ikon": "gear",
+      "teks": "Bengkel"
+     },
+     {
+      "ikon": "sekolah",
+      "teks": "Sekolah"
+     },
+     {
+      "ikon": "user",
+      "teks": "Usaha jasa"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Setiap layar kami rancang dan Anda setujui dulu, sebelum dikoding.",
+   "anim": "wireframe-ui",
+   "param": {
+    "kicker": "Cara kerja kami",
+    "judul": "Mockup *disetujui* dulu",
+    "ket": "Baru setelah itu dikoding.",
+    "jadi": "setujui",
+    "stempel": "DISETUJUI"
+   }
+  },
+  {
+   "teks": "Kami berbasis di Jogja dan melayani online, jadi progres bisa dipantau dari HP.",
+   "anim": "footage-hp",
+   "param": {
+    "judul": "Pantau progres dari *HP*",
+    "poin": [
+     "Rapat online",
+     "Pantau dari HP"
+    ],
+    "notif": "Progres bisa dipantau"
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan usaha Anda di Pekanbaru. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "kicker": "Software house untuk Pekanbaru",
+    "judul": "Ceritakan kebutuhan *usaha Anda*.",
+    "sub": "Kami melayani online dari Jogja.",
+    "tombol": "Konsultasi gratis",
+    "catatan": "Link ada di deskripsi"
+   }
+  }
+ ]
+}

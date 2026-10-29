@@ -374,7 +374,7 @@ const meta = { kode: KODE, keyword: KW, format: "F3", ...(BR ? { tema: TEMA } : 
 fs.writeFileSync(path.join(P, "meta.json"), JSON.stringify(meta, null, 1));
 
 // ---------- 6. check + render + frame ----------
-const ck = spawnSync("hyperframes", ["check", PR, "--json"], { encoding: "utf8", shell: true, maxBuffer: 64e6 });
+const ck = (process.argv.includes("--tanpa-render") && !process.env.CI) ? { stdout: "check dilewati di PC (--tanpa-render); dijalankan di CI", stderr: "", status: 0 } : spawnSync("hyperframes", ["check", PR, "--json"], { encoding: "utf8", shell: true, maxBuffer: 64e6, windowsHide: true });
 fs.writeFileSync(path.join(P, "check.json"), ck.stdout || "");
 try { const j = JSON.parse(ck.stdout); console.log("check:", j.ok ?? j.passed ?? "?", "error", (j.errors || j.summary?.errors || []).length ?? j.summary?.errors); } catch { console.log("check selesai (lihat check.json), kode", ck.status); }
 if (opt("--tanpa-render")) process.exit(0);

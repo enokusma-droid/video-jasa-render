@@ -1,0 +1,156 @@
+{
+ "hook_pola": "1 pelajari sebelum",
+ "judul": "Jasa Pembuatan Website Properti: Pelajari 5 Hal Sebelum Mulai",
+ "deskripsi": "Jasa pembuatan website properti sebaiknya dipilih setelah Anda memahami lima hal penting. Video ini membahas apa yang perlu dicek sebelum proyek dimulai. Nusawebsite berbasis di Jogja dan melayani klien secara online ke seluruh Indonesia.\n\nKonsultasi gratis kebutuhan website bisnis Anda: {{LINK_WA}}",
+ "tag": [
+  "jasa pembuatan website properti",
+  "website properti",
+  "website perumahan",
+  "website developer",
+  "nusawebsite",
+  "jasa pembuatan website",
+  "website bisnis",
+  "desain website",
+  "software house"
+ ],
+ "blok": [
+  {
+   "teks": "Pelajari lima hal ini sebelum memakai jasa pembuatan website properti.",
+   "anim": "hook-peringatan",
+   "param": {
+    "kicker": "Jasa Pembuatan Website Properti",
+    "judul": "Pelajari 5 hal ini sebelum membuat website properti",
+    "sorot": "5 hal ini",
+    "ikon": "kacamata"
+   }
+  },
+  {
+   "teks": "Calon pembeli sering menilai pengembang dari rapi tidaknya website.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Website rapi, pengembang dipercaya",
+    "sorot": "dipercaya",
+    "ikon": "rumah",
+    "sub": "Kesan pertama calon pembeli"
+   }
+  },
+  {
+   "teks": "Pertama, listing yang jelas.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Listing yang jelas",
+    "sorot": "jelas"
+   }
+  },
+  {
+   "teks": "Setiap unit punya tipe, lokasi, dan tombol kontak yang mudah dilihat.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Info unit yang mudah dibaca",
+    "item": [
+     {
+      "ikon": "rumah",
+      "label": "Tipe unit"
+     },
+     {
+      "ikon": "bendera",
+      "label": "Lokasi"
+     },
+     {
+      "ikon": "wa",
+      "label": "Kontak"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Kedua, hasil kerja nyata.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Hasil kerja yang nyata",
+    "sorot": "nyata"
+   }
+  },
+  {
+   "teks": "Minta contoh sistem web yang benar-benar jalan, seperti sistem klinik gigi buatan kami ini.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "dash",
+     "antrean"
+    ],
+    "perangkat": "keduanya"
+   }
+  },
+  {
+   "teks": "Ketiga, rancangan disepakati.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Rancangan disepakati",
+    "sorot": "disepakati"
+   }
+  },
+  {
+   "teks": "Mockup halaman Anda periksa dulu, jadi revisi tidak menumpuk di akhir.",
+   "anim": "wireframe-disetujui",
+   "param": {
+    "judul": "Revisi di awal, bukan di akhir"
+   }
+  },
+  {
+   "teks": "Keempat, nyaman di HP.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Nyaman di HP",
+    "sorot": "HP"
+   }
+  },
+  {
+   "teks": "Calon pembeli mencari rumah dari ponsel, jadi tampilannya harus pas di layar kecil.",
+   "anim": "benar-salah",
+   "param": {
+    "judul": "Dilihat dari ponsel",
+    "salah": "Tabel kecil sulit dibaca",
+    "benar": "Tampilan pas di layar HP"
+   }
+  },
+  {
+   "teks": "Kelima, mudah diperbarui.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Mudah diperbarui",
+    "sorot": "diperbarui"
+   }
+  },
+  {
+   "teks": "Tim Anda bisa menambah atau menutup listing sendiri, dengan pendampingan bila perlu.",
+   "anim": "centang-besar",
+   "param": {
+    "teks": "Perbarui listing sendiri",
+    "sorot": "sendiri",
+    "sub": "dengan pendampingan bila perlu"
+   }
+  },
+  {
+   "teks": "Simpan lima hal ini: listing jelas, hasil nyata, rancangan disepakati, nyaman di HP, dan mudah diperbarui.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist website properti",
+    "item": [
+     "Listing jelas",
+     "Hasil nyata",
+     "Rancangan disepakati",
+     "Nyaman di HP",
+     "Mudah diperbarui"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan website properti Anda. Konsultasi gratis bersama Nusawebsite, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan website properti Anda"
+   }
+  }
+ ]
+}

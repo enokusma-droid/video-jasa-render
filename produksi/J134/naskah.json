@@ -1,0 +1,208 @@
+{
+ "hook_pola": "9 rahasia di balik",
+ "judul": "Jasa Pembuatan Website Jember: Yang Jarang Dijelaskan",
+ "deskripsi": "Jasa Pembuatan Website Jember untuk usaha yang ingin websitenya benar-benar dipakai pelanggan. Cerita pemilik usaha di Jember yang informasi produknya tersebar di media sosial dan chat, lalu dirapikan dengan website.\n\nNusawebsite membangun website custom yang mengikuti alur usaha Anda: konsultasi, rancang alur dan isi, mockup disetujui, pengembangan, lalu pendampingan. Kami melayani online dari Jogja ke seluruh Indonesia.\n\nKonsultasi gratis: {{LINK_WA}}\n\n#jasapembuatanwebsitejember #jasawebsite #nusawebsite",
+ "tag": [
+  "jasa website jember",
+  "website jember",
+  "website usaha lokal",
+  "website umkm",
+  "jasa pembuatan website",
+  "website custom",
+  "software house",
+  "website bisnis",
+  "nusawebsite"
+ ],
+ "blok": [
+  {
+   "teks": "Ini yang jarang dijelaskan penyedia jasa pembuatan website Jember sebelum proyek dimulai.",
+   "anim": "hook",
+   "param": {
+    "kicker": "JARANG DIJELASKAN",
+    "baris": [
+     "Jasa Pembuatan Website",
+     "Jember"
+    ],
+    "sub": "Sebelum proyek dimulai",
+    "sorot_sub": "sebelum proyek",
+    "ikon": [
+     "cari",
+     "website",
+     "online",
+     "chat"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik usaha lokal di Jember yang ingin menjangkau pelanggan lebih luas.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "online",
+    "judul": "Anda pemilik usaha lokal",
+    "sorot": "usaha lokal",
+    "sub": "Ingin dikenal lebih luas.",
+    "chip": [
+     {
+      "ikon": "user",
+      "teks": "Pelanggan"
+     },
+     {
+      "ikon": "cari",
+      "teks": "Pencarian"
+     },
+     {
+      "ikon": "toko",
+      "teks": "Produk"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Informasi produk ada di unggahan media sosial, pesanan lewat chat, dan nota ditulis tangan.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Informasi masih tersebar",
+    "sorot": "tersebar",
+    "item": [
+     {
+      "ikon": "telepon",
+      "judul": "Media sosial",
+      "sub": "cepat tenggelam"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "sub": "pesanan terpisah"
+     },
+     {
+      "ikon": "kertas",
+      "judul": "Nota tulis tangan",
+      "sub": "mudah hilang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pelanggan baru sulit menemukan Anda, informasi produk tidak seragam, dan pesanan sering terlewat.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Pelanggan baru sulit menemukan",
+    "sorot": "sulit",
+    "item": [
+     "Sulit ditemukan",
+     "Informasi tidak seragam",
+     "Pesanan terlewat"
+    ]
+   }
+  },
+  {
+   "teks": "Anda menjelaskan produk yang sama kepada setiap pelanggan yang bertanya.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Menjelaskan produk berulang",
+    "sorot": "berulang",
+    "sub": "Waktu Anda terpakai.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda memutuskan bicara dengan software house yang melayani online dari Jogja.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Bicara dengan software house",
+    "sorot": "software house",
+    "kiri": "Media sosial dan nota",
+    "kanan": "Website usaha"
+   }
+  },
+  {
+   "teks": "Bukan sekadar halaman perkenalan, tapi website custom dengan produk, cerita usaha, dan kontak yang jelas.",
+   "anim": "banding",
+   "param": {
+    "judul": "Website yang bekerja untuk usaha",
+    "sorot": "bekerja",
+    "kiri": {
+     "judul": "Website pajangan",
+     "item": [
+      "Perkenalan saja",
+      "Produk tak lengkap",
+      "Kontak tersembunyi"
+     ]
+    },
+    "kanan": {
+     "judul": "Website custom",
+     "item": [
+      "Produk lengkap",
+      "Cerita usaha",
+      "Kontak jelas"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Di panel admin, Anda memperbarui produk dan melihat pesan pelanggan.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "website",
+    "judul": "Produk dan pesan di satu panel",
+    "sorot": "satu panel",
+    "sub": "Produk dan pesan masuk.",
+    "label": "Ilustrasi sistem website usaha"
+   }
+  },
+  {
+   "teks": "Pelanggan melihat produk dan menghubungi Anda dari HP.",
+   "anim": "hp",
+   "param": {
+    "tema": "website",
+    "kicker": "UNTUK PELANGGAN",
+    "judul": "Lihat produk dari HP",
+    "sorot": "HP",
+    "notif": "Pesan baru masuk"
+   }
+  },
+  {
+   "teks": "Usaha lebih mudah ditemukan, informasi seragam, dan pesanan lebih tercatat.",
+   "anim": "centang",
+   "param": {
+    "judul": "Usaha jadi lebih dikenal",
+    "sorot": "dikenal",
+    "item": [
+     "Mudah ditemukan",
+     "Informasi seragam",
+     "Pesanan tercatat"
+    ],
+    "label": "SETELAH PAKAI WEBSITE"
+   }
+  },
+  {
+   "teks": "Kami sudah membangun sistem berbasis web seperti ini, salah satunya DentalCare untuk klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "judul": "DentalCare, sistem klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "inv",
+     "dash"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan kebutuhan website usaha Anda di Jember. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Melayani online sampai Jember",
+    "mini": [
+     "Online dari Jogja",
+     "Seluruh Indonesia"
+    ]
+   }
+  }
+ ]
+}

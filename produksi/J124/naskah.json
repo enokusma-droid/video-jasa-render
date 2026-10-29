@@ -1,0 +1,203 @@
+{
+ "hook_pola": "3 jangan dulu",
+ "judul": "Jasa Pembuatan Website Pontianak: Cek 5 Hal Sebelum Mulai",
+ "deskripsi": "Jasa pembuatan website Pontianak sebaiknya dipilih setelah mengecek lima hal ini. Nusawebsite melayani usaha di Pontianak secara online dari Jogja. Nusawebsite berbasis di Jogja dan melayani klien secara online ke seluruh Indonesia.\n\nKonsultasi gratis kebutuhan website bisnis Anda: {{LINK_WA}}",
+ "tag": [
+  "jasa pembuatan website pontianak",
+  "website pontianak",
+  "website usaha pontianak",
+  "jasa website pontianak",
+  "nusawebsite",
+  "jasa pembuatan website",
+  "website bisnis",
+  "desain website",
+  "software house"
+ ],
+ "blok": [
+  {
+   "teks": "Jangan mulai proyek jasa pembuatan website Pontianak sebelum mengecek lima hal ini.",
+   "anim": "hook-peringatan",
+   "param": {
+    "kicker": "Jasa Pembuatan Website Pontianak",
+    "judul": "Jangan mulai website Pontianak sebelum cek 5 hal ini",
+    "sorot": "5 hal ini",
+    "ikon": "peringatan"
+   }
+  },
+  {
+   "teks": "Website tanpa tujuan jelas hanya menjadi pajangan di internet.",
+   "anim": "teks-besar",
+   "param": {
+    "teks": "Tanpa tujuan, hanya jadi pajangan",
+    "sorot": "pajangan",
+    "ikon": "globe",
+    "sub": "Tujuan menentukan isi"
+   }
+  },
+  {
+   "teks": "Pertama, tentukan tujuan website.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Tentukan tujuan website",
+    "sorot": "tujuan"
+   }
+  },
+  {
+   "teks": "Apakah untuk menerima pesanan, mengenalkan layanan, atau membangun kepercayaan.",
+   "anim": "ikon-grid",
+   "param": {
+    "judul": "Pilih tujuan utamanya",
+    "item": [
+     {
+      "ikon": "keranjang",
+      "label": "Terima pesanan"
+     },
+     {
+      "ikon": "toko",
+      "label": "Kenalkan layanan"
+     },
+     {
+      "ikon": "perisai",
+      "label": "Bangun kepercayaan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Kedua, lihat hasil kerja nyata.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Lihat hasil kerja nyata",
+    "sorot": "nyata"
+   }
+  },
+  {
+   "teks": "Minta contoh sistem web yang benar-benar jalan, seperti sistem klinik gigi buatan kami ini.",
+   "anim": "bukti-footage",
+   "param": {
+    "klip": [
+     "pasien",
+     "soap"
+    ],
+    "perangkat": "keduanya"
+   }
+  },
+  {
+   "teks": "Ketiga, progres bisa dipantau.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Progres bisa dipantau",
+    "sorot": "dipantau"
+   }
+  },
+  {
+   "teks": "Selama pengerjaan, Anda bisa melihat bagian mana yang selesai dan yang berikutnya.",
+   "anim": "papan-progres",
+   "param": {
+    "judul": "Progres yang terlihat",
+    "kolom": [
+     {
+      "judul": "Selesai",
+      "item": [
+       "Mockup",
+       "Beranda"
+      ]
+     },
+     {
+      "judul": "Dikerjakan",
+      "item": [
+       "Halaman layanan"
+      ]
+     },
+     {
+      "judul": "Berikutnya",
+      "item": [
+       "Uji HP",
+       "Online"
+      ]
+     }
+    ],
+    "persen": 0.5
+   }
+  },
+  {
+   "teks": "Keempat, domain dan akses milik Anda.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Domain dan akses milik Anda",
+    "sorot": "milik"
+   }
+  },
+  {
+   "teks": "Domain dan akses admin diserahkan, jadi Anda tidak bergantung pada siapa pun.",
+   "anim": "kepemilikan",
+   "param": {
+    "judul": "Semua diserahkan",
+    "item": [
+     {
+      "ikon": "globe",
+      "judul": "Domain",
+      "sub": "milik Anda"
+     },
+     {
+      "ikon": "kunci",
+      "judul": "Akses admin",
+      "sub": "diserahkan"
+     },
+     {
+      "ikon": "dokumen",
+      "judul": "Panduan",
+      "sub": "disertakan"
+     }
+    ],
+    "badge": "MILIK ANDA"
+   }
+  },
+  {
+   "teks": "Kelima, ada pendampingan setelah online.",
+   "anim": "angka-poin",
+   "param": {
+    "judul": "Pendampingan setelah online",
+    "sorot": "pendampingan"
+   }
+  },
+  {
+   "teks": "Setelah tayang, kami mendampingi pembaruan awal agar tim Anda terbiasa mengelola.",
+   "anim": "alur",
+   "param": {
+    "judul": "Setelah website tayang",
+    "langkah": [
+     "Tayang",
+     "Pendampingan",
+     "Pembaruan"
+    ],
+    "ikon": [
+     "roket",
+     "tangan",
+     "gear"
+    ]
+   }
+  },
+  {
+   "teks": "Simpan lima hal ini: tujuan jelas, hasil nyata, progres terpantau, akses milik Anda, dan ada pendampingan.",
+   "anim": "rekap",
+   "param": {
+    "judul": "Checklist website Pontianak",
+    "item": [
+     "Tujuan jelas",
+     "Hasil nyata",
+     "Progres terpantau",
+     "Akses milik Anda",
+     "Ada pendampingan"
+    ]
+   }
+  },
+  {
+   "teks": "Nusawebsite melayani Pontianak secara online dari Jogja. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan kebutuhan website usaha Anda di Pontianak"
+   }
+  }
+ ]
+}

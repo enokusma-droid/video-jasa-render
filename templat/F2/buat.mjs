@@ -28,7 +28,7 @@ const blok = N.blok;
 const salah = [];
 const semuaTeks = blok.map((b) => b.teks).join(" ");
 const layar = JSON.stringify(blok.map((b) => b.param || {}));
-const LARANG = [[/tanpa\s+(maksa|paksa)|tidak\s+(maksa|paksa)|(tanpa|tidak)\s+memaksa/i, "frasa maksa/paksa"], [/[—–]/, "em/en dash"], [/\brp\s?\d|\bharga\b|\bbiaya\b|\bmurah\b.*\d|juta|ribu rupiah/i, "harga/biaya"], [/cicilan|kredit|pinjam|riba|bunga\b|gadai|koperasi/i, "topik riba"], [/https?:|www\.|\.com\b|\b08\d{6,}/i, "URL/nomor diucapkan"], [/\d+\s?%/, "statistik persen"]];
+const LARANG = [[/tanpa\s+(maksa|paksa)|tidak\s+(maksa|paksa)|(tanpa|tidak)\s+memaksa/i, "frasa maksa/paksa"], [/[—–]/, "em/en dash"], [/\brp\s?\d|\bharga\b|\bbiaya\b|\bmurah\b.*\d|juta|ribu rupiah/i, "harga/biaya"], [/\b(cicilan|kredit|pinjam\w*|riba|bunga|gadai|koperasi)\b/i, "topik riba"], [/https?:|www\.|\.com\b|\b08\d{6,}/i, "URL/nomor diucapkan"], [/\d+\s?%/, "statistik persen"]];
 for (const [re, n] of LARANG) { if (re.test(semuaTeks)) salah.push("VO: " + n); if (n !== "URL/nomor diucapkan" && n !== "harga/biaya" && re.test(layar)) salah.push("layar: " + n); }
 if (/\bharga\b|\bbiaya\b|\brp\s?\d/i.test(layar)) salah.push("layar: harga/biaya");
 const k1 = blok[0].teks.split(/(?<=[.!?])\s/)[0];
@@ -128,7 +128,7 @@ fs.writeFileSync(path.join(pr, "meta.json"), JSON.stringify({ id: "main", name: 
 console.log("proyek dibangun:", total, "dtk, metode waktu", W.metode);
 
 // ---------- (d) check ----------
-const ck = spawnSync("hyperframes", ["check", pr], { encoding: "utf8", shell: true });
+const ck = (process.argv.includes("--tanpa-render") && !process.env.CI) ? { stdout: "check dilewati di PC (--tanpa-render); dijalankan di CI", stderr: "", status: 0 } : spawnSync("hyperframes", ["check", pr], { encoding: "utf8", shell: true, windowsHide: true });
 const ckOut = (ck.stdout || "") + (ck.stderr || "");
 fs.writeFileSync(path.join(P, "check.log"), ckOut);
 const err = ckOut.match(/(\d+)\s+error/i);

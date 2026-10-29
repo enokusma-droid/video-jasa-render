@@ -1,0 +1,162 @@
+[
+ {
+  "teks": "Jangan putuskan jasa pembuatan website kampus sebelum memahami lima tahap ini. Calon mahasiswa menilai kampus dari website yang pertama mereka buka.",
+  "anim": "judul-keyword",
+  "param": {
+   "kicker": "SEBELUM MEMUTUSKAN",
+   "sorot": "website kampus",
+   "sub": "Kesan pertama calon mahasiswa",
+   "kata_sub": "pertama",
+   "judul_yt": "Jasa Pembuatan Website Kampus: 5 Tahap yang Perlu Dipahami",
+   "hook_pola": "3 jangan dulu"
+  }
+ },
+ {
+  "teks": "Hati-hati dengan website kampus yang sulit dipakai. Info pendaftaran tersembunyi, tampilan ponsel berantakan, dan berita jarang diperbarui.",
+  "anim": "peringatan",
+  "param": {
+   "judul": "Hati-hati",
+   "desk": "Calon mahasiswa mudah berpaling.",
+   "item": [
+    "Info pendaftaran tersembunyi",
+    "Tampilan ponsel berantakan",
+    "Berita jarang diperbarui"
+   ],
+   "kata": [
+    "pendaftaran",
+    "ponsel",
+    "berita"
+   ]
+  }
+ },
+ {
+  "teks": "Nusawebsite melayani kampus secara online dari Jogja. Alurnya lima tahap.",
+  "anim": "stepper-overview",
+  "param": {
+   "kicker": "ALUR KERJA",
+   "tahap": [
+    "Konsultasi",
+    "Struktur",
+    "Mockup",
+    "SEO Dasar",
+    "Online"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap satu, konsultasi. Kami catat program studi, alur pendaftaran, dan tim pengelola konten.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Konsultasi\nKebutuhan",
+   "desk": "Kami pahami kebutuhan kampus Anda.",
+   "visual": "catatan",
+   "bubble": "Ceritakan usaha Anda",
+   "item": [
+    "Program studi",
+    "Alur pendaftaran",
+    "Tim pengelola"
+   ],
+   "kata": [
+    "program",
+    "alur",
+    "tim"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap dua, struktur halaman. Beranda, program studi, pendaftaran, dan berita disusun rapi.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Struktur\nHalaman",
+   "desk": "Informasi penting mudah ditemukan.",
+   "visual": "halaman",
+   "item": [
+    "Beranda",
+    "Program studi",
+    "Pendaftaran",
+    "Berita"
+   ],
+   "kata": [
+    "beranda",
+    "program",
+    "pendaftaran",
+    "berita"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap tiga, mockup. Tampilan halaman utama Anda setujui dulu sebelum website dibangun.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Mockup\nTampilan",
+   "desk": "Tampilan disetujui sebelum dibangun.",
+   "visual": "wireframe",
+   "mode": "web",
+   "kata_stempel": "setujui"
+  }
+ },
+ {
+  "teks": "Tahap empat, SEO dasar. Judul halaman, deskripsi program, dan kecepatan di ponsel disiapkan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "SEO\nDasar",
+   "desk": "Disiapkan agar mudah ditemukan calon mahasiswa.",
+   "visual": "seo",
+   "cari": "pendaftaran mahasiswa baru",
+   "domain": "usahaanda.co.id",
+   "judul_hasil": "Pendaftaran Mahasiswa | Kampus Anda",
+   "item": [
+    "Judul halaman",
+    "Deskripsi program",
+    "Cepat di ponsel"
+   ],
+   "kata": [
+    "judul",
+    "deskripsi",
+    "kecepatan"
+   ]
+  }
+ },
+ {
+  "teks": "Tahap lima, serah terima. Website tayang, lalu akses admin, domain, dan panduan kami serahkan.",
+  "anim": "tahap",
+  "param": {
+   "judul": "Online &\nSerah Terima",
+   "desk": "Akses website sepenuhnya milik Anda.",
+   "visual": "serah",
+   "item": [
+    "Website tayang",
+    "Akses admin",
+    "Domain",
+    "Panduan"
+   ],
+   "kata": [
+    "website",
+    "akses",
+    "domain",
+    "panduan"
+   ]
+  }
+ },
+ {
+  "teks": "Sebagai contoh, ini sistem klinik gigi berbasis web yang dibangun tim Nusawebsite.",
+  "anim": "contoh-hasil",
+  "param": {
+   "kicker": "CONTOH HASIL",
+   "judul": "Aplikasi klinik gigi berbasis web buatan kami",
+   "klip": [
+    "dash",
+    "soap",
+    "invoice"
+   ]
+  }
+ },
+ {
+  "teks": "Siap membuat website kampus Anda? Konsultasi gratis, link ada di deskripsi.",
+  "anim": "cta",
+  "param": {
+   "sub": "Ceritakan kebutuhan website kampus Anda",
+   "kata_link": "link"
+  }
+ }
+]

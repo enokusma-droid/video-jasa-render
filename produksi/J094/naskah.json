@@ -1,0 +1,210 @@
+{
+ "blok": [
+  {
+   "teks": "Jasa pembuatan aplikasi custom yang baik bukan soal fitur terbanyak, tapi soal yang paling pas dengan bisnis Anda.",
+   "anim": "hook",
+   "param": {
+    "kicker": "BUKAN SOAL FITUR TERBANYAK",
+    "baris": [
+     "Jasa Pembuatan",
+     "Aplikasi Custom"
+    ],
+    "sub": "Yang paling pas dengan bisnis Anda",
+    "sorot_sub": "paling pas",
+    "ikon": [
+     "aplikasi",
+     "gear",
+     "chat",
+     "excel"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik toko dengan penjualan langsung dan pesanan online.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "toko",
+    "judul": "Anda pemilik toko",
+    "sorot": "toko",
+    "sub": "Penjualan langsung dan pesanan online.",
+    "chip": [
+     {
+      "ikon": "toko",
+      "teks": "Toko"
+     },
+     {
+      "ikon": "online",
+      "teks": "Pesanan online"
+     },
+     {
+      "ikon": "stok",
+      "teks": "Stok barang"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Penjualan dicatat di buku, stok di Excel, dan pesanan masuk lewat chat.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Semua masih dicatat terpisah",
+    "sorot": "terpisah",
+    "item": [
+     {
+      "ikon": "buku",
+      "judul": "Buku",
+      "sub": "catatan penjualan"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Excel",
+      "sub": "stok barang"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "sub": "pesanan pelanggan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Akhirnya data barang dan pesanan tersebar, sulit dicocokkan saat dibutuhkan.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Data tersebar di mana-mana",
+    "sorot": "mana-mana",
+    "label": [
+     "Penjualan",
+     "Stok",
+     "Pesanan",
+     "Retur",
+     "Pelanggan",
+     "Nota",
+     "Rekap",
+     "Supplier",
+     "Catatan",
+     "Kontak"
+    ]
+   }
+  },
+  {
+   "teks": "Stok selisih, pesanan terlewat, dan laporan tidak pernah selesai tepat waktu.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Masalah yang berulang",
+    "sorot": "berulang",
+    "item": [
+     "Stok selisih",
+     "Pesanan terlewat",
+     "Laporan terlambat"
+    ]
+   }
+  },
+  {
+   "teks": "Waktu Anda habis untuk mencocokkan catatan, bukan untuk melayani pelanggan.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis untuk mencocokkan catatan",
+    "sorot": "mencocokkan",
+    "sub": "Bukan untuk melayani pelanggan.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda memutuskan bicara dengan software house.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Anda bicara dengan software house",
+    "sorot": "software house",
+    "kiri": "Banyak catatan terpisah",
+    "kanan": "Aplikasi custom"
+   }
+  },
+  {
+   "teks": "Aplikasi jadi sering punya fitur yang tidak terpakai, sedangkan aplikasi custom hanya berisi yang Anda butuhkan.",
+   "anim": "banding",
+   "param": {
+    "judul": "Hanya berisi yang Anda butuhkan",
+    "sorot": "butuhkan",
+    "kiri": {
+     "judul": "Aplikasi jadi",
+     "item": [
+      "Fitur tak terpakai",
+      "Alur menyesuaikan aplikasi",
+      "Sulit diubah"
+     ]
+    },
+    "kanan": {
+     "judul": "Aplikasi custom",
+     "item": [
+      "Fitur sesuai kebutuhan",
+      "Alur mengikuti bisnis",
+      "Bisa dikembangkan"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Pesanan dari pelanggan masuk ke HP Anda, lalu langsung tercatat.",
+   "anim": "hp",
+   "param": {
+    "tema": "pesanan",
+    "kicker": "UNTUK PEMILIK TOKO",
+    "judul": "Pesanan langsung tercatat",
+    "sorot": "langsung tercatat",
+    "sub": "Dibuka dari HP.",
+    "notif": "Pesanan baru masuk"
+   }
+  },
+  {
+   "teks": "Di kantor, Anda melihat penjualan, stok, dan pesanan dalam satu dashboard.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "kasir",
+    "judul": "Semua terlihat di satu dashboard",
+    "sorot": "satu dashboard",
+    "sub": "Penjualan, stok, dan pesanan.",
+    "label": "Ilustrasi aplikasi custom"
+   }
+  },
+  {
+   "teks": "Data tersimpan di satu tempat, stok cocok, dan laporan siap setiap hari.",
+   "anim": "centang",
+   "param": {
+    "judul": "Usaha jadi lebih rapi",
+    "sorot": "rapi",
+    "item": [
+     "Data di satu tempat",
+     "Stok lebih cocok",
+     "Laporan siap setiap hari"
+    ]
+   }
+  },
+  {
+   "teks": "Kami sudah membangun aplikasi seperti ini, salah satunya DentalCare untuk klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "judul": "DentalCare, aplikasi klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "inv"
+    ]
+   }
+  },
+  {
+   "teks": "Ceritakan alur usaha Anda. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Ceritakan alur usaha Anda"
+   }
+  }
+ ]
+}

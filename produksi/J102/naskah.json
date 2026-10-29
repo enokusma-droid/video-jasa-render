@@ -1,0 +1,210 @@
+{
+ "blok": [
+  {
+   "teks": "Kalau software house Balikpapan tidak mau menunjukkan mockup dulu, itu tanda bahaya.",
+   "anim": "hook",
+   "param": {
+    "kicker": "TANDA BAHAYA",
+    "baris": [
+     "Software House",
+     "Balikpapan"
+    ],
+    "sub": "Minta mockup sebelum koding",
+    "sorot_sub": "mockup",
+    "ikon": [
+     "peringatan",
+     "layar",
+     "aplikasi",
+     "x"
+    ]
+   }
+  },
+  {
+   "teks": "Bayangkan Anda pemilik usaha distribusi dengan beberapa kurir dan gudang.",
+   "anim": "tokoh",
+   "param": {
+    "niche": "gudang",
+    "judul": "Anda pemilik usaha distribusi",
+    "sorot": "distribusi",
+    "sub": "Beberapa kurir dan gudang.",
+    "chip": [
+     {
+      "ikon": "truk",
+      "teks": "Kurir"
+     },
+     {
+      "ikon": "gudang",
+      "teks": "Gudang"
+     },
+     {
+      "ikon": "toko",
+      "teks": "Toko pelanggan"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Pengiriman dicatat di nota, stok di Excel, dan jadwal kurir lewat chat.",
+   "anim": "alat_manual",
+   "param": {
+    "judul": "Semua masih dicatat manual",
+    "sorot": "manual",
+    "item": [
+     {
+      "ikon": "kertas",
+      "judul": "Nota",
+      "sub": "catatan pengiriman"
+     },
+     {
+      "ikon": "excel",
+      "judul": "Excel",
+      "sub": "stok gudang"
+     },
+     {
+      "ikon": "chat",
+      "judul": "Chat",
+      "sub": "jadwal kurir"
+     }
+    ]
+   }
+  },
+  {
+   "teks": "Akhirnya data pengiriman dan stok tersebar, sulit dicocokkan saat ada komplain.",
+   "anim": "tercecer",
+   "param": {
+    "judul": "Data pengiriman tersebar",
+    "sorot": "tersebar",
+    "label": [
+     "Pengiriman",
+     "Kurir",
+     "Stok",
+     "Nota",
+     "Toko",
+     "Retur",
+     "Rute",
+     "Rekap",
+     "Catatan",
+     "Kontak"
+    ]
+   }
+  },
+  {
+   "teks": "Pengiriman terlewat, stok tidak cocok, dan rekap harian selalu terlambat.",
+   "anim": "masalah",
+   "param": {
+    "judul": "Masalah yang berulang",
+    "sorot": "berulang",
+    "item": [
+     "Pengiriman terlewat",
+     "Stok tidak cocok",
+     "Rekap terlambat"
+    ]
+   }
+  },
+  {
+   "teks": "Waktu Anda habis untuk mencocokkan nota, bukan untuk mengembangkan usaha.",
+   "anim": "waktu",
+   "param": {
+    "judul": "Waktu habis untuk mencocokkan nota",
+    "sorot": "mencocokkan",
+    "sub": "Bukan untuk mengembangkan usaha.",
+    "hari": [
+     "Senin",
+     "Selasa",
+     "Rabu",
+     "Kamis",
+     "Jumat"
+    ]
+   }
+  },
+  {
+   "teks": "Lalu Anda bicara dengan software house yang melayani online dari Jogja ke Balikpapan.",
+   "anim": "titik_balik",
+   "param": {
+    "judul": "Software house online dari Jogja",
+    "sorot": "online",
+    "kiri": "Catatan manual",
+    "kanan": "Aplikasi distribusi custom"
+   }
+  },
+  {
+   "teks": "Bukan aplikasi jadi yang membuat usaha menyesuaikan diri, tapi aplikasi custom yang mengikuti alur pengiriman Anda.",
+   "anim": "banding",
+   "param": {
+    "judul": "Aplikasi yang mengikuti alur pengiriman",
+    "sorot": "mengikuti",
+    "kiri": {
+     "judul": "Aplikasi jadi",
+     "item": [
+      "Alur disesuaikan aplikasi",
+      "Fitur tak terpakai",
+      "Sulit diubah"
+     ]
+    },
+    "kanan": {
+     "judul": "Aplikasi custom",
+     "item": [
+      "Mengikuti alur pengiriman",
+      "Fitur sesuai kebutuhan",
+      "Bisa dikembangkan"
+     ]
+    }
+   }
+  },
+  {
+   "teks": "Kurir cukup membuka aplikasi di HP, lalu status pengiriman langsung tercatat.",
+   "anim": "hp",
+   "param": {
+    "tema": "pesanan",
+    "kicker": "UNTUK KURIR",
+    "judul": "Status pengiriman dari HP",
+    "sorot": "langsung tercatat",
+    "sub": "Dibuka dari HP.",
+    "notif": "Pengiriman diperbarui"
+   }
+  },
+  {
+   "teks": "Di kantor, Anda melihat stok, pesanan, dan pengiriman dalam satu dashboard.",
+   "anim": "dashboard",
+   "param": {
+    "tema": "stok",
+    "judul": "Semua terlihat di satu dashboard",
+    "sorot": "satu dashboard",
+    "sub": "Stok, pesanan, dan pengiriman.",
+    "label": "Ilustrasi aplikasi distribusi"
+   }
+  },
+  {
+   "teks": "Pengiriman terpantau, stok cocok, dan rekap siap setiap hari.",
+   "anim": "centang",
+   "param": {
+    "judul": "Usaha jadi lebih rapi",
+    "sorot": "rapi",
+    "item": [
+     "Pengiriman terpantau",
+     "Stok lebih cocok",
+     "Rekap siap setiap hari"
+    ]
+   }
+  },
+  {
+   "teks": "Kami sudah membangun aplikasi seperti ini, salah satunya DentalCare untuk klinik gigi.",
+   "anim": "portofolio",
+   "param": {
+    "judul": "DentalCare, aplikasi klinik gigi",
+    "sorot": "DentalCare",
+    "klip": [
+     "dash",
+     "inv"
+    ]
+   }
+  },
+  {
+   "teks": "Minta mockup dulu sebelum memutuskan. Konsultasi gratis, link ada di deskripsi.",
+   "anim": "cta",
+   "param": {
+    "sub": "Minta mockup dulu sebelum memutuskan"
+   }
+  }
+ ]
+}
