@@ -1741,5 +1741,12 @@
   "kategori": "dental",
   "format": "F2",
   "status": "antre"
+ },
+ {
+  "kode": "J941",
+  "keyword": "jasa pembuatan aplikasi web",
+  "kategori": "aplikasi",
+  "format": "F3",
+  "status": "uji"
  }
 ]
