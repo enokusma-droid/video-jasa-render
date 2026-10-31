@@ -1,0 +1,22 @@
+[
+ {"teks": "Sebelum memakai jasa pembuatan aplikasi web, pastikan alurnya digambar di atas kertas dulu. Aplikasi yang awet dipakai selalu dimulai dari situ.",
+  "anim": "judul-keyword", "param": {"kicker": "SEBELUM MEMESAN", "sorot": "aplikasi web", "sub": "Gambar alurnya dulu, baru kode", "kata_sub": "aplikasi", "judul_yt": "Jasa Pembuatan Aplikasi Web: 5 Tahap Agar Tidak Salah Langkah"}},
+ {"teks": "Kalau tahap ini dilewati, hasilnya sering sama. Fitur tidak terpakai, data berantakan, dan tim kembali ke Excel.",
+  "anim": "peringatan", "param": {"judul": "Hati-hati", "desk": "Proyek yang langsung koding tanpa rancangan.", "item": ["Fitur tidak terpakai", "Data berantakan", "Kembali ke Excel"], "kata": ["fitur", "data", "tim"]}},
+ {"teks": "Di Nusawebsite, aplikasi web dikerjakan dalam lima tahap.",
+  "anim": "stepper-overview", "param": {"kicker": "CARA KERJA KAMI", "tahap": ["Konsultasi", "Rancang Alur", "Mockup", "Develop & Uji", "Rilis"]}},
+ {"teks": "Tahap satu, konsultasi. Misalnya distributor: siapa yang input pesanan, siapa yang menyetujui, dan laporan apa yang dibutuhkan.",
+  "anim": "tahap", "param": {"judul": "Konsultasi\nKebutuhan", "desk": "Contoh: alur pesanan distributor.", "visual": "catatan", "label": "CATATAN KONSULTASI", "item": ["Siapa input pesanan", "Siapa menyetujui", "Laporan yang dibutuhkan"], "kata": ["input", "menyetujui", "laporan"], "bubble": "Ceritakan alur kerja Anda"}},
+ {"teks": "Tahap dua, rancang alur. Pesanan masuk, disetujui admin, lalu tercatat otomatis di laporan.",
+  "anim": "tahap", "param": {"judul": "Rancang Alur\n& MVP", "desk": "Fitur inti dulu, supaya cepat berguna.", "visual": "alur", "alur": ["Pesanan", "Disetujui", "Laporan"], "on": ["Pesanan masuk", "Persetujuan admin", "Laporan otomatis"], "kata": ["pesanan", "disetujui", "laporan"], "off": ["Integrasi", "Fitur tambahan"], "catatan": "MVP = fitur inti dulu"}},
+ {"teks": "Tahap tiga, mockup. Setiap layar Anda setujui dulu di browser, sebelum kode ditulis.",
+  "anim": "tahap", "param": {"judul": "Mockup\nTampilan", "desk": "Setiap layar disetujui sebelum kode ditulis.", "visual": "wireframe", "mode": "web", "stempel": "DISETUJUI", "kata_stempel": "setujui"}},
+ {"teks": "Tahap empat, develop dan uji. Login, hak akses admin dan sales, input pesanan, dan laporan dicoba satu per satu.",
+  "anim": "tahap", "param": {"judul": "Develop\n& Uji", "desk": "Setiap fitur dicoba sebelum dipakai.", "visual": "kode", "label": "HASIL UJI", "item": ["Login", "Hak akses", "Input pesanan", "Laporan"], "kata": ["login", "hak", "input", "laporan"]}},
+ {"teks": "Tahap lima, rilis. Sales cukup membuka browser di HP, admin memantau dari laptop.",
+  "anim": "tahap", "param": {"judul": "Rilis\n& Online", "desk": "Dibuka lewat browser, di mana saja.", "visual": "rilis", "klip": ["dash2"], "item": ["Sales di HP", "Admin di laptop"], "kata": ["sales", "admin"]}},
+ {"teks": "Sebagai contoh, aplikasi klinik gigi berbasis web buatan kami, dipakai resepsionis, dokter, dan kasir dalam satu sistem.",
+  "anim": "contoh-hasil", "param": {"kicker": "CONTOH HASIL", "judul": "Contoh: aplikasi klinik gigi berbasis web buatan Nusawebsite", "klip": ["antrean", "soap", "invoice"]}},
+ {"teks": "Ingin aplikasi web yang pas dengan alur bisnis Anda? Konsultasi gratis, link ada di deskripsi.",
+  "anim": "cta", "param": {"sub": "Ceritakan kebutuhan aplikasi web Anda", "kata_link": "link"}}
+]
