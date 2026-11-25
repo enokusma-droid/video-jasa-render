@@ -44,7 +44,7 @@ jobs:
       - name: Pasang alat
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-core > /dev/null
-          npm i -g hyperframes@0.8.20
+          ONNXRUNTIME_NODE_INSTALL_CUDA=skip npm i -g hyperframes@0.8.20
           hyperframes browser ensure
           pip install -q faster-whisper boto3
       - name: Render
