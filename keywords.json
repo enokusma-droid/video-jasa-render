@@ -1748,5 +1748,12 @@
   "kategori": "aplikasi",
   "format": "F3",
   "status": "uji"
+ },
+ {
+  "kode": "P001",
+  "keyword": "aplikasi kasir toko sembako",
+  "kategori": "pos",
+  "format": "F3",
+  "status": "uji"
  }
 ]
